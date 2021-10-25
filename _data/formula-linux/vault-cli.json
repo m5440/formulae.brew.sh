@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://jackrabbit.apache.org/filevault/index.html",
   "versions": {
-    "stable": "3.5.0",
+    "stable": "3.5.4",
     "head": "HEAD",
-    "bottle": false
+    "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://search.maven.org/remotecontent?filepath=org/apache/jackrabbit/vault/vault-cli/3.5.0/vault-cli-3.5.0-bin.tar.gz",
+      "url": "https://search.maven.org/remotecontent?filepath=org/apache/jackrabbit/vault/vault-cli/3.5.4/vault-cli-3.5.4-bin.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -27,6 +27,17 @@
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vault-cli/blobs/sha256:c2b3745c3e84e8c81f3bf88dff37b466b235550b38f0499cc98dc6e819e99d36",
+          "sha256": "c2b3745c3e84e8c81f3bf88dff37b466b235550b38f0499cc98dc6e819e99d36"
+        }
+      }
+    }
   },
   "keg_only": false,
   "bottle_disabled": false,

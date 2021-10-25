@@ -13,13 +13,13 @@
   "license": "BSD-3-Clause",
   "homepage": "https://pupnp.sourceforge.io/",
   "versions": {
-    "stable": "1.14.8",
+    "stable": "1.14.12",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/pupnp/pupnp/releases/download/release-1.14.8/libupnp-1.14.8.tar.bz2",
+      "url": "https://github.com/pupnp/pupnp/releases/download/release-1.14.12/libupnp-1.14.12.tar.bz2",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:3fb2f9ad3e9dd3108ec52d81c040a9c71a5edc3579f5eeb87cfc8064e2490891",
-          "sha256": "3fb2f9ad3e9dd3108ec52d81c040a9c71a5edc3579f5eeb87cfc8064e2490891"
+          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:e9294a1fc82e762c9b6b58ea597ac2521ee18b20daf52750a57f8c6840c4ef26",
+          "sha256": "e9294a1fc82e762c9b6b58ea597ac2521ee18b20daf52750a57f8c6840c4ef26"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:ecca6c90900f7c14df473e92e8c66e0b06c50526436a21f2824208fa2b037c30",
-          "sha256": "ecca6c90900f7c14df473e92e8c66e0b06c50526436a21f2824208fa2b037c30"
+          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:b038bdfae801804287fab05ada50d13e12e7b5fa270a962f686ada7231034b07",
+          "sha256": "b038bdfae801804287fab05ada50d13e12e7b5fa270a962f686ada7231034b07"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:e083db16910342d9febf1bfa88a22bc749934a3040c5a5b21a59a123d358a768",
-          "sha256": "e083db16910342d9febf1bfa88a22bc749934a3040c5a5b21a59a123d358a768"
+          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:dcea4c1c6884035cfe6b8be048f8f7998e295a5d611f7549e87e89c549c9433f",
+          "sha256": "dcea4c1c6884035cfe6b8be048f8f7998e295a5d611f7549e87e89c549c9433f"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:c98a8a8b387e6e00460ce6e69b0077c8687fb755b37fcc686b050e922f1f1dae",
-          "sha256": "c98a8a8b387e6e00460ce6e69b0077c8687fb755b37fcc686b050e922f1f1dae"
+          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:12fcbdaceb3fd68ee85a4dc9905dee1f92fe656a8b6f90460cf1864249faf24b",
+          "sha256": "12fcbdaceb3fd68ee85a4dc9905dee1f92fe656a8b6f90460cf1864249faf24b"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:a20df6fc7e018c0d12d7d1eca7dff353c9f98a3f0d92c65da22ed31681275c4e",
-          "sha256": "a20df6fc7e018c0d12d7d1eca7dff353c9f98a3f0d92c65da22ed31681275c4e"
+          "url": "https://ghcr.io/v2/homebrew/core/libupnp/blobs/sha256:43231a7cdf7f0b91510dbd5a94d9f120e4f9cbea9d0b7805878a2986218fd207",
+          "sha256": "43231a7cdf7f0b91510dbd5a94d9f120e4f9cbea9d0b7805878a2986218fd207"
         }
       }
     }

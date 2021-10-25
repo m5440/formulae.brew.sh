@@ -7,12 +7,14 @@
   ],
   "desc": "Companion app for the Trezor hardware wallet",
   "homepage": "https://suite.trezor.io/",
-  "url": "https://suite.trezor.io/web/static/desktop/Trezor-Suite-21.8.1-mac.dmg",
+  "url": "https://suite.trezor.io/web/static/desktop/Trezor-Suite-21.10.2-mac-x64.dmg",
   "appcast": null,
-  "version": "21.8.1",
+  "version": "21.10.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "b262aaef20ce7054db960430d69c84e470e33372ad0eb3d54b79734c95f9fc79",
+  "sha256": "f2043d03f8bd71373f09634cedf44425702398b3453ab6d541683a8accd58d2a",
   "artifacts": [
     [
       "Trezor Suite.app"

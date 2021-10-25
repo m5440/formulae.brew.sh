@@ -7,12 +7,14 @@
   ],
   "desc": "Google Chromium, sans integration with Google",
   "homepage": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
-  "url": "https://github.com/kramred/ungoogled-chromium-macos/releases/download/92.0.4515.159-1.1_x86-64/ungoogled-chromium_92.0.4515.159-1.1_x86-64-macos.dmg",
+  "url": "https://github.com/kramred/ungoogled-chromium-macos/releases/download/95.0.4638.54-1.1_x86-64/ungoogled-chromium_95.0.4638.54-1.1_x86-64-macos.dmg",
   "appcast": null,
-  "version": "92.0.4515.159-1.1_x86-64",
+  "version": "95.0.4638.54-1.1_x86-64",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1ef1120e242a9ebd874ee06cd42c40c9d4160edbbd9f4d04c154b38849be4e31",
+  "sha256": "4762736aff906ba577af95e18a76e10378f48da6b47783aceed6c7c1d8bf5ee1",
   "artifacts": [
     [
       "Chromium.app"

@@ -72,13 +72,20 @@
 
   ],
   "uses_from_macos": [
-    [
-      "netcat",
-      "test"
-    ]
+    {
+      "netcat": "test"
+    }
   ],
   "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [
 
+      ]
+    }
   ],
   "conflicts_with": [
 

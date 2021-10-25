@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://questdb.io",
   "versions": {
-    "stable": "6.0.4",
+    "stable": "6.0.8",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/questdb/questdb/releases/download/6.0.4/questdb-6.0.4-no-jre-bin.tar.gz",
+      "url": "https://github.com/questdb/questdb/releases/download/6.0.8/questdb-6.0.8-no-jre-bin.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,27 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/questdb/blobs/sha256:e05588429f841d424261ac7cd4f14c551e4e0ffe7c790d8f589dc2b827a93a3c",
-          "sha256": "e05588429f841d424261ac7cd4f14c551e4e0ffe7c790d8f589dc2b827a93a3c"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:f26f9dfdce3cdf98656514323ab79baef479de351d870df8c6ef414a3e82a4d7",
+          "sha256": "f26f9dfdce3cdf98656514323ab79baef479de351d870df8c6ef414a3e82a4d7"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe",
+          "sha256": "1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe",
+          "sha256": "1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe",
+          "sha256": "1d1d1c36e9b7a859b18f5d515f6e830cb5c8878ac586b68cd4c73707273beffe"
         }
       }
     }

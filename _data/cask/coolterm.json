@@ -9,14 +9,24 @@
   "homepage": "https://freeware.the-meiers.org/",
   "url": "https://freeware.the-meiers.org/CoolTermMac.zip",
   "appcast": null,
-  "version": "1.9.0",
+  "version": "1.9.0.3.1.948",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",
   "artifacts": [
     [
       "CoolTermMac/CoolTerm.app"
-    ]
+    ],
+    {
+      "trash": [
+        "~/Library/Preferences/CoolTerm_Prefs.plist",
+        "~/Library/Saved Application State/org.the-meiers.coolterm.savedState"
+      ],
+      "signal": {
+      }
+    }
   ],
   "caveats": null,
   "depends_on": {

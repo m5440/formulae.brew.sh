@@ -13,18 +13,18 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/homenc/HElib",
   "versions": {
-    "stable": "2.1.0",
+    "stable": "2.2.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/homenc/HElib/archive/v2.1.0.tar.gz",
+      "url": "https://github.com/homenc/HElib/archive/v2.2.1.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 2,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:212df077b3196784a257df04f802dae393a42bac5b04a72695b5558b0950eeed",
-          "sha256": "212df077b3196784a257df04f802dae393a42bac5b04a72695b5558b0950eeed"
+          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:86a2b67a36f009f5da7031f426a62516ba43683636a7f124d0592fbd827e048b",
+          "sha256": "86a2b67a36f009f5da7031f426a62516ba43683636a7f124d0592fbd827e048b"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:5c65196fe910a2d2fdcc1270597fcc5dd5d48e70820e69929483bcbae6a9c376",
-          "sha256": "5c65196fe910a2d2fdcc1270597fcc5dd5d48e70820e69929483bcbae6a9c376"
+          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:7ec83df94881c5a6e6219e22c4d2f7676f6ccd6d1def7315d443316a47e92b07",
+          "sha256": "7ec83df94881c5a6e6219e22c4d2f7676f6ccd6d1def7315d443316a47e92b07"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:c5f167323605ce1bb7391d5e99cb305ab2bdb42e4b560dfe29646d10795e6c6d",
-          "sha256": "c5f167323605ce1bb7391d5e99cb305ab2bdb42e4b560dfe29646d10795e6c6d"
+          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:479118627ff0025805e67dbbe8a75a4097a66fc5eb900adb307bb72372b813c6",
+          "sha256": "479118627ff0025805e67dbbe8a75a4097a66fc5eb900adb307bb72372b813c6"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:a043964c76a5a2e453342f21a3753ba179e8744d908920c9eb52a85712b851b6",
-          "sha256": "a043964c76a5a2e453342f21a3753ba179e8744d908920c9eb52a85712b851b6"
+          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:503957a2db03e7df3255616e8e51b430133ae5e7b91985edddafd18e1317db99",
+          "sha256": "503957a2db03e7df3255616e8e51b430133ae5e7b91985edddafd18e1317db99"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:fd714fc11156a70b20e75bb7641dd1ef934dc0a0869c95fb0aa7b09f949ddbff",
-          "sha256": "fd714fc11156a70b20e75bb7641dd1ef934dc0a0869c95fb0aa7b09f949ddbff"
+          "url": "https://ghcr.io/v2/homebrew/core/helib/blobs/sha256:17b359482962a9173d78f1ea90090718acd3c40cafc70b17a53a5c41ea72d00a",
+          "sha256": "17b359482962a9173d78f1ea90090718acd3c40cafc70b17a53a5c41ea72d00a"
         }
       }
     }

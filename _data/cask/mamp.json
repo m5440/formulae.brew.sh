@@ -7,26 +7,28 @@
   ],
   "desc": "Web development solution with Apache, Nginx, PHP & MySQL",
   "homepage": "https://www.mamp.info/",
-  "url": "https://downloads.mamp.info/MAMP-PRO/releases/6.4/MAMP_MAMP_PRO_6.4.pkg",
+  "url": "https://downloads.mamp.info/MAMP-PRO/releases/6.6/MAMP_MAMP_PRO_6.6-Intel-x86.pkg",
   "appcast": null,
-  "version": "6.4",
+  "version": "6.6",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "619354e7ca14500352245524de93c41b8ec3ab2d55ad85f62049f0e442f5acc7",
+  "sha256": "306b101a84251655b8e1d50ef1c4d59901d300f85d0e03910701d8d418d4a4d4",
   "artifacts": [
     {
       "pkgutil": "de.appsolute.installer.(mamp|mampacticon|mampendinstall|mamppro).pkg",
       "signal": {
       }
     },
-    "MAMP_MAMP_PRO_6.4.pkg (Pkg)",
+    "MAMP_MAMP_PRO_6.6-Intel-x86.pkg (Pkg)",
     "postflight (Postflight Block)"
   ],
   "caveats": null,
   "depends_on": {
     "macos": {
       ">=": [
-        "10.10"
+        "10.12"
       ]
     }
   },

@@ -1,22 +1,22 @@
 {
   "name": "tile38",
-  "pkg_version": "1.25.2",
+  "pkg_version": "1.26.1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/tile38/blobs/sha256:5124b25573fbe94dab18d614aae7ef3bc1def249979c39a623d43ae5bf771330"
+      "url": "https://ghcr.io/v2/homebrew/core/tile38/blobs/sha256:c41a9f79bbb5e0ed8eac4a23e1669380595218c28992783cc80e19f33a245610"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/tile38/blobs/sha256:2e20df9023c9b28ffc887ff97a684b0c2f5b07ff3317504664ca7a19c6fba072"
+      "url": "https://ghcr.io/v2/homebrew/core/tile38/blobs/sha256:efcb79971e76639e09fcabf2c2188c3653f5bf9cde4572e0d9c77d8b87697161"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/tile38/blobs/sha256:05ccb8f677482ad38bf372e6bbf0559e029e715b64b46fa123b2dec127fd7737"
+      "url": "https://ghcr.io/v2/homebrew/core/tile38/blobs/sha256:6c622e5d2cd6f0d9457ecebfcde4c4a254a7525338e579b66af2b2eb3c7894d9"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/tile38/blobs/sha256:8ceb1cac7e4ecb5e6ac4eb7f582298ef2dfb93b8a04522c7f46c17b625b02d62"
+      "url": "https://ghcr.io/v2/homebrew/core/tile38/blobs/sha256:2397ac31817cb6ee8aee1ca2edb6aa1c8667a44de559482ab03989008f37e6cc"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/tile38/blobs/sha256:c714de98b4d1463f3340c52c91adb635f008d207fca09cbff511229a7c6f38f8"
+      "url": "https://ghcr.io/v2/homebrew/core/tile38/blobs/sha256:eb3bc55ca42bfcc0e10cecb803254a1ad708b97c85d56f52b3c4f742b063685c"
     }
   },
   "dependencies": [

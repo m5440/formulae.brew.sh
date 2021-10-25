@@ -1,19 +1,16 @@
 {
   "name": "inxi",
-  "pkg_version": "3.3.06-1",
+  "pkg_version": "3.3.08-1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:11f1cab9a4fa594cc294c7a2af45560cf31b403d64727008abed78e64c9c2f9f"
+      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:3020e98c06282771e24069218af450f06a34be75e872de5ede0785f474881b2e"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:56c4ac39c896f43df8d7e929e1b96c4d260b6ebafdc87df8c91287b9bbd0a5e3"
+      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:ead85103f91c94113b2970a4758f14bba35b5ec8508e0107268a38bee719c624"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:56c4ac39c896f43df8d7e929e1b96c4d260b6ebafdc87df8c91287b9bbd0a5e3"
-    },
-    "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:56c4ac39c896f43df8d7e929e1b96c4d260b6ebafdc87df8c91287b9bbd0a5e3"
+      "url": "https://ghcr.io/v2/homebrew/core/inxi/blobs/sha256:ead85103f91c94113b2970a4758f14bba35b5ec8508e0107268a38bee719c624"
     }
   },
   "dependencies": [

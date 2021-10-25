@@ -13,13 +13,13 @@
   "license": "Apache-2.0 with LLVM-exception",
   "homepage": "https://enzyme.mit.edu",
   "versions": {
-    "stable": "0.0.16",
+    "stable": "0.0.20",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/wsmoses/Enzyme/archive/v0.0.16.tar.gz",
+      "url": "https://github.com/wsmoses/Enzyme/archive/v0.0.20.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:17c6c09d304ce3be3bdf6ce326205ed4ac5bcd8c8f740fe0caaf3d1b0cabf9b6",
-          "sha256": "17c6c09d304ce3be3bdf6ce326205ed4ac5bcd8c8f740fe0caaf3d1b0cabf9b6"
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:8f53eb11a62867f4d22346745fec9deead43bd7b6c6588b439ba369337cd52b8",
+          "sha256": "8f53eb11a62867f4d22346745fec9deead43bd7b6c6588b439ba369337cd52b8"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:d1adeb6639e2105fff3844a4172dec709ce16cde0e68fa79ad3f0ddb7ff05b7b",
-          "sha256": "d1adeb6639e2105fff3844a4172dec709ce16cde0e68fa79ad3f0ddb7ff05b7b"
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:d6c916a8f6f50e731f17c1d5ea92d1c5020c4e89ac821d6bfcce5348d8acbeb3",
+          "sha256": "d6c916a8f6f50e731f17c1d5ea92d1c5020c4e89ac821d6bfcce5348d8acbeb3"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:fda99caa48ada1f54dbdda5bd097c5a01465f97fb4fcf4a6bd3f023bc1cd4d34",
-          "sha256": "fda99caa48ada1f54dbdda5bd097c5a01465f97fb4fcf4a6bd3f023bc1cd4d34"
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:c670cd0e42cd4a2dbc8cf36538004b5bbab9cb3b4355caf1001a66cc4a09b79c",
+          "sha256": "c670cd0e42cd4a2dbc8cf36538004b5bbab9cb3b4355caf1001a66cc4a09b79c"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:90367fff8d5c0537edbdf5bb5cdaf6029f145b9a9e98cef320185d85e3353ec4",
-          "sha256": "90367fff8d5c0537edbdf5bb5cdaf6029f145b9a9e98cef320185d85e3353ec4"
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:33c96e0aff8f84ccbb79003878381580293fc3d4fd9da8a355bf995ce57c9be6",
+          "sha256": "33c96e0aff8f84ccbb79003878381580293fc3d4fd9da8a355bf995ce57c9be6"
         }
       }
     }

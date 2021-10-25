@@ -13,15 +13,15 @@
   "license": "MIT",
   "homepage": "https://github.com/Praqma/helmsman",
   "versions": {
-    "stable": "3.7.2",
-    "head": null,
+    "stable": "3.7.6",
+    "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
       "url": "https://github.com/Praqma/helmsman.git",
-      "tag": "v3.7.2",
-      "revision": "6d7e6ddb2c7747b8789dd72db7714431fe17e779"
+      "tag": "v3.7.6",
+      "revision": "eaf5a074a050776e8e6e4bb3efadc6448f0e9797"
     }
   },
   "revision": 0,
@@ -29,27 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/helmsman/blobs/sha256:a307ed84ab8c572b9256fb54aaad6a7300f9384c94163dfeafc7419188aed4d0",
-          "sha256": "a307ed84ab8c572b9256fb54aaad6a7300f9384c94163dfeafc7419188aed4d0"
+          "url": "https://ghcr.io/v2/homebrew/core/helmsman/blobs/sha256:9bd907c706ea618b05f9d7aa24c9bd579d4ca97711708b5e20866776ef3b0781",
+          "sha256": "9bd907c706ea618b05f9d7aa24c9bd579d4ca97711708b5e20866776ef3b0781"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/helmsman/blobs/sha256:2f8fa84afd13560540da1be94ba442d8d140821436e14b038b8f034e561d7ca7",
-          "sha256": "2f8fa84afd13560540da1be94ba442d8d140821436e14b038b8f034e561d7ca7"
+          "url": "https://ghcr.io/v2/homebrew/core/helmsman/blobs/sha256:0cca366c21ad6047673613b9348ae08b85491d5ffeffc827279f455b7e91e40b",
+          "sha256": "0cca366c21ad6047673613b9348ae08b85491d5ffeffc827279f455b7e91e40b"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/helmsman/blobs/sha256:c0604c09ea08fd0aefb7ad9f24ec6df256156670fa8d30c180365c9b479cf99f",
-          "sha256": "c0604c09ea08fd0aefb7ad9f24ec6df256156670fa8d30c180365c9b479cf99f"
+          "url": "https://ghcr.io/v2/homebrew/core/helmsman/blobs/sha256:26901bd4bbf7529838a6243e7b2bb41a0501ff038d0a75b7962756ce7a1dc21d",
+          "sha256": "26901bd4bbf7529838a6243e7b2bb41a0501ff038d0a75b7962756ce7a1dc21d"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/helmsman/blobs/sha256:4841f957b4825a3501faa2ccf437d79042ea9019389ad344d4f20f9cecfe3830",
-          "sha256": "4841f957b4825a3501faa2ccf437d79042ea9019389ad344d4f20f9cecfe3830"
+          "url": "https://ghcr.io/v2/homebrew/core/helmsman/blobs/sha256:fb01da98d62cb429b74c06f3a790170d72696a9003f18d76291fa09a5870e086",
+          "sha256": "fb01da98d62cb429b74c06f3a790170d72696a9003f18d76291fa09a5870e086"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helmsman/blobs/sha256:96f6ae7ca9ba1a351e2c162c8e1a3878e3b9856d99a34029e29e541ecb4c466b",
+          "sha256": "96f6ae7ca9ba1a351e2c162c8e1a3878e3b9856d99a34029e29e541ecb4c466b"
         }
       }
     }

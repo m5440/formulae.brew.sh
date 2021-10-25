@@ -13,15 +13,15 @@
   "license": "Apache-2.0",
   "homepage": "https://pulumi.io/",
   "versions": {
-    "stable": "3.10.2",
+    "stable": "3.16.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
       "url": "https://github.com/pulumi/pulumi.git",
-      "tag": "v3.10.2",
-      "revision": "d454e42b1d2cf30eaa5cb7948b007aed1bc3415b"
+      "tag": "v3.16.0",
+      "revision": "b8514450b5996d5433091bdb8fc12e7eb4fcde88"
     }
   },
   "revision": 0,
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pulumi/blobs/sha256:ff609577bcdd5cf93ca48c8996b4a702b87b31a8c5e05a697b2144e8fb0b2cc3",
-          "sha256": "ff609577bcdd5cf93ca48c8996b4a702b87b31a8c5e05a697b2144e8fb0b2cc3"
+          "url": "https://ghcr.io/v2/homebrew/core/pulumi/blobs/sha256:60c7589230970b916a19a8cbb9cb831af421f6d6a80a998aa6ae0703115e8061",
+          "sha256": "60c7589230970b916a19a8cbb9cb831af421f6d6a80a998aa6ae0703115e8061"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pulumi/blobs/sha256:33a9f23e686686536cc60ba8a1a4a31a45296f07c5f16d28dd18391c43524da0",
-          "sha256": "33a9f23e686686536cc60ba8a1a4a31a45296f07c5f16d28dd18391c43524da0"
+          "url": "https://ghcr.io/v2/homebrew/core/pulumi/blobs/sha256:0a43fa4a2c0d8b4e569e673ecd137e5cb63ceaf14d943528032fe7890e200a4c",
+          "sha256": "0a43fa4a2c0d8b4e569e673ecd137e5cb63ceaf14d943528032fe7890e200a4c"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pulumi/blobs/sha256:e8629f9714758e21ff067a0a91e87bff3ce5e7f3aabcf3ba7f4b9974c3762347",
-          "sha256": "e8629f9714758e21ff067a0a91e87bff3ce5e7f3aabcf3ba7f4b9974c3762347"
+          "url": "https://ghcr.io/v2/homebrew/core/pulumi/blobs/sha256:a7dbfeb809a10ce1adf11dae332a15cea5371a703e80090aacd453f0251cd16c",
+          "sha256": "a7dbfeb809a10ce1adf11dae332a15cea5371a703e80090aacd453f0251cd16c"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pulumi/blobs/sha256:dd88b9911124831b0bf83b8ac45b36d246867bfa20258f794852a93be7dcd10b",
-          "sha256": "dd88b9911124831b0bf83b8ac45b36d246867bfa20258f794852a93be7dcd10b"
+          "url": "https://ghcr.io/v2/homebrew/core/pulumi/blobs/sha256:10be44cc34a261cdbfcd2209199545e3b61615666d70e45fac6a0d0e4e138352",
+          "sha256": "10be44cc34a261cdbfcd2209199545e3b61615666d70e45fac6a0d0e4e138352"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pulumi/blobs/sha256:46d295cae23cbfc08dcd5e04af36d002c29680cc4b2bf7b1b0947a4b9c665f82",
-          "sha256": "46d295cae23cbfc08dcd5e04af36d002c29680cc4b2bf7b1b0947a4b9c665f82"
+          "url": "https://ghcr.io/v2/homebrew/core/pulumi/blobs/sha256:c7b87e200081ce699a5e7fab864b57bb499c8ec56e418da7371ffaf3d61a96e5",
+          "sha256": "c7b87e200081ce699a5e7fab864b57bb499c8ec56e418da7371ffaf3d61a96e5"
         }
       }
     }

@@ -7,12 +7,14 @@
   ],
   "desc": "Digital design and prototyping platform",
   "homepage": "https://www.sketchapp.com/",
-  "url": "https://download.sketchapp.com/sketch-75-129697.zip",
+  "url": "https://download.sketchapp.com/sketch-78.1-131922.zip",
   "appcast": null,
-  "version": "75,129697",
+  "version": "78.1,131922",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "fec7a2508413064165de11abe56893b649ac5700ce07625c2c373b48a0a65b4e",
+  "sha256": "f576636bb6420cd54183c48f00670705aef7a3f8892b1dd599b5bb96564f5bfa",
   "artifacts": [
     [
       "Sketch.app"
@@ -21,15 +23,15 @@
       "trash": [
         "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.bohemiancoding.sketch3.sfl*",
         "~/Library/Application Support/com.bohemiancoding.sketch3",
+        "~/Library/Autosave Information/com.bohemiancoding.sketch3.plist",
         "~/Library/Caches/com.bohemiancoding.sketch3",
         "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.bohemiancoding.sketch3",
+        "~/Library/Cookies/com.bohemiancoding.sketch3.binarycookies",
+        "~/Library/HTTPStorages/com.bohemiancoding.sketch3.binarycookies",
         "~/Library/Logs/com.bohemiancoding.sketch3",
         "~/Library/Preferences/com.bohemiancoding.sketch3.LSSharedFileList.plist",
         "~/Library/Preferences/com.bohemiancoding.sketch3.plist",
-        "~/Library/Cookies/com.bohemiancoding.sketch3.binarycookies",
-        "~/Library/HTTPStorages/com.bohemiancoding.sketch3.binarycookies",
-        "~/Library/Saved Application State/com.bohemiancoding.sketch3.savedState",
-        "~/Library/Autosave Information/com.bohemiancoding.sketch3.plist"
+        "~/Library/Saved Application State/com.bohemiancoding.sketch3.savedState"
       ],
       "signal": {
       }

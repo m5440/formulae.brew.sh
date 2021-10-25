@@ -7,12 +7,14 @@
   ],
   "desc": "Apache distribution containing MySQL, PHP, and Perl",
   "homepage": "https://www.apachefriends.org/index.html",
-  "url": "https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/8.0.9/xampp-osx-8.0.9-0-installer.dmg",
+  "url": "https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/8.0.12/xampp-osx-8.0.12-0-installer.dmg",
   "appcast": null,
-  "version": "8.0.9-0",
+  "version": "8.0.12-0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "f12da1d66e07be7d5a38f739a7a77a866fa20ce1e6e3a763389dd055935670a8",
+  "sha256": "08d26efdc8648d5610dee0f01d4a678fe66fe8d9396107f19f7dc5fe090404c5",
   "artifacts": [
     {
       "quit": "com.bitnami.manager",

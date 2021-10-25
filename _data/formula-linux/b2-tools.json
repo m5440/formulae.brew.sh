@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/Backblaze/B2_Command_Line_Tool",
   "versions": {
-    "stable": "3.0.1",
+    "stable": "3.0.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/e7/8a/db65b2aee78993e3e60d1b149a7fe5fbf83a729ea7b28292b53e0e42943d/b2-3.0.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/47/c5/e05b32109452201938a9154d726e0df896962b755f33b29cbdc511ef5f85/b2-3.0.3.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/b2-tools/blobs/sha256:1d2b5b09a22212b6134801199327c8b5d59f50154bcace77f1b9d12c462425c9",
-          "sha256": "1d2b5b09a22212b6134801199327c8b5d59f50154bcace77f1b9d12c462425c9"
+          "url": "https://ghcr.io/v2/homebrew/core/b2-tools/blobs/sha256:29ebb7627d56b1e368f39f1996136a344a1390e03ee7f259a809374ca75e823e",
+          "sha256": "29ebb7627d56b1e368f39f1996136a344a1390e03ee7f259a809374ca75e823e"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/b2-tools/blobs/sha256:7bdecd59d169366291b311f8059403c4285ecec02850379ec781fe9d9e16efd2",
-          "sha256": "7bdecd59d169366291b311f8059403c4285ecec02850379ec781fe9d9e16efd2"
+          "url": "https://ghcr.io/v2/homebrew/core/b2-tools/blobs/sha256:c8a0512ecac3fb5ba59f29d7cfa1b73dbb099353b505a708fa9ac824888f1f4f",
+          "sha256": "c8a0512ecac3fb5ba59f29d7cfa1b73dbb099353b505a708fa9ac824888f1f4f"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/b2-tools/blobs/sha256:00915ce6f8ae580b27bd3b98961dbe7ef5281053c3519369636ad67bc1ecd608",
-          "sha256": "00915ce6f8ae580b27bd3b98961dbe7ef5281053c3519369636ad67bc1ecd608"
+          "url": "https://ghcr.io/v2/homebrew/core/b2-tools/blobs/sha256:2cb408b13597fd2df011e69518020539363733031b6195ea44fdbfa4530d5927",
+          "sha256": "2cb408b13597fd2df011e69518020539363733031b6195ea44fdbfa4530d5927"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/b2-tools/blobs/sha256:a70e7f2f568a85030579cded303d128820d93c443a71a25c9cdd1d4456f3311e",
-          "sha256": "a70e7f2f568a85030579cded303d128820d93c443a71a25c9cdd1d4456f3311e"
+          "url": "https://ghcr.io/v2/homebrew/core/b2-tools/blobs/sha256:ff77471b683a7ba34d6e1e044cf4a50bdc0e882a872fa74e52ba03ac51820ca4",
+          "sha256": "ff77471b683a7ba34d6e1e044cf4a50bdc0e882a872fa74e52ba03ac51820ca4"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/b2-tools/blobs/sha256:9d2179ef56a38c8b7c6ad8826dddb57437f20d5604b614bb0f9413f12df790bd",
-          "sha256": "9d2179ef56a38c8b7c6ad8826dddb57437f20d5604b614bb0f9413f12df790bd"
+          "url": "https://ghcr.io/v2/homebrew/core/b2-tools/blobs/sha256:f59c61c7e3d4dec4af4e644bc80ae4e6f78dfa7aa2d570130e93c72db873cbbf",
+          "sha256": "f59c61c7e3d4dec4af4e644bc80ae4e6f78dfa7aa2d570130e93c72db873cbbf"
         }
       }
     }
@@ -68,7 +68,8 @@
 
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.9",
+    "six"
   ],
   "recommended_dependencies": [
 

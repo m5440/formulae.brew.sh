@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://podman.io/",
   "versions": {
-    "stable": "3.2.3",
+    "stable": "3.4.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/containers/podman/archive/v3.2.3.tar.gz",
+      "url": "https://github.com/containers/podman/archive/v3.4.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:5126a369ece72f175f35ebd723dd37cf2b641f6dd91b15cee5922b0ebb77fc51",
-          "sha256": "5126a369ece72f175f35ebd723dd37cf2b641f6dd91b15cee5922b0ebb77fc51"
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:8c870ada3226fbce07c85c61e034cf5c4de95982c145cb454eb1ef3ef5689cce",
+          "sha256": "8c870ada3226fbce07c85c61e034cf5c4de95982c145cb454eb1ef3ef5689cce"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:ad15ab1c0112445efa37f4259323560f4d34e432cc25c7aa7caa83de4d24933d",
-          "sha256": "ad15ab1c0112445efa37f4259323560f4d34e432cc25c7aa7caa83de4d24933d"
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:634485b9eb2434314f8e4a16541e32097c38609db6f20317149a7981dcc30b11",
+          "sha256": "634485b9eb2434314f8e4a16541e32097c38609db6f20317149a7981dcc30b11"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:e942f0720bcf480b53033fa116c0618809f30daba45b65cedec59c0263d2c42a",
-          "sha256": "e942f0720bcf480b53033fa116c0618809f30daba45b65cedec59c0263d2c42a"
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:948dbdb483e570ee58e2c85ad9738d00c6aa95ddceea3d7d44bb7888e8fcba79",
+          "sha256": "948dbdb483e570ee58e2c85ad9738d00c6aa95ddceea3d7d44bb7888e8fcba79"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:0f50f0a14dd78993bc73e2fae892ed83c07f5ff3b6e5e41a89d900324e275031",
-          "sha256": "0f50f0a14dd78993bc73e2fae892ed83c07f5ff3b6e5e41a89d900324e275031"
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:a0e6ca9d6ddced8a61fb48bfca552e1617bc32eea0238b941f02266c317953d4",
+          "sha256": "a0e6ca9d6ddced8a61fb48bfca552e1617bc32eea0238b941f02266c317953d4"
         }
       }
     }

@@ -7,12 +7,14 @@
   ],
   "desc": "Desktop client for WhatsApp",
   "homepage": "https://www.whatsapp.com/",
-  "url": "https://web.whatsapp.com/desktop/mac/files/release-2.2130.9.zip",
+  "url": "https://web.whatsapp.com/desktop/mac/files/release-2.2140.12.zip",
   "appcast": null,
-  "version": "2.2130.9",
+  "version": "2.2140.12",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "08e061c80ba97d7d1745f74d99908284d9b11c0ff2a67ddbfedc9221953234e0",
+  "sha256": "46167a70f7c74110ac92c5ddc23f5d20471f92e15f57b4e060939e24922788a9",
   "artifacts": [
     [
       "WhatsApp.app"
@@ -35,7 +37,11 @@
   "caveats": null,
   "depends_on": {
   },
-  "conflicts_with": null,
+  "conflicts_with": {
+    "cask": [
+      "homebrew/cask-versions/whatsapp-beta"
+    ]
+  },
   "container": null,
   "auto_updates": true
 }

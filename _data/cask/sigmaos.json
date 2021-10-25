@@ -1,0 +1,42 @@
+{
+  "token": "sigmaos",
+  "full_token": "sigmaos",
+  "tap": "homebrew/cask",
+  "name": [
+    "sigmaos"
+  ],
+  "desc": "Web browser",
+  "homepage": "https://sigmaos.com/",
+  "url": "https://releases.sigmaos.com/macos/SigmaOS-0.11.3.1-b.dmg",
+  "appcast": null,
+  "version": "0.11.3.1-b",
+  "versions": {
+  },
+  "installed": null,
+  "outdated": false,
+  "sha256": "b3966bfe6f2348dd46cf826f28f8ad2b84ade078287292db9440816f45f34506",
+  "artifacts": [
+    [
+      "SigmaOS.app"
+    ],
+    {
+      "trash": [
+        "~/Library/Application Scripts/com.sigmaos.sigmaos.macos",
+        "~/Library/Containers/com.sigmaos.sigmaos.macos"
+      ],
+      "signal": {
+      }
+    }
+  ],
+  "caveats": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "11"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "auto_updates": true
+}

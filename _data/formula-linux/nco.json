@@ -13,13 +13,13 @@
   "license": "BSD-3-Clause",
   "homepage": "https://nco.sourceforge.io/",
   "versions": {
-    "stable": "5.0.1",
+    "stable": "5.0.3",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nco/nco/archive/5.0.1.tar.gz",
+      "url": "https://github.com/nco/nco/archive/5.0.3.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,27 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/nco/blobs/sha256:d858bb5c6d99b2218f859aa09c9e472ba2970d0f3a705f546832454f9cc6c8c1",
-          "sha256": "d858bb5c6d99b2218f859aa09c9e472ba2970d0f3a705f546832454f9cc6c8c1"
+          "url": "https://ghcr.io/v2/homebrew/core/nco/blobs/sha256:e43069a0e3e4eace7956060d43cc913f736aaf0fa38fc28d80d640525ed3c23f",
+          "sha256": "e43069a0e3e4eace7956060d43cc913f736aaf0fa38fc28d80d640525ed3c23f"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/nco/blobs/sha256:9f5fe0a1ac870adc44b85ed96f5f5c3f3d215bb8fc90c04dd337cc651f08052a",
-          "sha256": "9f5fe0a1ac870adc44b85ed96f5f5c3f3d215bb8fc90c04dd337cc651f08052a"
+          "url": "https://ghcr.io/v2/homebrew/core/nco/blobs/sha256:8694bfb9e3ff0b6f9d5aa7936fbc03607e337e446013cbb5bdbfa3ab6affccfa",
+          "sha256": "8694bfb9e3ff0b6f9d5aa7936fbc03607e337e446013cbb5bdbfa3ab6affccfa"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/nco/blobs/sha256:2caed3ab29749404d1dfda25d4326e9b9167e800e43ebae0849e483c4fe7c889",
-          "sha256": "2caed3ab29749404d1dfda25d4326e9b9167e800e43ebae0849e483c4fe7c889"
+          "url": "https://ghcr.io/v2/homebrew/core/nco/blobs/sha256:a44a5e35d6b8ca5a8cd4550cf81975f3f26d80df443d968b6d4a4ef019497456",
+          "sha256": "a44a5e35d6b8ca5a8cd4550cf81975f3f26d80df443d968b6d4a4ef019497456"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/nco/blobs/sha256:a81c6407c5d63ecd545a3f02aff99ee99299767a5b69a377fe8971841b1fc0d5",
-          "sha256": "a81c6407c5d63ecd545a3f02aff99ee99299767a5b69a377fe8971841b1fc0d5"
+          "url": "https://ghcr.io/v2/homebrew/core/nco/blobs/sha256:3223dfa302dfe10af6db64d743285ae85aa212de7fb3e231c08ccf94bd4e711c",
+          "sha256": "3223dfa302dfe10af6db64d743285ae85aa212de7fb3e231c08ccf94bd4e711c"
         }
       }
     }

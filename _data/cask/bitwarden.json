@@ -7,12 +7,14 @@
   ],
   "desc": "Desktop password and login vault",
   "homepage": "https://bitwarden.com/",
-  "url": "https://github.com/bitwarden/desktop/releases/download/v1.27.1/Bitwarden-1.27.1-mac.zip",
+  "url": "https://github.com/bitwarden/desktop/releases/download/v1.28.3/Bitwarden-1.28.3-mac.zip",
   "appcast": null,
-  "version": "1.27.1",
+  "version": "1.28.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "f7dde7223cf9399bba1b6d310f06ee9920e7f9a296d75afcb34a6a44ddc1a99f",
+  "sha256": "19d4845b817b8b5098ac4927446c07adf8461b985e6b18ac3102a0313949f15f",
   "artifacts": [
     {
       "quit": [

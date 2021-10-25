@@ -7,12 +7,14 @@
   ],
   "desc": "Client for Internxt file storage service",
   "homepage": "https://internxt.com/drive",
-  "url": "https://internxt.com/downloads/drive.dmg",
+  "url": "https://github.com/internxt/drive-desktop/releases/download/v1.4.0/internxt-drive-1.4.0.dmg",
   "appcast": null,
-  "version": "1.2.7",
+  "version": "1.4.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "no_check",
+  "sha256": "83611566b780c3c376d133e1c8ff4c05b3483e00a1aa0d7ca9dd74d869fb77d9",
   "artifacts": [
     [
       "Internxt Drive.app"

@@ -7,12 +7,14 @@
   ],
   "desc": "Portfolio tracking and accounting tool",
   "homepage": "https://rotki.com/",
-  "url": "https://github.com/rotki/rotki/releases/download/v1.20.0/rotki-darwin_x64-v1.20.0.dmg",
+  "url": "https://github.com/rotki/rotki/releases/download/v1.21.2/rotki-darwin_x64-v1.21.2.dmg",
   "appcast": null,
-  "version": "1.20.0",
+  "version": "1.21.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ed60d90a654174004c953a515056ca5b8d02e1b39ddedc82272a868389531da4",
+  "sha256": "65c3a3ed9800cf6aabcf5d92cc7a480f1c98c7fe0caf29666065d1d1011abcc8",
   "artifacts": [
     [
       "rotki.app"

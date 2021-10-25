@@ -7,12 +7,14 @@
   ],
   "desc": "Tool for teams to create living documents",
   "homepage": "https://quip.com/",
-  "url": "https://quip-clients.com/macosx_7.41.1.dmg",
+  "url": "https://quip-clients.com/macosx_7.46.2.dmg",
   "appcast": null,
-  "version": "7.41.1",
+  "version": "7.46.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "0a6baade54140cc5cc503c5f20a41433bf6c616d64c0fde2f57108bba18bb228",
+  "sha256": "b2267fc2b842c81b3d9d296e3c57b6541eb63c726ccdd9b8fe5f02e5cd531107",
   "artifacts": [
     [
       "Quip.app"

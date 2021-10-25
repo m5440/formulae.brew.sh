@@ -7,12 +7,14 @@
   ],
   "desc": "Ruby on Rails IDE",
   "homepage": "https://www.jetbrains.com/ruby/",
-  "url": "https://download.jetbrains.com/ruby/RubyMine-2021.2.dmg",
+  "url": "https://download.jetbrains.com/ruby/RubyMine-2021.2.3.dmg",
   "appcast": null,
-  "version": "2021.2,212.4746.90",
+  "version": "2021.2.3,212.5457.52",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "7dbdfff9afa54d90350ae9d6a43f254e75347b379339d85a912ac757389df4cf",
+  "sha256": "80131e7380a95cb62bf1603f075dfaf6ee711d493f5426eb1ec5964ec4d30a77",
   "artifacts": [
     [
       "RubyMine.app"

@@ -13,13 +13,13 @@
   "license": "Public Domain",
   "homepage": "https://sourceforge.net/projects/bsdwtf/",
   "versions": {
-    "stable": "20210618",
+    "stable": "20210916",
     "head": null,
-    "bottle": false
+    "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/bsdwtf/wtf-20210618.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/bsdwtf/wtf-20210916.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -27,6 +27,17 @@
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtf/blobs/sha256:d6367e13363b8213ddda77bcbaacb4652d798e5be8833ae5889d7f71c9e07111",
+          "sha256": "d6367e13363b8213ddda77bcbaacb4652d798e5be8833ae5889d7f71c9e07111"
+        }
+      }
+    }
   },
   "keg_only": false,
   "bottle_disabled": false,

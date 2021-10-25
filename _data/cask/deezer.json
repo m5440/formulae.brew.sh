@@ -7,12 +7,14 @@
   ],
   "desc": "Music player",
   "homepage": "https://www.deezer.com/download",
-  "url": "https://www.deezer.com/desktop/download/artifact/darwin/x64/5.30.30",
+  "url": "https://www.deezer.com/desktop/download/artifact/darwin/x64/5.30.80",
   "appcast": null,
-  "version": "5.30.30",
+  "version": "5.30.80",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1fef7d10834d5206d8137beb0ccf440596d672578fc494d8e27495e3b612d13d",
+  "sha256": "6cc72f4a1cd0469b63620ed60b4c69eb4384ded3722241b0eed4058179eeb5db",
   "artifacts": [
     [
       "Deezer.app"

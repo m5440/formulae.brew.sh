@@ -7,12 +7,14 @@
   ],
   "desc": "Money management application",
   "homepage": "https://www.moneymanagerex.org/",
-  "url": "https://downloads.sourceforge.net/moneymanagerex/mmex-1.5.5-Darwin-2021-07-31.dmg",
+  "url": "https://downloads.sourceforge.net/moneymanagerex/mmex-1.5.8-Darwin.dmg",
   "appcast": null,
-  "version": "1.5.5,2021-07-31",
+  "version": "1.5.8",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "53589e5cff0c962f9223b485e007fa395c6b70424e5fc50f424ebed0cc4a6878",
+  "sha256": "644df4b2512afd91b25859828b1af19dc4cfa1bed58bab9595e1dd3688b558f3",
   "artifacts": [
     [
       "MMEX.app"

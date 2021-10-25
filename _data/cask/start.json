@@ -8,12 +8,14 @@
   ],
   "desc": "Tencent cloud gaming platform",
   "homepage": "https://start.qq.com/",
-  "url": "https://imgcdn.start.qq.com/cdn/mac.client/installer/START-Installer-0.298.1-123.dmg",
+  "url": "https://imgcdn.start.qq.com/cdn/mac.client/installer/START-Installer-0.298.2-127.dmg",
   "appcast": null,
-  "version": "0.298.1-123",
+  "version": "0.298.2-127",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "2a6db3a84eac4b543c720ab9454d576eed511ae40b4a660b7417ef12b5e0f2d5",
+  "sha256": "51e92e5f335a6fb84de3c85e4be2bd88b8abfece394f1555bfa60362ab264166",
   "artifacts": [
     {
       "quit": "com.tencent.start.mac.Start",
@@ -28,8 +30,8 @@
         "~/Library/Caches/com.tencent.start.mac.Start",
         "~/Library/Caches/com.tencent.start.mac.Start.STGame",
         "~/Library/Group Containers/com.tencent.start.mac",
-        "~/Library/Preferences/com.tencent.start.mac.Start.STGame.plist",
-        "~/Library/Preferences/com.tencent.start.mac.Start.plist"
+        "~/Library/Preferences/com.tencent.start.mac.Start.plist",
+        "~/Library/Preferences/com.tencent.start.mac.Start.STGame.plist"
       ],
       "signal": {
       }

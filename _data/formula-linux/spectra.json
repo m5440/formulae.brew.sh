@@ -29,11 +29,11 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/spectra/blobs/sha256:94ec682e71349c61a98833532eff13ccd1242f0c1aed9100b3de5fb6cb76fa45",
+          "url": "https://ghcr.io/v2/homebrew/core/spectra/blobs/sha256:94ec682e71349c61a98833532eff13ccd1242f0c1aed9100b3de5fb6cb76fa45",
           "sha256": "94ec682e71349c61a98833532eff13ccd1242f0c1aed9100b3de5fb6cb76fa45"
         }
       }

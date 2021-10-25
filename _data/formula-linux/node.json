@@ -18,13 +18,13 @@
   "license": "MIT",
   "homepage": "https://nodejs.org/",
   "versions": {
-    "stable": "16.7.0",
+    "stable": "16.12.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://nodejs.org/dist/v16.7.0/node-v16.7.0.tar.xz",
+      "url": "https://nodejs.org/dist/v16.12.0/node-v16.12.0.tar.xz",
       "tag": null,
       "revision": null
     }
@@ -34,32 +34,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/node/blobs/sha256:e66ba7d690ea50b7155c3a842329735a815daa4f3fcea4c2b87f9bf6d0956c4e",
-          "sha256": "e66ba7d690ea50b7155c3a842329735a815daa4f3fcea4c2b87f9bf6d0956c4e"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:97ba0c71deb10a3af09c45176829ae32a8b39e747fc43c1ae8fd37e06765d254",
+          "sha256": "97ba0c71deb10a3af09c45176829ae32a8b39e747fc43c1ae8fd37e06765d254"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/node/blobs/sha256:81e084ec8665c37bdb37939cdbe554502b4d4e849c1e9a4979cddb1754378331",
-          "sha256": "81e084ec8665c37bdb37939cdbe554502b4d4e849c1e9a4979cddb1754378331"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:c2d4a0ede85279aea8205fbc86434b93d5c381ba51cf9570b7add0997534dc65",
+          "sha256": "c2d4a0ede85279aea8205fbc86434b93d5c381ba51cf9570b7add0997534dc65"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/node/blobs/sha256:0bd7325e2ad523fe5088bfa7168e482bd85fcfdc017ce86572986584964d8719",
-          "sha256": "0bd7325e2ad523fe5088bfa7168e482bd85fcfdc017ce86572986584964d8719"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:378aff31bce685b3a340b90759c96a324ca6f967f733fcb50f61d88d34ee33cb",
+          "sha256": "378aff31bce685b3a340b90759c96a324ca6f967f733fcb50f61d88d34ee33cb"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/node/blobs/sha256:9285b5064bccb1a7a1b0174a40a597679a4b3a092057ee58f433320187cd9c26",
-          "sha256": "9285b5064bccb1a7a1b0174a40a597679a4b3a092057ee58f433320187cd9c26"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:5db9ab663ae5bb0c032073008a339ae2d944c46362582ede8f285306ee005a28",
+          "sha256": "5db9ab663ae5bb0c032073008a339ae2d944c46362582ede8f285306ee005a28"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/node/blobs/sha256:a7edf8cff13f4c974c7d1fdb1de68da4ab2a9deeda733a2c16b47d2d3c362ae2",
-          "sha256": "a7edf8cff13f4c974c7d1fdb1de68da4ab2a9deeda733a2c16b47d2d3c362ae2"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:7ebb803dd25aff873783751a91e53796a9ef45263fa5a91f5ff1385b7e513764",
+          "sha256": "7ebb803dd25aff873783751a91e53796a9ef45263fa5a91f5ff1385b7e513764"
         }
       }
     }
@@ -70,16 +70,16 @@
 
   ],
   "build_dependencies": [
-    "pkg-config",
-    "python@3.9"
+    "pkg-config"
   ],
   "dependencies": [
     "brotli",
     "c-ares",
     "icu4c",
+    "libnghttp2",
     "libuv",
-    "nghttp2",
     "openssl@1.1",
+    "python@3.9",
     "zlib",
     "gcc"
   ],
@@ -90,7 +90,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

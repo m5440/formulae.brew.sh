@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://prometheus.io/",
   "versions": {
-    "stable": "2.29.1",
+    "stable": "2.30.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/prometheus/prometheus/archive/v2.29.1.tar.gz",
+      "url": "https://github.com/prometheus/prometheus/archive/v2.30.3.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,40 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:fefbed7117320e05da0bd4dbf48515877d5cef128c70799191a3593b2c8a362c",
+          "sha256": "fefbed7117320e05da0bd4dbf48515877d5cef128c70799191a3593b2c8a362c"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:50ff97cc416ee0309dd9668bb25525f2a89c7beac661deaa0a7583f33c780623",
-          "sha256": "50ff97cc416ee0309dd9668bb25525f2a89c7beac661deaa0a7583f33c780623"
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:97621b99e959e16419b9539bf7162a1fda9367580da427a8533a3e9e74cf3de9",
+          "sha256": "97621b99e959e16419b9539bf7162a1fda9367580da427a8533a3e9e74cf3de9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:60ec8d5eeecb91faad842e889b9a559eb6143927bdc4900cffadd753ab80dd30",
+          "sha256": "60ec8d5eeecb91faad842e889b9a559eb6143927bdc4900cffadd753ab80dd30"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:c1423d4804ba416ccd034630205181fb882ec7fbf9818eb0ec5ebff3ab5d682b",
-          "sha256": "c1423d4804ba416ccd034630205181fb882ec7fbf9818eb0ec5ebff3ab5d682b"
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:df45f718948efe0c8aac092333b79151aa9652b5927c2127c542cd40067f068d",
+          "sha256": "df45f718948efe0c8aac092333b79151aa9652b5927c2127c542cd40067f068d"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:0bde01c5b76be229c324b920bc4553bd24c81ae43d124144be4eccc55874bf55",
-          "sha256": "0bde01c5b76be229c324b920bc4553bd24c81ae43d124144be4eccc55874bf55"
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:16b43830daf9666454eef51b71b190295ef777abc4c0f736147d1ffa44f9301c",
+          "sha256": "16b43830daf9666454eef51b71b190295ef777abc4c0f736147d1ffa44f9301c"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:7e34008c2372c3c754d6c51e7550d254c755722839d19f2b998c863c6666e7ed",
-          "sha256": "7e34008c2372c3c754d6c51e7550d254c755722839d19f2b998c863c6666e7ed"
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:d4a48002a602a51a97a5a30206986979a6ff6bf751963d939ce706f3e4ff05d5",
+          "sha256": "d4a48002a602a51a97a5a30206986979a6ff6bf751963d939ce706f3e4ff05d5"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:2b280a87f8926cf91e4e74c6f66216b3c9209ea491bebf2451c3cd3ad07f28a7",
-          "sha256": "2b280a87f8926cf91e4e74c6f66216b3c9209ea491bebf2451c3cd3ad07f28a7"
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:8e357ffc40d706b9732dfd82b4e8f6e92f51029524b5cd605c0b0e3599d794a1",
+          "sha256": "8e357ffc40d706b9732dfd82b4e8f6e92f51029524b5cd605c0b0e3599d794a1"
         }
       }
     }

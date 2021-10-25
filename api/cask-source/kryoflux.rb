@@ -21,5 +21,10 @@ cask "kryoflux" do
   zap trash: [
     "~/Library/Preferences/com.kryoflux.ui.plist",
     "~/Library/Preferences/com.kryoflux.kryoflux-ui.plist",
+    "~/.kryoflux",
   ]
+
+  caveats do
+    files_in_usr_local
+  end
 end

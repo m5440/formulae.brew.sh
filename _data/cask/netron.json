@@ -7,12 +7,14 @@
   ],
   "desc": "Visualizer for neural network, deep learning, and machine learning models",
   "homepage": "https://github.com/lutzroeder/netron",
-  "url": "https://github.com/lutzroeder/netron/releases/download/v5.1.4/Netron-5.1.4-mac.zip",
+  "url": "https://github.com/lutzroeder/netron/releases/download/v5.3.1/Netron-5.3.1-mac.zip",
   "appcast": null,
-  "version": "5.1.4",
+  "version": "5.3.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1444e7a6e1ae66b0686bd50837a2b44f23f7480ef98186c960013643ee17d74a",
+  "sha256": "d94d6886f97ac0e7e651d0ce61957c5f2a02ada6972deda9dd6148ae3d900f59",
   "artifacts": [
     [
       "Netron.app"

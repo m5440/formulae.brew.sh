@@ -7,12 +7,14 @@
   ],
   "desc": "File transfer application",
   "homepage": "https://panic.com/transmit/",
-  "url": "https://www.panic.com/transmit/d/Transmit%205.7.6.zip",
+  "url": "https://www.panic.com/transmit/d/Transmit%205.8.1.zip",
   "appcast": null,
-  "version": "5.7.6",
+  "version": "5.8.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "e7f330fa01a8aa2d6ebd7d4a6ee2b14ed3a05ee555f73544f6d61da6ee683a13",
+  "sha256": "27f7fb5139f9183ca237607d815432c92243efb92dc257796f0b29c4ce0fabd0",
   "artifacts": [
     [
       "Transmit.app"
@@ -37,7 +39,7 @@
   "depends_on": {
     "macos": {
       ">=": [
-        "10.14"
+        "10.15"
       ]
     }
   },

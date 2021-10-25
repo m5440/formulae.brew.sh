@@ -13,15 +13,15 @@
   "license": "MIT",
   "homepage": "https://github.com/realm/SwiftLint",
   "versions": {
-    "stable": "0.43.1",
+    "stable": "0.45.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
       "url": "https://github.com/realm/SwiftLint.git",
-      "tag": "0.43.1",
-      "revision": "180d94132758dd183124ab1e63d6aa8e10023ec2"
+      "tag": "0.45.0",
+      "revision": "99465e659fb91facab5b1d3c0f9229176d086bf1"
     }
   },
   "revision": 0,
@@ -29,22 +29,17 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/swiftlint/blobs/sha256:e1b633e61793b924f5875e4812b49184c91fc6580bfd497ab650fe13fbbe8d8f",
-          "sha256": "e1b633e61793b924f5875e4812b49184c91fc6580bfd497ab650fe13fbbe8d8f"
+          "url": "https://ghcr.io/v2/homebrew/core/swiftlint/blobs/sha256:85a35161284914d468563c898babfefcb4010d8de96b843a7f36ad8b55bf996a",
+          "sha256": "85a35161284914d468563c898babfefcb4010d8de96b843a7f36ad8b55bf996a"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/swiftlint/blobs/sha256:90faabe65db0f6bc43c3752b3b6d541e7e23cd0f368035dcef57503d74ed9581",
-          "sha256": "90faabe65db0f6bc43c3752b3b6d541e7e23cd0f368035dcef57503d74ed9581"
-        },
-        "catalina": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/swiftlint/blobs/sha256:c1396dec887bf6d7986c35f38101955fb1a5c527ad4cd459174b3841dfa62239",
-          "sha256": "c1396dec887bf6d7986c35f38101955fb1a5c527ad4cd459174b3841dfa62239"
+          "url": "https://ghcr.io/v2/homebrew/core/swiftlint/blobs/sha256:e7213df813a99fa4a310a15f7c4212bf3aad8955adadb2621c86ffdacda00a99",
+          "sha256": "e7213df813a99fa4a310a15f7c4212bf3aad8955adadb2621c86ffdacda00a99"
         }
       }
     }
@@ -74,7 +69,7 @@
       "name": "xcode",
       "cask": null,
       "download": null,
-      "version": "11.4",
+      "version": "12.5",
       "contexts": [
         "build"
       ]

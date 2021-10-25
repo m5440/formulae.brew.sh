@@ -7,12 +7,14 @@
   ],
   "desc": "Databases & SQL IDE",
   "homepage": "https://www.jetbrains.com/datagrip/",
-  "url": "https://download.jetbrains.com/datagrip/datagrip-2021.2.1.dmg",
+  "url": "https://download.jetbrains.com/datagrip/datagrip-2021.2.4.dmg",
   "appcast": null,
-  "version": "2021.2.1,212.5080.22",
+  "version": "2021.2.4,212.5457.41",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "08a028494d2befe4411ebe746a79073003bb59ec270ac69f021612ff29ece7fc",
+  "sha256": "0062c8ba1ea8cdec91f3ad5d909f79e2275a619cc2e0f246e1bf1b8c34e0b27d",
   "artifacts": [
     [
       "DataGrip.app"

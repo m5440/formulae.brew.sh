@@ -10,9 +10,11 @@
   "url": "https://www.utc.fr/~mottelet/scilab/download/6.1.1/scilab-6.1.1-x86_64.dmg",
   "appcast": null,
   "version": "6.1.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "9e2c18ac6391ce43b068a997fa5dd959a62c3d02fc2499e018c0e88c1aff8eaf",
+  "sha256": "922e879979fe4e1fde83be4b3df02070c0930a56a75cdeb9b5ef46ae29f0ef57",
   "artifacts": [
     [
       "scilab-6.1.1.app"
@@ -24,7 +26,7 @@
       "/Applications/scilab-6.1.1.app/Contents/bin/scilab-cli"
     ]
   ],
-  "caveats": "scilab requires Java 8. You can install it with:\n  brew install --cask homebrew/cask-versions/adoptopenjdk8\n",
+  "caveats": "scilab requires Java 8. You can install it with:\n  brew install --cask homebrew/cask-versions/temurin8\n",
   "depends_on": {
     "macos": {
       ">=": [

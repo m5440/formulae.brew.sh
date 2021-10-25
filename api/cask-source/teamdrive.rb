@@ -1,6 +1,6 @@
 cask "teamdrive" do
-  version "4.7.1.3011"
-  sha256 "4a0e2e804bb0994c5be58fc57fdf16809ff84b07e24df7e54134cbc89cf2dc40"
+  version "4.7.2.3014"
+  sha256 "899960b99c3fd1e2224a6d0ad0299cde1e0aae55e6408da3a59f5de4c62de81d"
 
   url "https://download.teamdrive.net/#{version}/TMDR/mac/Install-TeamDrive-#{version}_TMDR.dmg",
       verified: "teamdrive.net/"
@@ -30,4 +30,18 @@ cask "teamdrive" do
               ["QUIT", "com.teamdrive.teamdrive3.MenuExt"],
               ["KILL", "com.teamdrive.teamdrive3.MenuExt"],
             ]
+
+  zap trash: [
+    "~/Library/Application Scripts/com.teamdrive.teamdrive3.FinderExt",
+    "~/Library/Application Support/teamdrive",
+    "~/Library/Caches/teamdrive",
+    "~/Library/Containers/com.teamdrive.teamdrive3.FinderExt",
+    "~/Library/Group Containers/com.teamdrive.teamdrive3.finderExt",
+    "~/Library/Preferences/com.teamdrive.TeamDrive.plist",
+    "~/Library/Preferences/com.teamdrive.teamdrive3.plist",
+    "~/Library/Saved Application State/com.teamdrive.teamdrive3.savedState",
+    "/Users/Shared/teamdrive.fsfilter",
+    "/Users/Shared/teamdrive.ini",
+    "~/.teamdrive",
+  ]
 end

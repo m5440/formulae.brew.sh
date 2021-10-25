@@ -8,12 +8,14 @@
   ],
   "desc": "IDE for professional Python development",
   "homepage": "https://www.jetbrains.com/pycharm/",
-  "url": "https://download.jetbrains.com/python/pycharm-professional-2021.2.dmg",
+  "url": "https://download.jetbrains.com/python/pycharm-professional-2021.2.3.dmg",
   "appcast": null,
-  "version": "2021.2,212.4746.96",
+  "version": "2021.2.3,212.5457.59",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "5eb90cb825767e93f2963f9762bc1683611166b1eca4d9f3b6a313436d86f8e7",
+  "sha256": "a5eb288ba79e68a95646595b0030703072261b330e66f07d19ce8b29e56846ee",
   "artifacts": [
     [
       "PyCharm.app"
@@ -21,13 +23,13 @@
     "uninstall_postflight (Postflight Block)",
     {
       "trash": [
+        "~/Library/Application Support/JetBrains/PyCharm2021.2",
+        "~/Library/Application Support/PyCharm2021.2",
+        "~/Library/Caches/JetBrains/PyCharm2021.2",
+        "~/Library/Logs/JetBrains/PyCharm2021.2",
         "~/Library/Preferences/com.jetbrains.pycharm.plist",
         "~/Library/Preferences/jetbrains.pycharm.*.plist",
         "~/Library/Preferences/PyCharm2021.2",
-        "~/Library/Application Support/PyCharm2021.2",
-        "~/Library/Application Support/JetBrains/PyCharm2021.2",
-        "~/Library/Caches/JetBrains/PyCharm2021.2",
-        "~/Library/Logs/JetBrains/PyCharm2021.2",
         "~/Library/Saved Application State/com.jetbrains.pycharm.savedState"
       ],
       "signal": {

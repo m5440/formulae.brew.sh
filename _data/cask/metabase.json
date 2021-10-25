@@ -7,12 +7,14 @@
   ],
   "desc": "Business intelligence and analytics",
   "homepage": "https://www.metabase.com/",
-  "url": "https://s3.amazonaws.com/downloads.metabase.com/v0.40.2/Metabase.zip",
+  "url": "https://s3.amazonaws.com/downloads.metabase.com/v0.41.0/Metabase.zip",
   "appcast": null,
-  "version": "0.40.2",
+  "version": "0.41.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "76a513fb425a1c72a8ea73fba0572dccf98bdb8aae47e32e9b31c4affa7fb67c",
+  "sha256": "9347d7f5b238ec75beb1ddf9b5aa518b010009a64d78c8ccd5de13568bcbb2c3",
   "artifacts": [
     [
       "Metabase.app"

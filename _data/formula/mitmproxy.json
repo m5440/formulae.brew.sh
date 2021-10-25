@@ -13,18 +13,18 @@
   "license": "MIT",
   "homepage": "https://mitmproxy.org",
   "versions": {
-    "stable": "7.0.2",
+    "stable": "7.0.4",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/mitmproxy/mitmproxy/archive/v7.0.2.tar.gz",
+      "url": "https://github.com/mitmproxy/mitmproxy/archive/v7.0.4.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,28 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:d3be4f44cdcb9daaacf740639ecefa5fcecee9ffc1867327b84ba245a1b39384",
-          "sha256": "d3be4f44cdcb9daaacf740639ecefa5fcecee9ffc1867327b84ba245a1b39384"
+          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:cd60880fbcc188dce8dea404bee86bc8e30c21e730f98c6a1dfa8a3b9d4d883e",
+          "sha256": "cd60880fbcc188dce8dea404bee86bc8e30c21e730f98c6a1dfa8a3b9d4d883e"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:68d627341d9af1505d96e3dc8c9a63e9e6b38727904da480612da84fbc776fcc",
-          "sha256": "68d627341d9af1505d96e3dc8c9a63e9e6b38727904da480612da84fbc776fcc"
+          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:303fc0c22a55497d03387fa8d87dbabf7dd458d0f44fd61e1333ec3fb0c9bc2d",
+          "sha256": "303fc0c22a55497d03387fa8d87dbabf7dd458d0f44fd61e1333ec3fb0c9bc2d"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:b153a12bdd68f094c5f856b822dd524e9925021c845e6fc6a73bf0557122e2c9",
-          "sha256": "b153a12bdd68f094c5f856b822dd524e9925021c845e6fc6a73bf0557122e2c9"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:e636f877af077ca4fe86164619979ce10296fa101bdc062ea929b4e5ec77feb8",
-          "sha256": "e636f877af077ca4fe86164619979ce10296fa101bdc062ea929b4e5ec77feb8"
+          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:78e3e827696328572b8c2e73fc945a588302d077f1557722317485bf183d351c",
+          "sha256": "78e3e827696328572b8c2e73fc945a588302d077f1557722317485bf183d351c"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:f6e6d876b1beb5f40ec98de4e2a33a2be51652d39bd24dce978f55f86559c9e0",
-          "sha256": "f6e6d876b1beb5f40ec98de4e2a33a2be51652d39bd24dce978f55f86559c9e0"
+          "url": "https://ghcr.io/v2/homebrew/core/mitmproxy/blobs/sha256:d9a37141f5a0eae06547195269489c93b069b88fe3010c4ea62233ece16b0f0f",
+          "sha256": "d9a37141f5a0eae06547195269489c93b069b88fe3010c4ea62233ece16b0f0f"
         }
       }
     }

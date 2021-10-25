@@ -13,48 +13,48 @@
   "license": "Apache-2.0",
   "homepage": "https://openstack.org",
   "versions": {
-    "stable": "5.5.0",
+    "stable": "5.6.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/72/24/36f74f0df77b69449115d781de680207c82b33af6ad9af7b280b88bf9474/python-openstackclient-5.5.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/56/5b/5850ca55b17f63741f71f7b59cf3621e538390fb05a20fcf1225c3ec205a/python-openstackclient-5.6.0.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/openstackclient/blobs/sha256:2f29787b721969574fd33180a44413ca53716ba6398abd393a786e912580136a",
-          "sha256": "2f29787b721969574fd33180a44413ca53716ba6398abd393a786e912580136a"
+          "url": "https://ghcr.io/v2/homebrew/core/openstackclient/blobs/sha256:415b02ee764eafb672868037245cd7a5ac9395a255eb8aca89552e10e07cf21c",
+          "sha256": "415b02ee764eafb672868037245cd7a5ac9395a255eb8aca89552e10e07cf21c"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/openstackclient/blobs/sha256:bccccc98d1077c9fbabb2a01016b8f9c69dba2d4aba4950ba31e57f617f997eb",
-          "sha256": "bccccc98d1077c9fbabb2a01016b8f9c69dba2d4aba4950ba31e57f617f997eb"
+          "url": "https://ghcr.io/v2/homebrew/core/openstackclient/blobs/sha256:953f1b08d0d5a62c2f6f1d7c453304e4f72882694e21bdd09fd662d261f818cc",
+          "sha256": "953f1b08d0d5a62c2f6f1d7c453304e4f72882694e21bdd09fd662d261f818cc"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/openstackclient/blobs/sha256:03d89b5f94e1d72df64ccf3b5b616d0a085cc787fcf8b0d15144a010f5d16c4d",
-          "sha256": "03d89b5f94e1d72df64ccf3b5b616d0a085cc787fcf8b0d15144a010f5d16c4d"
+          "url": "https://ghcr.io/v2/homebrew/core/openstackclient/blobs/sha256:19ba1bd67e9060f8fa1c1528f943aabdde4e29d978978513547ca7690392dfc3",
+          "sha256": "19ba1bd67e9060f8fa1c1528f943aabdde4e29d978978513547ca7690392dfc3"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/openstackclient/blobs/sha256:1d9ebfa870d73deb2de20e96320ee401f56794443f3ff722476e52727324adda",
-          "sha256": "1d9ebfa870d73deb2de20e96320ee401f56794443f3ff722476e52727324adda"
+          "url": "https://ghcr.io/v2/homebrew/core/openstackclient/blobs/sha256:25b434146cf86bfcc3cf5745ad331ec5df7aca3e130fa07b688a853b78aa67b2",
+          "sha256": "25b434146cf86bfcc3cf5745ad331ec5df7aca3e130fa07b688a853b78aa67b2"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/openstackclient/blobs/sha256:71cbd1a51ac297797e746dbae0d5013c4aa06097c3cbda961399fc3c87850d12",
-          "sha256": "71cbd1a51ac297797e746dbae0d5013c4aa06097c3cbda961399fc3c87850d12"
+          "url": "https://ghcr.io/v2/homebrew/core/openstackclient/blobs/sha256:19599b31e56cbde386d34b387e5f20198889ba623394e5f7e95f0190c60f4c30",
+          "sha256": "19599b31e56cbde386d34b387e5f20198889ba623394e5f7e95f0190c60f4c30"
         }
       }
     }
@@ -68,7 +68,8 @@
     "rust"
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.10",
+    "six"
   ],
   "recommended_dependencies": [
 

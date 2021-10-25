@@ -1,22 +1,22 @@
 {
   "name": "muffet",
-  "pkg_version": "2.4.2",
+  "pkg_version": "2.4.4",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/muffet/blobs/sha256:19d2e5d34d60dbcbc1bd68b630f6a910f71f51212245bfe1eca03a53c9aa4a11"
+      "url": "https://ghcr.io/v2/homebrew/core/muffet/blobs/sha256:2921a8a2e676c7c1115a265ac044aa9e33894888b97c9f1f76a8895e2b9ef63c"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/muffet/blobs/sha256:71345b0533fc6a2f4e923a76cf179617cee16511295734b1e5b263cd919605e6"
+      "url": "https://ghcr.io/v2/homebrew/core/muffet/blobs/sha256:78d43985a2b6d53ab1ab4429e09ddd116de471827fd84ed8582acdce55fc56f6"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/muffet/blobs/sha256:114262fa636aee768296d61e84d87cbc6c0b2fe163ac415cafe94b19a16633a8"
+      "url": "https://ghcr.io/v2/homebrew/core/muffet/blobs/sha256:64bf10cf727e8911f84f634f595799083f13f7bb23e451d18e83b7363d487303"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/muffet/blobs/sha256:03aecf8deeaf6655a9b9d8988c95e6501a5434492fb9ab809f7d5fbcb48d226f"
+      "url": "https://ghcr.io/v2/homebrew/core/muffet/blobs/sha256:cef2471a38064004057e5fd4521925f10cfc68ca6a5f0ba86285b378b9e08e6c"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/muffet/blobs/sha256:5c58f33299a7f7160e777189b71384d4b4ab1cc818da6e3272f6c325a93b9633"
+      "url": "https://ghcr.io/v2/homebrew/core/muffet/blobs/sha256:5bedfaa6c6fdb224ae529ef386066ffcf336b56d4c81fa97a8e07c67f5fbf4c6"
     }
   },
   "dependencies": [

@@ -7,12 +7,14 @@
   ],
   "desc": "Go (golang) IDE",
   "homepage": "https://www.jetbrains.com/go/",
-  "url": "https://download.jetbrains.com/go/goland-2021.2.dmg",
+  "url": "https://download.jetbrains.com/go/goland-2021.2.4.dmg",
   "appcast": null,
-  "version": "2021.2,212.4746.93",
+  "version": "2021.2.4,212.5457.54",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "f2d4d542d5505bb6ba85fc5b2a31ae6b787364c3036b2440741d0435f4077256",
+  "sha256": "2b264407ed6ad30e5489e76dd1191f9aeff691c0d9fc55f83dbeb372d53d58ee",
   "artifacts": [
     [
       "GoLand.app"

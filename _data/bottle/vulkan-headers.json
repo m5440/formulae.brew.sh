@@ -1,10 +1,10 @@
 {
   "name": "vulkan-headers",
-  "pkg_version": "1.2.189",
+  "pkg_version": "1.2.196",
   "rebuild": 0,
   "bottles": {
     "all": {
-      "url": "https://ghcr.io/v2/homebrew/core/vulkan-headers/blobs/sha256:d75cc53e9a4ca0dde269088e368ceab02154de8b109fbb680796e7d0ccdce4b8"
+      "url": "https://ghcr.io/v2/homebrew/core/vulkan-headers/blobs/sha256:bd01995ab7a1c72cb2c6fc13c50faa700e35e976fc012d929909a52a014f325c"
     }
   },
   "dependencies": [

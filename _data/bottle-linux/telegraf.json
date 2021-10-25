@@ -1,22 +1,22 @@
 {
   "name": "telegraf",
-  "pkg_version": "1.19.2",
-  "rebuild": 1,
+  "pkg_version": "1.20.2",
+  "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/telegraf/blobs/sha256:456c7e1a8a93f7f0b2400a7b4e76e9f0988e7f6e6b7a874bca6f653a61249ebb"
+      "url": "https://ghcr.io/v2/homebrew/core/telegraf/blobs/sha256:489a39af34f88d5c8f50a99cbcd059bee172b20b0313a483f97827993ce809e1"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/telegraf/blobs/sha256:4ece6b8ddbb5508f4e05445385d057e01e15ea7de235cdc535ef5d4d8a322d7e"
+      "url": "https://ghcr.io/v2/homebrew/core/telegraf/blobs/sha256:fa7758f7e9ff4f1c9711d7bc759ec87d823e0724cc50d27d7c5cdddc24cc8301"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/telegraf/blobs/sha256:b625daf3fac433733d784cc12627a9a85967fb28f25731aacfe0b99856563801"
+      "url": "https://ghcr.io/v2/homebrew/core/telegraf/blobs/sha256:8667728d8428ca082f0eb49209a46df40e090dcca50663626c15839bf83f92f1"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/telegraf/blobs/sha256:ff9aa4a395bfade5554d3a98931407f8c55693ebfdde8443d74f286bd0b2b5bb"
+      "url": "https://ghcr.io/v2/homebrew/core/telegraf/blobs/sha256:eeaf93fdddb62667a3d79ebfc31863154f10ccd1c6298feee1e5b258d2d857cd"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/telegraf/blobs/sha256:564b60c8bcedcca22635a848d37958a1563fe23c3d536af8d7114b3128a812aa"
+      "url": "https://ghcr.io/v2/homebrew/core/telegraf/blobs/sha256:3096181c311720c730443b60b1393aff05909de2d055e9e7ced4cb8493aa77ff"
     }
   },
   "dependencies": [

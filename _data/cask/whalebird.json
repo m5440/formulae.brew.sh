@@ -7,12 +7,14 @@
   ],
   "desc": "Mastodon, Pleroma and Misskey client",
   "homepage": "https://whalebird.social/",
-  "url": "https://github.com/h3poteto/whalebird-desktop/releases/download/4.4.2/Whalebird-4.4.2-darwin-universal.dmg",
+  "url": "https://github.com/h3poteto/whalebird-desktop/releases/download/4.4.5/Whalebird-4.4.5-darwin-universal.dmg",
   "appcast": null,
-  "version": "4.4.2",
+  "version": "4.4.5",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "feea08883ef1bb81b4a02a6bd858d2de86b59a2620a9d6a1e8f5653c0c0f04dc",
+  "sha256": "7129db0cf0edbc03b8c1206e881e5ef9cc6aa657f1b367a29c69aab76dea9ee1",
   "artifacts": [
     [
       "Whalebird.app"

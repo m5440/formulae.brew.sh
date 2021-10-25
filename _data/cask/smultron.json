@@ -9,7 +9,9 @@
   "homepage": "https://www.peterborgapps.com/smultron/",
   "url": "https://www.peterborgapps.com/downloads/Smultron12.zip",
   "appcast": null,
-  "version": "12.4.4,12440",
+  "version": "12.5,12500",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

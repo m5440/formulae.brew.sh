@@ -13,18 +13,18 @@
   "license": "BSD-2-Clause",
   "homepage": "https://www.nongnu.org/txr/",
   "versions": {
-    "stable": "268",
+    "stable": "271",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "http://www.kylheku.com/cgit/txr/snapshot/txr-268.tar.bz2",
+      "url": "http://www.kylheku.com/cgit/txr/snapshot/txr-271.tar.bz2",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,23 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:836c1c2f1cd8f0984a0659f8d3a08f53c35216492af14ddf422df6d7e0f70ca5",
-          "sha256": "836c1c2f1cd8f0984a0659f8d3a08f53c35216492af14ddf422df6d7e0f70ca5"
+          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:075aef49b3405bd3e5eb1198cc4cc855e8869cece96a3e3c70449091bd6b4f95",
+          "sha256": "075aef49b3405bd3e5eb1198cc4cc855e8869cece96a3e3c70449091bd6b4f95"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:bfa0ecb676757b39f7070ee005227b5b5454558ba06a542e50fa56a4a8d10086",
-          "sha256": "bfa0ecb676757b39f7070ee005227b5b5454558ba06a542e50fa56a4a8d10086"
+          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:26bfd1e76168d6f2ad2c830ffd02e279c7748f928455bc18f25a4288dce683f2",
+          "sha256": "26bfd1e76168d6f2ad2c830ffd02e279c7748f928455bc18f25a4288dce683f2"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:05cacd2f47b59c26fa52f96811cddbef06971446bad77578d8403122115b328c",
-          "sha256": "05cacd2f47b59c26fa52f96811cddbef06971446bad77578d8403122115b328c"
+          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:d995de85c281bf8af8cb32ac2f7d922174c3e0fa241c322b0f274208123eab93",
+          "sha256": "d995de85c281bf8af8cb32ac2f7d922174c3e0fa241c322b0f274208123eab93"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:8ed96e565877f2053c1c6f798b8f45d6d65b4e9cd9692befa6f49fc5bfde8fad",
-          "sha256": "8ed96e565877f2053c1c6f798b8f45d6d65b4e9cd9692befa6f49fc5bfde8fad"
+          "url": "https://ghcr.io/v2/homebrew/core/txr/blobs/sha256:793139738a803ad1a1b62dee660aa5de084d69510b4fa8adbe04c4fa258cc14f",
+          "sha256": "793139738a803ad1a1b62dee660aa5de084d69510b4fa8adbe04c4fa258cc14f"
         }
       }
     }
@@ -72,14 +72,12 @@
 
   ],
   "uses_from_macos": [
-    [
-      "bison",
-      "build"
-    ],
-    [
-      "flex",
-      "build"
-    ]
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    }
   ],
   "requirements": [
 

@@ -7,12 +7,18 @@
   ],
   "desc": "Text, code, and markup editor",
   "homepage": "https://www.barebones.com/products/bbedit/",
-  "url": "https://s3.amazonaws.com/BBSW-download/BBEdit_14.0.dmg",
+  "url": "https://s3.amazonaws.com/BBSW-download/BBEdit_14.0.2.dmg",
   "appcast": null,
-  "version": "14.0",
+  "version": "14.0.2",
+  "versions": {
+    "high_sierra": "12.6.7",
+    "sierra": "12.6.7",
+    "el_capitan": "12.1.6",
+    "yosemite": "12.1.6"
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "eda3342708c1143b479a11f1b76e48430c55f4f87acdcec62d5a8f9ba563dff9",
+  "sha256": "8ca5ccf08cb2164b569e24787d425ee63cdaeec7ec2bf493b5c1ca2390d0d265",
   "artifacts": [
     [
       "BBEdit.app"

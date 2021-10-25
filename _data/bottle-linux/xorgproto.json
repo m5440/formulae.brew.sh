@@ -1,10 +1,10 @@
 {
   "name": "xorgproto",
-  "pkg_version": "2021.4",
+  "pkg_version": "2021.5",
   "rebuild": 0,
   "bottles": {
-    "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/xorgproto/blobs/sha256:f8a7c3b5c61c48affa144576747aa93a18c49f8b861b782e45aeb643a2708363"
+    "all": {
+      "url": "https://ghcr.io/v2/homebrew/core/xorgproto/blobs/sha256:97763c1171ba9dc0772b5fa107c8dad9b19c3e73963d84887fb2d8c02a1ab59e"
     }
   },
   "dependencies": [

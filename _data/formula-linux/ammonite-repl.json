@@ -19,22 +19,22 @@
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/lihaoyi/Ammonite/releases/download/2.4.0/3.0-2.4.0",
+      "url": "https://github.com/lihaoyi/Ammonite/releases/download/2.4.0/2.13-2.4.0",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ammonite-repl/blobs/sha256:ca8e983229745de93f4db2aa526077ef815545ce05f15ec8997f145ccd3b1d71",
-          "sha256": "ca8e983229745de93f4db2aa526077ef815545ce05f15ec8997f145ccd3b1d71"
+          "url": "https://ghcr.io/v2/homebrew/core/ammonite-repl/blobs/sha256:9b8fd17a4f94858a307a8e86d20a3b5e017716e75c371c09b82015904e830543",
+          "sha256": "9b8fd17a4f94858a307a8e86d20a3b5e017716e75c371c09b82015904e830543"
         }
       }
     }

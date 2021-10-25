@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/aws/s2n-tls",
   "versions": {
-    "stable": "1.0.16",
-    "head": null,
+    "stable": "1.1.2",
+    "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/aws/s2n-tls/archive/refs/tags/v1.0.16.tar.gz",
+      "url": "https://github.com/aws/s2n-tls/archive/v1.1.2.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,18 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:8b4e0642da6e067afbef7ad3b289deecec21dd4004759096f54bd492b64e1105",
-          "sha256": "8b4e0642da6e067afbef7ad3b289deecec21dd4004759096f54bd492b64e1105"
+          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:353daa077f530a3e0036fc268dc2245bdc93b4ba0e4395f4402ea3c97cd6b188",
+          "sha256": "353daa077f530a3e0036fc268dc2245bdc93b4ba0e4395f4402ea3c97cd6b188"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:3e0d69e2555ff6270526fa58858be774578f82f87a93d28dea2a92d6e320a7b1",
-          "sha256": "3e0d69e2555ff6270526fa58858be774578f82f87a93d28dea2a92d6e320a7b1"
+          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:a02e04a29c405a4071cee02974d32fdae96d419bb1de222f2755169a01cbd4f9",
+          "sha256": "a02e04a29c405a4071cee02974d32fdae96d419bb1de222f2755169a01cbd4f9"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:33a4d0c27f19a5178061f8692e95d5a432286a7be2113de5ea29e9ceacbf4ec0",
-          "sha256": "33a4d0c27f19a5178061f8692e95d5a432286a7be2113de5ea29e9ceacbf4ec0"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:3b883ac5a98371b8638b37b1b49e50269b852af34d523310f926e412e2f7c44a",
-          "sha256": "3b883ac5a98371b8638b37b1b49e50269b852af34d523310f926e412e2f7c44a"
+          "url": "https://ghcr.io/v2/homebrew/core/s2n/blobs/sha256:76a348442bea725c1a98cac4586ed67fdbfdbe99ed17987a3de4703e66c50c1f",
+          "sha256": "76a348442bea725c1a98cac4586ed67fdbfdbe99ed17987a3de4703e66c50c1f"
         }
       }
     }

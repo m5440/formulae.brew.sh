@@ -7,12 +7,18 @@
   ],
   "desc": "Terminal emulator as alternative to Apple's Terminal app",
   "homepage": "https://www.iterm2.com/",
-  "url": "https://iterm2.com/downloads/stable/iTerm2-3_4_8.zip",
+  "url": "https://iterm2.com/downloads/stable/iTerm2-3_4_10.zip",
   "appcast": null,
-  "version": "3.4.8",
+  "version": "3.4.10",
+  "versions": {
+    "high_sierra": "3.3.12",
+    "sierra": "3.3.12",
+    "el_capitan": "3.3.12",
+    "yosemite": "3.3.12"
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "29e1cf80dff3cd63e23e42d781969d74a7fed3aadebc756d0001942e40bb376f",
+  "sha256": "40a62193582dd7c54e6f27e509bdb887ec864513b53d4003763d9e167e44a921",
   "artifacts": [
     [
       "iTerm.app"

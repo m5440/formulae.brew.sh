@@ -9,7 +9,9 @@
   "homepage": "https://powdertoy.co.uk/",
   "url": "https://powdertoy.co.uk/Download/powder.dmg",
   "appcast": null,
-  "version": "96.1",
+  "version": "96.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

@@ -13,13 +13,13 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://github.com/HorlogeSkynet/archey4",
   "versions": {
-    "stable": "4.12.0",
+    "stable": "4.13.2",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/99/45/f3a0541ddf67af4153da892c192bdbe0a88c66dafb669fff89f7edde110f/archey4-4.12.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/55/21/19a74d9ebf7954eebd08e4afa4c6aaa9bfedff9b8bfbad8e94925458be96/archey4-4.13.2.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:a533ce21021e9fdab9171f8926c07c5a1e7a37199c5cbe939ce6eb9ee38f6d69",
-          "sha256": "a533ce21021e9fdab9171f8926c07c5a1e7a37199c5cbe939ce6eb9ee38f6d69"
+          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:1e824be83193a74a0d3b5ebed70583a941ee470514834a70c4ae0287d5dd6893",
+          "sha256": "1e824be83193a74a0d3b5ebed70583a941ee470514834a70c4ae0287d5dd6893"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:7a61e23a65173021839e70aaf664c7fc92ebdff24b975c685fecd8aa23746453",
-          "sha256": "7a61e23a65173021839e70aaf664c7fc92ebdff24b975c685fecd8aa23746453"
+          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:e848273ecff0d37d6902db78fd668121e3fc6d474772b7b7ee0da3592171dc10",
+          "sha256": "e848273ecff0d37d6902db78fd668121e3fc6d474772b7b7ee0da3592171dc10"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:fdcf88893069bd62b09894b39dc01c1d8fc27e48f14ef9125735db74d44ad86f",
-          "sha256": "fdcf88893069bd62b09894b39dc01c1d8fc27e48f14ef9125735db74d44ad86f"
+          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:317f1ef273ecca9613f395ff13e64351d63f7f4626fd0b638dd2ed66bec831ba",
+          "sha256": "317f1ef273ecca9613f395ff13e64351d63f7f4626fd0b638dd2ed66bec831ba"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:8c41763022d97b6780e5de02d9deba4d1e896170951edbfe883d0b5d37be6f59",
-          "sha256": "8c41763022d97b6780e5de02d9deba4d1e896170951edbfe883d0b5d37be6f59"
+          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:8f277515b7d8d121480d26afa4cf671174e094f17aebd9babc06df1642577158",
+          "sha256": "8f277515b7d8d121480d26afa4cf671174e094f17aebd9babc06df1642577158"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:1169e3370902278f58eef29a5da616dcf0852b91639ced4dccb6f74fe5d81b2b",
-          "sha256": "1169e3370902278f58eef29a5da616dcf0852b91639ced4dccb6f74fe5d81b2b"
+          "url": "https://ghcr.io/v2/homebrew/core/archey4/blobs/sha256:016fd46d432126417712bc146acb31a2087dfb96919ae536426afd0c9d361c05",
+          "sha256": "016fd46d432126417712bc146acb31a2087dfb96919ae536426afd0c9d361c05"
         }
       }
     }
@@ -68,7 +68,7 @@
 
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.10"
   ],
   "recommended_dependencies": [
 

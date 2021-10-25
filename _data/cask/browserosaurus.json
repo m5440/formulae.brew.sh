@@ -7,16 +7,26 @@
   ],
   "desc": "Open-source browser prompter",
   "homepage": "https://github.com/will-stone/browserosaurus",
-  "url": "https://github.com/will-stone/browserosaurus/releases/download/v15.1.2/Browserosaurus-darwin-x64-15.1.2.zip",
+  "url": "https://github.com/will-stone/browserosaurus/releases/download/v15.3.9/Browserosaurus-darwin-x64-15.3.9.zip",
   "appcast": null,
-  "version": "15.1.2",
+  "version": "15.3.9",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "c22210139cd473fcba095605fc94221d8fe2eaaed07469b7d0bbaa363a953f96",
+  "sha256": "e81751d7d44f8dea3079444f6ac34a4ce6e3c18f3886f0b76d1716f8e6490976",
   "artifacts": [
     [
       "Browserosaurus.app"
-    ]
+    ],
+    {
+      "trash": [
+        "~/Library/Application Support/Browserosaurus",
+        "~/Library/Preferences/com.browserosaurus.plist"
+      ],
+      "signal": {
+      }
+    }
   ],
   "caveats": null,
   "depends_on": {

@@ -13,13 +13,13 @@
   "license": "GPL-3.0-or-later and MIT and BSD-3-Clause and Apache-2.0 and CC0-1.0",
   "homepage": "https://soliditylang.org",
   "versions": {
-    "stable": "0.8.7",
+    "stable": "0.8.9",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/ethereum/solidity/releases/download/v0.8.7/solidity_0.8.7.tar.gz",
+      "url": "https://github.com/ethereum/solidity/releases/download/v0.8.9/solidity_0.8.9.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,40 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:667785cbdd41a5160b296fcff6016785b1eac5e4886f902d999115fc66b50397",
+          "sha256": "667785cbdd41a5160b296fcff6016785b1eac5e4886f902d999115fc66b50397"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:3ef3e6acbd7295fb552f2343db5c227f7941bcf8f274e03ee6bdf57aeda5f849",
-          "sha256": "3ef3e6acbd7295fb552f2343db5c227f7941bcf8f274e03ee6bdf57aeda5f849"
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:c9067a3ad9a391e5b44aebe95698e4c2a1dbf2a7ef9cb4d691f82ca161a14d4e",
+          "sha256": "c9067a3ad9a391e5b44aebe95698e4c2a1dbf2a7ef9cb4d691f82ca161a14d4e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:75b6e2a5f9b6dd7712aadcda5338fa2d6c20b4b70df970954f49cf1702afc377",
+          "sha256": "75b6e2a5f9b6dd7712aadcda5338fa2d6c20b4b70df970954f49cf1702afc377"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:26422197d5607c144215f5f2210afe50903b3b5656b055f0dd2c8789aff5f9a2",
-          "sha256": "26422197d5607c144215f5f2210afe50903b3b5656b055f0dd2c8789aff5f9a2"
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:67eec440aaadb1bfa3b3e79adcc98595ccf4b20a330815463520a066c9e9d44b",
+          "sha256": "67eec440aaadb1bfa3b3e79adcc98595ccf4b20a330815463520a066c9e9d44b"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:e8e7023ca61135652f4e3d5b0f168079f4998333ab42a5afb7e42f7ef5c1e278",
-          "sha256": "e8e7023ca61135652f4e3d5b0f168079f4998333ab42a5afb7e42f7ef5c1e278"
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:27e39f6e750a012dcedab5d7203e6a6a9d905fcada819345a2d1d35365f0f06e",
+          "sha256": "27e39f6e750a012dcedab5d7203e6a6a9d905fcada819345a2d1d35365f0f06e"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:b7d42aff03cec1eba31984e051015decf38b6cc00af41419c0d452d0e962d47c",
-          "sha256": "b7d42aff03cec1eba31984e051015decf38b6cc00af41419c0d452d0e962d47c"
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:c1f61c3aaa6a0652d4cba95ebda4d7c4919f30f7ebea70ffa1223dc1092bca54",
+          "sha256": "c1f61c3aaa6a0652d4cba95ebda4d7c4919f30f7ebea70ffa1223dc1092bca54"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:0b7e4147feca7a07b597c008b577b1cc61273143cc2d81343213d29c89cc6216",
-          "sha256": "0b7e4147feca7a07b597c008b577b1cc61273143cc2d81343213d29c89cc6216"
+          "url": "https://ghcr.io/v2/homebrew/core/solidity/blobs/sha256:90664bc09fd6a7836c6cff3054dce6eba730c3643c4f7ac19addcd840acbec24",
+          "sha256": "90664bc09fd6a7836c6cff3054dce6eba730c3643c4f7ac19addcd840acbec24"
         }
       }
     }

@@ -7,12 +7,14 @@
   ],
   "desc": "Menu bar application for the IPFS peer-to-peer network",
   "homepage": "https://github.com/ipfs-shipyard/ipfs-desktop",
-  "url": "https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.16.2/IPFS-Desktop-0.16.2.dmg",
+  "url": "https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.17.0/IPFS-Desktop-0.17.0.dmg",
   "appcast": null,
-  "version": "0.16.2",
+  "version": "0.17.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "39cb734e325ff102000bdae126cd6feb7fb22f896cff4ba0f09ad3edec8c4cc1",
+  "sha256": "34fc8876e725d63d0074463f946b82173b620ae2003d4463ab1e55c3ccc02cf0",
   "artifacts": [
     [
       "IPFS Desktop.app"

@@ -1,10 +1,10 @@
 {
   "name": "payara",
-  "pkg_version": "5.2021.5",
+  "pkg_version": "5.2021.7",
   "rebuild": 0,
   "bottles": {
     "all": {
-      "url": "https://ghcr.io/v2/homebrew/core/payara/blobs/sha256:04446f556082c49a4d434354416e9337b89888c2bf0aa23c5cbb455153f9fa5b"
+      "url": "https://ghcr.io/v2/homebrew/core/payara/blobs/sha256:5600ce69eea35a21a58aa4a713c66b74c2f1d700dbed24b95dbe518d2a478db3"
     }
   },
   "dependencies": [

@@ -1,0 +1,98 @@
+{
+  "name": "cyral-gimme-db-token",
+  "full_name": "cyral-gimme-db-token",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Eases using Cyral for SSO login to databases",
+  "license": "Apache-2.0",
+  "homepage": "https://cyral.com/docs/connect/repo-connect/#cli-token-retriever-for-sso",
+  "versions": {
+    "stable": "0.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/18/05/afa2028e15ac618cb643001f8b4ede33f803307d30e9133286761a27eff1/cyral-gimme-db-token-0.5.0.tar.gz",
+      "tag": null,
+      "revision": null
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cyral-gimme-db-token/blobs/sha256:3c4602760103fdcf28cbd3f484a1aabac4b9c8a954d3d938457d82b8bc066cc7",
+          "sha256": "3c4602760103fdcf28cbd3f484a1aabac4b9c8a954d3d938457d82b8bc066cc7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cyral-gimme-db-token/blobs/sha256:670f0c77da6039eb0ee2be92aaf00acce7e82617ebb8fb85f97f367b4b17cc2e",
+          "sha256": "670f0c77da6039eb0ee2be92aaf00acce7e82617ebb8fb85f97f367b4b17cc2e"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cyral-gimme-db-token/blobs/sha256:935af5a4bd0e2092e58303bcf496f65310d488dedb7ac595a4b84e7ae7154da1",
+          "sha256": "935af5a4bd0e2092e58303bcf496f65310d488dedb7ac595a4b84e7ae7154da1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cyral-gimme-db-token/blobs/sha256:7c7b93c88d9b3fd60f18f6cc949e1fddca86b04d133c1bfb31ec69d815f74914",
+          "sha256": "7c7b93c88d9b3fd60f18f6cc949e1fddca86b04d133c1bfb31ec69d815f74914"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "python@3.9",
+    "six"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null
+}

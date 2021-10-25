@@ -7,12 +7,14 @@
   ],
   "desc": "Digital audio production application",
   "homepage": "https://www.reaper.fm/",
-  "url": "https://www.reaper.fm/files/6.x/reaper634_x86_64_catalina.dmg",
+  "url": "https://www.reaper.fm/files/6.x/reaper638_x86_64_catalina.dmg",
   "appcast": null,
-  "version": "6.34",
+  "version": "6.38",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "8206b8824ec985de32bb84edb8de5cab5873d24731244c9a0aa854c26ee2b766",
+  "sha256": "34946a1663b8c80b2a9d5a5d79eac516378a7242fae95b67df3cf6ae272509ed",
   "artifacts": [
     [
       "REAPER.app"
@@ -23,6 +25,7 @@
     {
       "trash": [
         "~/Library/Application Support/REAPER",
+        "~/Library/Preferences/com.cockos.reaper.plist",
         "~/Library/Saved Application State/com.cockos.reaper.savedState",
         "~/Library/Saved Application State/com.cockos.reaperhosti386.savedState",
         "~/Library/Saved Application State/com.cockos.reaperhostx8664.savedState",

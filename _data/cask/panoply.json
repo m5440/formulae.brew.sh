@@ -7,18 +7,20 @@
   ],
   "desc": "Plot geo-referenced data from netCDF, HDF, and GRIB",
   "homepage": "https://www.giss.nasa.gov/tools/panoply/",
-  "url": "https://www.giss.nasa.gov/tools/panoply/download/PanoplyMacOS-4.12.9.dmg",
+  "url": "https://www.giss.nasa.gov/tools/panoply/download/PanoplyMacOS-4.12.11.dmg",
   "appcast": null,
-  "version": "4.12.9",
+  "version": "4.12.11",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "4b5f8e549b586de80acf66a8bbd70e2be3f920c80de22be68e3076690477c507",
+  "sha256": "a7f8f1287294149ea4ac7cd429bcf7e1952a0882c32b25a8554c49a52cc37df1",
   "artifacts": [
     [
       "Panoply.app"
     ]
   ],
-  "caveats": "panoply requires Java 9+. You can install the latest version with:\n  brew install --cask adoptopenjdk\n",
+  "caveats": "panoply requires Java 9+. You can install the latest version with:\n  brew install --cask temurin\n",
   "depends_on": {
   },
   "conflicts_with": null,

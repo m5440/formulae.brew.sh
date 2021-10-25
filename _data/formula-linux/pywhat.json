@@ -10,16 +10,16 @@
 
   ],
   "desc": "🐸 Identify anything: emails, IP addresses, and more 🧙",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "homepage": "https://github.com/bee-san/pyWhat",
   "versions": {
-    "stable": "3.3.0",
+    "stable": "4.3.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/ed/52/5b08d8417e4b9711e7cefed9ca6499beec84401117f55e9c86e251b3360b/pywhat-3.3.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/6c/0f/11473d4ca43be653652727f9647b10a37ba2194c1588af4648e10da01752/pywhat-4.3.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pywhat/blobs/sha256:2dd5fa32877e896e9a3394a002af1c845b15592d9d3e35ab19a56ddead220a1c",
-          "sha256": "2dd5fa32877e896e9a3394a002af1c845b15592d9d3e35ab19a56ddead220a1c"
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:d2cc7410b8d3cbcadff17a008935402969ebac127ad4765bb1229d2ef1709e1a",
+          "sha256": "d2cc7410b8d3cbcadff17a008935402969ebac127ad4765bb1229d2ef1709e1a"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pywhat/blobs/sha256:d7df846ffcc04a6216233627dd7fd5f71ae14bbb3a0a2620c22d68c919158a55",
-          "sha256": "d7df846ffcc04a6216233627dd7fd5f71ae14bbb3a0a2620c22d68c919158a55"
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:f380024dd4d07e5e856f9b4827a3548dac6cfe00d1132ea0881694de6f320f75",
+          "sha256": "f380024dd4d07e5e856f9b4827a3548dac6cfe00d1132ea0881694de6f320f75"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pywhat/blobs/sha256:6ec50cddeeefe152b13fa31e4784f55f4b862d626c6c68a6c9b0465b7b58b91e",
-          "sha256": "6ec50cddeeefe152b13fa31e4784f55f4b862d626c6c68a6c9b0465b7b58b91e"
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:df43d311c5a56bd54ba0bc380f5e973eeeeafd020e816a7fc2665ceb93e98eb7",
+          "sha256": "df43d311c5a56bd54ba0bc380f5e973eeeeafd020e816a7fc2665ceb93e98eb7"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pywhat/blobs/sha256:d90df27e0be6d69edea374a1d4c7c5a9cd6ec3943fa1c537884e42e770428cc1",
-          "sha256": "d90df27e0be6d69edea374a1d4c7c5a9cd6ec3943fa1c537884e42e770428cc1"
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:e0285d47102888c6a907b49a9ac9540c06cb3fad862a065dc17df43cdc09f10b",
+          "sha256": "e0285d47102888c6a907b49a9ac9540c06cb3fad862a065dc17df43cdc09f10b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:c4948e94614894771c083288e38339ae33a8d12e38d78c55e4f3cb399fabb3bc",
+          "sha256": "c4948e94614894771c083288e38339ae33a8d12e38d78c55e4f3cb399fabb3bc"
         }
       }
     }

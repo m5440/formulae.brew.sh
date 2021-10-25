@@ -10,8 +10,8 @@
 
   ],
   "desc": "Library that sends desktop notifications to a notification daemon",
-  "license": "LGPL-2.1",
-  "homepage": "https://developer.gnome.org/libnotify",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/libnotify",
   "versions": {
     "stable": "0.7.9",
     "head": null,
@@ -55,6 +55,11 @@
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libnotify/blobs/sha256:0560e601843a3e42a4823904dd5534212efd823292444a9588f1cf99ea8bc8f5",
           "sha256": "0560e601843a3e42a4823904dd5534212efd823292444a9588f1cf99ea8bc8f5"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libnotify/blobs/sha256:3be2be401ff1fda07663fdeaf8929ca12b92fa136acfedc2a273b1abcd9438bd",
+          "sha256": "3be2be401ff1fda07663fdeaf8929ca12b92fa136acfedc2a273b1abcd9438bd"
         }
       }
     }

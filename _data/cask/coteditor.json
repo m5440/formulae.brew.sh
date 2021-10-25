@@ -7,12 +7,19 @@
   ],
   "desc": "Plain-text editor for web pages, program source codes and more",
   "homepage": "https://coteditor.com/",
-  "url": "https://github.com/coteditor/CotEditor/releases/download/4.0.5/CotEditor_4.0.5.dmg",
+  "url": "https://github.com/coteditor/CotEditor/releases/download/4.0.8/CotEditor_4.0.8.dmg",
   "appcast": null,
-  "version": "4.0.5",
+  "version": "4.0.8",
+  "versions": {
+    "mojave": "3.9.7",
+    "high_sierra": "3.9.7",
+    "sierra": "3.9.7",
+    "el_capitan": "3.5.4",
+    "yosemite": "3.2.8"
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "5a2ed57ecc525da29d9ce748ed03351487b201d9d799fba9f4ffef38dabd5a9c",
+  "sha256": "3abb8ba8c786263e9f73361ce5159acb4aaaba5d4afa4ea1c570e7fb35ab1da5",
   "artifacts": [
     [
       "CotEditor.app"

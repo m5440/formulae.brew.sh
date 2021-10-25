@@ -7,12 +7,14 @@
   ],
   "desc": "Multiplatform MIDI File Player",
   "homepage": "https://dmidiplayer.sourceforge.io/",
-  "url": "https://downloads.sourceforge.net/dmidiplayer/1.4.0/dmidiplayer-1.4.0-mac-x64.dmg",
+  "url": "https://downloads.sourceforge.net/dmidiplayer/1.5.1/dmidiplayer-1.5.1-mac-x64.dmg",
   "appcast": null,
-  "version": "1.4.0",
+  "version": "1.5.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1fc01bed66436aad9abfab3e6ff7cded6c1aa59534221af7c8e88328d6dd020e",
+  "sha256": "48a22c73143dc7fb57ea9de19e9ecb03d32a88c33fbf6e44f071b3a129f113a5",
   "artifacts": [
     [
       "dmidiplayer.app"

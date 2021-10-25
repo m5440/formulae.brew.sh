@@ -7,12 +7,14 @@
   ],
   "desc": "Modpack for Minecraft 1.7.10 and 1.8.9",
   "homepage": "https://www.lunarclient.com/",
-  "url": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client%20v2.7.5.dmg",
+  "url": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client%20v2.8.4.dmg",
   "appcast": null,
-  "version": "2.7.5",
+  "version": "2.8.4",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "9ff636bad81b605868e20a06907f52844279784684398abd00fcbacaa30613ae",
+  "sha256": "c7031f10a242f15dbccdbdd69866098fd7776777feba033bfb2faacf331cf9f6",
   "artifacts": [
     [
       "Lunar Client.app"
@@ -40,5 +42,5 @@
   },
   "conflicts_with": null,
   "container": null,
-  "auto_updates": null
+  "auto_updates": true
 }

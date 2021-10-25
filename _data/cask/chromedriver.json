@@ -7,12 +7,14 @@
   ],
   "desc": "Automated testing of webapps for Google Chrome",
   "homepage": "https://sites.google.com/chromium.org/driver/",
-  "url": "https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_mac64.zip",
+  "url": "https://chromedriver.storage.googleapis.com/94.0.4606.61/chromedriver_mac64.zip",
   "appcast": null,
-  "version": "92.0.4515.107",
-  "installed": "92.0.4515.107",
+  "version": "94.0.4606.61",
+  "versions": {
+  },
+  "installed": "94.0.4606.61",
   "outdated": false,
-  "sha256": "97f9a5733ef83a001922fd14ff2f5ac5b03c8a16aa02986ecca300cfbffaa03e",
+  "sha256": "3b91860aa4d71330e68cac11da586ac39adcead361ae95b3fa856fd3da5383ac",
   "artifacts": [
     [
       "chromedriver"

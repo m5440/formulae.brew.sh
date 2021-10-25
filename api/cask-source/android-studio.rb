@@ -1,14 +1,14 @@
 cask "android-studio" do
-  version "2020.3.1.23"
+  arch = Hardware::CPU.intel? ? "mac" : "mac_arm"
 
+  version "2020.3.1.25"
+
+  url "https://redirector.gvt1.com/edgedl/android/studio/install/#{version}/android-studio-#{version}-#{arch}.dmg",
+      verified: "redirector.gvt1.com/edgedl/android/studio/"
   if Hardware::CPU.intel?
-    sha256 "2e8fd75b614c5c48cb3df1fbd91d16e46c09a85bd1dbf458177bbee8b82b2e7e"
-    url "https://redirector.gvt1.com/edgedl/android/studio/install/#{version}/android-studio-#{version}-mac.dmg",
-        verified: "redirector.gvt1.com/edgedl/android/studio/"
+    sha256 "caa2a4a6adbd5ff94e0fbb9ffec798d5b24319070d7d231684ea9a458b1420ee"
   else
-    sha256 "71b0a1c8932f166e18cc003df6ab414fb5d86e8b6ffa9292f82f9a7159caf874"
-    url "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/#{version}/android-studio-#{version}-mac_arm.zip",
-        verified: "redirector.gvt1.com/edgedl/android/studio/"
+    sha256 "156935cdc02d0525d1b1529492468194027d1f63eac71d89ebd9c1fc08ba7c60"
   end
 
   name "Android Studio"
@@ -17,7 +17,7 @@ cask "android-studio" do
 
   livecheck do
     url :homepage
-    regex(/android-studio-(\d+(?:\.\d+)*)-mac/i)
+    regex(/android-studio-(\d+(?:\.\d+)*)-#{arch}\.dmg/i)
   end
 
   auto_updates true

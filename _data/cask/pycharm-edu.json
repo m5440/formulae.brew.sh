@@ -8,12 +8,14 @@
   ],
   "desc": "Professional IDE for scientific and web Python development",
   "homepage": "https://www.jetbrains.com/pycharm-edu/",
-  "url": "https://download.jetbrains.com/python/pycharm-edu-2021.1.3.dmg",
+  "url": "https://download.jetbrains.com/python/pycharm-edu-2021.2.2.dmg",
   "appcast": null,
-  "version": "2021.1.3,211.7628.48",
+  "version": "2021.2.2,212.5284.55",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "5d910d1d81417dc117c964f6cb3adcda66df7dc1c8e77a6cef2050c094817872",
+  "sha256": "7aa443199a2e9a2f51b387a76e06536f7536a8e8898956a013916aa4b3c8b130",
   "artifacts": [
     [
       "PyCharm Edu.app"
@@ -21,10 +23,10 @@
     "uninstall_postflight (Postflight Block)",
     {
       "trash": [
-        "~/Library/Application Support/PyCharmEdu2021.1",
-        "~/Library/Caches/PyCharmEdu2021.1",
-        "~/Library/Logs/PyCharmEdu2021.1",
-        "~/Library/Preferences/PyCharmEdu2021.1"
+        "~/Library/Application Support/PyCharmEdu2021.2",
+        "~/Library/Caches/PyCharmEdu2021.2",
+        "~/Library/Logs/PyCharmEdu2021.2",
+        "~/Library/Preferences/PyCharmEdu2021.2"
       ],
       "signal": {
       }

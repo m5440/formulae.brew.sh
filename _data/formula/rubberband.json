@@ -31,10 +31,20 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:afd6c61afd2d49ac6df0d459b7a885bfbb51b2e371adcf9d0a96053d9a9ab43b",
+          "sha256": "afd6c61afd2d49ac6df0d459b7a885bfbb51b2e371adcf9d0a96053d9a9ab43b"
+        },
         "arm64_big_sur": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:effbebb6fa0c2fe0ae0dfb034b7f583691391accf39ead4ae0f9a2933cfa747a",
           "sha256": "effbebb6fa0c2fe0ae0dfb034b7f583691391accf39ead4ae0f9a2933cfa747a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:cd90e0ddab429d9a30879b3ef039a982f538578f93f8e09c667548210d53b131",
+          "sha256": "cd90e0ddab429d9a30879b3ef039a982f538578f93f8e09c667548210d53b131"
         },
         "big_sur": {
           "cellar": ":any",
@@ -50,6 +60,11 @@
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:af62a07fc9604c1df76d654b662c949d75a4d4cb52171aa72fb911e8af533aed",
           "sha256": "af62a07fc9604c1df76d654b662c949d75a4d4cb52171aa72fb911e8af533aed"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:08e7e6cff8618bd5b8c525d82ad2ae7f564d057db01c0b4fce6a172106b8927c",
+          "sha256": "08e7e6cff8618bd5b8c525d82ad2ae7f564d057db01c0b4fce6a172106b8927c"
         }
       }
     }

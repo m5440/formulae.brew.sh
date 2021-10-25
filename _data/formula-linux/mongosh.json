@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/mongodb-js/mongosh#readme",
   "versions": {
-    "stable": "1.0.5",
+    "stable": "1.1.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://registry.npmjs.org/@mongosh/cli-repl/-/cli-repl-1.0.5.tgz",
+      "url": "https://registry.npmjs.org/@mongosh/cli-repl/-/cli-repl-1.1.0.tgz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/mongosh/blobs/sha256:d1f25ff81fe548a09a6a91408aaa770766eeff1a06f5a199d0a557c55c524d52",
-          "sha256": "d1f25ff81fe548a09a6a91408aaa770766eeff1a06f5a199d0a557c55c524d52"
+          "url": "https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:44af0724aba83db691550ed5c7c4fea17ca089c11aa66b175492b03eff70ae5c",
+          "sha256": "44af0724aba83db691550ed5c7c4fea17ca089c11aa66b175492b03eff70ae5c"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/mongosh/blobs/sha256:36c31f20e685f007af38124c0de73e59dccb384e8775925c94cbe2d1bd7de620",
-          "sha256": "36c31f20e685f007af38124c0de73e59dccb384e8775925c94cbe2d1bd7de620"
+          "url": "https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:9705c160a5583742a9355491a325fecd6dcf54bab2bd1e60a9c8ab49cb7d4f62",
+          "sha256": "9705c160a5583742a9355491a325fecd6dcf54bab2bd1e60a9c8ab49cb7d4f62"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/mongosh/blobs/sha256:fd8f646f7f24c64dff4560a78ab0cac260cf22df22db0dac9d1188217efd995b",
-          "sha256": "fd8f646f7f24c64dff4560a78ab0cac260cf22df22db0dac9d1188217efd995b"
+          "url": "https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:333d662c3361918866c62d972fafe30529e75f1de5f38f06f4bdadbae6d3a6f0",
+          "sha256": "333d662c3361918866c62d972fafe30529e75f1de5f38f06f4bdadbae6d3a6f0"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/mongosh/blobs/sha256:db5da054098bba8f9c06fbfc0c5d48ec022629561f71289c46b8872e15115630",
-          "sha256": "db5da054098bba8f9c06fbfc0c5d48ec022629561f71289c46b8872e15115630"
+          "url": "https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:e381d7d3a5bc08bf62c09fd484bb197244a79c207bee3a70c5b395877257f975",
+          "sha256": "e381d7d3a5bc08bf62c09fd484bb197244a79c207bee3a70c5b395877257f975"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/mongosh/blobs/sha256:cc2b96bc8b33888019457d93d9497ee85816094aba914472bdb8f0b71423d30b",
-          "sha256": "cc2b96bc8b33888019457d93d9497ee85816094aba914472bdb8f0b71423d30b"
+          "url": "https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:2aaa1fc7557dbfad4a8847392992e5fcefb48c26fe72b8e38e27819fa74355ad",
+          "sha256": "2aaa1fc7557dbfad4a8847392992e5fcefb48c26fe72b8e38e27819fa74355ad"
         }
       }
     }

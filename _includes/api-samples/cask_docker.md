@@ -10,12 +10,13 @@
   ],
   "desc": "App to build and share containerized applications and microservices",
   "homepage": "https://www.docker.com/products/docker-desktop",
-  "url": "https://desktop.docker.com/mac/stable/amd64/67351/Docker.dmg",
+  "url": "https://desktop.docker.com/mac/main/amd64/69879/Docker.dmg",
   "appcast": null,
-  "version": "3.6.0,67351",
+  "version": "4.1.1,69879",
+  "versions": {},
   "installed": null,
   "outdated": false,
-  "sha256": "08c91be8f784c41b677b28f6eea2a7ec001e0b812bb0ee978d1c0b60ecea77bb",
+  "sha256": "de479dab3ec14041980167c99e1fef966556e43a07a6e68afb500e1c5465b7ec",
   "artifacts": [
     {
       "delete": [
@@ -83,6 +84,7 @@
         "$(brew --prefix)/bin/docker-compose.backup",
         "$(brew --prefix)/bin/docker.backup",
         "~/Library/Application Support/Docker Desktop",
+        "~/Library/Application Support/com.bugsnag.Bugsnag/com.docker.docker",
         "~/Library/Application Scripts/com.docker.helper",
         "~/Library/Caches/KSCrashReports/Docker",
         "~/Library/Caches/com.docker.docker",
@@ -90,6 +92,7 @@
         "~/Library/Containers/com.docker.docker",
         "~/Library/Containers/com.docker.helper",
         "~/Library/Group Containers/group.com.docker",
+        "~/Library/HTTPStorages/com.docker.docker.binarycookies",
         "~/Library/Preferences/com.docker.docker.plist",
         "~/Library/Preferences/com.electron.docker-frontend.plist",
         "~/Library/Saved Application State/com.electron.docker-frontend.savedState",
@@ -110,6 +113,7 @@
       "docker-completion",
       "docker-compose",
       "docker-compose-completion",
+      "docker-credential-helper-ecr",
       "hyperkit",
       "kubernetes-cli"
     ]
@@ -119,16 +123,16 @@
   "analytics": {
     "install": {
       "30d": {
-        "docker": 17369
+        "docker": 18235
       },
       "90d": {
-        "docker": 54118
+        "docker": 55530
       },
       "365d": {
-        "docker": 216172
+        "docker": 222062
       }
     }
   },
-  "generated_date": "2021-08-19"
+  "generated_date": "2021-10-25"
 }
 ```

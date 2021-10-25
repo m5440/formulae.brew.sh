@@ -13,13 +13,13 @@
   "license": "BSD-2-Clause",
   "homepage": "https://github.com/hrkfdn/ncspot",
   "versions": {
-    "stable": "0.8.1",
+    "stable": "0.9.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/hrkfdn/ncspot/archive/v0.8.1.tar.gz",
+      "url": "https://github.com/hrkfdn/ncspot/archive/v0.9.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:9074da177ad5d0d06a1921bb72b79a2040ccc239f904c61cb9d1f4493ceb81fa",
-          "sha256": "9074da177ad5d0d06a1921bb72b79a2040ccc239f904c61cb9d1f4493ceb81fa"
+          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:12843cc64096426fee19fce3fdb616415d380556b2a11ec20eb1e999905d8694",
+          "sha256": "12843cc64096426fee19fce3fdb616415d380556b2a11ec20eb1e999905d8694"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:feb382bbe4c1fb4fa15546fcb3318db22c8477d4cc3598ba7a411da9ede92180",
-          "sha256": "feb382bbe4c1fb4fa15546fcb3318db22c8477d4cc3598ba7a411da9ede92180"
+          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:63685a25f9e6ea6792cb736d693a252f52d76525000146f3e5c69c1eb7ba841c",
+          "sha256": "63685a25f9e6ea6792cb736d693a252f52d76525000146f3e5c69c1eb7ba841c"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:294cb91373891976b22a89fa3ea29a45cde7e215f95fc29912ac672d5f76c3c4",
-          "sha256": "294cb91373891976b22a89fa3ea29a45cde7e215f95fc29912ac672d5f76c3c4"
+          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:3c76d712a332dbc693696fa8d909d7b1b82bf9b0c9f352fbdfafffd33e647594",
+          "sha256": "3c76d712a332dbc693696fa8d909d7b1b82bf9b0c9f352fbdfafffd33e647594"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:30b33ab6397cf7e0ec5cd58a6104c44121459e6bd953df4365cc0ed2d0210fad",
-          "sha256": "30b33ab6397cf7e0ec5cd58a6104c44121459e6bd953df4365cc0ed2d0210fad"
+          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:d00e9826499e05c5a234c0cfa352ca463a50097de446d5f0df6655de5e79fd33",
+          "sha256": "d00e9826499e05c5a234c0cfa352ca463a50097de446d5f0df6655de5e79fd33"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:96cd460fe84ceb0fcb9669591abb8b467b8b6221c737bfeb99e3501d1fdfbf30",
-          "sha256": "96cd460fe84ceb0fcb9669591abb8b467b8b6221c737bfeb99e3501d1fdfbf30"
+          "url": "https://ghcr.io/v2/homebrew/core/ncspot/blobs/sha256:1f67547aa1fcf968278076dba255471bba2ed77265edd91de0b2f66bcf8ea31e",
+          "sha256": "1f67547aa1fcf968278076dba255471bba2ed77265edd91de0b2f66bcf8ea31e"
         }
       }
     }
@@ -78,8 +78,7 @@
 
   ],
   "uses_from_macos": [
-    "ncurses",
-    "openssl@1.1"
+    "ncurses"
   ],
   "requirements": [
 

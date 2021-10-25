@@ -7,12 +7,14 @@
   ],
   "desc": "Todo app based on todo.txt",
   "homepage": "https://github.com/ransome1/sleek",
-  "url": "https://github.com/ransome1/sleek/releases/download/v1.1.0/sleek-1.1.0-mac.dmg",
+  "url": "https://github.com/ransome1/sleek/releases/download/v1.1.2/sleek-1.1.2-mac.dmg",
   "appcast": null,
-  "version": "1.1.0",
+  "version": "1.1.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "0411333982236cb9346a827c7e2536054e9301a947f7bdd1d61b3541208577f0",
+  "sha256": "3de721a91b5e0ff670d174b4b9c5b1da395718b44a9e2a05148836e16804397f",
   "artifacts": [
     [
       "sleek.app"

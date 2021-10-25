@@ -13,28 +13,28 @@
   "license": "MIT",
   "homepage": "https://github.com/newren/git-filter-repo",
   "versions": {
-    "stable": "2.32.0",
+    "stable": "2.33.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/newren/git-filter-repo/releases/download/v2.32.0/git-filter-repo-2.32.0.tar.xz",
+      "url": "https://github.com/newren/git-filter-repo/releases/download/v2.33.0/git-filter-repo-2.33.0.tar.xz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/git-filter-repo/blobs/sha256:fb2d07a98981af0ba244c00d11110e7579cb9a53ec31c8a4c512bb2112ae46ba",
-          "sha256": "fb2d07a98981af0ba244c00d11110e7579cb9a53ec31c8a4c512bb2112ae46ba"
+          "url": "https://ghcr.io/v2/homebrew/core/git-filter-repo/blobs/sha256:2f40e7daa98d667dfdee97ae3ea9e589d42518baabf07d0fc128fe70f41cfe34",
+          "sha256": "2f40e7daa98d667dfdee97ae3ea9e589d42518baabf07d0fc128fe70f41cfe34"
         }
       }
     }
@@ -48,7 +48,7 @@
 
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.10"
   ],
   "recommended_dependencies": [
 

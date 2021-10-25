@@ -7,12 +7,14 @@
   ],
   "desc": "Web browser focusing on customization and control",
   "homepage": "https://vivaldi.com/",
-  "url": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.16.universal.dmg",
+  "url": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.56.universal.dmg",
   "appcast": null,
-  "version": "4.1.2369.16",
+  "version": "4.3.2439.56",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "7a4ab5552538694c620cac6c3715fb504e72ff723584eb9e1cf55e84b7f6bae1",
+  "sha256": "322bd71a7616bb89cfc727ad2489de5bbfe24d9ef84fdf4430d95d6db4bd034d",
   "artifacts": [
     [
       "Vivaldi.app"

@@ -13,13 +13,13 @@
   "license": "GPL-2.0-or-later",
   "homepage": "https://pidgin.im/",
   "versions": {
-    "stable": "2.14.6",
+    "stable": "2.14.8",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/pidgin/Pidgin/2.14.6/pidgin-2.14.6.tar.bz2",
+      "url": "https://downloads.sourceforge.net/project/pidgin/Pidgin/2.14.8/pidgin-2.14.8.tar.bz2",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:fd09b46fab5d0f4e52d6b460081814cbed9dc446cc6cb379976678acf48045a9",
-          "sha256": "fd09b46fab5d0f4e52d6b460081814cbed9dc446cc6cb379976678acf48045a9"
+          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:c848ea93d573f4104a7a7edf23c41d159ac5070e36f08d84e14d65af4a5a3bef",
+          "sha256": "c848ea93d573f4104a7a7edf23c41d159ac5070e36f08d84e14d65af4a5a3bef"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:65c8b20b138eccee7e7a45280080c161f643cb570ba2b8258b9912dfd2784f00",
-          "sha256": "65c8b20b138eccee7e7a45280080c161f643cb570ba2b8258b9912dfd2784f00"
+          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:309a8ac7ee4e09f884ad79985d23895d77ddec13197a71ed764f73f9984d9175",
+          "sha256": "309a8ac7ee4e09f884ad79985d23895d77ddec13197a71ed764f73f9984d9175"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:54287daa973969e51387ebd2cbf46d58d29d010b6f8902a1029852fdb83b20ff",
-          "sha256": "54287daa973969e51387ebd2cbf46d58d29d010b6f8902a1029852fdb83b20ff"
+          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:fbea5ba3a0051d76282289dadc36ec61d0c466aa1dda6358ccae7a8f12f48b42",
+          "sha256": "fbea5ba3a0051d76282289dadc36ec61d0c466aa1dda6358ccae7a8f12f48b42"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:a1e76cc27f0aec4899968c82c85db0f78fd2f1b9ec9e266799ca83e32d03abd3",
-          "sha256": "a1e76cc27f0aec4899968c82c85db0f78fd2f1b9ec9e266799ca83e32d03abd3"
+          "url": "https://ghcr.io/v2/homebrew/core/pidgin/blobs/sha256:10159d6af23b8603b31160d0eba5dd689693e1cf8a6486e032ee0fc34dbbc703",
+          "sha256": "10159d6af23b8603b31160d0eba5dd689693e1cf8a6486e032ee0fc34dbbc703"
         }
       }
     }

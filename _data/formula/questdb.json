@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://questdb.io",
   "versions": {
-    "stable": "6.0.4",
+    "stable": "6.0.9",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/questdb/questdb/releases/download/6.0.4/questdb-6.0.4-no-jre-bin.tar.gz",
+      "url": "https://github.com/questdb/questdb/releases/download/6.0.9/questdb-6.0.9-no-jre-bin.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,18 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:e05588429f841d424261ac7cd4f14c551e4e0ffe7c790d8f589dc2b827a93a3c",
-          "sha256": "e05588429f841d424261ac7cd4f14c551e4e0ffe7c790d8f589dc2b827a93a3c"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:d42547addfd7880495421e92ae80fb98aeedcf2380b8452c450cfd8f804b4535",
+          "sha256": "d42547addfd7880495421e92ae80fb98aeedcf2380b8452c450cfd8f804b4535"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:1aecccc71f82dfb900e9db6a574494dd370b1c799ee5aff9c37e38b15522f827",
+          "sha256": "1aecccc71f82dfb900e9db6a574494dd370b1c799ee5aff9c37e38b15522f827"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27",
-          "sha256": "35009c34dd000f87fa672eb02d26d6868a1617a698873642ff9a31aba5b22d27"
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:1aecccc71f82dfb900e9db6a574494dd370b1c799ee5aff9c37e38b15522f827",
+          "sha256": "1aecccc71f82dfb900e9db6a574494dd370b1c799ee5aff9c37e38b15522f827"
         }
       }
     }

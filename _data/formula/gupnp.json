@@ -13,18 +13,18 @@
   "license": "LGPL-2.0-or-later",
   "homepage": "https://wiki.gnome.org/Projects/GUPnP",
   "versions": {
-    "stable": "1.2.7",
+    "stable": "1.4.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.gnome.org/sources/gupnp/1.2/gupnp-1.2.7.tar.xz",
+      "url": "https://download.gnome.org/sources/gupnp/1.4/gupnp-1.4.0.tar.xz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,28 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:d9eb370676152358aab46a6eb4a2113c35393da0532e8777758fe86c58cfe68d",
-          "sha256": "d9eb370676152358aab46a6eb4a2113c35393da0532e8777758fe86c58cfe68d"
+          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:74d32f0c86134b6ae8680e88eca4cdf16c0b3c7ad39003f36801e9328832e577",
+          "sha256": "74d32f0c86134b6ae8680e88eca4cdf16c0b3c7ad39003f36801e9328832e577"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:2e6e2cf75b268a9b15ba5ab0218feb821b8fcfd3484b0392d1a61fbfb7b4024f",
-          "sha256": "2e6e2cf75b268a9b15ba5ab0218feb821b8fcfd3484b0392d1a61fbfb7b4024f"
+          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:cc65c455a851a56d7724da20529e17b9f6a891d7611b1ace26c91522f2261632",
+          "sha256": "cc65c455a851a56d7724da20529e17b9f6a891d7611b1ace26c91522f2261632"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:ad1eb9712b22a8cf129e2b1e655da5024904fbb4d9d05ac4642a74a169437e44",
-          "sha256": "ad1eb9712b22a8cf129e2b1e655da5024904fbb4d9d05ac4642a74a169437e44"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:7a4029599f45eba6591d4dc62cfb4327e38ad97cd95f846ebc603b217d0e8939",
-          "sha256": "7a4029599f45eba6591d4dc62cfb4327e38ad97cd95f846ebc603b217d0e8939"
+          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:dc95e5115ede011c9b59a5f1cc0a669321a11297fdb7e0a2d0fb05267480a7f2",
+          "sha256": "dc95e5115ede011c9b59a5f1cc0a669321a11297fdb7e0a2d0fb05267480a7f2"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:53a859d7651aeb8446bf5d16257dd40b640a1fba65eed609897fa65328295be4",
-          "sha256": "53a859d7651aeb8446bf5d16257dd40b640a1fba65eed609897fa65328295be4"
+          "url": "https://ghcr.io/v2/homebrew/core/gupnp/blobs/sha256:7d3212cbd0a5c39317ea485330ed228a0f8a9a02080daf08688ecad592cfd77f",
+          "sha256": "7d3212cbd0a5c39317ea485330ed228a0f8a9a02080daf08688ecad592cfd77f"
         }
       }
     }
@@ -69,7 +64,8 @@
     "gobject-introspection",
     "meson",
     "ninja",
-    "pkg-config"
+    "pkg-config",
+    "vala"
   ],
   "dependencies": [
     "gettext",

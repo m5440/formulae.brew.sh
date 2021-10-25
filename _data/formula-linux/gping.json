@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/orf/gping",
   "versions": {
-    "stable": "1.2.3",
+    "stable": "1.2.6",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/orf/gping/archive/gping-v1.2.3.tar.gz",
+      "url": "https://github.com/orf/gping/archive/gping-v1.2.6.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,27 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gping/blobs/sha256:7b4302de0e2b8c34e2998caa9c3f025a69c841366782bac1f8bec2101c30d169",
-          "sha256": "7b4302de0e2b8c34e2998caa9c3f025a69c841366782bac1f8bec2101c30d169"
+          "url": "https://ghcr.io/v2/homebrew/core/gping/blobs/sha256:b7e1e08ebe385455747070b11e9f73c2cf3cbe3ce96860443ba7a709d125ed31",
+          "sha256": "b7e1e08ebe385455747070b11e9f73c2cf3cbe3ce96860443ba7a709d125ed31"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gping/blobs/sha256:6a9292d8507ad6a54a9a8f75b2cdf87aada11d03e22ef3e6ce55fd460877542b",
-          "sha256": "6a9292d8507ad6a54a9a8f75b2cdf87aada11d03e22ef3e6ce55fd460877542b"
+          "url": "https://ghcr.io/v2/homebrew/core/gping/blobs/sha256:232fc5425ac0ea4de4860786ffb795a9cc6e1f1e4fe4ce00edbc65c45657164b",
+          "sha256": "232fc5425ac0ea4de4860786ffb795a9cc6e1f1e4fe4ce00edbc65c45657164b"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gping/blobs/sha256:33f2fd8410335acc5ab02bab938074834d7b610abef711c8b1b3ad842ed64443",
-          "sha256": "33f2fd8410335acc5ab02bab938074834d7b610abef711c8b1b3ad842ed64443"
+          "url": "https://ghcr.io/v2/homebrew/core/gping/blobs/sha256:0d555937efeae1474a1a187ddeb0db14ba078dd012b4918d262d2e3f569369f9",
+          "sha256": "0d555937efeae1474a1a187ddeb0db14ba078dd012b4918d262d2e3f569369f9"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gping/blobs/sha256:5ee916f0fa2d952b9ba1b79d87d635c8c3b1cbcddae80b0998c6c076197b6bd4",
-          "sha256": "5ee916f0fa2d952b9ba1b79d87d635c8c3b1cbcddae80b0998c6c076197b6bd4"
+          "url": "https://ghcr.io/v2/homebrew/core/gping/blobs/sha256:ce0e519142ae3da1d3d4c9eecce6971bd6fd582c77c0eb8858dc49413d352395",
+          "sha256": "ce0e519142ae3da1d3d4c9eecce6971bd6fd582c77c0eb8858dc49413d352395"
         }
       }
     }

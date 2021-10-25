@@ -1,22 +1,25 @@
 {
   "name": "yq",
-  "pkg_version": "4.11.2",
+  "pkg_version": "4.13.5",
   "rebuild": 0,
   "bottles": {
+    "arm64_monterey": {
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:a37867d759db29a715ba0dae55e9885baf9bb7e7c36b2834d158512c4d65b70f"
+    },
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:4b4757e886317fa37412bca703684e9261e856fae80663afd33c7b24cccccfb7"
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:fb3ded56cf2b87993ef9f2fc627e8474c49a615a98c4e2cfda9ee07c62d52357"
+    },
+    "monterey": {
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:9f537843e280d52f53af26faa8beb0c405441351dbae4972e5a6240d265297df"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:962eeeec599d9b927175a340f5f44f69b99252821d81eea5b21a8f242e78ddcd"
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:8eb888640d3d492daede4c02d7e5682ff72aa34b84c16a3fae914592c5a2b4d9"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:ca932b4f1e6db48defe4c8f64b0dec81fb7b2b93e2094e2d5edf6f43e3d4f63f"
-    },
-    "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:62354827293ebd181991dab146257e8f0fc8a35fc2fe1c47e2e2435f960b7e3c"
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:4c102975df85e1ead50900553db90ae16a22ad22f6094a5afd1a435467cb0c58"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:486809ad753c3c1dfb41c5143a17e830049b237b1733f64724d66597680db8af"
+      "url": "https://ghcr.io/v2/homebrew/core/yq/blobs/sha256:8406917ed7558422d303b33f9df0de3c5d85573298e33cbe38c65fcb45f92cc4"
     }
   },
   "dependencies": [

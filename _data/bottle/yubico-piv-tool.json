@@ -1,22 +1,22 @@
 {
   "name": "yubico-piv-tool",
-  "pkg_version": "2.2.0",
+  "pkg_version": "2.2.1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:a4819de1638f828cbd2e9c5e50f9830a91ed578fb42ae2fbb073d5bc66fbb38c"
+      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:010fd380069d1b30971f6dedc434ea2ab55a2db8b05ba0fcb74115b3e3b4a724"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:446b3d63b270dd3bdd27adec31503c02553a0e0d4fb2610082e392e85061d528"
+      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:886605cf401ac43e73fc09d7c443977e3fef3bf49dbcc49a68638f43705ad151"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:72474492baf278c59ec478cb24f2c8730ff9f59f0e1963a473a6d7ad94df4e12"
+      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:c5b6ce9eb6b9501d4dccff86ea593d6ff1451be89712dd01369eb3671ae7fcb8"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:395ffe7d667fab0964b4544bb9cc4476ddcbc77eedce706c3f4c5fa4524d0e14"
+      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:21e6bea1407cf476c02575caa150e233674abc27abaa5a52d41f97365eb49a41"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:898354a02524f6f5a1480c96f83d6c3c101c9c7908fd9c65c6430841e84c0e21"
+      "url": "https://ghcr.io/v2/homebrew/core/yubico-piv-tool/blobs/sha256:04df6364c57b50081bf17a12b220fe46e8a6b73c428e83f085641f6d98d92628"
     }
   },
   "dependencies": [
@@ -46,46 +46,68 @@
       }
     },
     {
+      "name": "ca-certificates",
+      "pkg_version": "2021-09-30",
+      "rebuild": 1,
+      "bottles": {
+        "all": {
+          "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:47c9cd6ec69dbbf8a3f697e6b07df409a573c779aa86ceadc7d9575e8c2a5b10"
+        }
+      }
+    },
+    {
       "name": "openssl@1.1",
-      "pkg_version": "1.1.1k",
+      "pkg_version": "1.1.1l_1",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:8f5b0bee61c1570b9f0fc0a21d6c322e904ae7975bdaada5787451d18e9677a6"
+        },
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:0a75e0f116c0653bc7a2b422e5dc500e7e51557303aa4fca9c1a28786189c1da"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:e3d8556cec907ad1e0ea00aebd0b0b516dde06ea3bf24308290ad785cb360a04"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:9a14367813591b51e30828c7d86499479bc6201954f6b10ed591b40cd3b71cc1"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:17d94c51ddfa8364baed5f3a754063e1ca75f807194f68d0b976619cf4e69c1a"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:64d4d83f7d3216f2d3107f966b223d11401a2e9391707d959fbdb5c1bd5fbe0c"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:cb610ecdda346011031b890d7b7c6e1942d7fc08cf083b74f148ec7ffed8c7e1"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:eb4e1d96f1a9eac8d096220550e3ca97a46d59747ec2324e2ff74351f8319c2b"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:7928c80c309c6ece50b1c0d968a1e54011088cc896d26aa511249978a246bd50"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:add58d2bb5059599029e687d5baf6fd737dff1e5cef7b6c5f4e0fe11b9c8e588"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:63b4e785e2baf4ebf0e9b8e33e0dd3aa38399d9f10fd0121088f83ad2de42c5f"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:84bc9412c1620f5607161c5fe2b6e11ff49de96d704595523f7f7c15f1883cf2"
         }
       }
     },
     {
       "name": "pcsc-lite",
-      "pkg_version": "1.9.3",
+      "pkg_version": "1.9.4",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:4ef8398590fa718d03ca29f491752d0539fa4d2db5fb649efff6ee96a0cb1227"
+        },
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:9fe3e880c7dbad11250e2b9c9ec667b9f889acd93b3fcde0b58fbfe67c840e9e"
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:2a2c65f8456b5f8a409a5ce90601539b23553ded657c0049c36311d52584dd87"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:5402d013314d46d63a5f0932ca9751fcdefeb3171389a191fccbd79d6711d208"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:073696834600548ef1830d0087374bf1321a9b8a9bc3ad6d52551a2d66400c47"
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:f5d733e1cccba6a07f87b29ec9a18886d210376ea13d0a42eeacdadb706c97a3"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:bdbf3a4a84b10227f6096ee0afa72dc57fb9b78ece3f6ed09a22bef02b0348cb"
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:e97ed967e538b00673e7b0e46592adafd3dbc0f69bb67aea921fe24e51c376ff"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:f3857ad6c5c1ac83a44d2c590a71f1c0c15dfcf1462763fa59d1225ce6c11d07"
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:4afd86caaf938458d6697b216f0c6760e4d1e7b8228995943e316eb6bf315476"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:f4910f18bae9e0aec5366e078f199929cd299d6643b9cdcb1819007b40b4d634"
+          "url": "https://ghcr.io/v2/homebrew/core/pcsc-lite/blobs/sha256:dbbcbdc0bab21c08e55d7f5d8e897cc5f17dd3e387a38c9e11480996c189f050"
         }
       }
     }

@@ -7,12 +7,14 @@
   ],
   "desc": "Web browser focusing on security",
   "homepage": "https://www.torproject.org/",
-  "url": "https://dist.torproject.org/torbrowser/10.5.4/TorBrowser-10.5.4-osx64_en-US.dmg",
+  "url": "https://dist.torproject.org/torbrowser/10.5.8/TorBrowser-10.5.8-osx64_en-US.dmg",
   "appcast": null,
-  "version": "10.5.4",
+  "version": "10.5.8",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "2b2e9db600e146bf5546b08dcd4f30c00df372014927df542bca3544745ab04e",
+  "sha256": "603b6dcc3b9a7bd73f7668b60d52362d615c459059e150d49f131b1c900bb3c2",
   "artifacts": [
     [
       "Tor Browser.app"

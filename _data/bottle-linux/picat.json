@@ -1,19 +1,19 @@
 {
   "name": "picat",
-  "pkg_version": "3.1_1",
+  "pkg_version": "3.1#2",
   "rebuild": 0,
   "bottles": {
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/picat/blobs/sha256:7e44278692b3be42b8e016595ea1c50e5a8cbd2d62cd729f98179bdf1a602d25"
+      "url": "https://ghcr.io/v2/homebrew/core/picat/blobs/sha256:aaf2ef1f21a19c8bf60b5ed7b52b91f12693babdaaec8edb458b888e6f748838"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/picat/blobs/sha256:1aac88c44c248917b484c85e8d0cebbd015fc95133948b40d728d6e96d6a7cc2"
+      "url": "https://ghcr.io/v2/homebrew/core/picat/blobs/sha256:40e9b771743f9799af5c2abc091a3099faeb0a14be8136d5aa3fea1624c67d83"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/picat/blobs/sha256:42eda2841fcdf3d5b6b1e7db6c15818cb6548d567779a88cb58e9e9286291689"
+      "url": "https://ghcr.io/v2/homebrew/core/picat/blobs/sha256:248ac7a621f9b9f860170dd1bf57aafd6f785e35140d58c2a563fbd4e6604a42"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/picat/blobs/sha256:d5567ae2a20c22c4f1d329181d189c1bdbe16d03bc9110c83b20eaf0e8f76e8d"
+      "url": "https://ghcr.io/v2/homebrew/core/picat/blobs/sha256:7b15831545abe443fa02911fe09ea411bce3b2be30cb22f1da47a6434667e8d3"
     }
   },
   "dependencies": [

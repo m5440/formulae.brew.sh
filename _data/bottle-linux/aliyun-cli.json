@@ -1,22 +1,22 @@
 {
   "name": "aliyun-cli",
-  "pkg_version": "3.0.88",
+  "pkg_version": "3.0.94",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/aliyun-cli/blobs/sha256:009a58a705375672f47cbc0b5c26daa9faa6ea1f357d123a7663928815fc7644"
+      "url": "https://ghcr.io/v2/homebrew/core/aliyun-cli/blobs/sha256:db4a02899742d90ee720f33a98e34b14c16ff389c4db516c654b00fa350f966a"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/aliyun-cli/blobs/sha256:7a4e6c8c11da7178bb492035e91dcfe858b023c8d9e67bfbbffbb61773a7dd78"
+      "url": "https://ghcr.io/v2/homebrew/core/aliyun-cli/blobs/sha256:3dd3caf8c4799bb084fcacc590dbd30d78e68df2b57d721c915a877213e2df57"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/aliyun-cli/blobs/sha256:f459ec6a75c8e371e0f77d463e246afe6095b0d8a44d00b43406662e63b2a4b9"
+      "url": "https://ghcr.io/v2/homebrew/core/aliyun-cli/blobs/sha256:18d3297e1bf2bd268e3cb3785820f72060f24ecb9712e33e2ffd507d14a4a4cc"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/aliyun-cli/blobs/sha256:8787c2937c3ed1daa3e63701c43921432beddb191001ad61dd0e2fba0069e82e"
+      "url": "https://ghcr.io/v2/homebrew/core/aliyun-cli/blobs/sha256:5872133329e07c5c8f30417c7268b6c80e910d83a6c1e990dcbd8409220f67de"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/aliyun-cli/blobs/sha256:9d432f1d22de0f07587760793baee4486d5d4d9323fe4783395b0e679384b4b7"
+      "url": "https://ghcr.io/v2/homebrew/core/aliyun-cli/blobs/sha256:992d0d82e9ff498338484b9a6eacbc00c79919c1c7c2f1b197ee14993f078784"
     }
   },
   "dependencies": [

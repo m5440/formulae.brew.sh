@@ -1,19 +1,16 @@
 {
   "name": "slides",
-  "pkg_version": "0.4.1",
+  "pkg_version": "0.6.1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:2ad9d282dd70dff8686a1804c6fac087521eaf465b2edd3f745f0dffa78f6174"
+      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:94ab2bb99a5dea08f82a21e6a408ec214a4e9e10741a0def28c15a340c2265b4"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:420a4a7eb301fe4888d5eba71629e693ef0227017c0d6c548b6200323d3886b2"
+      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:e1f04b073420a28cefdb9d4822c10e62df1374e02bcc29cf1267505ede92076e"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:14d458824951b4254324782a0a4c74c872db3a46604e22405d35d0a9c32147d0"
-    },
-    "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:32b13c126a51256d58eaec1fe02d748ed7a6f6a825c7b83ccf31677bab9dd90f"
+      "url": "https://ghcr.io/v2/homebrew/core/slides/blobs/sha256:377db7839b7c463ec0f85cf6072c07be639963f99c5f0c7521465ab98e3f35a5"
     }
   },
   "dependencies": [

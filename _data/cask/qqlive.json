@@ -9,12 +9,14 @@
   ],
   "desc": "Tencent video streaming and sharing platform",
   "homepage": "https://v.qq.com/download.html#mac",
-  "url": "https://dldir1.qq.com/qqtv/mac/TencentVideo_V2.23.0.53015.dmg",
+  "url": "https://dldir1.qq.com/qqtv/mac/QQLive_distribute_universal_2.25.0.53037.dmg",
   "appcast": null,
-  "version": "2.23.0.53015",
+  "version": "2.25.0.53037",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "3f8b49088ffd05f617a3e1b52abb4f49b55be3706c1625b72711502f748f47af",
+  "sha256": "6f71f41156ab8bad1dd7dc0cf2855b8f59ad0877ce282ba553797b6206e6454f",
   "artifacts": [
     [
       "QQLive.app"

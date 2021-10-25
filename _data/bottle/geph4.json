@@ -1,19 +1,22 @@
 {
   "name": "geph4",
-  "pkg_version": "4.4.7",
+  "pkg_version": "4.4.20",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:b23439012e62c7726234caccd151872ea7869b4a1c2176738cfeafb148484a0d"
+      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:ccb2f2f58553241167e16ac1a537573a155255a1f529dda55163f5df88eaea08"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:232e24d70b4e619d92a3711b0d8722adefe92fc898f47c1db02d76607553b365"
+      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:d78aa96fe152ffbaf59b262fe6ed5fdc78bc71215fc55b3e5893b82e100865f3"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:0c6b525e75b72d9721f5830eea0283097222f54896cfe8a490020826afcf6e66"
+      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:0d158c47acaa8221ee4db67333eca2d06a9cf6ea58e8dd1a72be463705951713"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:554f9cb02bdb95461ba13e641beaa18253cd79fdf1720b993ae9315743e7197d"
+      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:d5de96622d23bc8c574bd662941a415d85a8f0d71823b4014c1074a7606e7d80"
+    },
+    "x86_64_linux": {
+      "url": "https://ghcr.io/v2/homebrew/core/geph4/blobs/sha256:00f042f89e96bbd233b037423c0e5a8c77c6a9f3847224ccb0041d5be7127118"
     }
   },
   "dependencies": [

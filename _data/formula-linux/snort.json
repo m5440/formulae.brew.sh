@@ -13,13 +13,13 @@
   "license": "GPL-2.0-only",
   "homepage": "https://www.snort.org",
   "versions": {
-    "stable": "2.9.18",
-    "head": null,
+    "stable": "3.1.14.0",
+    "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.snort.org/downloads/snort/snort-2.9.18.tar.gz",
+      "url": "https://github.com/snort3/snort3/archive/3.1.14.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,22 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:b11ce9796b70a03c15836f53725d0268e7e350df62c2e7576b32e6f073077c68",
+          "sha256": "b11ce9796b70a03c15836f53725d0268e7e350df62c2e7576b32e6f073077c68"
+        },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snort/blobs/sha256:20a02212522fd5b3e67928e7435c2118c96e858ddd30ae6c57c7e8dd764db49a",
-          "sha256": "20a02212522fd5b3e67928e7435c2118c96e858ddd30ae6c57c7e8dd764db49a"
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:5d7e0388ba4d7edc10bc02f5373e6e603aadef5eaa2d07f66579acfee9b2a89d",
+          "sha256": "5d7e0388ba4d7edc10bc02f5373e6e603aadef5eaa2d07f66579acfee9b2a89d"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snort/blobs/sha256:f3ecad817c5ef3b9a4821c3644045f3cefe61a231b2e0e38a0a827ce5b2990c3",
-          "sha256": "f3ecad817c5ef3b9a4821c3644045f3cefe61a231b2e0e38a0a827ce5b2990c3"
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:54e95d2b7c3166e577a756ffc55444c6f637d16f35dbaf84736b89691b5b51cc",
+          "sha256": "54e95d2b7c3166e577a756ffc55444c6f637d16f35dbaf84736b89691b5b51cc"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snort/blobs/sha256:efc0a9d82cd81e417fea60516e7f6ffa62b7690825515bdf321c759d5268f1c0",
-          "sha256": "efc0a9d82cd81e417fea60516e7f6ffa62b7690825515bdf321c759d5268f1c0"
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:02b15fdadab1c48fbd50f56b21b8be397f66c3beb110b3a60bee57c4cb7b7628",
+          "sha256": "02b15fdadab1c48fbd50f56b21b8be397f66c3beb110b3a60bee57c4cb7b7628"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:22587697d870d998a712ba3ae06d16c7277d6f785bff0afb4c8c66cab5f5304f",
+          "sha256": "22587697d870d998a712ba3ae06d16c7277d6f785bff0afb4c8c66cab5f5304f"
         }
       }
     }
@@ -55,19 +65,24 @@
 
   ],
   "build_dependencies": [
-    "pkg-config",
-    "bison",
-    "flex"
+    "cmake",
+    "flatbuffers",
+    "flex",
+    "pkg-config"
   ],
   "dependencies": [
     "daq",
+    "gperftools",
+    "hwloc",
+    "hyperscan",
     "libdnet",
     "libpcap",
-    "luajit",
-    "nghttp2",
+    "luajit-openresty",
     "openssl@1.1",
     "pcre",
-    "xz"
+    "xz",
+    "zlib",
+    "libunwind"
   ],
   "recommended_dependencies": [
 
@@ -76,7 +91,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

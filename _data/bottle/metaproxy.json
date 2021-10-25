@@ -1,19 +1,19 @@
 {
   "name": "metaproxy",
-  "pkg_version": "1.19.4",
+  "pkg_version": "1.20.0",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:13d9b2c5e0e13d70715ce62b35a1c770a106150f439b70ba0693f8cef428553c"
+      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:a443529903a38577237d577f72b441de2853ab5e4dfebc1f9402a2bc7d25413f"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:515059509dc87555de76c5ad454923cad92b962c297a39fa846e604269b2a933"
+      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:88bde89594c64dbbe9a79e5c3301506611b490be7bdb0e573bdcd6e07ab75fe9"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:f75095cca559dff4a3883a1990e320138d2407b7cf0e7c78930c3a92f5f1c703"
+      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:4319580fd77eef8cf4da3a1e392669151471f397e71a9f6bdc1080f65678e17f"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:3ddde772cceef6edfbf06bdb59dc13dcc5c932ff7258a5547b35388f5bf26b3a"
+      "url": "https://ghcr.io/v2/homebrew/core/metaproxy/blobs/sha256:3f853cf457181ab372cd1eccafad913223a52a328cfcde07b96390c17b8ce349"
     }
   },
   "dependencies": [
@@ -22,8 +22,14 @@
       "pkg_version": "69.1",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:3771949f179992723acc5bf1457bb5bab960e1f6887913b9e7378023dba6394c"
+        },
         "arm64_big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:25a1ec460d422ba5abff15dc5cb60ad36003ad021585fa7be278d1dca6fcd2c4"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:3cf5e9b63ae618b577e057b5745e3ceff557e546d5520c749d3ecd8184750fb5"
         },
         "big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:d46b8ec5c3db629e7848e9fd31e5ec99ed952d9c81c8936a2511fae803d831fd"
@@ -44,8 +50,14 @@
       "pkg_version": "1.76.0",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/boost/blobs/sha256:56cd220f6bed3263cda3deb79a569fcff8e583895d1ad6cc247fafa2ef9de010"
+        },
         "arm64_big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/boost/blobs/sha256:3a336c8b1a917f7d9c55abba2905be99dade914bf9b829aab9d5fb6069b6ffcc"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/boost/blobs/sha256:971054f698fc1ce13e5897f8e0b0958755aa54b6660bb197f16bef3e22308e09"
         },
         "big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/boost/blobs/sha256:35c726d8bea731d85af3d6ba173e95b1726cdfac04e020e259937c8e99c3d4e7"
@@ -85,23 +97,20 @@
     },
     {
       "name": "yazpp",
-      "pkg_version": "1.7.1",
+      "pkg_version": "1.8.0",
       "rebuild": 0,
       "bottles": {
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:868f7e41ffbd9bcd8c2c59db254182fe5f2fa934ec25c1928fbd0032ee480dd3"
+          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:beb0688e992377551877a54479486d836833702ea540c6a7d8a60220409c046d"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:0874f5f7c57a5c611d574abe983ef9dee2796b115deb8290de008c1e9964cc45"
+          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:d4676891be7edf41fbcccc88888a18703861c9db257cf65e8ef1b0cb7662dc9f"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:5136d27fa1e25ceccbd1a73dc1655fa039c99f3d99faaae07239865ea22ee777"
+          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:71a7193513c4928805d0d7a55e7e8892adb7779b11da5584b06fd7329640a8bb"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:60a07217d07224b442d2810d99261b48f846df54dd06eb5e4a4688f0864d1939"
-        },
-        "high_sierra": {
-          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:0d783b21b0cd116bef6b358866b2ac557e340c4e5dd6961c6bd843b6bcda68b7"
+          "url": "https://ghcr.io/v2/homebrew/core/yazpp/blobs/sha256:a578d82eb791139b8dd98093d7e150ebbe92565beec2fa8d218be39498ae0baf"
         }
       }
     }

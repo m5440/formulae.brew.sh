@@ -7,19 +7,21 @@
   ],
   "desc": "Cryptocurrency wallet for ada on the Cardano blockchain",
   "homepage": "https://daedaluswallet.io/",
-  "url": "https://update-cardano-mainnet.iohk.io/daedalus-4.2.1-mainnet-18759.pkg",
+  "url": "https://update-cardano-mainnet.iohk.io/daedalus-4.4.0-mainnet-19288.pkg",
   "appcast": null,
-  "version": "4.2.1,18759",
+  "version": "4.4.0,19288",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "bc1ce1a977a5ce548b3a886ffb1314e28e4452002ce66569033a72ab0c357673",
+  "sha256": "dc624b0c9820af146a62d1fc131cd5c8e1dedf2fb23ebbbd4e85b3a1853a3a3c",
   "artifacts": [
     {
       "pkgutil": "org.Daedalusmainnet.pkg",
       "signal": {
       }
     },
-    "daedalus-4.2.1-mainnet-18759.pkg (Pkg)",
+    "daedalus-4.4.0-mainnet-19288.pkg (Pkg)",
     {
       "trash": [
         "~/Library/Application Support/Daedalus Mainnet",

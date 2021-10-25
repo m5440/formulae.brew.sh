@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://babeljs.io/",
   "versions": {
-    "stable": "7.15.0",
+    "stable": "7.15.8",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://registry.npmjs.org/@babel/core/-/core-7.15.0.tgz",
+      "url": "https://registry.npmjs.org/@babel/core/-/core-7.15.8.tgz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/babel/blobs/sha256:007942971b41203442d54d7600aaf2069133afc6c7942f0b7e57703dd62e2aea",
-          "sha256": "007942971b41203442d54d7600aaf2069133afc6c7942f0b7e57703dd62e2aea"
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:21de12960426e5e3f5350d6fdddfac2fd93fd2eb21bb5afc1d501241097911ad",
+          "sha256": "21de12960426e5e3f5350d6fdddfac2fd93fd2eb21bb5afc1d501241097911ad"
         }
       }
     }

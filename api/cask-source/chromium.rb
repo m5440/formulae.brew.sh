@@ -1,31 +1,24 @@
 cask "chromium" do
-  version "911995"
+  arch = Hardware::CPU.intel? ? "Mac" : "Mac_Arm"
+
+  version "934300"
 
   if Hardware::CPU.intel?
-    sha256 "aac338a5c75a92c15b3bca76d958fa8ff1291e6bd755922cd63157b77751f51a"
-
-    url "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/#{version}/chrome-mac.zip",
-        verified: "commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/"
-
-    livecheck do
-      url "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Mac%2FLAST_CHANGE?alt=media"
-      regex(/v?(\d+(?:\.\d+)*)/i)
-    end
+    sha256 "024d99d7fa056251d5b0496e955939eb74751735ec3c1c6581ec3d3abaed5fda"
   else
-    sha256 "76f1a257f882e2c5e1b1375fb4703053b9bc5a49f75b4a175d47ce7ae1388a12"
-
-    url "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac_Arm/#{version}/chrome-mac.zip",
-        verified: "commondatastorage.googleapis.com/chromium-browser-snapshots/Mac_Arm/"
-
-    livecheck do
-      url "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Mac_Arm%2FLAST_CHANGE?alt=media"
-      regex(/v?(\d+(?:\.\d+)*)/i)
-    end
+    sha256 "6f1a76e56bea0453afa881b6d2481982e409ab59a5883f78dab7bd8a51c6b561"
   end
 
+  url "https://commondatastorage.googleapis.com/chromium-browser-snapshots/#{arch}/#{version}/chrome-mac.zip",
+      verified: "commondatastorage.googleapis.com/chromium-browser-snapshots/"
   name "Chromium"
   desc "Free and open-source web browser"
   homepage "https://www.chromium.org/Home"
+
+  livecheck do
+    url "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/#{arch}%2FLAST_CHANGE?alt=media"
+    regex(/v?(\d+(?:\.\d+)*)/i)
+  end
 
   conflicts_with cask: [
     "eloston-chromium",
@@ -38,7 +31,7 @@ cask "chromium" do
   binary shimscript, target: "chromium"
 
   preflight do
-    IO.write shimscript, <<~EOS
+    File.write shimscript, <<~EOS
       #!/bin/sh
       exec '#{appdir}/Chromium.app/Contents/MacOS/Chromium' "$@"
     EOS

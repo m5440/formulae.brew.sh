@@ -9,7 +9,9 @@
   "homepage": "https://www.trankynam.com/atext/",
   "url": "https://www.trankynam.com/atext/downloads/aText.dmg",
   "appcast": null,
-  "version": "2.38.5,112",
+  "version": "2.39.2,115",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

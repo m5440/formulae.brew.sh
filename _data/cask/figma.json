@@ -7,12 +7,14 @@
   ],
   "desc": "Collaborative team software",
   "homepage": "https://www.figma.com/",
-  "url": "https://desktop.figma.com/mac/Figma-101.6.0.zip",
+  "url": "https://desktop.figma.com/mac/Figma-104.1.0.zip",
   "appcast": null,
-  "version": "101.6.0",
+  "version": "104.1.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1b87be8f35b58d260ffb9dd75127d85ec33fba6b0376bb4840838ed9f88abb55",
+  "sha256": "442b2649e388eeae644131c5cb4344c63166a147386ece179c42413ae6cc71f4",
   "artifacts": [
     [
       "Figma.app"
@@ -20,6 +22,9 @@
     {
       "trash": [
         "~/Library/Application Support/Figma",
+        "~/Library/Application Support/figma-desktop",
+        "~/Library/Caches/com.figma.Desktop",
+        "~/Library/Caches/com.figma.agent",
         "~/Library/Preferences/com.figma.Desktop.plist",
         "~/Library/Saved Application State/com.figma.Desktop.savedState"
       ],

@@ -7,12 +7,14 @@
   ],
   "desc": "Team communication and collaboration software",
   "homepage": "https://slack.com/",
-  "url": "https://downloads.slack-edge.com/releases/macos/4.19.0/prod/x64/Slack-4.19.0-macOS.dmg",
+  "url": "https://downloads.slack-edge.com/releases/macos/4.21.0/prod/x64/Slack-4.21.0-macOS.dmg",
   "appcast": null,
-  "version": "4.19.0",
+  "version": "4.21.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "4fbb9b6f0d08211d72cfe377e12e5b663420208ad69c6eb44a46add8210d4536",
+  "sha256": "67a205d8746a03bc2b25810e6b88bd95a6ebc4b49503e9d3b80dfd9d70c0a70b",
   "artifacts": [
     {
       "quit": "com.tinyspeck.slackmacgap",

@@ -7,12 +7,14 @@
   ],
   "desc": "To-do list and time tracker",
   "homepage": "https://super-productivity.com/",
-  "url": "https://github.com/johannesjo/super-productivity/releases/download/v7.5.1/superProductivity-7.5.1-mac.zip",
+  "url": "https://github.com/johannesjo/super-productivity/releases/download/v7.6.0/superProductivity-7.6.0-mac.zip",
   "appcast": null,
-  "version": "7.5.1",
+  "version": "7.6.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ac2e10a7d57c3d920a9139a0e02a0c143d27a9ff81afd91d088a62c27c099f66",
+  "sha256": "672bda58a7dfcbe3c198fcb9cb3d031bc900582d9ee8285a4523ce1adc7e8cb1",
   "artifacts": [
     [
       "superProductivity.app"

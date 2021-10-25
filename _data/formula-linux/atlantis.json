@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://www.runatlantis.io/",
   "versions": {
-    "stable": "0.17.2",
+    "stable": "0.17.4",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/runatlantis/atlantis/archive/v0.17.2.tar.gz",
+      "url": "https://github.com/runatlantis/atlantis/archive/v0.17.4.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,37 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:23967ed7ee271f1200b556306066356d30d7ae39124089c27766d9d8112d9048",
+          "sha256": "23967ed7ee271f1200b556306066356d30d7ae39124089c27766d9d8112d9048"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/atlantis/blobs/sha256:0e1f196a5494132156d664e66871244352d59a1d9606fb72bf148190add97a7d",
-          "sha256": "0e1f196a5494132156d664e66871244352d59a1d9606fb72bf148190add97a7d"
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:34ccf2bcfb485af92d761922ac72fc54514cb521eaa40e1a68748a83a0d9d653",
+          "sha256": "34ccf2bcfb485af92d761922ac72fc54514cb521eaa40e1a68748a83a0d9d653"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/atlantis/blobs/sha256:b97db8a025b7d52cd5d01f27506f44f922453b26995b7282e95526f74f027c69",
-          "sha256": "b97db8a025b7d52cd5d01f27506f44f922453b26995b7282e95526f74f027c69"
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:f2be21a4ccc836e5ae969eb7fb7747dfc9c44bfa30eb7800be804e5ec08ec043",
+          "sha256": "f2be21a4ccc836e5ae969eb7fb7747dfc9c44bfa30eb7800be804e5ec08ec043"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/atlantis/blobs/sha256:ab59468b03fe78a253123c3886887b66c4c19c4b30599c4f899be0019bf836da",
-          "sha256": "ab59468b03fe78a253123c3886887b66c4c19c4b30599c4f899be0019bf836da"
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:5da4357cf27e81f814edb89b957ffb274bd2fbe9415d420b49a7bb5c2390270a",
+          "sha256": "5da4357cf27e81f814edb89b957ffb274bd2fbe9415d420b49a7bb5c2390270a"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/atlantis/blobs/sha256:9ca8bcd80bb64544b6ca731a248a42b101b5e98cfb6931c55e46d35c89402646",
-          "sha256": "9ca8bcd80bb64544b6ca731a248a42b101b5e98cfb6931c55e46d35c89402646"
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:ee4f266cbe5de9c4dc285c9bbe28e832bb68a494cfd55a042d6d599616968759",
+          "sha256": "ee4f266cbe5de9c4dc285c9bbe28e832bb68a494cfd55a042d6d599616968759"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/atlantis/blobs/sha256:1f9e89a7a52f1df0b884f40caf8a333959cfb6f16c66cb57f9cbb565fc2a31f1",
-          "sha256": "1f9e89a7a52f1df0b884f40caf8a333959cfb6f16c66cb57f9cbb565fc2a31f1"
+          "url": "https://ghcr.io/v2/homebrew/core/atlantis/blobs/sha256:d211f5eb8ff4c46ce0aa6be40de32b5e5b560c782bc999183a21be4e14234bb5",
+          "sha256": "d211f5eb8ff4c46ce0aa6be40de32b5e5b560c782bc999183a21be4e14234bb5"
         }
       }
     }

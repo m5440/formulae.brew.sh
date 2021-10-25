@@ -19,20 +19,20 @@
   "dependencies": [
     {
       "name": "ponyc",
-      "pkg_version": "0.43.1",
+      "pkg_version": "0.44.0",
       "rebuild": 0,
       "bottles": {
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:86d30578e51e294be0d6b20e4b145ec138a8234555771e675d7d5ae123d3a431"
+          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:cce001435d5e456402444206e379d3542b3d898372514c8b450f1ea235a5be20"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:4c167edc07f753e2a118575d4cc3146949fe907993e26fd30ddf0a3ba3d1a8f7"
+          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:0c93b907b614ed0f3fc68d11b91f74e4594e5ffd86896d72f35109988ffff380"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:b4a829497a0e202e44640ec71f96ddea2358f518359c95cfabce33a6a0195fa2"
+          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:e46e8e63c97ba8481300376e641633eef8054f64923b9e40fbaa840de9ada354"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:19f2bbdaace1fe667065141d58e12ad0fb6291325d01c89a20ddfff2c6afbf1d"
+          "url": "https://ghcr.io/v2/homebrew/core/ponyc/blobs/sha256:e3e2808b2826c8f243f2d6391df212deb8834e0cb5060c0e79a9ec4c7b6997c0"
         }
       }
     }

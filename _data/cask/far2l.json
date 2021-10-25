@@ -1,0 +1,39 @@
+{
+  "token": "far2l",
+  "full_token": "far2l",
+  "tap": "homebrew/cask",
+  "name": [
+    "far2l"
+  ],
+  "desc": "Unix fork of FAR Manager v2",
+  "homepage": "https://github.com/elfmz/far2l",
+  "url": "https://github.com/elfmz/far2l/releases/download/v2021-09-21_alpha/far2l-2.3.210921-716b329-alpha-MacOS-10.15.dmg",
+  "appcast": null,
+  "version": "2.3.210921-716b329,2021-09-21_alpha",
+  "versions": {
+  },
+  "installed": null,
+  "outdated": false,
+  "sha256": "b78ee531f31ad6174a6211ee3841eff929089fca215c26ffb47c5913ed66d19b",
+  "artifacts": [
+    [
+      "far2l.app"
+    ],
+    {
+      "trash": "~/Library/Saved Application State/com.far2l.savedState",
+      "signal": {
+      }
+    }
+  ],
+  "caveats": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "10.11"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "auto_updates": null
+}

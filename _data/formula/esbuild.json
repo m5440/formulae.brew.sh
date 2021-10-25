@@ -1,0 +1,96 @@
+{
+  "name": "esbuild",
+  "full_name": "esbuild",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Extremely fast JavaScript bundler and minifier",
+  "license": "MIT",
+  "homepage": "https://esbuild.github.io/",
+  "versions": {
+    "stable": "0.13.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.13.9.tgz",
+      "tag": null,
+      "revision": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:1a6606b465fb43b12bc1333896a17784a3f15cfa7a98232a02f8ef256f8fdb80",
+          "sha256": "1a6606b465fb43b12bc1333896a17784a3f15cfa7a98232a02f8ef256f8fdb80"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:ead0898bf17bc204533fcda8772844f89a972452f910c57910eeb9d32d423318",
+          "sha256": "ead0898bf17bc204533fcda8772844f89a972452f910c57910eeb9d32d423318"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:ead0898bf17bc204533fcda8772844f89a972452f910c57910eeb9d32d423318",
+          "sha256": "ead0898bf17bc204533fcda8772844f89a972452f910c57910eeb9d32d423318"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:e7121ec068f6449dd85dbc0df9b20a4fc4296a015710af6f9d1b9ae55ec9840f",
+          "sha256": "e7121ec068f6449dd85dbc0df9b20a4fc4296a015710af6f9d1b9ae55ec9840f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "bottle_disabled": false,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null
+}

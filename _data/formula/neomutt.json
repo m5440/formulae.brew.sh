@@ -13,18 +13,18 @@
   "license": "GPL-2.0-or-later",
   "homepage": "https://neomutt.org/",
   "versions": {
-    "stable": "20210205",
+    "stable": "20211022",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/neomutt/neomutt/archive/20210205.tar.gz",
+      "url": "https://github.com/neomutt/neomutt/archive/20211022.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 2,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,28 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:ae39b68a39ee90a2deae8e5364edaa5f9703b551120c9d0519598f7d170378e9",
-          "sha256": "ae39b68a39ee90a2deae8e5364edaa5f9703b551120c9d0519598f7d170378e9"
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:d120a26ccf7566d068226b52c07040ad63364ccf5ffd9b69dbbc550d4966393b",
+          "sha256": "d120a26ccf7566d068226b52c07040ad63364ccf5ffd9b69dbbc550d4966393b"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:11d594b30c8ae5d522ff37d24337b2bc709c2a426f543a74af92f6d85f67ab97",
-          "sha256": "11d594b30c8ae5d522ff37d24337b2bc709c2a426f543a74af92f6d85f67ab97"
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:98e1898da2c59d05bd043fd6b643b9a9b0ba9566acd7fa43e302b551463de7ed",
+          "sha256": "98e1898da2c59d05bd043fd6b643b9a9b0ba9566acd7fa43e302b551463de7ed"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:a2cd24cd5c9d7777e90b7981eb3d6ac1d9bc3c761af4ba523f652379ec3c9829",
-          "sha256": "a2cd24cd5c9d7777e90b7981eb3d6ac1d9bc3c761af4ba523f652379ec3c9829"
-        },
-        "mojave": {
-          "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:65b02f471888f1f2b6eed4fcf47c0aded53bb64d4dc54eacfcda76958e0aaecc",
-          "sha256": "65b02f471888f1f2b6eed4fcf47c0aded53bb64d4dc54eacfcda76958e0aaecc"
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:5f850eac5db2ea581b7b69db0bd1e28198fb483cb7c1a991e2448696b48354de",
+          "sha256": "5f850eac5db2ea581b7b69db0bd1e28198fb483cb7c1a991e2448696b48354de"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:470fa81738946d34e56d1bd8c39c8a355797ab2210c86434e4259fc1475fb138",
-          "sha256": "470fa81738946d34e56d1bd8c39c8a355797ab2210c86434e4259fc1475fb138"
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:b64849b42fd3b87dcec7c0db4393c2e8b024938fd0d947acc10bcbf78558ea58",
+          "sha256": "b64849b42fd3b87dcec7c0db4393c2e8b024938fd0d947acc10bcbf78558ea58"
         }
       }
     }
@@ -84,10 +79,9 @@
 
   ],
   "uses_from_macos": [
-    [
-      "libxslt",
-      "build"
-    ],
+    {
+      "libxslt": "build"
+    },
     "cyrus-sasl",
     "krb5",
     "ncurses",

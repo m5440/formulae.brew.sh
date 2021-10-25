@@ -7,21 +7,35 @@
   ],
   "desc": "MIDI and OSC Controller Software",
   "homepage": "https://hexler.net/touchosc",
-  "url": "https://hexler.net/pub/touchosc/touchosc-1.0.3.100-macos.dmg",
+  "url": "https://hexler.net/pub/touchosc/touchosc-1.0.7.117-macos.dmg",
   "appcast": null,
-  "version": "1.0.3.100",
+  "version": "1.0.7,117",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "849d7bd1c54fb89ef47f85083a48fc143c051e0b5d608ebfa06dc8ef20dafd44",
+  "sha256": "77b8d0d4b62cfaf63420d8dcc02bc46fa858df9cc57a9aa418da11da69eaf801",
   "artifacts": [
     [
       "TouchOSC.app"
-    ]
+    ],
+    {
+      "trash": [
+        "~/Documents/TouchOSC",
+        "~/Library/Application Support/net.hexler.lex",
+        "~/Library/Caches/net.hexler.lex",
+        "~/Library/Logs/net.hexler.lex",
+        "~/Library/Preferences/net.hexler.lex.plist",
+        "~/Library/Saved Application State/net.hexler.lex.savedState"
+      ],
+      "signal": {
+      }
+    }
   ],
   "caveats": null,
   "depends_on": {
   },
   "conflicts_with": null,
   "container": null,
-  "auto_updates": null
+  "auto_updates": true
 }

@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://trufflesuite.com",
   "versions": {
-    "stable": "5.4.6",
+    "stable": "5.4.12",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://registry.npmjs.org/truffle/-/truffle-5.4.6.tgz",
+      "url": "https://registry.npmjs.org/truffle/-/truffle-5.4.12.tgz",
       "tag": null,
       "revision": null
     }
@@ -33,18 +33,18 @@
       "files": {
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:e26e4a5e80777c71b06b126e090ee867b7c1f54552023335afe0592293fd9990",
-          "sha256": "e26e4a5e80777c71b06b126e090ee867b7c1f54552023335afe0592293fd9990"
+          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:c39fe4aef87c1c78a58b1d7dd791519e2e608a9b1eddf9c4865c4a42626f3c23",
+          "sha256": "c39fe4aef87c1c78a58b1d7dd791519e2e608a9b1eddf9c4865c4a42626f3c23"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:0c8b46a8c4cd4dde2b54a6e68772c96ac65f86e079c2d7d33a2b4784f6d3756b",
-          "sha256": "0c8b46a8c4cd4dde2b54a6e68772c96ac65f86e079c2d7d33a2b4784f6d3756b"
+          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:dd0c6c697882c291dd6e697ed430f2c864a5f1ebe38544a3d563507c5dc5dea7",
+          "sha256": "dd0c6c697882c291dd6e697ed430f2c864a5f1ebe38544a3d563507c5dc5dea7"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:b3eec177b246fd768dd9d797cdf5a0ba3072dbd3f4f0183fe6f25fec7d1c7c01",
-          "sha256": "b3eec177b246fd768dd9d797cdf5a0ba3072dbd3f4f0183fe6f25fec7d1c7c01"
+          "url": "https://ghcr.io/v2/homebrew/core/truffle/blobs/sha256:5b19919e36101ef6cf0020a3a75b8087a5a766644138ebd8a08893b9765503cf",
+          "sha256": "5b19919e36101ef6cf0020a3a75b8087a5a766644138ebd8a08893b9765503cf"
         }
       }
     }

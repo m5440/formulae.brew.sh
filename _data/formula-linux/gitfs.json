@@ -15,7 +15,7 @@
   "versions": {
     "stable": "0.5.2",
     "head": "HEAD",
-    "bottle": false
+    "bottle": true
   },
   "urls": {
     "stable": {
@@ -27,6 +27,17 @@
   "revision": 7,
   "version_scheme": 0,
   "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitfs/blobs/sha256:8695e1edeb8616c907c880a0e25a10415d103a26dcadbc5256fda41654f16665",
+          "sha256": "8695e1edeb8616c907c880a0e25a10415d103a26dcadbc5256fda41654f16665"
+        }
+      }
+    }
   },
   "keg_only": false,
   "bottle_disabled": false,
@@ -49,7 +60,7 @@
 
   ],
   "uses_from_macos": [
-
+    "libffi"
   ],
   "requirements": [
 

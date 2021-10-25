@@ -13,13 +13,13 @@
   "license": "LGPL-2.1-or-later",
   "homepage": "https://strace.io/",
   "versions": {
-    "stable": "5.13",
+    "stable": "5.14",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/strace/strace/releases/download/v5.13/strace-5.13.tar.xz",
+      "url": "https://github.com/strace/strace/releases/download/v5.14/strace-5.14.tar.xz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/strace/blobs/sha256:159092cd0bdfe5f1c2c382d12a68752a30de870edeccd92d8888ebe4cc8a7589",
-          "sha256": "159092cd0bdfe5f1c2c382d12a68752a30de870edeccd92d8888ebe4cc8a7589"
+          "url": "https://ghcr.io/v2/homebrew/core/strace/blobs/sha256:ab74131ded479cb7685c0505cd86d60e9ddc9ff10bb8a9c68d710debd7bc54cf",
+          "sha256": "ab74131ded479cb7685c0505cd86d60e9ddc9ff10bb8a9c68d710debd7bc54cf"
         }
       }
     }

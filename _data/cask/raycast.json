@@ -9,7 +9,9 @@
   "homepage": "https://raycast.app/",
   "url": "https://api.raycast.app/v2/download",
   "appcast": null,
-  "version": "1.21.1",
+  "version": "1.25.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

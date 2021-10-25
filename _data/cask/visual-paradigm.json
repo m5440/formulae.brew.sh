@@ -7,12 +7,14 @@
   ],
   "desc": "UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation",
   "homepage": "https://www.visual-paradigm.com/",
-  "url": "https://www.visual-paradigm.com/downloads/vp16.3/20210701/Visual_Paradigm_16_3_20210701_OSX_WithJRE.dmg",
+  "url": "https://www.visual-paradigm.com/downloads/vp16.3/20211004/Visual_Paradigm_16_3_20211004_OSX_WithJRE.dmg",
   "appcast": null,
-  "version": "16.3,20210701",
+  "version": "16.3,20211004",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "51fa4aa907230d710b1e5bb2bb77f383d34ace9278ced6a90373085c4489b12c",
+  "sha256": "7ebf601acf0f31a0be09385ed99113927cd1293c1c26c5132b88c2c5e9abe039",
   "artifacts": [
     [
       "Visual Paradigm.app"

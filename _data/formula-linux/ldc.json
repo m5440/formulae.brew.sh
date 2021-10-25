@@ -13,13 +13,13 @@
   "license": "BSD-3-Clause",
   "homepage": "https://wiki.dlang.org/LDC",
   "versions": {
-    "stable": "1.27.1",
+    "stable": "1.28.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/ldc-developers/ldc/releases/download/v1.27.1/ldc-1.27.1-src.tar.gz",
+      "url": "https://github.com/ldc-developers/ldc/releases/download/v1.28.0/ldc-1.28.0-src.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ldc/blobs/sha256:a08707a392ab7328a11f2534ce7831b41c082da562593071eff4cd2c97e05940",
-          "sha256": "a08707a392ab7328a11f2534ce7831b41c082da562593071eff4cd2c97e05940"
+          "url": "https://ghcr.io/v2/homebrew/core/ldc/blobs/sha256:afdbe7f9e8b4a219d9c2b1444a6fe36236d646d28185a374ae8187d952738e80",
+          "sha256": "afdbe7f9e8b4a219d9c2b1444a6fe36236d646d28185a374ae8187d952738e80"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ldc/blobs/sha256:105e995ace02a6d41a833f1405192d0f7551c4b74d11760c69cf95eaa77c5518",
-          "sha256": "105e995ace02a6d41a833f1405192d0f7551c4b74d11760c69cf95eaa77c5518"
+          "url": "https://ghcr.io/v2/homebrew/core/ldc/blobs/sha256:bb36be3563085a2485452a5584c2827ae217b284c86d4cfbc30c66bb722cc07c",
+          "sha256": "bb36be3563085a2485452a5584c2827ae217b284c86d4cfbc30c66bb722cc07c"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ldc/blobs/sha256:858571e2c58d67e0fe05f94182fcff9249dd09bc56ad0c6b5f20c54065a5987d",
-          "sha256": "858571e2c58d67e0fe05f94182fcff9249dd09bc56ad0c6b5f20c54065a5987d"
+          "url": "https://ghcr.io/v2/homebrew/core/ldc/blobs/sha256:051f7d508c7668c78a72442f49d213c61ef83e82ca9870b2395d96761eb98378",
+          "sha256": "051f7d508c7668c78a72442f49d213c61ef83e82ca9870b2395d96761eb98378"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ldc/blobs/sha256:7d36db8c9ff855a75fa5c93c992d7269e836b2562aece4de20185df77fbf04f4",
-          "sha256": "7d36db8c9ff855a75fa5c93c992d7269e836b2562aece4de20185df77fbf04f4"
+          "url": "https://ghcr.io/v2/homebrew/core/ldc/blobs/sha256:b2b21fd07e64980443ee696de4f1ff362f4c9db25086e750da33c9fafab1202a",
+          "sha256": "b2b21fd07e64980443ee696de4f1ff362f4c9db25086e750da33c9fafab1202a"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ldc/blobs/sha256:4ce23462094a7b4b95c5d36f4759e130f5b78232c003083658a6127978392aa4",
-          "sha256": "4ce23462094a7b4b95c5d36f4759e130f5b78232c003083658a6127978392aa4"
+          "url": "https://ghcr.io/v2/homebrew/core/ldc/blobs/sha256:a7bb1dc2d9df62c276b0f02ff9248f017e5c43b454bc8eeac6406943c88c48bd",
+          "sha256": "a7bb1dc2d9df62c276b0f02ff9248f017e5c43b454bc8eeac6406943c88c48bd"
         }
       }
     }
@@ -68,10 +68,11 @@
     "cmake",
     "libconfig",
     "pkg-config",
-    "libxml2"
+    "libxml2",
+    "llvm"
   ],
   "dependencies": [
-    "llvm"
+    "llvm@12"
   ],
   "recommended_dependencies": [
 
@@ -80,7 +81,15 @@
 
   ],
   "uses_from_macos": [
-
+    {
+      "libxml2": "build"
+    },
+    {
+      "llvm": [
+        "build",
+        "test"
+      ]
+    }
   ],
   "requirements": [
 

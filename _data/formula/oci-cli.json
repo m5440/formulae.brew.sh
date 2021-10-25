@@ -13,13 +13,13 @@
   "license": "UPL-1.0 or Apache-2.0",
   "homepage": "https://docs.cloud.oracle.com/iaas/Content/API/Concepts/cliconcepts.htm",
   "versions": {
-    "stable": "3.0.1",
+    "stable": "3.2.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/2d/fd/c297acf76be24094427810a39fb35d1bf65836f9b0f5a6a1046ba1c9e6a4/oci-cli-3.0.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/0f/5b/9a6ff3a69975a226e2f4a0abf34a02cc6f64af95cf8e432518b890722ff4/oci-cli-3.2.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:c085df3aefd3d4969f2afeba56ec266f3fa5d6e6547fb98995692bcacb48aa09",
-          "sha256": "c085df3aefd3d4969f2afeba56ec266f3fa5d6e6547fb98995692bcacb48aa09"
+          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:faf276e4bc35e5cbe9cb4e1df04542bcc578fa5e0bd3bbba630ef747146f8c52",
+          "sha256": "faf276e4bc35e5cbe9cb4e1df04542bcc578fa5e0bd3bbba630ef747146f8c52"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:ed6b2414af974387b098a9e05ed890d297ee617a2b7e87b9a90cc880ea352885",
-          "sha256": "ed6b2414af974387b098a9e05ed890d297ee617a2b7e87b9a90cc880ea352885"
+          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:631a43006942d21049e013672dbbdb8e0fcd563ecbe14a77d3dfbdcaff9e942a",
+          "sha256": "631a43006942d21049e013672dbbdb8e0fcd563ecbe14a77d3dfbdcaff9e942a"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:3fdcc8a5f99b80b74cd52dfcccbc13bbf3fd0800764bd0273ddbb51dfe9e0ded",
-          "sha256": "3fdcc8a5f99b80b74cd52dfcccbc13bbf3fd0800764bd0273ddbb51dfe9e0ded"
+          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:2bd5f34c8fb2293d1fdf3fe951de1cf928666bbadf1b9ba894b64450ef6daefb",
+          "sha256": "2bd5f34c8fb2293d1fdf3fe951de1cf928666bbadf1b9ba894b64450ef6daefb"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:ed389f2ef9a2b57a443d697148d91fbfbfd5779df762f602a14d4323795e8eff",
-          "sha256": "ed389f2ef9a2b57a443d697148d91fbfbfd5779df762f602a14d4323795e8eff"
+          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:8b09f30bd4019db9d428e97a629cd50594f115a48f702e0e0741f9bac0eb667f",
+          "sha256": "8b09f30bd4019db9d428e97a629cd50594f115a48f702e0e0741f9bac0eb667f"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:2d9a7b4937eafdcf065d2f784a0a584d1498c46062ce336370634ed3a5299367",
-          "sha256": "2d9a7b4937eafdcf065d2f784a0a584d1498c46062ce336370634ed3a5299367"
+          "url": "https://ghcr.io/v2/homebrew/core/oci-cli/blobs/sha256:683c1afbf44d863e131c728663525cd1d26fc9bbc2c08a132c915b17c379280b",
+          "sha256": "683c1afbf44d863e131c728663525cd1d26fc9bbc2c08a132c915b17c379280b"
         }
       }
     }
@@ -68,7 +68,7 @@
     "rust"
   ],
   "dependencies": [
-    "python@3.9",
+    "python@3.10",
     "six"
   ],
   "recommended_dependencies": [

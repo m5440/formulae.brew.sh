@@ -13,13 +13,13 @@
   "license": "BSD-2-Clause",
   "homepage": "https://www.mcs.anl.gov/petsc/",
   "versions": {
-    "stable": "3.15.3",
+    "stable": "3.16.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.15.3.tar.gz",
+      "url": "https://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-3.16.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:5517fe9b0c94fcb5d028b5b0b551649663e3dea7c08fdf0a1f6b1cbe03194699",
-          "sha256": "5517fe9b0c94fcb5d028b5b0b551649663e3dea7c08fdf0a1f6b1cbe03194699"
+          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:8aac66bae6ddb59ad3ac4c93285b0353fb80ca9460481b9cb73cf95a0544b9ab",
+          "sha256": "8aac66bae6ddb59ad3ac4c93285b0353fb80ca9460481b9cb73cf95a0544b9ab"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:f1a97551d6dfb924615237e9fc21160ced3f7bac937bb44d8c51bedcdc88e489",
-          "sha256": "f1a97551d6dfb924615237e9fc21160ced3f7bac937bb44d8c51bedcdc88e489"
+          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:4ec9893205112d29dd80c50b105a54abf6f23580828a8117f4a1b32b8661e62d",
+          "sha256": "4ec9893205112d29dd80c50b105a54abf6f23580828a8117f4a1b32b8661e62d"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:513bad52b770cfc44c6d4ecf2bc962d1a79daa1f0f3f8bee118c6800aeed1fe1",
-          "sha256": "513bad52b770cfc44c6d4ecf2bc962d1a79daa1f0f3f8bee118c6800aeed1fe1"
+          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:63bac9da17e984c5296ba8aa1ca88e2cfbcb2150a8ff79da723aa5619e921987",
+          "sha256": "63bac9da17e984c5296ba8aa1ca88e2cfbcb2150a8ff79da723aa5619e921987"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:cfcef275d2e2577c4d6ec18e946a4487220277c1636d40ffd1d96069e6783679",
-          "sha256": "cfcef275d2e2577c4d6ec18e946a4487220277c1636d40ffd1d96069e6783679"
+          "url": "https://ghcr.io/v2/homebrew/core/petsc-complex/blobs/sha256:e157b6dc2fdd68d86d3b90f4d5baf1f968aa26929dabc763812861d9663bfe19",
+          "sha256": "e157b6dc2fdd68d86d3b90f4d5baf1f968aa26929dabc763812861d9663bfe19"
         }
       }
     }

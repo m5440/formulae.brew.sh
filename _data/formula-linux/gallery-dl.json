@@ -13,48 +13,48 @@
   "license": "GPL-2.0-only",
   "homepage": "https://github.com/mikf/gallery-dl",
   "versions": {
-    "stable": "1.18.3",
+    "stable": "1.19.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/d1/0c/351dd4ec8352b0496aad7a282b9276572943a08b1ce28a71295438ebe789/gallery_dl-1.18.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/18/4d/7e32f82523b496e2a9238e927b7d70bd38e63d6a8c580ec6c340e5d110f7/gallery_dl-1.19.0.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gallery-dl/blobs/sha256:414afca1f8e0310c2222a5c3c5c8ff1f004c792ef567dafa03ccd190a269f739",
-          "sha256": "414afca1f8e0310c2222a5c3c5c8ff1f004c792ef567dafa03ccd190a269f739"
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:513b2f6957f446837f4848bf350dcf49dbca2064ff6f0f96da7aed4355821d06",
+          "sha256": "513b2f6957f446837f4848bf350dcf49dbca2064ff6f0f96da7aed4355821d06"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gallery-dl/blobs/sha256:f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad",
-          "sha256": "f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad"
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8",
+          "sha256": "57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gallery-dl/blobs/sha256:f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad",
-          "sha256": "f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad"
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8",
+          "sha256": "57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gallery-dl/blobs/sha256:f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad",
-          "sha256": "f24904f18e7685f3694cbf1b7b7a5812656c727df67188029bf58efd17a4ecad"
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8",
+          "sha256": "57afdd3a6f83e754e3611f3535f23dfbfc433f5c890d2990ecb6d476a06389f8"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gallery-dl/blobs/sha256:13952619373e6051e466f44ec5fbf911c1e7d0316bdeaf67a7c5b5abf325f8d8",
-          "sha256": "13952619373e6051e466f44ec5fbf911c1e7d0316bdeaf67a7c5b5abf325f8d8"
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:e77a88f12070dffe24577f2ae853c879c30c6b6c5d35d0b29152eac5daee620e",
+          "sha256": "e77a88f12070dffe24577f2ae853c879c30c6b6c5d35d0b29152eac5daee620e"
         }
       }
     }
@@ -68,7 +68,7 @@
 
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.10"
   ],
   "recommended_dependencies": [
 

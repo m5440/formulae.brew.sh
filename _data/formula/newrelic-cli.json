@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/newrelic/newrelic-cli",
   "versions": {
-    "stable": "0.33.0",
+    "stable": "0.36.23",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/newrelic/newrelic-cli/archive/v0.33.0.tar.gz",
+      "url": "https://github.com/newrelic/newrelic-cli/archive/v0.36.23.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:36fb4409c6b35e0d1f8b7dd02ff6108227ba84e13099f0e87b15aaf0c4e0f332",
-          "sha256": "36fb4409c6b35e0d1f8b7dd02ff6108227ba84e13099f0e87b15aaf0c4e0f332"
+          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:29fe8dbd11bdb0fe6c74106fe0d75b2f6c8f5809a817d01c1a44821386509c3b",
+          "sha256": "29fe8dbd11bdb0fe6c74106fe0d75b2f6c8f5809a817d01c1a44821386509c3b"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:b4cdbd4eaeae7dd01974aed032d360d3056389f416b95abef91802c248f7ee5f",
-          "sha256": "b4cdbd4eaeae7dd01974aed032d360d3056389f416b95abef91802c248f7ee5f"
+          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:2a3eebeb03c2b7eea31ada5008186f9057ec8ce279550ab9feeccc472f566c43",
+          "sha256": "2a3eebeb03c2b7eea31ada5008186f9057ec8ce279550ab9feeccc472f566c43"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:0ae9addca5944050a24aae726b0154599ee1a724cac61e9fc529b8637912baa0",
-          "sha256": "0ae9addca5944050a24aae726b0154599ee1a724cac61e9fc529b8637912baa0"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:3aa9819cda08cb4fd813b96832fb69719a4c3b6e9d15baa941ce5c1aa7b49d47",
-          "sha256": "3aa9819cda08cb4fd813b96832fb69719a4c3b6e9d15baa941ce5c1aa7b49d47"
+          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:28bf028d6401b54f6773e18978515cb48155227507596c805988a4696313ab8d",
+          "sha256": "28bf028d6401b54f6773e18978515cb48155227507596c805988a4696313ab8d"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:63b135e1dfe3f8d5188f90b3e5a921e07a9db9df29b499d95e57b4c5543073f3",
-          "sha256": "63b135e1dfe3f8d5188f90b3e5a921e07a9db9df29b499d95e57b4c5543073f3"
+          "url": "https://ghcr.io/v2/homebrew/core/newrelic-cli/blobs/sha256:dd88ebd4d29b76bcda523ca9dafaa34dda6c96c2285c8d6300be8570d69b29f6",
+          "sha256": "dd88ebd4d29b76bcda523ca9dafaa34dda6c96c2285c8d6300be8570d69b29f6"
         }
       }
     }

@@ -1,22 +1,22 @@
 {
   "name": "gitui",
-  "pkg_version": "0.16.2",
+  "pkg_version": "0.18.0",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:3add12bc0253132202b5c2ecb107599c480277d007c4373c0c0dd7a5fd49965b"
+      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:eab0d0bf479bde503eeca2ccc61125906255e81c817fb8b74d26777feb594f5b"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:ed47e892226cf153bab91657f145657419f7c1bdc290bd07b44cb957e1b451c4"
+      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:dfb00782b725ea3365100d4be6bc8c4756e4a183e3ac73cccdcd982b5d1c4c98"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:000494aae7f19a34d9a363632a16951847468923101e15b3644a307ddff96948"
+      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:032d6a437bf658b0ec9dcacd6877e830e99a6a353fce0a611b818e65cf64b0a3"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:f5e9eebf059917dd42e71f34a14c6654baa9b7b91518f7324a966060040318b1"
+      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:36e93f2d9dfee08d1c2a52cc350b14b214719730396bcc8da951eb1786c9561e"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:55e6292c7b708ee63e9da1a99f17166a9fb48d28a22b6f6b4d77dae9f016ab70"
+      "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:4416575824156efdfa9ac272b5b5999b94a5fb3b4e3ae431c2d2c45c2303e770"
     }
   },
   "dependencies": [

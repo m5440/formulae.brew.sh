@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://kyma-project.io",
   "versions": {
-    "stable": "1.24.0",
+    "stable": "1.24.6",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/kyma-project/cli/archive/1.24.0.tar.gz",
+      "url": "https://github.com/kyma-project/cli/archive/1.24.6.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,27 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/kyma-cli/blobs/sha256:f77ea7dbfdafcd9763f8fe4fe2dbb0399a3aec2f7b16c8422173d1392026f886",
-          "sha256": "f77ea7dbfdafcd9763f8fe4fe2dbb0399a3aec2f7b16c8422173d1392026f886"
+          "url": "https://ghcr.io/v2/homebrew/core/kyma-cli/blobs/sha256:35d3209e7ce5152fdf20b8f3db11d2f0ac7d32ff3c9b8682e5ee11a3d01ec2f2",
+          "sha256": "35d3209e7ce5152fdf20b8f3db11d2f0ac7d32ff3c9b8682e5ee11a3d01ec2f2"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/kyma-cli/blobs/sha256:d29d9c8e01195ba6a693b7700c93337fbb0bbc218c94699f03480eb2d96904fa",
-          "sha256": "d29d9c8e01195ba6a693b7700c93337fbb0bbc218c94699f03480eb2d96904fa"
+          "url": "https://ghcr.io/v2/homebrew/core/kyma-cli/blobs/sha256:643ae5b5554110a73cb97407d85c1ead268253e806087e3e545d3c0d428594ea",
+          "sha256": "643ae5b5554110a73cb97407d85c1ead268253e806087e3e545d3c0d428594ea"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/kyma-cli/blobs/sha256:c9c75c10ca31b346ac9d713370dd172e3ba77745520c6b1134f654b4ea0058cd",
-          "sha256": "c9c75c10ca31b346ac9d713370dd172e3ba77745520c6b1134f654b4ea0058cd"
+          "url": "https://ghcr.io/v2/homebrew/core/kyma-cli/blobs/sha256:03564fa556013ff179a4be57dfabab3af81505e2bc253d638232092cd6c713ad",
+          "sha256": "03564fa556013ff179a4be57dfabab3af81505e2bc253d638232092cd6c713ad"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/kyma-cli/blobs/sha256:7003854cb91ed75176e43e7c406e4ef3a60c54e12f962145b6b0ebcef44e7a9b",
-          "sha256": "7003854cb91ed75176e43e7c406e4ef3a60c54e12f962145b6b0ebcef44e7a9b"
+          "url": "https://ghcr.io/v2/homebrew/core/kyma-cli/blobs/sha256:03e1b4948dfc419631f6732210121fda1fd2727b64d2b2f34e321e8afe8d9e39",
+          "sha256": "03e1b4948dfc419631f6732210121fda1fd2727b64d2b2f34e321e8afe8d9e39"
         }
       }
     }

@@ -8,12 +8,14 @@
   ],
   "desc": "Open-source code editor",
   "homepage": "https://code.visualstudio.com/",
-  "url": "https://update.code.visualstudio.com/1.59.0/darwin/stable",
+  "url": "https://update.code.visualstudio.com/1.61.2/darwin/stable",
   "appcast": null,
-  "version": "1.59.0",
+  "version": "1.61.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "91ad3851331a1b89c17038a61f2d3462b3e3e92a23959e258a41964312c94224",
+  "sha256": "6481bebaead19a42a46007392ed82b75c1967e8bf34b468bbbb107e3a22a3d83",
   "artifacts": [
     [
       "Visual Studio Code.app"

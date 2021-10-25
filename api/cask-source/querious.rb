@@ -1,9 +1,10 @@
 cask "querious" do
-  version "3.1.2"
-  sha256 "baba87743db3ab04980fa2e415df43fa89c58cb07df866b8f4481917cefaca2a"
+  version "3.1.4"
+  sha256 "53a7457ea0e3945f40744fdd5178d65504e153bfe3e6b6b07340b1a56272917f"
 
   url "https://www.araelium.com/querious/downloads/versions/Querious#{version}.zip"
   name "Querious #{version.major}"
+  desc "MySQL and compatible databases tool"
   homepage "https://www.araelium.com/querious/"
 
   livecheck do

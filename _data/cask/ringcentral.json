@@ -9,7 +9,9 @@
   "homepage": "https://www.ringcentral.com/rcapp.html",
   "url": "https://app.ringcentral.com/downloads/RingCentral.pkg",
   "appcast": null,
-  "version": "21.3.20",
+  "version": "21.3.31",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

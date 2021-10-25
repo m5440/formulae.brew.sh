@@ -7,12 +7,14 @@
   ],
   "desc": "Web security testing toolkit",
   "homepage": "https://portswigger.net/burp/",
-  "url": "https://portswigger.net/burp/releases/download?product=community&version=2021.8.1&type=MacOsx",
+  "url": "https://portswigger.net/burp/releases/download?product=community&version=2021.8.4&type=MacOsx",
   "appcast": null,
-  "version": "2021.8.1",
+  "version": "2021.8.4",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1e481ca886918727455ae6580f7a192364b9e3bf3ace3a09ec79136436207c37",
+  "sha256": "b6b159263031bf3d7e0e0b27ad9194f5eb8ff69050738fc81ca4edad534d006d",
   "artifacts": [
     {
       "delete": "/Applications/Burp Suite Community Edition.app",

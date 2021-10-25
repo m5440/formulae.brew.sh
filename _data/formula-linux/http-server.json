@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/http-party/http-server",
   "versions": {
-    "stable": "13.0.0",
+    "stable": "14.0.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://registry.npmjs.org/http-server/-/http-server-13.0.0.tgz",
+      "url": "https://registry.npmjs.org/http-server/-/http-server-14.0.0.tgz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/http-server/blobs/sha256:4f754a7268fe26f330053fbf3b15aa00e99f01e05c4691f3f54c1e5902f46955",
-          "sha256": "4f754a7268fe26f330053fbf3b15aa00e99f01e05c4691f3f54c1e5902f46955"
+          "url": "https://ghcr.io/v2/homebrew/core/http-server/blobs/sha256:ab9a881b34551f9dc61292967cdde180ffe801e374b7ccf079e59f09c47438cc",
+          "sha256": "ab9a881b34551f9dc61292967cdde180ffe801e374b7ccf079e59f09c47438cc"
         }
       }
     }

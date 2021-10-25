@@ -7,12 +7,14 @@
   ],
   "desc": "Emulator frontend (OpenGL graphics API version)",
   "homepage": "https://www.libretro.com/",
-  "url": "https://buildbot.libretro.com/stable/1.9.7/apple/osx/x86_64/RetroArch.dmg",
+  "url": "https://buildbot.libretro.com/stable/1.9.11/apple/osx/x86_64/RetroArch.dmg",
   "appcast": null,
-  "version": "1.9.7",
+  "version": "1.9.11",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "dc7075d9c64dbfe88f39b7a01a7bc133cd91d1678359b8f996fcefd30591c8e0",
+  "sha256": "0fb36685203bf589406e5aa3d821d998902037c2f3b49836e952c66bef48516c",
   "artifacts": [
     [
       "RetroArch.app"

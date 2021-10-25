@@ -7,12 +7,14 @@
   ],
   "desc": "Alternate version of the Opera web browser to complement gaming",
   "homepage": "https://www.opera.com/gx",
-  "url": "https://get.geo.opera.com/pub/opera_gx/78.0.4093.153/mac/Opera_GX_78.0.4093.153_Setup.dmg",
+  "url": "https://get.geo.opera.com/pub/opera_gx/80.0.4170.48/mac/Opera_GX_80.0.4170.48_Setup.dmg",
   "appcast": null,
-  "version": "78.0.4093.153",
+  "version": "80.0.4170.48",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1912877d89ffe70ab759da4df085f986391b815ece6782a6fc158623c1ea7fb6",
+  "sha256": "a107a6fd71d66fb2ffe836c7a3b9e55b59151eb39c758439a1c2b3532fa3cc40",
   "artifacts": [
     [
       "Opera GX.app"

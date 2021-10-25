@@ -7,18 +7,20 @@
   ],
   "desc": "Create routes from anywhere to anywhere",
   "homepage": "https://sourceforge.net/projects/midi-router-client/",
-  "url": "https://downloads.sourceforge.net/midi-router-client/releaseOSX11_1.1.5.zip",
+  "url": "https://downloads.sourceforge.net/midi-router-client/releaseOSX11_1.2.11.zip",
   "appcast": null,
-  "version": "1.1.5",
+  "version": "1.2.11",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "c7e29703071286a805fb12efffcd5c6c9f5cd0b99e5075b5db4e12922a103599",
+  "sha256": "8684c852a886622f144849840cbc6c568e13bf96b53c1c0cf9080c50bcc79c01",
   "artifacts": [
     [
-      "releaseOSX11_1.1.5/Midi router client.app"
+      "releaseOSX11_1.2.11/Midi router client.app"
     ],
     [
-      "releaseOSX11_1.1.5/Midi router server.app"
+      "releaseOSX11_1.2.11/Midi router server.app"
     ],
     {
       "trash": [

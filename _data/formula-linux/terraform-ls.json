@@ -13,13 +13,13 @@
   "license": "MPL-2.0",
   "homepage": "https://github.com/hashicorp/terraform-ls",
   "versions": {
-    "stable": "0.20.1",
+    "stable": "0.23.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/hashicorp/terraform-ls/archive/v0.20.1.tar.gz",
+      "url": "https://github.com/hashicorp/terraform-ls/archive/v0.23.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/terraform-ls/blobs/sha256:e5be23afe8425ccdcd262593b59085512963e7fd06e0f739faa7e7cc16753193",
-          "sha256": "e5be23afe8425ccdcd262593b59085512963e7fd06e0f739faa7e7cc16753193"
+          "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:bd10b203fdd4d588ca5c76f329e6e355978330b756fe0b8c21c06ebf3289c919",
+          "sha256": "bd10b203fdd4d588ca5c76f329e6e355978330b756fe0b8c21c06ebf3289c919"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/terraform-ls/blobs/sha256:9e68078bde41c141cc5895ca757479990a20f534cdd71a38efce7517f937cfd9",
-          "sha256": "9e68078bde41c141cc5895ca757479990a20f534cdd71a38efce7517f937cfd9"
+          "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:44f5336b26ca42f288abc8b3524180e753d14d667d0483582d3380da7814b0d8",
+          "sha256": "44f5336b26ca42f288abc8b3524180e753d14d667d0483582d3380da7814b0d8"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/terraform-ls/blobs/sha256:9dc2ed2078a9071912a2cec9cc57e32b19d69ef6a464a1332dfd179053ecef50",
-          "sha256": "9dc2ed2078a9071912a2cec9cc57e32b19d69ef6a464a1332dfd179053ecef50"
+          "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:061f5118965ca17ea8295b966429c21397a8e825becb8414ca2ed68446bf26b4",
+          "sha256": "061f5118965ca17ea8295b966429c21397a8e825becb8414ca2ed68446bf26b4"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/terraform-ls/blobs/sha256:c8240fdb588ec573c301f86fdd8245568075280e3c4b2d321d4830ebc6758303",
-          "sha256": "c8240fdb588ec573c301f86fdd8245568075280e3c4b2d321d4830ebc6758303"
+          "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:af4f454eed66d6c42c4e7313d3b320fa4664945fe2d0d4364be4b0bf851e79fe",
+          "sha256": "af4f454eed66d6c42c4e7313d3b320fa4664945fe2d0d4364be4b0bf851e79fe"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/terraform-ls/blobs/sha256:197d1940c2f4bd851c1a6b2d81b26719a0e26a7468d4d3750b205ef56fe9aa53",
-          "sha256": "197d1940c2f4bd851c1a6b2d81b26719a0e26a7468d4d3750b205ef56fe9aa53"
+          "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:dc1df976b00f3bceb2443a872f97670537aaf3f850d10af2f4d1708e1c7a687c",
+          "sha256": "dc1df976b00f3bceb2443a872f97670537aaf3f850d10af2f4d1708e1c7a687c"
         }
       }
     }

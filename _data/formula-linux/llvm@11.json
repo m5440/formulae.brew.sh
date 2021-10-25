@@ -7,6 +7,7 @@
 
   ],
   "versioned_formulae": [
+    "llvm@12",
     "llvm@9",
     "llvm@8",
     "llvm@7"
@@ -26,37 +27,37 @@
       "revision": null
     }
   },
-  "revision": 4,
+  "revision": 3,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/llvm/11/blobs/sha256:03e8229453959ce44cc4aa3d04aae599d644a0cd611e96ef0978c331cdb75556",
-          "sha256": "03e8229453959ce44cc4aa3d04aae599d644a0cd611e96ef0978c331cdb75556"
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/11/blobs/sha256:0441f32a33dc14393118ff9d047af44d8fa7b87648b09c1e2ffa5c69d3d0c032",
+          "sha256": "0441f32a33dc14393118ff9d047af44d8fa7b87648b09c1e2ffa5c69d3d0c032"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/llvm/11/blobs/sha256:a4ba9bdae23b82c7125ca0ab2c538ea9e590e61c3af0e0927912ff46d27f5bed",
-          "sha256": "a4ba9bdae23b82c7125ca0ab2c538ea9e590e61c3af0e0927912ff46d27f5bed"
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/11/blobs/sha256:8b9e7e448f801daad56d3180cccf190486bd785c551aeb37300a5296f1d9e81b",
+          "sha256": "8b9e7e448f801daad56d3180cccf190486bd785c551aeb37300a5296f1d9e81b"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/llvm/11/blobs/sha256:a214eaa69c3f978987c281497cdbd98eb7d81372da793a3ae34b11f8910c9288",
-          "sha256": "a214eaa69c3f978987c281497cdbd98eb7d81372da793a3ae34b11f8910c9288"
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/11/blobs/sha256:47e26656712ba5efa159d2f42334972bf8c510ffa48f0c6ff35d8e55af1b9d94",
+          "sha256": "47e26656712ba5efa159d2f42334972bf8c510ffa48f0c6ff35d8e55af1b9d94"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/llvm/11/blobs/sha256:6a2a325871e43bcf8a01e0d93d38aaf3ce2bc0977aeb93ef3d3d43fd0dbde4ae",
-          "sha256": "6a2a325871e43bcf8a01e0d93d38aaf3ce2bc0977aeb93ef3d3d43fd0dbde4ae"
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/11/blobs/sha256:c7cd19b7849a499acd3d68648fadf9c8283ce47bd1706931c2f3223e8c97d8ac",
+          "sha256": "c7cd19b7849a499acd3d68648fadf9c8283ce47bd1706931c2f3223e8c97d8ac"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/llvm/11/blobs/sha256:7a4fd4d37eb7569740e7cde3e19e74cf5a2fb002e9eb0793ab978f5f7ba8158a",
-          "sha256": "7a4fd4d37eb7569740e7cde3e19e74cf5a2fb002e9eb0793ab978f5f7ba8158a"
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/11/blobs/sha256:0fefecb000c832d751022756e68888df5bacce3dcd442515573b080c46859834",
+          "sha256": "0fefecb000c832d751022756e68888df5bacce3dcd442515573b080c46859834"
         }
       }
     }
@@ -79,7 +80,7 @@
     "ncurses",
     "zlib",
     "binutils",
-    "libelf"
+    "elfutils"
   ],
   "recommended_dependencies": [
 
@@ -88,7 +89,11 @@
 
   ],
   "uses_from_macos": [
-
+    "libedit",
+    "libffi",
+    "libxml2",
+    "ncurses",
+    "zlib"
   ],
   "requirements": [
 

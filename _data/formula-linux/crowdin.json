@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://support.crowdin.com/cli-tool/",
   "versions": {
-    "stable": "3.6.4",
+    "stable": "3.7.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/crowdin/crowdin-cli/releases/download/3.6.4/crowdin-cli.zip",
+      "url": "https://github.com/crowdin/crowdin-cli/releases/download/3.7.0/crowdin-cli.zip",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/crowdin/blobs/sha256:5fb9328c2930113a63d6d66a631a3a558b0548a6a580e3d5be7e655feaf4241e",
-          "sha256": "5fb9328c2930113a63d6d66a631a3a558b0548a6a580e3d5be7e655feaf4241e"
+          "url": "https://ghcr.io/v2/homebrew/core/crowdin/blobs/sha256:cc5166b01cb2c45a2b9fa34847d3071fdc8b28c855bff77dae0aef4876de9537",
+          "sha256": "cc5166b01cb2c45a2b9fa34847d3071fdc8b28c855bff77dae0aef4876de9537"
         }
       }
     }

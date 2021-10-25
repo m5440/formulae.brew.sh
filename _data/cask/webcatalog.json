@@ -7,12 +7,14 @@
   ],
   "desc": "Tool to run web apps like desktop apps",
   "homepage": "https://webcatalog.app/",
-  "url": "https://github.com/webcatalog/webcatalog-app/releases/download/v36.2.0/WebCatalog-36.2.0.dmg",
+  "url": "https://github.com/webcatalog/webcatalog-app/releases/download/v38.0.3/WebCatalog-38.0.3-universal.dmg",
   "appcast": null,
-  "version": "36.2.0",
+  "version": "38.0.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "e7aea8f69937d514e3ca09c8a47f08278ee1ec1633f115f5cdd87984f5093837",
+  "sha256": "39a7d44d7e95044e6081d4421500dd8bf1c752777aa38d31584cba6f32f09cf2",
   "artifacts": [
     [
       "WebCatalog.app"

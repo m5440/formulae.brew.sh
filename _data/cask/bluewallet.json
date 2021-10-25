@@ -7,12 +7,14 @@
   ],
   "desc": "Bitcoin wallet and Lightning wallet",
   "homepage": "https://bluewallet.io/",
-  "url": "https://github.com/BlueWallet/BlueWallet/releases/download/v6.2.2/BlueWallet.6.2.2.dmg",
+  "url": "https://github.com/BlueWallet/BlueWallet/releases/download/v6.2.10/BlueWallet.6.2.10.dmg",
   "appcast": null,
-  "version": "6.2.2",
+  "version": "6.2.10",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ab413deec713b6c61a47fbb87e7dd7223eec8bb914b7ffbd69cb67b8a2f118f2",
+  "sha256": "cdbeedcefcd555e620b554d9fca61bfb4a2e5f379ca4b9662aed862c40abedf0",
   "artifacts": [
     [
       "BlueWallet.app"

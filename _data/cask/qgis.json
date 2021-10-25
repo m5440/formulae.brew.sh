@@ -7,16 +7,27 @@
   ],
   "desc": "Geographic Information System",
   "homepage": "https://www.qgis.org/",
-  "url": "https://qgis.org/downloads/macos/pr/qgis_pr_final-3_20_2_20210813_152306.dmg",
+  "url": "https://qgis.org/downloads/macos/pr/qgis_pr_final-3_22_0_20211022_154850.dmg",
   "appcast": null,
-  "version": "3.20.2,20210813_152306",
+  "version": "3.22.0,20211022_154850",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "913a911c13e63f15e000eebd9be4513ba7a286a45915256ce6f487409671f9f0",
+  "sha256": "e1a8c6d60c51a44b7f743c03e3d0287025888a1f15b1c479d5e8fa54c2cea292",
   "artifacts": [
     [
       "QGIS.app"
-    ]
+    ],
+    {
+      "trash": [
+        "~/Library/Application Support/QGIS",
+        "~/Library/Caches/QGIS",
+        "~/Library/Saved Application State/org.qgis.qgis*.savedState"
+      ],
+      "signal": {
+      }
+    }
   ],
   "caveats": null,
   "depends_on": {

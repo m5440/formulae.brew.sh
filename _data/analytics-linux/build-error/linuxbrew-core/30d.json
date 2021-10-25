@@ -1,14 +1,20 @@
 {
   "category": "BuildError",
-  "total_items": 442,
-  "start_date": "2021-07-20",
-  "end_date": "2021-08-19",
-  "total_count": 5185,
+  "total_items": 362,
+  "start_date": "2021-09-25",
+  "end_date": "2021-10-25",
+  "total_count": 3437,
   "formulae": {
-    "ace": [
+    "aacgain": [
       {
-        "formula": "ace",
+        "formula": "aacgain",
         "count": "2"
+      }
+    ],
+    "acmetool": [
+      {
+        "formula": "acmetool",
+        "count": "1"
       }
     ],
     "allegro": [
@@ -17,135 +23,187 @@
         "count": "1"
       }
     ],
-    "antlr4-cpp-runtime": [
+    "alsa-lib": [
       {
-        "formula": "antlr4-cpp-runtime",
-        "count": "3"
+        "formula": "alsa-lib",
+        "count": "2"
       }
     ],
-    "antlr@2": [
+    "anime-downloader": [
       {
-        "formula": "antlr@2",
+        "formula": "anime-downloader",
         "count": "1"
+      }
+    ],
+    "aom": [
+      {
+        "formula": "aom",
+        "count": "24"
       }
     ],
     "apache-arrow": [
       {
         "formula": "apache-arrow",
-        "count": "2"
-      }
-    ],
-    "apt": [
-      {
-        "formula": "apt",
-        "count": "11"
-      }
-    ],
-    "arangodb": [
-      {
-        "formula": "arangodb",
         "count": "1"
+      }
+    ],
+    "apr-util": [
+      {
+        "formula": "apr-util",
+        "count": "2"
       }
     ],
     "argp-standalone": [
       {
         "formula": "argp-standalone",
-        "count": "5"
-      }
-    ],
-    "arpoison": [
-      {
-        "formula": "arpoison",
         "count": "1"
       }
     ],
-    "attr": [
+    "aria2": [
       {
-        "formula": "attr",
+        "formula": "aria2",
+        "count": "4"
+      }
+    ],
+    "asio": [
+      {
+        "formula": "asio",
+        "count": "3"
+      }
+    ],
+    "aspell": [
+      {
+        "formula": "aspell",
         "count": "1"
       }
     ],
-    "autojump": [
+    "aubio": [
       {
-        "formula": "autojump",
-        "count": "6"
+        "formula": "aubio",
+        "count": "2"
+      }
+    ],
+    "autogen": [
+      {
+        "formula": "autogen",
+        "count": "2"
+      }
+    ],
+    "av1an": [
+      {
+        "formula": "av1an",
+        "count": "1"
+      }
+    ],
+    "aws-apigateway-importer": [
+      {
+        "formula": "aws-apigateway-importer",
+        "count": "1"
+      }
+    ],
+    "aws-google-auth": [
+      {
+        "formula": "aws-google-auth",
+        "count": "1"
       }
     ],
     "aws-sdk-cpp": [
       {
         "formula": "aws-sdk-cpp",
-        "count": "6"
+        "count": "1"
       }
     ],
     "awscli": [
       {
         "formula": "awscli",
-        "count": "384"
-      }
-    ],
-    "bazel": [
+        "count": "2"
+      },
       {
-        "formula": "bazel",
-        "count": "57"
-      }
-    ],
-    "beagle": [
-      {
-        "formula": "beagle",
+        "formula": "awscli --HEAD",
         "count": "1"
+      }
+    ],
+    "azure-storage-cpp": [
+      {
+        "formula": "azure-storage-cpp",
+        "count": "1"
+      }
+    ],
+    "balena-cli": [
+      {
+        "formula": "balena-cli",
+        "count": "1"
+      }
+    ],
+    "baresip": [
+      {
+        "formula": "baresip",
+        "count": "1"
+      }
+    ],
+    "bastet": [
+      {
+        "formula": "bastet",
+        "count": "3"
+      }
+    ],
+    "beecrypt": [
+      {
+        "formula": "beecrypt",
+        "count": "1"
+      }
+    ],
+    "bgpdump": [
+      {
+        "formula": "bgpdump",
+        "count": "4"
       }
     ],
     "bgrep": [
       {
         "formula": "bgrep",
-        "count": "4"
+        "count": "6"
+      }
+    ],
+    "biber": [
+      {
+        "formula": "biber",
+        "count": "1"
       }
     ],
     "binutils": [
       {
         "formula": "binutils",
-        "count": "242"
-      }
-    ],
-    "bitchx": [
-      {
-        "formula": "bitchx",
-        "count": "1"
-      }
-    ],
-    "blast": [
-      {
-        "formula": "blast",
-        "count": "2"
-      }
-    ],
-    "bluetoothconnector": [
-      {
-        "formula": "bluetoothconnector",
-        "count": "2"
-      }
-    ],
-    "bmake": [
-      {
-        "formula": "bmake",
-        "count": "3"
+        "count": "250"
       }
     ],
     "bmon": [
       {
         "formula": "bmon",
-        "count": "4"
+        "count": "2"
       }
     ],
     "borgbackup": [
       {
         "formula": "borgbackup",
-        "count": "2"
+        "count": "3"
       }
     ],
     "boxes": [
       {
         "formula": "boxes",
+        "count": "9"
+      }
+    ],
+    "bulk_extractor": [
+      {
+        "formula": "bulk_extractor",
+        "count": "2"
+      }
+    ],
+    "bzt": [
+      {
+        "formula": "bzt",
         "count": "1"
       }
     ],
@@ -155,304 +213,296 @@
         "count": "1"
       }
     ],
-    "cabocha": [
+    "cafeobj": [
       {
-        "formula": "cabocha",
-        "count": "2"
+        "formula": "cafeobj",
+        "count": "3"
       }
     ],
-    "cadence-workflow": [
+    "caffe": [
       {
-        "formula": "cadence-workflow",
-        "count": "1"
+        "formula": "caffe",
+        "count": "4"
       }
     ],
-    "cassandra": [
+    "cairo": [
       {
-        "formula": "cassandra",
-        "count": "1"
+        "formula": "cairo",
+        "count": "4"
       }
     ],
     "cataclysm": [
       {
         "formula": "cataclysm",
-        "count": "2"
-      }
-    ],
-    "ccls": [
-      {
-        "formula": "ccls",
-        "count": "2"
-      }
-    ],
-    "cconv": [
-      {
-        "formula": "cconv",
-        "count": "2"
-      }
-    ],
-    "ccze": [
-      {
-        "formula": "ccze",
         "count": "1"
       }
     ],
-    "cdpr": [
+    "cdogs-sdl": [
       {
-        "formula": "cdpr",
+        "formula": "cdogs-sdl",
         "count": "1"
       }
     ],
-    "cherrytree": [
+    "cdparanoia": [
       {
-        "formula": "cherrytree",
+        "formula": "cdparanoia",
+        "count": "2"
+      }
+    ],
+    "checkip": [
+      {
+        "formula": "checkip",
         "count": "1"
+      }
+    ],
+    "choose-gui": [
+      {
+        "formula": "choose-gui",
+        "count": "2"
       }
     ],
     "ciphey": [
       {
         "formula": "ciphey",
-        "count": "7"
-      }
-    ],
-    "cjson": [
-      {
-        "formula": "cjson",
-        "count": "2"
-      }
-    ],
-    "clamz": [
-      {
-        "formula": "clamz",
-        "count": "1"
+        "count": "16"
       }
     ],
     "clang-format@8": [
       {
         "formula": "clang-format@8",
-        "count": "1"
-      }
-    ],
-    "clarinet": [
-      {
-        "formula": "clarinet",
-        "count": "7"
-      }
-    ],
-    "clutter": [
-      {
-        "formula": "clutter",
         "count": "2"
+      }
+    ],
+    "cli": [
+      {
+        "formula": "cli",
+        "count": "3"
+      }
+    ],
+    "clinfo": [
+      {
+        "formula": "clinfo",
+        "count": "3"
       }
     ],
     "cmake": [
       {
         "formula": "cmake",
-        "count": "5"
+        "count": "6"
+      },
+      {
+        "formula": "cmake --HEAD",
+        "count": "1"
       }
     ],
     "commitizen": [
       {
         "formula": "commitizen",
-        "count": "5"
+        "count": "8"
       }
     ],
-    "coreutils": [
+    "corectl": [
       {
-        "formula": "coreutils",
-        "count": "12"
-      }
-    ],
-    "cpprestsdk": [
-      {
-        "formula": "cpprestsdk",
+        "formula": "corectl",
         "count": "1"
       }
     ],
-    "crosstool-ng": [
+    "coreos-ct": [
       {
-        "formula": "crosstool-ng",
-        "count": "4"
+        "formula": "coreos-ct",
+        "count": "2"
       }
     ],
-    "csvprintf": [
+    "cp2k": [
       {
-        "formula": "csvprintf",
+        "formula": "cp2k",
         "count": "1"
       }
     ],
-    "cubelib": [
+    "cpansearch": [
       {
-        "formula": "cubelib",
-        "count": "4"
+        "formula": "cpansearch",
+        "count": "2"
+      }
+    ],
+    "cquery": [
+      {
+        "formula": "cquery",
+        "count": "1"
+      }
+    ],
+    "cryptominisat": [
+      {
+        "formula": "cryptominisat",
+        "count": "1"
       }
     ],
     "cups": [
       {
         "formula": "cups",
+        "count": "3"
+      }
+    ],
+    "cutter": [
+      {
+        "formula": "cutter",
         "count": "1"
       }
     ],
-    "curl": [
+    "darcs": [
       {
-        "formula": "curl",
-        "count": "1"
-      }
-    ],
-    "cvs": [
-      {
-        "formula": "cvs",
-        "count": "1"
-      }
-    ],
-    "daemontools": [
-      {
-        "formula": "daemontools",
-        "count": "1"
-      }
-    ],
-    "darglint": [
-      {
-        "formula": "darglint",
+        "formula": "darcs",
         "count": "1"
       }
     ],
     "dbus": [
       {
         "formula": "dbus",
-        "count": "12"
+        "count": "1"
+      }
+    ],
+    "dbxml": [
+      {
+        "formula": "dbxml",
+        "count": "5"
+      }
+    ],
+    "debootstrap": [
+      {
+        "formula": "debootstrap",
+        "count": "1"
       }
     ],
     "deno": [
       {
         "formula": "deno",
-        "count": "20"
+        "count": "1"
       }
     ],
-    "digitalbits": [
+    "density": [
       {
-        "formula": "digitalbits",
-        "count": "8"
+        "formula": "density",
+        "count": "2"
+      }
+    ],
+    "dhall-lsp-server": [
+      {
+        "formula": "dhall-lsp-server",
+        "count": "2"
+      }
+    ],
+    "dhall-yaml": [
+      {
+        "formula": "dhall-yaml",
+        "count": "2"
+      }
+    ],
+    "diff-pdf": [
+      {
+        "formula": "diff-pdf",
+        "count": "1"
       }
     ],
     "docker": [
       {
         "formula": "docker",
-        "count": "14"
-      }
-    ],
-    "docker-credential-helper": [
-      {
-        "formula": "docker-credential-helper",
-        "count": "2"
+        "count": "18"
       }
     ],
     "docker-machine-driver-xhyve": [
       {
         "formula": "docker-machine-driver-xhyve",
-        "count": "3"
+        "count": "9"
       }
     ],
-    "dosbox-staging": [
+    "docker2aci": [
       {
-        "formula": "dosbox-staging",
+        "formula": "docker2aci",
         "count": "1"
       }
     ],
     "dosbox-x": [
       {
         "formula": "dosbox-x",
-        "count": "1"
-      }
-    ],
-    "dotnet": [
-      {
-        "formula": "dotnet",
-        "count": "20"
-      }
-    ],
-    "dub": [
-      {
-        "formula": "dub",
         "count": "4"
       }
     ],
-    "duck": [
+    "dsocks": [
       {
-        "formula": "duck",
+        "formula": "dsocks",
+        "count": "1"
+      }
+    ],
+    "dvd+rw-tools": [
+      {
+        "formula": "dvd+rw-tools",
         "count": "2"
       }
     ],
-    "duckdb": [
+    "efl": [
       {
-        "formula": "duckdb",
-        "count": "8"
-      }
-    ],
-    "ebook-tools": [
-      {
-        "formula": "ebook-tools",
-        "count": "2"
-      }
-    ],
-    "ejabberd": [
-      {
-        "formula": "ejabberd",
-        "count": "2"
+        "formula": "efl",
+        "count": "1"
       }
     ],
     "emacs": [
       {
         "formula": "emacs",
-        "count": "2"
-      }
-    ],
-    "emscripten": [
-      {
-        "formula": "emscripten",
-        "count": "1"
-      }
-    ],
-    "enchant": [
-      {
-        "formula": "enchant",
         "count": "1"
       }
     ],
     "envoy": [
       {
         "formula": "envoy",
+        "count": "41"
+      }
+    ],
+    "exact-image": [
+      {
+        "formula": "exact-image",
+        "count": "3"
+      }
+    ],
+    "exiftran": [
+      {
+        "formula": "exiftran",
+        "count": "2"
+      }
+    ],
+    "ext2fuse": [
+      {
+        "formula": "ext2fuse",
+        "count": "1"
+      }
+    ],
+    "extract_url": [
+      {
+        "formula": "extract_url",
         "count": "8"
       }
     ],
-    "envoy@1.18": [
+    "eye-d3": [
       {
-        "formula": "envoy@1.18",
+        "formula": "eye-d3",
+        "count": "3"
+      }
+    ],
+    "fakeroot": [
+      {
+        "formula": "fakeroot",
         "count": "1"
       }
     ],
-    "espeak": [
+    "falcon": [
       {
-        "formula": "espeak",
-        "count": "1"
-      }
-    ],
-    "ettercap": [
-      {
-        "formula": "ettercap",
-        "count": "1"
-      }
-    ],
-    "fceux": [
-      {
-        "formula": "fceux",
-        "count": "2"
+        "formula": "falcon",
+        "count": "3"
       }
     ],
     "ffmpeg@2.8": [
       {
         "formula": "ffmpeg@2.8",
-        "count": "2"
+        "count": "1"
       }
     ],
     "firefoxpwa": [
@@ -464,201 +514,187 @@
     "flex": [
       {
         "formula": "flex",
-        "count": "117"
-      },
-      {
-        "formula": "flex --HEAD",
-        "count": "1"
-      }
-    ],
-    "flux": [
-      {
-        "formula": "flux",
-        "count": "1"
+        "count": "4"
       }
     ],
     "fontconfig": [
       {
         "formula": "fontconfig",
-        "count": "49"
+        "count": "11"
       }
     ],
-    "fping": [
+    "fontforge": [
       {
-        "formula": "fping",
-        "count": "2"
-      }
-    ],
-    "fq": [
-      {
-        "formula": "fq",
+        "formula": "fontforge",
         "count": "1"
       }
     ],
-    "freealut": [
+    "fprobe": [
       {
-        "formula": "freealut",
-        "count": "2"
-      }
-    ],
-    "frontier": [
-      {
-        "formula": "frontier",
-        "count": "2"
-      }
-    ],
-    "fuse-zip": [
-      {
-        "formula": "fuse-zip",
+        "formula": "fprobe",
         "count": "1"
       }
     ],
-    "gawk": [
+    "fragroute": [
       {
-        "formula": "gawk",
-        "count": "1"
+        "formula": "fragroute",
+        "count": "8"
       }
     ],
-    "gcal": [
+    "g2o": [
       {
-        "formula": "gcal",
+        "formula": "g2o",
         "count": "1"
       }
     ],
     "gcc": [
       {
         "formula": "gcc",
-        "count": "431"
-      },
-      {
-        "formula": "gcc --HEAD",
-        "count": "5"
+        "count": "407"
       }
     ],
     "gcc@10": [
       {
         "formula": "gcc@10",
+        "count": "5"
+      }
+    ],
+    "gcc@4.9": [
+      {
+        "formula": "gcc@4.9",
         "count": "1"
       }
     ],
     "gcc@5": [
       {
         "formula": "gcc@5",
-        "count": "361"
+        "count": "434"
       }
     ],
     "gcc@6": [
       {
         "formula": "gcc@6",
-        "count": "1"
+        "count": "3"
       }
     ],
     "gcc@7": [
       {
         "formula": "gcc@7",
-        "count": "3"
+        "count": "9"
       }
     ],
     "gcc@8": [
       {
         "formula": "gcc@8",
-        "count": "9"
+        "count": "2"
       }
     ],
     "gcc@9": [
       {
         "formula": "gcc@9",
-        "count": "3"
-      }
-    ],
-    "gdal": [
-      {
-        "formula": "gdal",
-        "count": "4"
-      }
-    ],
-    "gdb": [
-      {
-        "formula": "gdb",
-        "count": "2"
+        "count": "7"
       }
     ],
     "gdbm": [
       {
         "formula": "gdbm",
-        "count": "30"
+        "count": "21"
+      }
+    ],
+    "gdmap": [
+      {
+        "formula": "gdmap",
+        "count": "2"
+      }
+    ],
+    "gedit": [
+      {
+        "formula": "gedit",
+        "count": "1"
       }
     ],
     "gerbil-scheme": [
       {
         "formula": "gerbil-scheme",
-        "count": "3"
+        "count": "4"
       }
     ],
     "gettext": [
       {
         "formula": "gettext",
-        "count": "22"
+        "count": "27"
       }
     ],
     "gh": [
       {
-        "formula": "gh",
-        "count": "1"
+        "formula": "gh --HEAD",
+        "count": "7"
       }
     ],
-    "ghostscript": [
+    "ghc": [
       {
-        "formula": "ghostscript",
-        "count": "2"
-      }
-    ],
-    "gifski": [
-      {
-        "formula": "gifski",
+        "formula": "ghc",
         "count": "2"
       }
     ],
     "git": [
       {
         "formula": "git",
-        "count": "17"
+        "count": "22"
       }
     ],
-    "gitbucket": [
+    "git-archive-all": [
       {
-        "formula": "gitbucket --HEAD",
+        "formula": "git-archive-all",
         "count": "1"
       }
     ],
-    "glade": [
+    "git-lfs": [
       {
-        "formula": "glade",
+        "formula": "git-lfs",
+        "count": "1"
+      }
+    ],
+    "git-tracker": [
+      {
+        "formula": "git-tracker",
         "count": "1"
       }
     ],
     "glib": [
       {
         "formula": "glib",
-        "count": "40"
+        "count": "9"
       }
     ],
     "glibc": [
       {
         "formula": "glibc",
-        "count": "26"
+        "count": "5"
       }
     ],
     "gmp": [
       {
         "formula": "gmp",
-        "count": "6"
+        "count": "5"
+      }
+    ],
+    "gmsh": [
+      {
+        "formula": "gmsh",
+        "count": "1"
+      }
+    ],
+    "gnome-latex": [
+      {
+        "formula": "gnome-latex",
+        "count": "1"
       }
     ],
     "gnu-cobol": [
       {
         "formula": "gnu-cobol",
-        "count": "7"
+        "count": "2"
       }
     ],
     "gnu-tar": [
@@ -667,220 +703,166 @@
         "count": "2"
       }
     ],
+    "gnunet": [
+      {
+        "formula": "gnunet",
+        "count": "1"
+      }
+    ],
+    "gnuplot": [
+      {
+        "formula": "gnuplot",
+        "count": "1"
+      }
+    ],
     "gnuplot@4": [
       {
         "formula": "gnuplot@4",
         "count": "1"
       }
     ],
-    "gnustep-base": [
-      {
-        "formula": "gnustep-base",
-        "count": "11"
-      }
-    ],
-    "gnustep-make": [
-      {
-        "formula": "gnustep-make",
-        "count": "2"
-      }
-    ],
     "gnutls": [
       {
         "formula": "gnutls",
-        "count": "2"
+        "count": "1"
       }
     ],
     "go": [
       {
         "formula": "go",
-        "count": "27"
+        "count": "17"
       }
     ],
-    "go-plugins": [
+    "gobject-introspection": [
       {
-        "formula": "go-plugins",
+        "formula": "gobject-introspection",
         "count": "1"
       }
     ],
-    "go@1.13": [
+    "gource": [
       {
-        "formula": "go@1.13",
-        "count": "1"
+        "formula": "gource",
+        "count": "2"
       }
     ],
-    "got-your-back": [
+    "gping": [
       {
-        "formula": "got-your-back",
-        "count": "1"
-      }
-    ],
-    "gpredict": [
-      {
-        "formula": "gpredict",
+        "formula": "gping",
         "count": "1"
       }
     ],
     "gptfdisk": [
       {
         "formula": "gptfdisk",
+        "count": "2"
+      }
+    ],
+    "gqview": [
+      {
+        "formula": "gqview",
+        "count": "2"
+      }
+    ],
+    "grace": [
+      {
+        "formula": "grace",
         "count": "1"
       }
     ],
-    "grap": [
+    "graph-tool": [
       {
-        "formula": "grap",
-        "count": "4"
+        "formula": "graph-tool",
+        "count": "2"
       }
     ],
     "grok": [
       {
         "formula": "grok",
-        "count": "3"
-      }
-    ],
-    "groonga": [
-      {
-        "formula": "groonga",
-        "count": "2"
-      }
-    ],
-    "gst-plugins-bad": [
-      {
-        "formula": "gst-plugins-bad",
-        "count": "2"
+        "count": "4"
       }
     ],
     "gtk+3": [
       {
         "formula": "gtk+3",
-        "count": "10"
+        "count": "5"
       }
     ],
-    "hadolint": [
+    "gtkglext": [
       {
-        "formula": "hadolint",
+        "formula": "gtkglext",
         "count": "1"
       }
     ],
-    "hamlib": [
+    "guile": [
       {
-        "formula": "hamlib",
+        "formula": "guile",
+        "count": "8"
+      }
+    ],
+    "guile@2": [
+      {
+        "formula": "guile@2",
         "count": "1"
       }
     ],
-    "handbrake": [
+    "hashcat": [
       {
-        "formula": "handbrake",
-        "count": "11"
+        "formula": "hashcat",
+        "count": "4"
       }
     ],
-    "hashlink": [
+    "haxe": [
       {
-        "formula": "hashlink",
-        "count": "2"
+        "formula": "haxe",
+        "count": "3"
       }
     ],
-    "hcxtools": [
+    "healpix": [
       {
-        "formula": "hcxtools",
+        "formula": "healpix",
         "count": "1"
-      }
-    ],
-    "helib": [
-      {
-        "formula": "helib",
-        "count": "6"
       }
     ],
     "hello": [
       {
         "formula": "hello",
-        "count": "2"
-      }
-    ],
-    "helloworld": [
-      {
-        "formula": "helloworld",
-        "count": "3"
-      }
-    ],
-    "helmsman": [
-      {
-        "formula": "helmsman",
         "count": "1"
       }
     ],
-    "highlight": [
+    "helm": [
       {
-        "formula": "highlight",
-        "count": "7"
+        "formula": "helm",
+        "count": "1"
+      }
+    ],
+    "himalaya": [
+      {
+        "formula": "himalaya",
+        "count": "1"
       }
     ],
     "hping": [
       {
         "formula": "hping",
-        "count": "199"
-      }
-    ],
-    "hub": [
-      {
-        "formula": "hub --HEAD",
-        "count": "5"
+        "count": "4"
       }
     ],
     "hyperkit": [
       {
         "formula": "hyperkit",
-        "count": "40"
+        "count": "93"
       }
     ],
-    "hyperscan": [
+    "imagemagick": [
       {
-        "formula": "hyperscan",
-        "count": "3"
-      }
-    ],
-    "icon": [
-      {
-        "formula": "icon",
-        "count": "2"
-      }
-    ],
-    "id3lib": [
-      {
-        "formula": "id3lib",
-        "count": "2"
-      }
-    ],
-    "idris": [
-      {
-        "formula": "idris",
-        "count": "4"
-      }
-    ],
-    "ifuse": [
-      {
-        "formula": "ifuse",
-        "count": "3"
-      }
-    ],
-    "imagemagick@6": [
-      {
-        "formula": "imagemagick@6",
-        "count": "2"
-      }
-    ],
-    "imagesnap": [
-      {
-        "formula": "imagesnap",
-        "count": "2"
+        "formula": "imagemagick",
+        "count": "1"
       }
     ],
     "imap-uw": [
       {
         "formula": "imap-uw",
-        "count": "7"
+        "count": "1"
       }
     ],
     "imapfilter": [
@@ -892,49 +874,61 @@
     "infer": [
       {
         "formula": "infer",
-        "count": "4"
+        "count": "10"
       }
     ],
-    "intercal": [
+    "ipv6toolkit": [
       {
-        "formula": "intercal",
+        "formula": "ipv6toolkit",
+        "count": "1"
+      }
+    ],
+    "isl": [
+      {
+        "formula": "isl",
+        "count": "1"
+      }
+    ],
+    "isl@0.18": [
+      {
+        "formula": "isl@0.18",
+        "count": "2"
+      }
+    ],
+    "ispc": [
+      {
+        "formula": "ispc",
         "count": "1"
       }
     ],
     "istioctl": [
       {
         "formula": "istioctl",
-        "count": "31"
+        "count": "16"
       }
     ],
-    "jack": [
+    "john-jumbo": [
       {
-        "formula": "jack",
-        "count": "3"
+        "formula": "john-jumbo",
+        "count": "5"
       }
     ],
-    "jigdo": [
+    "jpeg-archive": [
       {
-        "formula": "jigdo",
+        "formula": "jpeg-archive",
         "count": "2"
       }
     ],
-    "jp": [
+    "jpeg-xl": [
       {
-        "formula": "jp",
-        "count": "4"
-      }
-    ],
-    "jython": [
-      {
-        "formula": "jython",
+        "formula": "jpeg-xl",
         "count": "2"
       }
     ],
-    "k9s": [
+    "jupyterlab": [
       {
-        "formula": "k9s",
-        "count": "8"
+        "formula": "jupyterlab",
+        "count": "5"
       }
     ],
     "kalker": [
@@ -943,98 +937,52 @@
         "count": "1"
       }
     ],
-    "kpcli": [
+    "kapacitor": [
       {
-        "formula": "kpcli",
-        "count": "3"
+        "formula": "kapacitor",
+        "count": "1"
+      }
+    ],
+    "klee": [
+      {
+        "formula": "klee",
+        "count": "2"
       }
     ],
     "krb5": [
       {
         "formula": "krb5",
-        "count": "83"
-      }
-    ],
-    "kubernetes-cli": [
-      {
-        "formula": "kubernetes-cli",
-        "count": "1"
-      }
-    ],
-    "kustomize": [
-      {
-        "formula": "kustomize",
-        "count": "2"
-      }
-    ],
-    "latexindent": [
-      {
-        "formula": "latexindent",
-        "count": "2"
+        "count": "56"
       }
     ],
     "launchdns": [
       {
         "formula": "launchdns",
+        "count": "5"
+      }
+    ],
+    "ldid": [
+      {
+        "formula": "ldid",
         "count": "4"
-      },
-      {
-        "formula": "launchdns --HEAD",
-        "count": "1"
       }
     ],
-    "ldc": [
+    "ledit": [
       {
-        "formula": "ldc",
-        "count": "12"
-      }
-    ],
-    "lft": [
-      {
-        "formula": "lft",
-        "count": "2"
+        "formula": "ledit",
+        "count": "3"
       }
     ],
     "libbpg": [
       {
         "formula": "libbpg",
-        "count": "3"
+        "count": "2"
       }
     ],
     "libcapn": [
       {
         "formula": "libcapn",
-        "count": "2"
-      }
-    ],
-    "libdill": [
-      {
-        "formula": "libdill",
         "count": "1"
-      }
-    ],
-    "libdispatch": [
-      {
-        "formula": "libdispatch",
-        "count": "2"
-      }
-    ],
-    "libdrawtext": [
-      {
-        "formula": "libdrawtext",
-        "count": "1"
-      }
-    ],
-    "libdrm": [
-      {
-        "formula": "libdrm",
-        "count": "28"
-      }
-    ],
-    "libdsk": [
-      {
-        "formula": "libdsk",
-        "count": "3"
       }
     ],
     "libetpan": [
@@ -1046,72 +994,66 @@
     "libexosip": [
       {
         "formula": "libexosip",
-        "count": "2"
+        "count": "1"
       }
     ],
-    "libgaussian": [
+    "libfaketime": [
       {
-        "formula": "libgaussian",
-        "count": "2"
+        "formula": "libfaketime",
+        "count": "4"
+      }
+    ],
+    "libfuse": [
+      {
+        "formula": "libfuse",
+        "count": "1"
       }
     ],
     "libgccjit": [
       {
         "formula": "libgccjit",
-        "count": "16"
+        "count": "11"
       }
     ],
-    "libgda": [
+    "libgit2": [
       {
-        "formula": "libgda",
-        "count": "5"
+        "formula": "libgit2",
+        "count": "2"
       }
     ],
-    "libgnt": [
+    "libgnomecanvas": [
       {
-        "formula": "libgnt",
-        "count": "4"
-      }
-    ],
-    "libgsm": [
-      {
-        "formula": "libgsm",
-        "count": "1"
+        "formula": "libgnomecanvas",
+        "count": "2"
       }
     ],
     "libidn2": [
       {
         "formula": "libidn2",
-        "count": "1"
+        "count": "5"
       }
     ],
     "libimobiledevice": [
       {
         "formula": "libimobiledevice --HEAD",
-        "count": "1"
+        "count": "15"
       }
     ],
     "libkate": [
       {
         "formula": "libkate",
-        "count": "4"
-      }
-    ],
-    "libkeccak": [
-      {
-        "formula": "libkeccak",
-        "count": "1"
-      }
-    ],
-    "libkml": [
-      {
-        "formula": "libkml",
         "count": "1"
       }
     ],
     "liblas": [
       {
         "formula": "liblas",
+        "count": "6"
+      }
+    ],
+    "liblockfile": [
+      {
+        "formula": "liblockfile",
         "count": "1"
       }
     ],
@@ -1133,212 +1075,160 @@
         "count": "1"
       }
     ],
-    "libmusicbrainz": [
-      {
-        "formula": "libmusicbrainz",
-        "count": "1"
-      }
-    ],
     "libnetworkit": [
       {
         "formula": "libnetworkit",
-        "count": "4"
-      }
-    ],
-    "libnice": [
-      {
-        "formula": "libnice",
         "count": "1"
       }
     ],
-    "libnids": [
+    "libnxml": [
       {
-        "formula": "libnids",
+        "formula": "libnxml",
         "count": "1"
       }
     ],
-    "libobjc2": [
+    "liboil": [
       {
-        "formula": "libobjc2",
-        "count": "1"
-      }
-    ],
-    "liboqs": [
-      {
-        "formula": "liboqs",
-        "count": "1"
-      }
-    ],
-    "libosmium": [
-      {
-        "formula": "libosmium",
-        "count": "1"
-      }
-    ],
-    "libpgm": [
-      {
-        "formula": "libpgm",
-        "count": "1"
-      }
-    ],
-    "libpointing": [
-      {
-        "formula": "libpointing",
-        "count": "1"
-      }
-    ],
-    "libpulsar": [
-      {
-        "formula": "libpulsar",
+        "formula": "liboil",
         "count": "1"
       }
     ],
     "libsecret": [
       {
         "formula": "libsecret",
-        "count": "1"
-      }
-    ],
-    "libsvm": [
-      {
-        "formula": "libsvm",
-        "count": "2"
+        "count": "4"
       }
     ],
     "libtensorflow": [
       {
         "formula": "libtensorflow",
-        "count": "1"
-      }
-    ],
-    "libtrace": [
-      {
-        "formula": "libtrace",
-        "count": "3"
-      }
-    ],
-    "libvdpau": [
-      {
-        "formula": "libvdpau",
-        "count": "11"
-      }
-    ],
-    "libvirt": [
-      {
-        "formula": "libvirt",
         "count": "2"
       }
     ],
-    "libwbxml": [
+    "libtool": [
       {
-        "formula": "libwbxml",
-        "count": "1"
+        "formula": "libtool",
+        "count": "2"
+      }
+    ],
+    "libunistring": [
+      {
+        "formula": "libunistring",
+        "count": "38"
+      }
+    ],
+    "libusbmuxd": [
+      {
+        "formula": "libusbmuxd --HEAD",
+        "count": "9"
       }
     ],
     "libwpd": [
       {
         "formula": "libwpd",
-        "count": "3"
+        "count": "1"
       }
     ],
     "libx11": [
       {
         "formula": "libx11",
-        "count": "4"
-      }
-    ],
-    "libxmi": [
-      {
-        "formula": "libxmi",
         "count": "1"
-      }
-    ],
-    "lifter": [
-      {
-        "formula": "lifter",
-        "count": "2"
       }
     ],
     "llvm": [
       {
         "formula": "llvm",
-        "count": "20"
-      },
+        "count": "25"
+      }
+    ],
+    "llvm@11": [
       {
-        "formula": "llvm --HEAD",
+        "formula": "llvm@11",
+        "count": "2"
+      }
+    ],
+    "llvm@7": [
+      {
+        "formula": "llvm@7",
+        "count": "1"
+      }
+    ],
+    "llvm@8": [
+      {
+        "formula": "llvm@8",
         "count": "1"
       }
     ],
     "llvm@9": [
       {
         "formula": "llvm@9",
-        "count": "6"
+        "count": "4"
       }
     ],
-    "lm-sensors": [
+    "lockrun": [
       {
-        "formula": "lm-sensors",
-        "count": "8"
-      }
-    ],
-    "lsyncd": [
-      {
-        "formula": "lsyncd",
-        "count": "1"
-      }
-    ],
-    "lua": [
-      {
-        "formula": "lua",
+        "formula": "lockrun",
         "count": "1"
       }
     ],
     "luajit": [
       {
         "formula": "luajit --HEAD",
-        "count": "8"
+        "count": "1"
       }
     ],
-    "lychee": [
+    "luvit": [
       {
-        "formula": "lychee",
+        "formula": "luvit",
+        "count": "1"
+      }
+    ],
+    "lzip": [
+      {
+        "formula": "lzip",
         "count": "1"
       }
     ],
     "m4": [
       {
         "formula": "m4",
-        "count": "41"
+        "count": "39"
       }
     ],
-    "mairix": [
+    "macosvpn": [
       {
-        "formula": "mairix",
+        "formula": "macosvpn",
         "count": "1"
       }
     ],
     "make": [
       {
         "formula": "make",
-        "count": "8"
+        "count": "6"
       }
     ],
-    "makensis": [
+    "makeicns": [
       {
-        "formula": "makensis",
-        "count": "9"
+        "formula": "makeicns",
+        "count": "1"
+      }
+    ],
+    "mandown": [
+      {
+        "formula": "mandown",
+        "count": "3"
+      }
+    ],
+    "mapnik": [
+      {
+        "formula": "mapnik",
+        "count": "1"
       }
     ],
     "mariadb": [
       {
         "formula": "mariadb",
-        "count": "3"
-      }
-    ],
-    "markit": [
-      {
-        "formula": "markit",
-        "count": "7"
+        "count": "1"
       }
     ],
     "mdr": [
@@ -1353,100 +1243,40 @@
         "count": "1"
       }
     ],
-    "memcached": [
+    "mecab": [
       {
-        "formula": "memcached",
-        "count": "1"
-      }
-    ],
-    "mergepbx": [
-      {
-        "formula": "mergepbx",
-        "count": "1"
-      }
-    ],
-    "mermaid-cli": [
-      {
-        "formula": "mermaid-cli",
-        "count": "12"
+        "formula": "mecab",
+        "count": "22"
       }
     ],
     "mesa": [
       {
         "formula": "mesa",
-        "count": "8"
-      }
-    ],
-    "metashell": [
-      {
-        "formula": "metashell",
         "count": "2"
       }
     ],
-    "minetest": [
+    "metasploit-framework": [
       {
-        "formula": "minetest",
+        "formula": "metasploit-framework",
         "count": "1"
-      }
-    ],
-    "minicom": [
-      {
-        "formula": "minicom",
-        "count": "3"
-      }
-    ],
-    "minisat": [
-      {
-        "formula": "minisat",
-        "count": "2"
       }
     ],
     "mint": [
       {
         "formula": "mint",
-        "count": "7"
+        "count": "4"
       }
     ],
-    "mkhexgrid": [
+    "miruo": [
       {
-        "formula": "mkhexgrid",
+        "formula": "miruo",
         "count": "1"
-      }
-    ],
-    "mkvtoolnix": [
-      {
-        "formula": "mkvtoolnix",
-        "count": "1"
-      }
-    ],
-    "mockolo": [
-      {
-        "formula": "mockolo",
-        "count": "1"
-      }
-    ],
-    "mogenerator": [
-      {
-        "formula": "mogenerator",
-        "count": "1"
-      }
-    ],
-    "molten-vk": [
-      {
-        "formula": "molten-vk",
-        "count": "2"
       }
     ],
     "mono": [
       {
         "formula": "mono",
-        "count": "54"
-      }
-    ],
-    "montage": [
-      {
-        "formula": "montage",
-        "count": "1"
+        "count": "61"
       }
     ],
     "mosh": [
@@ -1455,230 +1285,146 @@
         "count": "1"
       }
     ],
-    "mp3unicode": [
+    "mp3info": [
       {
-        "formula": "mp3unicode",
+        "formula": "mp3info",
         "count": "1"
       }
     ],
     "mp3val": [
       {
         "formula": "mp3val",
-        "count": "2"
-      }
-    ],
-    "mpack": [
-      {
-        "formula": "mpack",
-        "count": "5"
-      }
-    ],
-    "mpv": [
-      {
-        "formula": "mpv --HEAD",
         "count": "1"
       }
     ],
-    "msktutil": [
+    "mpd": [
       {
-        "formula": "msktutil",
-        "count": "1"
-      }
-    ],
-    "mtoc": [
-      {
-        "formula": "mtoc",
+        "formula": "mpd",
         "count": "2"
       }
     ],
-    "mtools": [
+    "mplayer": [
       {
-        "formula": "mtools",
+        "formula": "mplayer",
+        "count": "2"
+      }
+    ],
+    "mruby-cli": [
+      {
+        "formula": "mruby-cli",
         "count": "2"
       }
     ],
     "mtr": [
       {
         "formula": "mtr",
-        "count": "9"
-      }
-    ],
-    "mupen64plus": [
-      {
-        "formula": "mupen64plus",
-        "count": "1"
+        "count": "7"
       }
     ],
     "musepack": [
       {
         "formula": "musepack",
-        "count": "13"
-      }
-    ],
-    "mydumper": [
-      {
-        "formula": "mydumper",
-        "count": "1"
+        "count": "17"
       }
     ],
     "mysql": [
       {
         "formula": "mysql",
-        "count": "5"
+        "count": "1"
       }
     ],
     "mysql-client": [
       {
         "formula": "mysql-client",
-        "count": "4"
+        "count": "12"
       }
     ],
     "mysql@5.7": [
       {
         "formula": "mysql@5.7",
-        "count": "8"
-      }
-    ],
-    "mytop": [
-      {
-        "formula": "mytop",
         "count": "2"
       }
     ],
-    "nailgun": [
+    "ncnn": [
       {
-        "formula": "nailgun",
-        "count": "1"
-      }
-    ],
-    "natalie": [
-      {
-        "formula": "natalie",
-        "count": "1"
-      }
-    ],
-    "ncmpc": [
-      {
-        "formula": "ncmpc",
-        "count": "1"
-      }
-    ],
-    "ncspot": [
-      {
-        "formula": "ncspot",
-        "count": "1"
+        "formula": "ncnn",
+        "count": "3"
       }
     ],
     "ncurses": [
       {
         "formula": "ncurses",
-        "count": "76"
-      }
-    ],
-    "nedit": [
-      {
-        "formula": "nedit",
-        "count": "2"
-      }
-    ],
-    "needle": [
-      {
-        "formula": "needle",
-        "count": "1"
-      }
-    ],
-    "nef": [
-      {
-        "formula": "nef",
-        "count": "1"
+        "count": "24"
       }
     ],
     "neovim": [
       {
-        "formula": "neovim --HEAD",
-        "count": "24"
+        "formula": "neovim",
+        "count": "9"
       },
       {
-        "formula": "neovim",
-        "count": "16"
-      }
-    ],
-    "neovim-remote": [
-      {
-        "formula": "neovim-remote",
-        "count": "2"
-      }
-    ],
-    "nesc": [
-      {
-        "formula": "nesc",
-        "count": "1"
-      }
-    ],
-    "net-tools": [
-      {
-        "formula": "net-tools",
-        "count": "3"
-      }
-    ],
-    "nethacked": [
-      {
-        "formula": "nethacked",
-        "count": "1"
-      }
-    ],
-    "newsboat": [
-      {
-        "formula": "newsboat",
-        "count": "1"
+        "formula": "neovim --HEAD",
+        "count": "9"
       }
     ],
     "nghttp2": [
       {
         "formula": "nghttp2",
-        "count": "61"
+        "count": "50"
       }
     ],
     "ninvaders": [
       {
         "formula": "ninvaders",
-        "count": "2"
+        "count": "1"
+      }
+    ],
+    "nmap": [
+      {
+        "formula": "nmap",
+        "count": "1"
+      }
+    ],
+    "nnn": [
+      {
+        "formula": "nnn --HEAD",
+        "count": "1"
       }
     ],
     "node": [
       {
         "formula": "node",
-        "count": "14"
+        "count": "19"
       }
     ],
-    "norm": [
+    "node@14": [
       {
-        "formula": "norm",
+        "formula": "node@14",
+        "count": "2"
+      }
+    ],
+    "notcurses": [
+      {
+        "formula": "notcurses",
         "count": "1"
       }
     ],
-    "nsuds": [
+    "nsnake": [
       {
-        "formula": "nsuds",
+        "formula": "nsnake",
         "count": "1"
       }
     ],
-    "ntfs-3g": [
+    "nss": [
       {
-        "formula": "ntfs-3g",
-        "count": "7"
-      }
-    ],
-    "ntopng": [
-      {
-        "formula": "ntopng",
-        "count": "3"
+        "formula": "nss",
+        "count": "1"
       }
     ],
     "ntp": [
       {
         "formula": "ntp",
-        "count": "2"
+        "count": "3"
       }
     ],
     "nu": [
@@ -1690,91 +1436,49 @@
     "nu-smv": [
       {
         "formula": "nu-smv",
-        "count": "1"
-      }
-    ],
-    "numo-narray": [
-      {
-        "formula": "numo-narray",
-        "count": "3"
-      }
-    ],
-    "numpy": [
-      {
-        "formula": "numpy",
-        "count": "4"
-      }
-    ],
-    "nwchem": [
-      {
-        "formula": "nwchem",
-        "count": "1"
-      }
-    ],
-    "nxengine": [
-      {
-        "formula": "nxengine",
-        "count": "1"
-      }
-    ],
-    "objc-codegenutils": [
-      {
-        "formula": "objc-codegenutils",
-        "count": "1"
-      }
-    ],
-    "objfw": [
-      {
-        "formula": "objfw",
-        "count": "1"
-      }
-    ],
-    "ocaml": [
-      {
-        "formula": "ocaml",
-        "count": "1"
-      }
-    ],
-    "oclgrind": [
-      {
-        "formula": "oclgrind",
-        "count": "1"
-      }
-    ],
-    "ocp": [
-      {
-        "formula": "ocp",
-        "count": "1"
+        "count": "2"
       }
     ],
     "ocrmypdf": [
       {
         "formula": "ocrmypdf",
-        "count": "5"
+        "count": "1"
       }
     ],
-    "odt2txt": [
+    "octave": [
       {
-        "formula": "odt2txt",
-        "count": "7"
+        "formula": "octave",
+        "count": "10"
       }
     ],
     "open-mpi": [
       {
         "formula": "open-mpi",
-        "count": "52"
+        "count": "6"
       }
     ],
-    "opencascade": [
+    "opencbm": [
       {
-        "formula": "opencascade",
+        "formula": "opencbm",
+        "count": "1"
+      }
+    ],
+    "opencv@3.2": [
+      {
+        "formula": "opencv@3.2",
+        "count": "5"
+      }
+    ],
+    "openfst": [
+      {
+        "formula": "openfst",
         "count": "1"
       }
     ],
     "openjdk": [
       {
         "formula": "openjdk",
-        "count": "28"
+        "count": "29"
       }
     ],
     "openjdk@11": [
@@ -1783,100 +1487,76 @@
         "count": "1"
       }
     ],
-    "openjdk@8": [
-      {
-        "formula": "openjdk@8",
-        "count": "17"
-      }
-    ],
     "openldap": [
       {
         "formula": "openldap",
-        "count": "3"
-      }
-    ],
-    "openrtsp": [
-      {
-        "formula": "openrtsp",
-        "count": "1"
-      }
-    ],
-    "openshift-cli": [
-      {
-        "formula": "openshift-cli",
-        "count": "8"
-      }
-    ],
-    "openssh": [
-      {
-        "formula": "openssh",
         "count": "1"
       }
     ],
     "openssl@1.1": [
       {
         "formula": "openssl@1.1",
-        "count": "214"
+        "count": "360"
       }
     ],
-    "osm2pgsql": [
+    "openssl@3": [
       {
-        "formula": "osm2pgsql",
+        "formula": "openssl@3",
+        "count": "47"
+      }
+    ],
+    "operator-sdk": [
+      {
+        "formula": "operator-sdk",
         "count": "1"
       }
     ],
-    "p11-kit": [
+    "organize-tool": [
       {
-        "formula": "p11-kit",
-        "count": "7"
-      }
-    ],
-    "partio": [
-      {
-        "formula": "partio",
+        "formula": "organize-tool",
         "count": "2"
       }
     ],
-    "passenger": [
+    "p4v": [
       {
-        "formula": "passenger",
-        "count": "7"
+        "formula": "p4v",
+        "count": "1"
       }
     ],
-    "patchelf": [
+    "pam_yubico": [
       {
-        "formula": "patchelf",
-        "count": "2"
+        "formula": "pam_yubico",
+        "count": "1"
       }
     ],
-    "pdf2htmlex": [
+    "pcl": [
       {
-        "formula": "pdf2htmlex",
-        "count": "6"
+        "formula": "pcl",
+        "count": "1"
       }
     ],
-    "percona-server": [
+    "pdfgrep": [
       {
-        "formula": "percona-server",
-        "count": "2"
+        "formula": "pdfgrep",
+        "count": "1"
       }
     ],
     "perl": [
       {
         "formula": "perl",
-        "count": "6"
+        "count": "4"
       }
     ],
     "php": [
       {
         "formula": "php",
-        "count": "2"
+        "count": "5"
       }
     ],
     "pidgin": [
       {
         "formula": "pidgin",
-        "count": "1"
+        "count": "16"
       }
     ],
     "pinfo": [
@@ -1888,30 +1568,18 @@
     "pkg-config": [
       {
         "formula": "pkg-config",
-        "count": "3"
+        "count": "61"
       }
     ],
-    "planck": [
+    "plank": [
       {
-        "formula": "planck",
+        "formula": "plank",
         "count": "2"
       }
     ],
-    "png2ico": [
+    "pony-stable": [
       {
-        "formula": "png2ico",
-        "count": "5"
-      }
-    ],
-    "podman": [
-      {
-        "formula": "podman",
-        "count": "18"
-      }
-    ],
-    "ponyc": [
-      {
-        "formula": "ponyc",
+        "formula": "pony-stable",
         "count": "1"
       }
     ],
@@ -1921,524 +1589,376 @@
         "count": "1"
       }
     ],
-    "portmidi": [
+    "postgis": [
       {
-        "formula": "portmidi",
-        "count": "3"
+        "formula": "postgis",
+        "count": "19"
       }
     ],
     "postgresql": [
       {
         "formula": "postgresql",
-        "count": "11"
+        "count": "1"
       }
     ],
     "postgresql@10": [
       {
         "formula": "postgresql@10",
-        "count": "38"
+        "count": "8"
       }
     ],
     "postgresql@11": [
       {
         "formula": "postgresql@11",
-        "count": "42"
+        "count": "7"
       }
     ],
     "postgresql@12": [
       {
         "formula": "postgresql@12",
-        "count": "35"
+        "count": "7"
       }
     ],
-    "postgresql@9.4": [
+    "projectm": [
       {
-        "formula": "postgresql@9.4",
-        "count": "9"
-      }
-    ],
-    "postgresql@9.5": [
-      {
-        "formula": "postgresql@9.5",
-        "count": "8"
-      }
-    ],
-    "postgresql@9.6": [
-      {
-        "formula": "postgresql@9.6",
-        "count": "69"
-      }
-    ],
-    "promtail": [
-      {
-        "formula": "promtail",
-        "count": "3"
-      }
-    ],
-    "proto-gen-go": [
-      {
-        "formula": "proto-gen-go",
-        "count": "24"
-      }
-    ],
-    "protobuf": [
-      {
-        "formula": "protobuf --HEAD",
+        "formula": "projectm",
         "count": "1"
       }
     ],
-    "publish": [
+    "psc-package": [
       {
-        "formula": "publish",
+        "formula": "psc-package",
         "count": "2"
+      }
+    ],
+    "pspg": [
+      {
+        "formula": "pspg",
+        "count": "3"
       }
     ],
     "py-spy": [
       {
         "formula": "py-spy",
-        "count": "3"
-      }
-    ],
-    "pyinstaller": [
-      {
-        "formula": "pyinstaller",
         "count": "2"
       }
     ],
     "pypy": [
       {
         "formula": "pypy",
-        "count": "4"
+        "count": "1"
       }
     ],
-    "pyqt@5": [
+    "pyqt": [
       {
-        "formula": "pyqt@5",
-        "count": "4"
+        "formula": "pyqt",
+        "count": "8"
       }
     ],
-    "python@3.7": [
+    "pyside": [
       {
-        "formula": "python@3.7",
-        "count": "5"
+        "formula": "pyside",
+        "count": "2"
       }
     ],
-    "python@3.8": [
+    "python@3.10": [
       {
-        "formula": "python@3.8",
-        "count": "12"
+        "formula": "python@3.10",
+        "count": "1"
       }
     ],
     "python@3.9": [
       {
         "formula": "python@3.9",
-        "count": "63"
+        "count": "24"
       }
     ],
-    "qt": [
+    "qdbm": [
       {
-        "formula": "qt",
-        "count": "145"
+        "formula": "qdbm",
+        "count": "1"
       }
     ],
-    "qt@5": [
+    "qemu": [
       {
-        "formula": "qt@5",
-        "count": "350"
+        "formula": "qemu",
+        "count": "6"
+      }
+    ],
+    "qstat": [
+      {
+        "formula": "qstat",
+        "count": "1"
       }
     ],
     "r": [
       {
         "formula": "r",
-        "count": "7"
+        "count": "23"
       }
     ],
-    "r@3.6": [
+    "rav1e": [
       {
-        "formula": "r@3.6",
-        "count": "5"
-      }
-    ],
-    "rc": [
-      {
-        "formula": "rc",
-        "count": "1"
+        "formula": "rav1e --HEAD",
+        "count": "4"
       }
     ],
     "rdesktop": [
       {
         "formula": "rdesktop",
+        "count": "3"
+      }
+    ],
+    "re2c": [
+      {
+        "formula": "re2c",
+        "count": "2"
+      }
+    ],
+    "reaver": [
+      {
+        "formula": "reaver",
+        "count": "2"
+      }
+    ],
+    "rssh": [
+      {
+        "formula": "rssh",
         "count": "1"
       }
     ],
-    "reposurgeon": [
+    "rswift": [
       {
-        "formula": "reposurgeon",
+        "formula": "rswift",
         "count": "4"
-      }
-    ],
-    "rig": [
-      {
-        "formula": "rig",
-        "count": "1"
-      }
-    ],
-    "root": [
-      {
-        "formula": "root",
-        "count": "7"
-      }
-    ],
-    "rosa-cli": [
-      {
-        "formula": "rosa-cli",
-        "count": "5"
       }
     ],
     "ruby": [
       {
         "formula": "ruby",
-        "count": "8"
-      }
-    ],
-    "ruby@2.7": [
-      {
-        "formula": "ruby@2.7",
-        "count": "12"
-      }
-    ],
-    "rxvt-unicode": [
-      {
-        "formula": "rxvt-unicode",
-        "count": "10"
-      }
-    ],
-    "rzip": [
-      {
-        "formula": "rzip",
-        "count": "2"
+        "count": "5"
       }
     ],
     "s3fs": [
       {
         "formula": "s3fs",
-        "count": "5"
+        "count": "1"
+      }
+    ],
+    "sail": [
+      {
+        "formula": "sail",
+        "count": "12"
       }
     ],
     "samba": [
       {
         "formula": "samba",
-        "count": "19"
+        "count": "2"
       }
     ],
     "scrcpy": [
       {
         "formula": "scrcpy",
-        "count": "49"
+        "count": "9"
       }
     ],
     "screen": [
       {
         "formula": "screen",
-        "count": "3"
-      }
-    ],
-    "sdl2": [
-      {
-        "formula": "sdl2",
         "count": "1"
       }
     ],
-    "serialosc": [
+    "scs": [
       {
-        "formula": "serialosc",
+        "formula": "scs",
         "count": "1"
       }
     ],
-    "shakespeare": [
+    "seexpr": [
       {
-        "formula": "shakespeare",
+        "formula": "seexpr",
         "count": "2"
+      }
+    ],
+    "sendemail": [
+      {
+        "formula": "sendemail",
+        "count": "1"
+      }
+    ],
+    "sfcgal": [
+      {
+        "formula": "sfcgal",
+        "count": "8"
       }
     ],
     "sheldon": [
       {
         "formula": "sheldon",
-        "count": "4"
+        "count": "2"
+      }
+    ],
+    "shtools": [
+      {
+        "formula": "shtools",
+        "count": "2"
       }
     ],
     "signify-osx": [
       {
         "formula": "signify-osx",
-        "count": "2"
-      }
-    ],
-    "silicon": [
-      {
-        "formula": "silicon",
-        "count": "9"
-      }
-    ],
-    "simple-mtpfs": [
-      {
-        "formula": "simple-mtpfs",
         "count": "1"
       }
     ],
     "skaffold": [
       {
         "formula": "skaffold",
-        "count": "47"
+        "count": "4"
       }
     ],
-    "sn0int": [
+    "slides": [
       {
-        "formula": "sn0int",
+        "formula": "slides",
         "count": "2"
       }
     ],
-    "solarus": [
+    "slurm": [
       {
-        "formula": "solarus",
+        "formula": "slurm",
         "count": "1"
       }
     ],
-    "sphinx-doc": [
+    "spatialite-tools": [
       {
-        "formula": "sphinx-doc",
-        "count": "1"
+        "formula": "spatialite-tools",
+        "count": "4"
       }
     ],
-    "sqlite": [
+    "spotifyd": [
       {
-        "formula": "sqlite",
-        "count": "3"
+        "formula": "spotifyd",
+        "count": "4"
       }
     ],
     "sratoolkit": [
       {
         "formula": "sratoolkit",
-        "count": "6"
+        "count": "10"
       }
     ],
-    "srecord": [
+    "sslmate": [
       {
-        "formula": "srecord",
+        "formula": "sslmate",
         "count": "1"
       }
     ],
-    "ssldump": [
+    "starship": [
       {
-        "formula": "ssldump",
-        "count": "2"
-      }
-    ],
-    "ssss": [
-      {
-        "formula": "ssss",
+        "formula": "starship",
         "count": "1"
       }
     ],
-    "stellar-core": [
+    "stp": [
       {
-        "formula": "stellar-core",
-        "count": "1"
-      }
-    ],
-    "stone": [
-      {
-        "formula": "stone",
-        "count": "1"
+        "formula": "stp",
+        "count": "18"
       }
     ],
     "strongswan": [
       {
         "formula": "strongswan",
-        "count": "4"
+        "count": "3"
       }
     ],
-    "subversion": [
+    "swftools": [
       {
-        "formula": "subversion",
-        "count": "10"
-      }
-    ],
-    "subversion@1.8": [
-      {
-        "formula": "subversion@1.8",
-        "count": "15"
-      }
-    ],
-    "svg2png": [
-      {
-        "formula": "svg2png",
-        "count": "2"
+        "formula": "swftools",
+        "count": "1"
       }
     ],
     "swift": [
       {
         "formula": "swift",
-        "count": "27"
-      }
-    ],
-    "swift-format": [
-      {
-        "formula": "swift-format",
-        "count": "1"
-      }
-    ],
-    "swift-protobuf": [
-      {
-        "formula": "swift-protobuf",
-        "count": "1"
-      }
-    ],
-    "swift-sh": [
-      {
-        "formula": "swift-sh",
-        "count": "2"
+        "count": "13"
       }
     ],
     "swig": [
       {
         "formula": "swig",
-        "count": "10"
+        "count": "1"
+      }
+    ],
+    "swimglang": [
+      {
+        "formula": "swimglang",
+        "count": "11"
       }
     ],
     "systemd": [
       {
         "formula": "systemd",
-        "count": "27"
-      }
-    ],
-    "tag": [
-      {
-        "formula": "tag",
-        "count": "2"
-      }
-    ],
-    "tbb@2020": [
-      {
-        "formula": "tbb@2020",
-        "count": "2"
+        "count": "3"
       }
     ],
     "tcc": [
       {
         "formula": "tcc",
-        "count": "1"
-      }
-    ],
-    "tcl-tk": [
-      {
-        "formula": "tcl-tk",
-        "count": "1"
-      }
-    ],
-    "tcpstat": [
-      {
-        "formula": "tcpstat",
         "count": "2"
       }
     ],
-    "tcptrace": [
+    "terraform-rover": [
       {
-        "formula": "tcptrace",
-        "count": "2"
-      }
-    ],
-    "teensy_loader_cli": [
-      {
-        "formula": "teensy_loader_cli",
-        "count": "10"
-      }
-    ],
-    "telegraf": [
-      {
-        "formula": "telegraf",
-        "count": "3"
-      }
-    ],
-    "telnetd": [
-      {
-        "formula": "telnetd",
+        "formula": "terraform-rover",
         "count": "1"
       }
     ],
-    "tendermint": [
+    "terraformer": [
       {
-        "formula": "tendermint",
-        "count": "1"
-      }
-    ],
-    "termbox": [
-      {
-        "formula": "termbox",
-        "count": "4"
-      }
-    ],
-    "terraforming": [
-      {
-        "formula": "terraforming",
-        "count": "1"
-      }
-    ],
-    "tesseract": [
-      {
-        "formula": "tesseract --HEAD",
+        "formula": "terraformer --HEAD",
         "count": "1"
       }
     ],
     "texlive": [
       {
         "formula": "texlive",
-        "count": "44"
+        "count": "25"
       }
     ],
-    "theharvester": [
+    "timewarrior": [
       {
-        "formula": "theharvester",
-        "count": "2"
+        "formula": "timewarrior",
+        "count": "5"
       }
     ],
-    "thors-serializer": [
+    "timidity": [
       {
-        "formula": "thors-serializer",
-        "count": "6"
-      }
-    ],
-    "tig": [
-      {
-        "formula": "tig --HEAD",
+        "formula": "timidity",
         "count": "1"
       }
     ],
-    "tracebox": [
+    "tmux": [
       {
-        "formula": "tracebox",
+        "formula": "tmux --HEAD",
         "count": "1"
       }
     ],
-    "tracker": [
+    "tnftpd": [
       {
-        "formula": "tracker",
+        "formula": "tnftpd",
+        "count": "1"
+      }
+    ],
+    "topgrade": [
+      {
+        "formula": "topgrade",
         "count": "4"
       }
     ],
     "tree-sitter": [
       {
         "formula": "tree-sitter --HEAD",
-        "count": "5"
-      },
-      {
-        "formula": "tree-sitter",
-        "count": "2"
-      }
-    ],
-    "tty-solitaire": [
-      {
-        "formula": "tty-solitaire",
-        "count": "1"
+        "count": "13"
       }
     ],
     "ttyrec": [
@@ -2447,86 +1967,98 @@
         "count": "2"
       }
     ],
+    "typespeed": [
+      {
+        "formula": "typespeed",
+        "count": "1"
+      }
+    ],
     "unar": [
       {
         "formula": "unar",
+        "count": "10"
+      }
+    ],
+    "unbound": [
+      {
+        "formula": "unbound",
+        "count": "3"
+      }
+    ],
+    "unzip": [
+      {
+        "formula": "unzip",
         "count": "7"
-      }
-    ],
-    "unixodbc": [
-      {
-        "formula": "unixodbc",
-        "count": "2"
-      }
-    ],
-    "urlview": [
-      {
-        "formula": "urlview",
-        "count": "5"
       }
     ],
     "util-linux": [
       {
         "formula": "util-linux",
-        "count": "4"
+        "count": "5"
       }
     ],
-    "v8": [
+    "utimer": [
       {
-        "formula": "v8",
-        "count": "16"
+        "formula": "utimer",
+        "count": "2"
       }
     ],
     "v8@3.15": [
       {
         "formula": "v8@3.15",
-        "count": "17"
+        "count": "48"
       }
     ],
     "vapor": [
       {
         "formula": "vapor",
-        "count": "4"
+        "count": "8"
       }
     ],
-    "vault": [
+    "vapoursynth": [
       {
-        "formula": "vault",
-        "count": "24"
+        "formula": "vapoursynth",
+        "count": "2"
       }
     ],
-    "vecx": [
+    "vapoursynth-imwri": [
       {
-        "formula": "vecx",
+        "formula": "vapoursynth-imwri",
         "count": "1"
+      }
+    ],
+    "vde": [
+      {
+        "formula": "vde",
+        "count": "23"
       }
     ],
     "vice": [
       {
         "formula": "vice",
-        "count": "1"
+        "count": "5"
       }
     ],
-    "vifm": [
+    "viennacl": [
       {
-        "formula": "vifm --HEAD",
-        "count": "5"
+        "formula": "viennacl",
+        "count": "2"
       }
     ],
     "vim": [
       {
         "formula": "vim",
-        "count": "33"
+        "count": "40"
       },
       {
         "formula": "vim --HEAD",
-        "count": "8"
+        "count": "2"
       }
     ],
-    "vowpal-wabbit": [
+    "vips": [
       {
-        "formula": "vowpal-wabbit",
-        "count": "1"
+        "formula": "vips",
+        "count": "5"
       }
     ],
     "vte3": [
@@ -2535,49 +2067,49 @@
         "count": "1"
       }
     ],
-    "vtk": [
+    "vulkan-tools": [
       {
-        "formula": "vtk",
+        "formula": "vulkan-tools",
         "count": "1"
       }
     ],
     "watchman": [
       {
-        "formula": "watchman --HEAD",
-        "count": "37"
+        "formula": "watchman",
+        "count": "48"
       },
       {
-        "formula": "watchman",
-        "count": "35"
+        "formula": "watchman --HEAD",
+        "count": "21"
       }
     ],
-    "webarchiver": [
+    "wayland-protocols": [
       {
-        "formula": "webarchiver",
-        "count": "3"
+        "formula": "wayland-protocols",
+        "count": "1"
       }
     ],
-    "webfs": [
+    "weechat": [
       {
-        "formula": "webfs",
-        "count": "5"
+        "formula": "weechat",
+        "count": "4"
+      }
+    ],
+    "weighttp": [
+      {
+        "formula": "weighttp",
+        "count": "4"
       }
     ],
     "winexe": [
       {
         "formula": "winexe",
-        "count": "4"
+        "count": "1"
       }
     ],
-    "xboard": [
+    "xcbeautify": [
       {
-        "formula": "xboard",
-        "count": "2"
-      }
-    ],
-    "xclogparser": [
-      {
-        "formula": "xclogparser",
+        "formula": "xcbeautify",
         "count": "1"
       }
     ],
@@ -2587,58 +2119,52 @@
         "count": "9"
       }
     ],
-    "xorgproto": [
+    "xmrig": [
       {
-        "formula": "xorgproto",
+        "formula": "xmrig",
         "count": "1"
       }
     ],
-    "yamdi": [
+    "xpdf": [
       {
-        "formula": "yamdi",
-        "count": "6"
+        "formula": "xpdf",
+        "count": "1"
       }
     ],
-    "yazpp": [
+    "xrick": [
       {
-        "formula": "yazpp",
+        "formula": "xrick",
+        "count": "3"
+      }
+    ],
+    "xz": [
+      {
+        "formula": "xz",
+        "count": "2"
+      }
+    ],
+    "yamcha": [
+      {
+        "formula": "yamcha",
         "count": "1"
       }
     ],
     "youtube-dlc": [
       {
         "formula": "youtube-dlc",
-        "count": "2"
-      }
-    ],
-    "yq": [
-      {
-        "formula": "yq",
         "count": "3"
       }
     ],
-    "z3": [
+    "zenith": [
       {
-        "formula": "z3",
-        "count": "2"
-      }
-    ],
-    "zig": [
-      {
-        "formula": "zig --HEAD",
-        "count": "1"
-      }
-    ],
-    "zmap": [
-      {
-        "formula": "zmap",
+        "formula": "zenith",
         "count": "2"
       }
     ],
     "zsh-lovers": [
       {
         "formula": "zsh-lovers",
-        "count": "4"
+        "count": "3"
       }
     ]
   }

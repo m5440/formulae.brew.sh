@@ -13,13 +13,13 @@
   "license": "EPL-1.0",
   "homepage": "https://openliberty.io",
   "versions": {
-    "stable": "21.0.0.8",
+    "stable": "21.0.0.10",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-07-27_1323/openliberty-javaee8-21.0.0.8.zip",
+      "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-09-20_1900/openliberty-javaee8-21.0.0.10.zip",
       "tag": null,
       "revision": null
     }
@@ -33,8 +33,8 @@
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/openliberty-jakartaee8/blobs/sha256:73e449d3fdf607d986bdf21942dcb06a4254d3f5dfde0c75cba61be7bfb88c2e",
-          "sha256": "73e449d3fdf607d986bdf21942dcb06a4254d3f5dfde0c75cba61be7bfb88c2e"
+          "url": "https://ghcr.io/v2/homebrew/core/openliberty-jakartaee8/blobs/sha256:9960c84bfbaee8adfd5237b1425c9361efc55323c94fb487222e44a8cddd959f",
+          "sha256": "9960c84bfbaee8adfd5237b1425c9361efc55323c94fb487222e44a8cddd959f"
         }
       }
     }

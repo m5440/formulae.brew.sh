@@ -13,13 +13,13 @@
   "license": null,
   "homepage": "https://saxon.sourceforge.io",
   "versions": {
-    "stable": "10.5",
+    "stable": "10.6",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/saxon/Saxon-HE/10/Java/SaxonHE10-5J.zip",
+      "url": "https://downloads.sourceforge.net/project/saxon/Saxon-HE/10/Java/SaxonHE10-6J.zip",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/saxon/blobs/sha256:75fca68a37c4d331f43396fb56fd28a0ee3e7048e824cc8f8a72c23ee7a14f32",
-          "sha256": "75fca68a37c4d331f43396fb56fd28a0ee3e7048e824cc8f8a72c23ee7a14f32"
+          "url": "https://ghcr.io/v2/homebrew/core/saxon/blobs/sha256:3811e814ae387cce8ff10a8ac2f7bf336197b480fcf8f9c1d3bc635b08ea47fd",
+          "sha256": "3811e814ae387cce8ff10a8ac2f7bf336197b480fcf8f9c1d3bc635b08ea47fd"
         }
       }
     }

@@ -13,13 +13,13 @@
   "license": "AGPL-3.0-only",
   "homepage": "https://grafana.com",
   "versions": {
-    "stable": "8.1.1",
+    "stable": "8.2.2",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/grafana/grafana/archive/v8.1.1.tar.gz",
+      "url": "https://github.com/grafana/grafana/archive/v8.2.2.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/grafana/blobs/sha256:2f8d56e4f8af65b634f9df71e20cb4bd7afeac6d035c3091416e2895df44e0da",
-          "sha256": "2f8d56e4f8af65b634f9df71e20cb4bd7afeac6d035c3091416e2895df44e0da"
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:d384e50ebe9c4fe2fb5783a5214cdc0fde921d8ef5c39f1748d3762c2c8f6df9",
+          "sha256": "d384e50ebe9c4fe2fb5783a5214cdc0fde921d8ef5c39f1748d3762c2c8f6df9"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/grafana/blobs/sha256:c8fab5832dfabbb8aadb8da665c4164d50bb4da8fc518e8b5c7faaea9976da18",
-          "sha256": "c8fab5832dfabbb8aadb8da665c4164d50bb4da8fc518e8b5c7faaea9976da18"
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:54d3fa816b1101d9bdc35a00b27017a0d9b3374c742b787f7518d62e4519e625",
+          "sha256": "54d3fa816b1101d9bdc35a00b27017a0d9b3374c742b787f7518d62e4519e625"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/grafana/blobs/sha256:195e495e461cb48e41070f6de96d86e47861a88f91aebb74a7689ce441fb615e",
-          "sha256": "195e495e461cb48e41070f6de96d86e47861a88f91aebb74a7689ce441fb615e"
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:271394d0f1c48293916e8fef1d98d86f3f9c0ee1a6e9cc1eda83274363ec0980",
+          "sha256": "271394d0f1c48293916e8fef1d98d86f3f9c0ee1a6e9cc1eda83274363ec0980"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/grafana/blobs/sha256:db0bc1a0c77c43ba3805e16ab5ee1890728c614a898b52943e8d2343f82400d5",
-          "sha256": "db0bc1a0c77c43ba3805e16ab5ee1890728c614a898b52943e8d2343f82400d5"
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:b630f24c8495f8d0cae278fe6ac412a35fa915ba3507e0a963fc65e7c4e70159",
+          "sha256": "b630f24c8495f8d0cae278fe6ac412a35fa915ba3507e0a963fc65e7c4e70159"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/grafana/blobs/sha256:80e0f42a2160b3bc615dcadc04ac672b99342cac21533b14404ace4d93230e4b",
-          "sha256": "80e0f42a2160b3bc615dcadc04ac672b99342cac21533b14404ace4d93230e4b"
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:8668b14f36f31680e6ec272effd0bcf416db1927b98cfc1cb3f8c3a30e07003d",
+          "sha256": "8668b14f36f31680e6ec272effd0bcf416db1927b98cfc1cb3f8c3a30e07003d"
         }
       }
     }
@@ -81,7 +81,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

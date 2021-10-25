@@ -1,22 +1,19 @@
 {
   "name": "sn0int",
-  "pkg_version": "0.21.2",
+  "pkg_version": "0.23.0",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:b92b03632a362c9e58bf520f2b32aa3f4cd1adedca52227d4dfac77612412b46"
+      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:917c9cb08c392e891d5c7b8d6cc712fb98681769466c99b32aaa1654bd90570a"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:0feb4eb85dc71fb422586160548a2f1ab7859db2960ae3832b7684b235d5e1fc"
+      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:72813ea3748851d0d6afdf7ccc9529be510a40bf5aea9d6f0e88ed45011594f0"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:ee81122a7fdb127d319635582d5daaf68ce5e9f9d7ff42a2774d9732d27e6c0a"
-    },
-    "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:5a3bee08093299cd1cc454de68927afa595bdfb122c77f97ca5df7a94ae6a41c"
+      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:b1768826a0d1558668fe80c8a189ce37d4050722cb3e09591a771ea00565c5b4"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:b85c6416f70c5021bc56515d3a0405cf7616400df7b4eb507759128cf6a30f7c"
+      "url": "https://ghcr.io/v2/homebrew/core/sn0int/blobs/sha256:c709f2f83a1b8d38f239c2b2239cebf74358785f757d1b58819d802951d55877"
     }
   },
   "dependencies": [
@@ -25,8 +22,14 @@
       "pkg_version": "1.0.18_1",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:493ce4faacb1fba817e73213cde331a68f73531d89260200726cc17c1ca00797"
+        },
         "arm64_big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:ab7029c599665005a9c9ec9e72c74bf4d543fd7a995d9af9cfe9e6c10de79177"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:522ac3f26c646f3d276b0c997e1a2771559d4766362d28f16ca1a9585bc20206"
         },
         "big_sur": {
           "url": "https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:5afc5678e30a174c1e46f1e905124f2619e6d9815ac776836090c0bff85631d6"

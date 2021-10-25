@@ -7,12 +7,14 @@
   ],
   "desc": "App wrapper for Postgres",
   "homepage": "https://postgresapp.com/",
-  "url": "https://github.com/PostgresApp/PostgresApp/releases/download/v2.4.3/Postgres-2.4.3-9.5-9.6-10-11-12-13.dmg",
+  "url": "https://github.com/PostgresApp/PostgresApp/releases/download/v2.5/Postgres-2.5-9.6-10-11-12-13-14.dmg",
   "appcast": null,
-  "version": "2.4.3",
+  "version": "2.5",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "8d14b7594304ce2da9e8cba15ed091e0a16fcf773d172f122eca226e4efbcd81",
+  "sha256": "2e8bc56f77df7d5dbc799fbfbe3a7e4e0c4c6ae7812440bf214a62ed829a91e9",
   "artifacts": [
     {
       "launchctl": "com.postgresapp.Postgres2LoginHelper",

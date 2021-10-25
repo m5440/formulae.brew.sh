@@ -1,22 +1,22 @@
 {
   "name": "chezmoi",
-  "pkg_version": "2.1.5",
+  "pkg_version": "2.7.2",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/chezmoi/blobs/sha256:b2beb0d90626a08df5558a8d375064f56abbf9eaaba2981870c38ccc2373bcfd"
+      "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:54df4476e8027a1be2e0a8f78a41501e85f2f7706824bfc908d485bf8466fdc7"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/chezmoi/blobs/sha256:b8a8d95fbce79cc1bba282814eec39459848085236102313de89a3ca564a95d7"
+      "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:d193d760f002a14f0061cd5f9c759fadce3730732862cffe7645700988cecee1"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/chezmoi/blobs/sha256:7b883d6d3abbd2a7393851b7f3b7a3239ccd01083a7cd0d5dc49eab45d202215"
+      "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:618ca781b867379ccc83df7fbcf52ed853ae49db0cdb60413de05c3790dc0ec6"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/chezmoi/blobs/sha256:176b87ff4bd1a1b8dab8601645cb6a60f0a67b11cb34b7ece533c67752a55999"
+      "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:c672971df1a9c216fe414f48cc1f8164c1bab59423054f1853c368c56502780d"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/chezmoi/blobs/sha256:8a11ec61b6cbaa7f614b709bcff39d5a32cdd18fd95a00f9bcc2c1708011cc47"
+      "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:574055030888695386f9c0a8bc40a4aa4d1116ee1d0429681ba636a8cbf6ce9f"
     }
   },
   "dependencies": [

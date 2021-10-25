@@ -7,12 +7,14 @@
   ],
   "desc": "Memory training application",
   "homepage": "https://apps.ankiweb.net/",
-  "url": "https://github.com/ankitects/anki/releases/download/2.1.46/anki-2.1.46-mac.dmg",
+  "url": "https://github.com/ankitects/anki/releases/download/2.1.48/anki-2.1.48-mac.dmg",
   "appcast": null,
-  "version": "2.1.46",
+  "version": "2.1.48",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "fe046a861ea01b9bbdef4a4d875b4a523971908ec086526f9eb5c8860bac6c00",
+  "sha256": "1d7613a4ec45c63428aa3b3ed38762cb977e1a64baf5d14d11f2c8fc4e0d097c",
   "artifacts": [
     [
       "Anki.app"

@@ -7,19 +7,21 @@
   ],
   "desc": "3D creation suite",
   "homepage": "https://www.blender.org/",
-  "url": "https://download.blender.org/release/Blender2.93/blender-2.93.3-macos-x64.dmg",
+  "url": "https://download.blender.org/release/Blender2.93/blender-2.93.5-macos-x64.dmg",
   "appcast": null,
-  "version": "2.93.3",
+  "version": "2.93.5",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "902d8c3ba23764cba2c1b5b2ea30c88053ee9dae3baa647968eb553beb2d40ce",
+  "sha256": "08c929f2fcbde0233947b183e8cf53e5595b8f9eedcac749b2828a713ceb9ce0",
   "artifacts": [
     "preflight (Preflight Block)",
     [
       "Blender.app"
     ],
     [
-      "$(brew --prefix)/Caskroom/blender/2.93.3/blender.wrapper.sh",
+      "$(brew --prefix)/Caskroom/blender/2.93.5/blender.wrapper.sh",
       {
         "target": "blender"
       }

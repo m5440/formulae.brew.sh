@@ -8,12 +8,14 @@
   ],
   "desc": "Trading application",
   "homepage": "https://www.futunn.com/",
-  "url": "https://softwarefile.futunn.com/FTNNForMac_11.8.1318_202108041002_Website.dmg",
+  "url": "https://softwarefile.futunn.com/FTNNForMac_11.10.1518_202109271021_Website.dmg",
   "appcast": null,
-  "version": "11.8.1318,202108041002",
+  "version": "11.10.1518,202109271021",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "2af3d7a5718122515391e737a2572e177979a29426068ba74a2f9394b6f5d956",
+  "sha256": "9a1192d26865c85d7535ec65830a00d5a2b802fed5633bc25497aeb5212d39ff",
   "artifacts": [
     [
       "FutuNiuniu.app",

@@ -1,10 +1,10 @@
 {
   "name": "jenkins-lts",
-  "pkg_version": "2.289.3",
-  "rebuild": 1,
+  "pkg_version": "2.303.2",
+  "rebuild": 0,
   "bottles": {
     "all": {
-      "url": "https://ghcr.io/v2/homebrew/core/jenkins-lts/blobs/sha256:022ab6e7aa3c5fca334010dba147bac734fe545fef1939544b3f2c3c990aee8c"
+      "url": "https://ghcr.io/v2/homebrew/core/jenkins-lts/blobs/sha256:dc091c7b1c442ad9d3bda5d365462cc784ede8214bd0f6dda3e781dd3937ac1a"
     }
   },
   "dependencies": [

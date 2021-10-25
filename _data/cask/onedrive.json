@@ -7,12 +7,14 @@
   ],
   "desc": "Cloud storage client",
   "homepage": "https://onedrive.live.com/",
-  "url": "https://oneclient.sfx.ms/Mac/Direct/21.129.0627.0002/OneDrive.pkg",
+  "url": "https://oneclient.sfx.ms/Mac/Direct/21.180.0905.0007/OneDrive.pkg",
   "appcast": null,
-  "version": "21.129.0627.0002",
+  "version": "21.180.0905.0007",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "3dc2bfa962b02da454ecc71ea8572535444846540b1b3316d9e824a454a92593",
+  "sha256": "888d375f41508cce36772616de7dfd03a12acba5615c1640189daa37273ed578",
   "artifacts": [
     {
       "delete": "/Applications/OneDrive.app",

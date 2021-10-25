@@ -9,10 +9,12 @@
   "homepage": "https://wifispoof.com/",
   "url": "https://sweetpproductions.com/products/wifispoof3/WiFiSpoof3.dmg",
   "appcast": null,
-  "version": "3.6",
+  "version": "3.6.4",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "a044996486ccb4f81d9d7a0bee4dc608790453559016886e05d8cbf70dde6ebd",
+  "sha256": "56a28d5af7d8a869c5696499a322d7858bd16f28ad363287eda446c40185ca66",
   "artifacts": [
     [
       "WiFiSpoof.app"

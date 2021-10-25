@@ -7,12 +7,14 @@
   ],
   "desc": "Browser designed for modern work",
   "homepage": "https://www.meetsidekick.com/",
-  "url": "https://sidekick-cdn-production.meetsidekick.com/builds/sidekick-mac-release-x64-90.10.12.11943-77fb778-df.dmg",
+  "url": "https://sidekick-cdn-production.meetsidekick.com/builds/sidekick-mac-release-universal-92.11.5.13226-6bc0c48-df.dmg",
   "appcast": null,
-  "version": "90.10.12.11943,77fb778",
+  "version": "92.11.5.13226,6bc0c48",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "afd10ce1c86bca1953750c3c4fad5a0e05a2104a0a678f0aba5ce5edf25463a8",
+  "sha256": "30ccd7071169c062fe227bcc049f0edbe62bfa07ef74100f4d4fd93002a9272c",
   "artifacts": [
     [
       "Sidekick.app"

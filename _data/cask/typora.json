@@ -7,12 +7,14 @@
   ],
   "desc": "Configurable document editor that supports Markdown",
   "homepage": "https://typora.io/",
-  "url": "https://www.typora.io/download/Typora-0.11.5.dmg",
+  "url": "https://www.typora.io/download/Typora-0.11.11.dmg",
   "appcast": null,
-  "version": "0.11.5",
+  "version": "0.11.11",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "95057a87f0c749cefd703659fafc6aa579a9ba17e763feae35a9f0c02244a6bf",
+  "sha256": "d387c0067e48f731dfc5f9076d300fde39423b6e599c0f4a76bd7a4f6845fbdd",
   "artifacts": [
     [
       "Typora.app"

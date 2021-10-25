@@ -1,22 +1,22 @@
 {
   "name": "clusterctl",
-  "pkg_version": "0.4.1",
+  "pkg_version": "1.0.0",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/clusterctl/blobs/sha256:d4fec53cb661771a6dcb2e4f2e3c860a79656a120ed332a1c1555998a3e27a3c"
+      "url": "https://ghcr.io/v2/homebrew/core/clusterctl/blobs/sha256:cf44da229fbd2190227c32fc830a13fbfd4c2ab218b3e404f058224a13332aea"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/clusterctl/blobs/sha256:fb2e59764b383900968a5193c3fbc7b797c5c5722bdb03a3204e5f5d7640fd3e"
+      "url": "https://ghcr.io/v2/homebrew/core/clusterctl/blobs/sha256:34607708549a05bff8c4144f2a1fd91cc0f6461322b2c299942e6b25a09ad456"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/clusterctl/blobs/sha256:7f74e4c464c11673784f7331ed832b30f7006e0cce38fef385e630d09b84e995"
+      "url": "https://ghcr.io/v2/homebrew/core/clusterctl/blobs/sha256:25e082158e2f7ec8f5c248e4e409ff9c78e79f1753ce0ee9f30b698e638b5aa4"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/clusterctl/blobs/sha256:6f5e794cab422d4cfb2550d1b4ce82cfe0ea7d0ecd9cebe5959dc9500103a72d"
+      "url": "https://ghcr.io/v2/homebrew/core/clusterctl/blobs/sha256:4d6a2d3e93b26cc928599c3c906a1c9418672e42d2199b12c8cb587662b603f4"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/clusterctl/blobs/sha256:d70cb9df0fb4878d987f31989a0c4c5ba03a75f606eeb130cd62b94f5b143f13"
+      "url": "https://ghcr.io/v2/homebrew/core/clusterctl/blobs/sha256:096e35d1cc0e3180a4837badada836925041a5d7d2b731d86a04ae7c96618fb4"
     }
   },
   "dependencies": [

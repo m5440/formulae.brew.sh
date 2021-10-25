@@ -1,22 +1,22 @@
 {
   "name": "hasura-cli",
-  "pkg_version": "2.0.7",
+  "pkg_version": "2.0.10",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:ed8c967c8d9575bf17b8c7ce75fc64c2a24c1cab2fb32f347a7a28f7074694e6"
+      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:b860c096eb5e1dff44d852bb19b2a56e81508ebfc953702f102964ff49f3ad82"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:33951b7c3b5be12a5111fe1a7303aa50e95584954285930ee6ed43b27b1fc8e0"
+      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:2e9eb9e3772e77b731842bca7e698160ba9184453bd8f8a989147dda31f4a1ac"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:8236234f8858d61463b820ad5c2d3418140c4e042c59a26209611e917de3be4b"
+      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:d0d6e9f09b30df5dccfce820c6108dcc9d59323d68ec9ea815977017af6178c7"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:0c28dcfaafe86b881a7470617bf573c69c63005a6d98b9bd2fef93ab0397ad66"
+      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:d6991bd9968d53743e816be3b2ad5de5a68018904160a5a2d93caf9fee45057b"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:7873d378c8640804520d81424d4f5ae84cac199b444c3a753980320dd1c8af50"
+      "url": "https://ghcr.io/v2/homebrew/core/hasura-cli/blobs/sha256:4e4c9e55c26b47d4f19e23bcb95370adb40e13caa68d59856630df7e43e001f2"
     }
   },
   "dependencies": [

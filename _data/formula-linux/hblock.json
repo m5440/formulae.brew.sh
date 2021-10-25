@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://hblock.molinero.dev/",
   "versions": {
-    "stable": "3.2.2",
+    "stable": "3.2.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/hectorm/hblock/archive/v3.2.2.tar.gz",
+      "url": "https://github.com/hectorm/hblock/archive/v3.2.3.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/hblock/blobs/sha256:51f4bbda8d5d2ebbb7c0f0a77d8c2c04c7ec9640046b07f67c573e74c1e49861",
-          "sha256": "51f4bbda8d5d2ebbb7c0f0a77d8c2c04c7ec9640046b07f67c573e74c1e49861"
+          "url": "https://ghcr.io/v2/homebrew/core/hblock/blobs/sha256:5555d355527123587a90da7298f5924a5ce6af34459cedd63f7afaeb0e2c9935",
+          "sha256": "5555d355527123587a90da7298f5924a5ce6af34459cedd63f7afaeb0e2c9935"
         }
       }
     }
@@ -57,7 +57,7 @@
 
   ],
   "uses_from_macos": [
-
+    "curl"
   ],
   "requirements": [
 

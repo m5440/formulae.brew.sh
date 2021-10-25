@@ -9,7 +9,9 @@
   "homepage": "https://y.qq.com/",
   "url": "https://dldir1.qq.com/music/clntupate/mac/QQMusicMac_Mgr.dmg",
   "appcast": null,
-  "version": "7.7.0,70121",
+  "version": "7.8.5,70921",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
   "sha256": "no_check",

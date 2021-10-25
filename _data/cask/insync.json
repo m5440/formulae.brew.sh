@@ -7,12 +7,14 @@
   ],
   "desc": "Manage your Google Drive and OneDrive files",
   "homepage": "https://www.insynchq.com/",
-  "url": "http://s.insynchq.com/builds/Insync-3.5.1.50115.dmg",
+  "url": "http://s.insynchq.com/builds/Insync-3.5.4.50130.dmg",
   "appcast": null,
-  "version": "3.5.1.50115",
+  "version": "3.5.4.50130",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ce689bc34914a01a28b3a9659e0c5a653239cdadb7ea565cc89bda906e4045f2",
+  "sha256": "90976ca9abbf507ea9d897eda719acb4c819452bbc03bc027c75451674b612de",
   "artifacts": [
     [
       "Insync.app"

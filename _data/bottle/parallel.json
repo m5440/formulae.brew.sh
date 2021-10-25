@@ -1,10 +1,10 @@
 {
   "name": "parallel",
-  "pkg_version": "20210622",
-  "rebuild": 1,
+  "pkg_version": "20211022",
+  "rebuild": 0,
   "bottles": {
     "all": {
-      "url": "https://ghcr.io/v2/homebrew/core/parallel/blobs/sha256:32a13cdbba0c37c6d19fcd2b8c4389adbe4096dbdd39a5d334a3244fa62df1fd"
+      "url": "https://ghcr.io/v2/homebrew/core/parallel/blobs/sha256:2457af1ca60d486a1834bbf1131c6104f8607e0a53224ceb0707b1575509f754"
     }
   },
   "dependencies": [

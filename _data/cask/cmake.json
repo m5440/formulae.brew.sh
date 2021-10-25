@@ -7,12 +7,14 @@
   ],
   "desc": "Family of tools to build, test and package software",
   "homepage": "https://cmake.org/",
-  "url": "https://cmake.org/files/LatestRelease/cmake-3.21.1-macos-universal.dmg",
+  "url": "https://cmake.org/files/LatestRelease/cmake-3.21.3-macos-universal.dmg",
   "appcast": null,
-  "version": "3.21.1",
+  "version": "3.21.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "5f85150cb05b4f12b426e7f84e60f24d3ab204731f9d10dca1babe8dad33b3ae",
+  "sha256": "918eeed1dd375525d6cbd74f029eeeb733936792b19319cc367e66d4a1b5ec91",
   "artifacts": [
     [
       "CMake.app"

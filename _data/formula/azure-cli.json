@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://docs.microsoft.com/cli/azure/overview",
   "versions": {
-    "stable": "2.27.1",
+    "stable": "2.29.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/Azure/azure-cli/archive/azure-cli-2.27.1.tar.gz",
+      "url": "https://github.com/Azure/azure-cli/archive/azure-cli-2.29.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,40 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:ce5910ed294e9ab3d3c2c83294a689269c34f13b63b72a211c01d835923b0fce",
+          "sha256": "ce5910ed294e9ab3d3c2c83294a689269c34f13b63b72a211c01d835923b0fce"
+        },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:13c52dc4a8c5eae7696d2d662edfdaa215b15571a1d21c2ba559f901d43039ba",
-          "sha256": "13c52dc4a8c5eae7696d2d662edfdaa215b15571a1d21c2ba559f901d43039ba"
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:fbb32c06627ba19460d06aef983c7088e4b4fb4dc4bd0f3a814cf67f7436db21",
+          "sha256": "fbb32c06627ba19460d06aef983c7088e4b4fb4dc4bd0f3a814cf67f7436db21"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:ea79cf8c808a0274719198a3401163cda801e3e411fdda83b395e1a671bbe35e",
+          "sha256": "ea79cf8c808a0274719198a3401163cda801e3e411fdda83b395e1a671bbe35e"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:d6c7f411c439fd434a9ee76468661aa396980be2c308a1e02999ff9230a4073a",
-          "sha256": "d6c7f411c439fd434a9ee76468661aa396980be2c308a1e02999ff9230a4073a"
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:530244422f8ae549d30ceb5d78936c9cc9bf5b191b1fa4072b7732eb927378d2",
+          "sha256": "530244422f8ae549d30ceb5d78936c9cc9bf5b191b1fa4072b7732eb927378d2"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:33e9b15894154be867edadaf5587ff1179809d880e1b56f0ebb58cfa104c3a1a",
-          "sha256": "33e9b15894154be867edadaf5587ff1179809d880e1b56f0ebb58cfa104c3a1a"
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:776290a46269e936f69cf652866e2b046e87c6eff302271cc973d2bdda12ec2d",
+          "sha256": "776290a46269e936f69cf652866e2b046e87c6eff302271cc973d2bdda12ec2d"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:3b8dedb1409661f641ba13890a90895f634a76b5f9f1e53e5fe07b18fd89b395",
-          "sha256": "3b8dedb1409661f641ba13890a90895f634a76b5f9f1e53e5fe07b18fd89b395"
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:b9404ab8b2341ae3a162b51ad3422f96cfe05b4929bc6a81dce89ce166188b9e",
+          "sha256": "b9404ab8b2341ae3a162b51ad3422f96cfe05b4929bc6a81dce89ce166188b9e"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:537d2280c0c9b0fda8b653b32717389391e903fd64c10723a3472d05192cd7e7",
-          "sha256": "537d2280c0c9b0fda8b653b32717389391e903fd64c10723a3472d05192cd7e7"
+          "url": "https://ghcr.io/v2/homebrew/core/azure-cli/blobs/sha256:f98cd6789ff4f1b3cd17eec0308c1e4e26f02f2fff9e3c315684e67c562af434",
+          "sha256": "f98cd6789ff4f1b3cd17eec0308c1e4e26f02f2fff9e3c315684e67c562af434"
         }
       }
     }
@@ -89,7 +99,7 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2.27.1",
+      "version": "2.29.0",
       "used_options": [
 
       ],
@@ -97,13 +107,18 @@
       "poured_from_bottle": true,
       "runtime_dependencies": [
         {
+          "full_name": "ca-certificates",
+          "version": "2021-09-30",
+          "declared_directly": false
+        },
+        {
           "full_name": "openssl@1.1",
-          "version": "1.1.1k",
+          "version": "1.1.1l",
           "declared_directly": true
         },
         {
           "full_name": "gdbm",
-          "version": "1.20",
+          "version": "1.21",
           "declared_directly": false
         },
         {
@@ -113,7 +128,7 @@
         },
         {
           "full_name": "readline",
-          "version": "8.1",
+          "version": "8.1.1",
           "declared_directly": false
         },
         {
@@ -128,7 +143,7 @@
         },
         {
           "full_name": "python@3.9",
-          "version": "3.9.6",
+          "version": "3.9.7",
           "declared_directly": true
         }
       ],
@@ -136,9 +151,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "2.27.1",
+  "linked_keg": "2.29.0",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,

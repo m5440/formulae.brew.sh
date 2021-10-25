@@ -7,12 +7,14 @@
   ],
   "desc": "Email tracker, read receipt and spy pixel blocker plugin for Apple Mail",
   "homepage": "https://apparition47.github.io/MailTrackerBlocker/",
-  "url": "https://github.com/apparition47/MailTrackerBlocker/releases/download/0.4.8/MailTrackerBlocker.pkg",
+  "url": "https://github.com/apparition47/MailTrackerBlocker/releases/download/0.4.14/MailTrackerBlocker.pkg",
   "appcast": null,
-  "version": "0.4.8",
+  "version": "0.4.14",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "625a4604f6457ac3532a4e54f233dc3293c37f9e7dab1aa0b79e793cdc78f0f5",
+  "sha256": "58280b82ee2fdcfe67446a8aebeed113a7466855c131df2cad9fcabfbde3d969",
   "artifacts": [
     {
       "pkgutil": "com.onefatgiraffe.mailtrackerblocker",
@@ -23,9 +25,7 @@
     "MailTrackerBlocker.pkg (Pkg)",
     "uninstall_postflight (Postflight Block)",
     {
-      "trash": [
-        "~/Library/Containers/com.apple.mail/Data/Library/Application Support/com.onefatgiraffe.mailtrackerblocker"
-      ],
+      "trash": "~/Library/Containers/com.apple.mail/Data/Library/Application Support/com.onefatgiraffe.mailtrackerblocker",
       "signal": {
       }
     }

@@ -24,37 +24,37 @@
       "revision": null
     }
   },
-  "revision": 9,
+  "revision": 10,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gitless/blobs/sha256:8fe3da387f2212fe2618a07b2e1682e3bae08be20f105734e21079f0f3df7d79",
-          "sha256": "8fe3da387f2212fe2618a07b2e1682e3bae08be20f105734e21079f0f3df7d79"
+          "url": "https://ghcr.io/v2/homebrew/core/gitless/blobs/sha256:84aa2c7e09ebdb4b69e76a3d5247b3e98f8f83327f0c3ff5272129e1f42903b6",
+          "sha256": "84aa2c7e09ebdb4b69e76a3d5247b3e98f8f83327f0c3ff5272129e1f42903b6"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gitless/blobs/sha256:4c845e5cc5e9fafccda5ab5b2dfeb1e9cbbbe8f67ab9c2f72060c09a8d7743e4",
-          "sha256": "4c845e5cc5e9fafccda5ab5b2dfeb1e9cbbbe8f67ab9c2f72060c09a8d7743e4"
+          "url": "https://ghcr.io/v2/homebrew/core/gitless/blobs/sha256:e894c506c8ce6f6bdc2902881d2545ef7bd90b16e381b0dff99fe8ad1240b234",
+          "sha256": "e894c506c8ce6f6bdc2902881d2545ef7bd90b16e381b0dff99fe8ad1240b234"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gitless/blobs/sha256:1f52f84f5a9f9c9633e7fc9ef7ef8227431abd37ca6629f33986766b61470cc0",
-          "sha256": "1f52f84f5a9f9c9633e7fc9ef7ef8227431abd37ca6629f33986766b61470cc0"
+          "url": "https://ghcr.io/v2/homebrew/core/gitless/blobs/sha256:c20f221e93cd90aa30bf693bbae322137a01a808336b8f8d559ce1966bf18477",
+          "sha256": "c20f221e93cd90aa30bf693bbae322137a01a808336b8f8d559ce1966bf18477"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gitless/blobs/sha256:50884b829598dab4558bc9f338b96b6ac18302c426ad6cfd440d2d721b1cb30a",
-          "sha256": "50884b829598dab4558bc9f338b96b6ac18302c426ad6cfd440d2d721b1cb30a"
+          "url": "https://ghcr.io/v2/homebrew/core/gitless/blobs/sha256:2045586480fd247520a943e761fd33ed5ed78df0463108e1de1ddfba623fcdaa",
+          "sha256": "2045586480fd247520a943e761fd33ed5ed78df0463108e1de1ddfba623fcdaa"
         },
         "x86_64_linux": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/gitless/blobs/sha256:9c856bebe3d2c1b816e07bfb723a5bb756216f588358235b20530c0917ef001b",
-          "sha256": "9c856bebe3d2c1b816e07bfb723a5bb756216f588358235b20530c0917ef001b"
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitless/blobs/sha256:ded42ab981cfb810d57eb64c403e9c301ffb6f22662b2cab6676641aa882e02d",
+          "sha256": "ded42ab981cfb810d57eb64c403e9c301ffb6f22662b2cab6676641aa882e02d"
         }
       }
     }
@@ -69,7 +69,7 @@
   ],
   "dependencies": [
     "libgit2",
-    "python@3.9",
+    "python@3.10",
     "libffi"
   ],
   "recommended_dependencies": [
@@ -79,7 +79,7 @@
 
   ],
   "uses_from_macos": [
-
+    "libffi"
   ],
   "requirements": [
 

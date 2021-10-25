@@ -7,12 +7,14 @@
   ],
   "desc": "Screen and video recording software",
   "homepage": "https://www.loom.com/",
-  "url": "https://cdn.loom.com/desktop-packages/Loom-0.97.0.dmg",
+  "url": "https://cdn.loom.com/desktop-packages/Loom-0.102.0.dmg",
   "appcast": null,
-  "version": "0.97.0",
+  "version": "0.102.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "a06f33c13efec0233e0147fa5daea728a16726ee40cdfa732d46d4ff477e468e",
+  "sha256": "141d4740c91ea4c4809d9fd0f749c23e8841cf979b59d6fdc6499925189c8323",
   "artifacts": [
     [
       "Loom.app"

@@ -1,22 +1,22 @@
 {
   "name": "broot",
-  "pkg_version": "1.6.3",
+  "pkg_version": "1.6.5",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/broot/blobs/sha256:3cff2cf84e7a32b908b85701ea06c6f92e19e25db0e9344b694065816d53cc22"
+      "url": "https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:b7170c9f5fcb26f389376c211c554cd40c62edf9cd59dffa6cb6912ae17cf3d5"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/broot/blobs/sha256:c6b99746eaef474cfe50304cada0292548a01a03d5a1d3bdbd2e4087d4d8b036"
+      "url": "https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:a79fe7d828133cbc1a5dcd1c71d9b17f9f076414c49d44d47b37134a4cfd6e9f"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/broot/blobs/sha256:75ecb00808ead30aecf941609b2f77e584c1b787e9f68d24446bc8231a71f5e7"
+      "url": "https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:42a9448c4263d7f90a9af7361a1e465213d951e484de01d60b02d8a34f250afe"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/broot/blobs/sha256:072e7cf407b955b79fd69ca00f224aabcdaba3268cca6ec58663179b669c88b0"
+      "url": "https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:528d8ec1f5f02106b55b1ace95f57136be5cf8628f0194fbbe40fdb73ad8d65d"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/broot/blobs/sha256:2f8d77d043ae31b0e03df799ad4217cae40b1415c3db87b1193a6bb220689338"
+      "url": "https://ghcr.io/v2/homebrew/core/broot/blobs/sha256:3512dcb063053da5ac992a5b0cace81dd0cf714612efdaa243819bb94317ae4a"
     }
   },
   "dependencies": [
@@ -26,31 +26,31 @@
       "rebuild": 0,
       "bottles": {
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:b480ed6baf10880f61b5a3097fb0921d44466857e1dde53a09e2ae4e378b1a8c"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:b480ed6baf10880f61b5a3097fb0921d44466857e1dde53a09e2ae4e378b1a8c"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:b95aa332dfc7c6dfb5e86fd30068f78e2cf87ee0232e5bef0adddae8215f543d"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:b95aa332dfc7c6dfb5e86fd30068f78e2cf87ee0232e5bef0adddae8215f543d"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:8ec66cf6faa310712767efc3022fdd16568a79234439f64bf579acb628f893bc"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:8ec66cf6faa310712767efc3022fdd16568a79234439f64bf579acb628f893bc"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:245a43a59c57f83848e7382974bb80a46eac1d53bcaefb1bdebd1f85107d4169"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:245a43a59c57f83848e7382974bb80a46eac1d53bcaefb1bdebd1f85107d4169"
         },
         "high_sierra": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:30548658b43cf66979f2756680fbb32d3c19c967e478ceea22d07f536b22bbce"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:30548658b43cf66979f2756680fbb32d3c19c967e478ceea22d07f536b22bbce"
         },
         "sierra": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:f822b4dbab4a15b889316b89248c7b4d15d6af9dc460bf209b9425b0accb7fa3"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:f822b4dbab4a15b889316b89248c7b4d15d6af9dc460bf209b9425b0accb7fa3"
         },
         "el_capitan": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:3f912f6f1ce6c586128ebde29756c883b89409e652ca7aa9a29a773c2d4d0915"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:3f912f6f1ce6c586128ebde29756c883b89409e652ca7aa9a29a773c2d4d0915"
         },
         "yosemite": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:5b969eb38b90a3e31869586df9d62e59d359212b16c6a270aee690dd67caa491"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:5b969eb38b90a3e31869586df9d62e59d359212b16c6a270aee690dd67caa491"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/linuxbrew/core/zlib/blobs/sha256:6f604280b9e056da163b81cef3076b2e39bbd2b8d3cc8c36d27c19c472c760a4"
+          "url": "https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:db54bf590275839d3f4cdf31d9527aa3a4c19a8984b5605cedc3f7c22a65eea4"
         }
       }
     }

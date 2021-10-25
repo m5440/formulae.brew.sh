@@ -7,12 +7,14 @@
   ],
   "desc": "Open-source, self-hosted Slack-alternative",
   "homepage": "https://about.mattermost.com/",
-  "url": "https://releases.mattermost.com/desktop/4.7.1/mattermost-desktop-4.7.1-mac.zip",
+  "url": "https://releases.mattermost.com/desktop/5.0.1/mattermost-desktop-5.0.1-mac-x64.zip",
   "appcast": null,
-  "version": "4.7.1",
+  "version": "5.0.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "e4c580ebb9b6c55da2569cf0ee6dbcbed413310213a9bf86e6cdf7b716226a93",
+  "sha256": "ec5248c285dc08eb6f6c311dc60192391721640c7a81e64a0a7f7f972239b3ef",
   "artifacts": [
     [
       "Mattermost.app"

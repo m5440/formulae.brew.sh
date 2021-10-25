@@ -7,19 +7,21 @@
   ],
   "desc": "Web browser",
   "homepage": "https://www.microsoft.com/edge",
-  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/MicrosoftEdge-92.0.902.73.pkg",
+  "url": "https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/MicrosoftEdge-95.0.1020.30.pkg",
   "appcast": null,
-  "version": "92.0.902.73",
-  "installed": "92.0.902.73",
+  "version": "95.0.1020.30",
+  "versions": {
+  },
+  "installed": "94.0.992.50",
   "outdated": false,
-  "sha256": "253eef45cf4b330536bf6215fe2f49431a17c42aaf7708fa66a1f5124fb9b5b6",
+  "sha256": "be3cd3669aa0808ce593d7f3c56e822a1f582a6d4e978030cc2641fbcb0054ca",
   "artifacts": [
     {
       "pkgutil": "com.microsoft.edgemac",
       "signal": {
       }
     },
-    "MicrosoftEdge-92.0.902.73.pkg (Pkg)",
+    "MicrosoftEdge-95.0.1020.30.pkg (Pkg)",
     {
       "trash": [
         "~/Library/Application Support/Microsoft Edge",

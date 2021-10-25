@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://snakemake.readthedocs.io/",
   "versions": {
-    "stable": "6.7.0",
+    "stable": "6.10.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/ce/09/2b8a5c56f82c5a044f339bb377a797e3860d4e3740ea6c3a0ce7316ae52a/snakemake-6.7.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/90/37/3ee66d42ecf4c8398299416b9beb98987d15e2c2200c555bf0d9f6a6dbba/snakemake-6.10.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,27 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snakemake/blobs/sha256:8ac9beef99b6d3a3d2abc6b977db04858f9fdcab7ba8b5e7c12835b9c03be3b6",
-          "sha256": "8ac9beef99b6d3a3d2abc6b977db04858f9fdcab7ba8b5e7c12835b9c03be3b6"
+          "url": "https://ghcr.io/v2/homebrew/core/snakemake/blobs/sha256:9366f289a669ce8a03635e6d6b91a5f5a6bfc0b9b335d8385dba90f2e0c4d0c0",
+          "sha256": "9366f289a669ce8a03635e6d6b91a5f5a6bfc0b9b335d8385dba90f2e0c4d0c0"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snakemake/blobs/sha256:68a9a1bbb96044da50957ebb5a23facdd8b3403a3f096e60237f5fd30850d25d",
-          "sha256": "68a9a1bbb96044da50957ebb5a23facdd8b3403a3f096e60237f5fd30850d25d"
+          "url": "https://ghcr.io/v2/homebrew/core/snakemake/blobs/sha256:383e17698ec3918df8b9cca8fbee211fb0f9d390ec612f4ec610270cf90834cb",
+          "sha256": "383e17698ec3918df8b9cca8fbee211fb0f9d390ec612f4ec610270cf90834cb"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snakemake/blobs/sha256:d1f1c0a3242a954141c7ca899a6589e7433350dbc8c664674b50dd2b1b13e8da",
-          "sha256": "d1f1c0a3242a954141c7ca899a6589e7433350dbc8c664674b50dd2b1b13e8da"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snakemake/blobs/sha256:ebb745042f888b22e81f654aa185e90c1f83336516c5d8f3e8d22b0a760d1e3e",
-          "sha256": "ebb745042f888b22e81f654aa185e90c1f83336516c5d8f3e8d22b0a760d1e3e"
+          "url": "https://ghcr.io/v2/homebrew/core/snakemake/blobs/sha256:a658b966b8eae0776adbb8b970ec151ed48a5f2c83345ce9074b3d46ce162463",
+          "sha256": "a658b966b8eae0776adbb8b970ec151ed48a5f2c83345ce9074b3d46ce162463"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/snakemake/blobs/sha256:669b9e45916c7e2780ef4d05794e07aab4c5527df44a2b68715edafd2e10f742",
-          "sha256": "669b9e45916c7e2780ef4d05794e07aab4c5527df44a2b68715edafd2e10f742"
+          "url": "https://ghcr.io/v2/homebrew/core/snakemake/blobs/sha256:be8e466e84be10432ab26fb85528af7fc6a1d91543c6af1a6ef9e3c288243040",
+          "sha256": "be8e466e84be10432ab26fb85528af7fc6a1d91543c6af1a6ef9e3c288243040"
         }
       }
     }
@@ -69,7 +64,7 @@
   ],
   "dependencies": [
     "cbc",
-    "python@3.9"
+    "python@3.10"
   ],
   "recommended_dependencies": [
 

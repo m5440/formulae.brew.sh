@@ -13,48 +13,48 @@
   "license": "MIT",
   "homepage": "https://github.com/DocNow/twarc",
   "versions": {
-    "stable": "2.4.3",
+    "stable": "2.7.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/ed/73/8262d4c13fcfba0b5b59f04099e7430985c6aceb9464b86e858b5c158d46/twarc-2.4.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/de/9e/ee15291b09cd095efe882035df1b02c87e989d238500ab7fc9daf8d4532e/twarc-2.7.3.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/twarc/blobs/sha256:e91949b0b5262bbbf4be4d72b7e3d2b3fbcbb64cd78cf8f9063c2e984b58010c",
-          "sha256": "e91949b0b5262bbbf4be4d72b7e3d2b3fbcbb64cd78cf8f9063c2e984b58010c"
+          "url": "https://ghcr.io/v2/homebrew/core/twarc/blobs/sha256:329b9aca9b0929fa03a053d4ee3a1b18de234153cee137f2c2dce1d0696a2256",
+          "sha256": "329b9aca9b0929fa03a053d4ee3a1b18de234153cee137f2c2dce1d0696a2256"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/twarc/blobs/sha256:1a3e95893322dcb843e2903a98a1cd6fda781f8c44997963b0b8f8002478ed41",
-          "sha256": "1a3e95893322dcb843e2903a98a1cd6fda781f8c44997963b0b8f8002478ed41"
+          "url": "https://ghcr.io/v2/homebrew/core/twarc/blobs/sha256:d58bd2a921b26b16cea5bf37c290f15c6889352ec4fbcc16879128e76fc1cfbf",
+          "sha256": "d58bd2a921b26b16cea5bf37c290f15c6889352ec4fbcc16879128e76fc1cfbf"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/twarc/blobs/sha256:15f00a7ee7e9b3b645eb03468dfccdf8a817c5a40da213c3c493aa549575e1e3",
-          "sha256": "15f00a7ee7e9b3b645eb03468dfccdf8a817c5a40da213c3c493aa549575e1e3"
+          "url": "https://ghcr.io/v2/homebrew/core/twarc/blobs/sha256:4e3d1fcb18f215fd2b73b503174da5d27287db6354f274eee3bb7ef747e8e832",
+          "sha256": "4e3d1fcb18f215fd2b73b503174da5d27287db6354f274eee3bb7ef747e8e832"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/twarc/blobs/sha256:d40e7b88c1580b30b9a0cf4f0f6d90f978adcd0036c3d228cf82caefffcea78e",
-          "sha256": "d40e7b88c1580b30b9a0cf4f0f6d90f978adcd0036c3d228cf82caefffcea78e"
+          "url": "https://ghcr.io/v2/homebrew/core/twarc/blobs/sha256:f00a3f63e528bd8288280e9b58b112ab1beab2cd9e970247908dfd0db167fd5a",
+          "sha256": "f00a3f63e528bd8288280e9b58b112ab1beab2cd9e970247908dfd0db167fd5a"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/twarc/blobs/sha256:44238c449e04de6b6256eab41fef0a7f156ae2b698b0e46de926f7182f4444e6",
-          "sha256": "44238c449e04de6b6256eab41fef0a7f156ae2b698b0e46de926f7182f4444e6"
+          "url": "https://ghcr.io/v2/homebrew/core/twarc/blobs/sha256:07ba867fce44888034edd186f217a255131c782572bc9b4cb26bcb76a7e60456",
+          "sha256": "07ba867fce44888034edd186f217a255131c782572bc9b4cb26bcb76a7e60456"
         }
       }
     }
@@ -68,7 +68,7 @@
 
   ],
   "dependencies": [
-    "python@3.9",
+    "python@3.10",
     "six"
   ],
   "recommended_dependencies": [

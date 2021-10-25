@@ -7,12 +7,14 @@
   ],
   "desc": "GUI for rsync",
   "homepage": "https://github.com/rsyncOSX/RsyncOSX",
-  "url": "https://github.com/rsyncOSX/RsyncOSX/releases/download/v6.6.3/RsyncOSX.6.6.3.dmg",
+  "url": "https://github.com/rsyncOSX/RsyncOSX/releases/download/v6.6.7/RsyncOSX.6.6.7.dmg",
   "appcast": null,
-  "version": "6.6.3",
+  "version": "6.6.7",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "356ef1dab5653946278fe95ffc96cb22898e08de141384779669c3e957abca19",
+  "sha256": "94e16501705eb7215286f9e6dd56cf762c957c268e968c77a4c475d6c845c8f8",
   "artifacts": [
     [
       "RsyncOSX.app"

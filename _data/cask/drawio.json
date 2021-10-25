@@ -6,13 +6,15 @@
     "draw.io Desktop"
   ],
   "desc": "Draw.io is free online diagram software",
-  "homepage": "https://www.draw.io/",
-  "url": "https://github.com/jgraph/drawio-desktop/releases/download/v14.9.6/draw.io-x64-14.9.6.dmg",
+  "homepage": "https://www.diagrams.net/",
+  "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.4.0/draw.io-x64-15.4.0.dmg",
   "appcast": null,
-  "version": "14.9.6",
+  "version": "15.4.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "34ae00228a3051b1b90028bd765cd01a631e5ee8ba312181b4ed75b6351be0c3",
+  "sha256": "58e628ebae2c203c54d7e1ab031ffe572126d100507d06558cf48eb7455cd6cf",
   "artifacts": [
     [
       "draw.io.app"

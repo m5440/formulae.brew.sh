@@ -7,18 +7,20 @@
   ],
   "desc": "Call all Node.js modules directly from the DOM and Web Workers",
   "homepage": "https://nwjs.io/",
-  "url": "https://dl.nwjs.io/v0.55.0/nwjs-sdk-v0.55.0-osx-x64.zip",
+  "url": "https://dl.nwjs.io/v0.57.1/nwjs-sdk-v0.57.1-osx-x64.zip",
   "appcast": null,
-  "version": "0.55.0",
+  "version": "0.57.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "70a4b908f00e5196ae036baa5efb173d9ada244088a108958f4317d741da3fe0",
+  "sha256": "384fa622633bb9fd22625a75bb13a0eef4a828535dd94eab913893ea3149b33f",
   "artifacts": [
     [
-      "nwjs-sdk-v0.55.0-osx-x64/nwjs.app"
+      "nwjs-sdk-v0.57.1-osx-x64/nwjs.app"
     ],
     [
-      "nwjs-sdk-v0.55.0-osx-x64/nwjc"
+      "nwjs-sdk-v0.57.1-osx-x64/nwjc"
     ]
   ],
   "caveats": null,

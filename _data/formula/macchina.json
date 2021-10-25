@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/Macchina-CLI/macchina",
   "versions": {
-    "stable": "1.0.0",
+    "stable": "3.0.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/Macchina-CLI/macchina/archive/v1.0.0.tar.gz",
+      "url": "https://github.com/Macchina-CLI/macchina/archive/v3.0.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,23 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:6513b4c13754f0a1e987b0eb973dd0838a84b52e201c2a83c3f8927d452c62fd",
-          "sha256": "6513b4c13754f0a1e987b0eb973dd0838a84b52e201c2a83c3f8927d452c62fd"
+          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:f7ef30401564509d8174639b072d4b6327ae15bbaf85db1185068c6bdac51572",
+          "sha256": "f7ef30401564509d8174639b072d4b6327ae15bbaf85db1185068c6bdac51572"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:c867963a1f4da0ad388c04f2e9ad0ff321b01ade266cf6ff265759a9141f428a",
-          "sha256": "c867963a1f4da0ad388c04f2e9ad0ff321b01ade266cf6ff265759a9141f428a"
+          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:f3caaf6d74ccbd804c89a3c0c40907bbffe5adba1928ce09af484f7bb5e41530",
+          "sha256": "f3caaf6d74ccbd804c89a3c0c40907bbffe5adba1928ce09af484f7bb5e41530"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:fb2a3cdb9c7b7a016587a0261698a5175e71772692a78753d74abd8545b1c657",
-          "sha256": "fb2a3cdb9c7b7a016587a0261698a5175e71772692a78753d74abd8545b1c657"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:0d2fe76fc227fb46261611d6fb7ecabc0cd3d9f48b126747dfda1bfd39c4a898",
-          "sha256": "0d2fe76fc227fb46261611d6fb7ecabc0cd3d9f48b126747dfda1bfd39c4a898"
+          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:acef15fa353c042e883c845b32f0942e9eb7ecb532769a09e88f111df0aff7b9",
+          "sha256": "acef15fa353c042e883c845b32f0942e9eb7ecb532769a09e88f111df0aff7b9"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:3ccc7fa30ebe1acf5350810af00c059c5b4a5392e907b14bb48186a5e0ee8997",
-          "sha256": "3ccc7fa30ebe1acf5350810af00c059c5b4a5392e907b14bb48186a5e0ee8997"
+          "url": "https://ghcr.io/v2/homebrew/core/macchina/blobs/sha256:531362be3d591c4ca728fcdd74aafbba6652ee5b5a1f95c7b80e2eaa341b509d",
+          "sha256": "531362be3d591c4ca728fcdd74aafbba6652ee5b5a1f95c7b80e2eaa341b509d"
         }
       }
     }

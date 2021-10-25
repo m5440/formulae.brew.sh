@@ -13,13 +13,13 @@
   "license": "GPL-2.0-only",
   "homepage": "https://dev.mysql.com/doc/refman/5.7/en/",
   "versions": {
-    "stable": "5.7.35",
+    "stable": "5.7.36",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.35.tar.gz",
+      "url": "https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.36.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:91e49378fe45b90275c58685ad29ba77b62ab6993597e2436c6bfa1ec160365d",
-          "sha256": "91e49378fe45b90275c58685ad29ba77b62ab6993597e2436c6bfa1ec160365d"
+          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:e23df0f6e8bfc83fe2e982ec60e89be6ca069d35f96981ea6073591563bf7917",
+          "sha256": "e23df0f6e8bfc83fe2e982ec60e89be6ca069d35f96981ea6073591563bf7917"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:b926b1d4c78ae82a20758d40c1a0ca472feae13095c293114ddcefde679f8c98",
-          "sha256": "b926b1d4c78ae82a20758d40c1a0ca472feae13095c293114ddcefde679f8c98"
+          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:b85e04576a333c835f3a0e7f21b565b5a374628d6011226e04523c4528fb158a",
+          "sha256": "b85e04576a333c835f3a0e7f21b565b5a374628d6011226e04523c4528fb158a"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:8821d67ae0a2a21ab99a4b69bc5551244365d20fcf942e3b4ae792d174536253",
-          "sha256": "8821d67ae0a2a21ab99a4b69bc5551244365d20fcf942e3b4ae792d174536253"
+          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:fe60bdb3fa8f8c35070243c865d3e7b7eacad528430683d91fb2c0e4abc44829",
+          "sha256": "fe60bdb3fa8f8c35070243c865d3e7b7eacad528430683d91fb2c0e4abc44829"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:bc9a49d7e64518277596abeb007a5a129251245c7c63dbfcd1c99fc557c04df9",
-          "sha256": "bc9a49d7e64518277596abeb007a5a129251245c7c63dbfcd1c99fc557c04df9"
+          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:948c484748bc757040fdc928e4f9e2e1cd8972211f7b07b28aad2dd9406701cf",
+          "sha256": "948c484748bc757040fdc928e4f9e2e1cd8972211f7b07b28aad2dd9406701cf"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:34293e451ebc08a20aae04ddf26c1cc2788cf4604f7f79774523f9d5e0d91d8a",
-          "sha256": "34293e451ebc08a20aae04ddf26c1cc2788cf4604f7f79774523f9d5e0d91d8a"
+          "url": "https://ghcr.io/v2/homebrew/core/mysql/5.7/blobs/sha256:b6ca44f90f74bf354f5c552f81306d8a3b989fe28de3d76b539cc67e4dcd8e82",
+          "sha256": "b6ca44f90f74bf354f5c552f81306d8a3b989fe28de3d76b539cc67e4dcd8e82"
         }
       }
     }

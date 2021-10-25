@@ -1,19 +1,19 @@
 {
   "name": "scorecard",
-  "pkg_version": "2.1.3",
+  "pkg_version": "3.0.1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/scorecard/blobs/sha256:8841bbb0b19f57d290cd71336d86085cea846a126b358cfd54e4ba050e4e485e"
+      "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:3b7ba6bcd3461066e2cfd4d081b003ef1e7bb79f7831a36aeb62dd932c1cdc34"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/scorecard/blobs/sha256:e6df4dc6b6119a91d3025547226d1221c113dc3fc5f4b1822516c60cd4425335"
+      "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:cff726899d5c3cb9b91adac809205a522e60bbb5542f9d791b9d5f361147285a"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/scorecard/blobs/sha256:b45a9deb9088c49751545a899f7d5149eb91373861d1559107b7c3d2da25ca84"
+      "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:5a805fa1eecc36a61cba9787b71ddb88057f68874c5be597b2eb2b25bef5628e"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/scorecard/blobs/sha256:cccbc97bb6291eff26cb219f1a6d14af334d8d1c3e43ad792742015e94aee4eb"
+      "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:cfb3a6b976347a043714fe6955bab0da7272b9a106959074dba960747e74a860"
     }
   },
   "dependencies": [

@@ -1,57 +1,54 @@
 {
   "name": "chronograf",
-  "pkg_version": "1.9.0",
+  "pkg_version": "1.9.1",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:a3ca0abd746047054e2fa1e16af01c66959d5016a0e53378f06d5e3abeefe6df"
+      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:035e1ec95c64d5db5d2dc3305ac3f631d50b55f7d402a2ed0a74aa981f3cd9e7"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:cce9f41de6c70595ab6784f274f66ceddbd06199660c43a45ce87c88bf137cce"
+      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:36287a0454a409f11fcf156310fd5e835818266a8e25121299cc0234afc85f88"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:eea319beb941aebc561e2620daa487cc1dab344917b0eaacb13abae53ef73f64"
+      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:3675d74285d934ae45bd86c69d91807accc50d4f31a5e3dd2963097bef49874a"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:bf63451f3ee0f4dc13c324e2611d63b31943a1e4b305ed4e29fcbe3edf0dae6b"
+      "url": "https://ghcr.io/v2/homebrew/core/chronograf/blobs/sha256:5be98ea883d9df39a4082192cf41044886bf8dfc7c2ea2c82c5f9392df790b15"
     }
   },
   "dependencies": [
     {
       "name": "influxdb-cli",
-      "pkg_version": "2.1.0",
+      "pkg_version": "2.2.0",
       "rebuild": 0,
       "bottles": {
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:6cca0d7713416283475fe3fbeacd2b4e9d469c604583c14e3a405667e11d1980"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:cfc4d3d0f285c28c1368391243fa5a0803123b6a13049f195dcb799ef747917b"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:c80bf2710eb7f7dd31d298040eb25aa5f4a85ee7fc0c541c791695f7cf9ab393"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:d232cfb24c6e6c07bbd9814dae119de2db51b9b79963d503332231d2628ef85d"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:ae54b73f3987ed34ab7900017945cf2a493011dc40113f3ad064535f9bb01a28"
-        },
-        "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:11edb46b688e44bec5a372d551a92ef23c18e4656443c5d767609d384f4243ec"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:99e87a5e302ae73d4695ef8802269ea97c0511c8a3485a2a89598c4630c7f1be"
         }
       }
     },
     {
       "name": "influxdb",
-      "pkg_version": "2.0.8",
+      "pkg_version": "2.0.9",
       "rebuild": 0,
       "bottles": {
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:5f89b13d719f852125fc25acc78c5fd17836f9a9018798978c29501e0eb26295"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:ccfa24843aad6447e354fe0aa8d912fcce1ac756176c71112acf9870bda2846a"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:1577d8326e21e87a25277c98f1467022f304e4fefae49e28933ec3260811f492"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:8c1ad0349a2b4d7b0943bca30fd68e8f1effb2c97d968b7c765ed47198f8bac2"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:0f879b93be65d98dae7e61459dbbd986ee75eb408fb7da9f5827f29fc43e8789"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:b2f81367128aa3f5a6c433837e55bbe7d3680cebe6f476207b25a6d309571ad3"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:9730427bea4a9debb5861f696b2e783960e42cd6696ab34022ab16dfef2a91e9"
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb/blobs/sha256:79a485ca7cdf37b3c11ae7405501857fcfda1df0c2c9945350384dc766344ea2"
         }
       }
     },
@@ -71,6 +68,9 @@
         },
         "mojave": {
           "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:26af1dc72d59fda49a071aa3c61fb8376bb7a13a56ac6a674709ac210dba90ec"
+        },
+        "x86_64_linux": {
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:507116948e5c775cc1459f15c599419e6d9c65ab5fdecf00d5b4c9f80a0edf6c"
         }
       }
     }

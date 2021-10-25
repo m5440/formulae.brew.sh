@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/Azure/azure-storage-azcopy",
   "versions": {
-    "stable": "10.11.0",
+    "stable": "10.12.2",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/Azure/azure-storage-azcopy/archive/v10.11.0.tar.gz",
+      "url": "https://github.com/Azure/azure-storage-azcopy/archive/v10.12.2.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,40 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:6b69f208199e9c0961a0fd0bf131666d5205e1893a8b0c725267195f6ce5a992",
+          "sha256": "6b69f208199e9c0961a0fd0bf131666d5205e1893a8b0c725267195f6ce5a992"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:474b27d1ccdd417f7fe1d75fe69311e76ec16f8fef56ccba1ed35f323318fd70",
-          "sha256": "474b27d1ccdd417f7fe1d75fe69311e76ec16f8fef56ccba1ed35f323318fd70"
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:1b5695aa8fb6ce52898782c407ee6395fb65532a65c5030d0ab438f6ae40580f",
+          "sha256": "1b5695aa8fb6ce52898782c407ee6395fb65532a65c5030d0ab438f6ae40580f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:87c0c978170fbecf7b435caa5290e26582f9eed14eb69d08e23794670350c0dd",
+          "sha256": "87c0c978170fbecf7b435caa5290e26582f9eed14eb69d08e23794670350c0dd"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:a2e2649c4fdbc5453e6b33536af505a9747d59413d6314fc1171d68d96c0156c",
-          "sha256": "a2e2649c4fdbc5453e6b33536af505a9747d59413d6314fc1171d68d96c0156c"
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:895a0df8375076afdd39649821374370c0771a3322cbcbd7f0e052c2157825be",
+          "sha256": "895a0df8375076afdd39649821374370c0771a3322cbcbd7f0e052c2157825be"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:4eca8b06dde2477846598d23d0dbc08a7c18de91b6185656f0dd0b9f7c0b5302",
-          "sha256": "4eca8b06dde2477846598d23d0dbc08a7c18de91b6185656f0dd0b9f7c0b5302"
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:e90ca6c0354d38ab4efff87d95a9859b14d065f4cdc1c76d5a8df80300f1c5b8",
+          "sha256": "e90ca6c0354d38ab4efff87d95a9859b14d065f4cdc1c76d5a8df80300f1c5b8"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:908b48e69521aa5b29eb1e300d21e9b9212b1930dd860a7caf7b4b2ef4191138",
-          "sha256": "908b48e69521aa5b29eb1e300d21e9b9212b1930dd860a7caf7b4b2ef4191138"
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:cd976cce204fedeca62755455406045d4d3d6303ca625407105c4b61d2fd4262",
+          "sha256": "cd976cce204fedeca62755455406045d4d3d6303ca625407105c4b61d2fd4262"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:f4ba6bc3a5e5d8645b721278f304e2ce8d4dc3555d8a13e05c73a08801f91db8",
-          "sha256": "f4ba6bc3a5e5d8645b721278f304e2ce8d4dc3555d8a13e05c73a08801f91db8"
+          "url": "https://ghcr.io/v2/homebrew/core/azcopy/blobs/sha256:467fbdd5993292c56a2bc3776b2954093f9db2516d0176b98b80756ed3634766",
+          "sha256": "467fbdd5993292c56a2bc3776b2954093f9db2516d0176b98b80756ed3634766"
         }
       }
     }

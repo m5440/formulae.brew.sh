@@ -7,12 +7,14 @@
   ],
   "desc": "Penetration testing framework",
   "homepage": "https://www.metasploit.com/",
-  "url": "https://osx.metasploit.com/metasploit-framework-6.1.1%2B20210816103115-1rapid7-1.pkg",
+  "url": "https://osx.metasploit.com/metasploit-framework-6.1.12%2B20211024102851-1rapid7-1.pkg",
   "appcast": null,
-  "version": "6.1.1,20210816103115",
+  "version": "6.1.12,20211024102851",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "8fc023899b009efd3bc80463b31ca7d5e755dc943e4b0277f7bb8c66293df10c",
+  "sha256": "f99955796901cdeb09cdef85529ad158c9741930ef72dd9935f95f089a29adc4",
   "artifacts": [
     {
       "script": {
@@ -26,7 +28,7 @@
       "signal": {
       }
     },
-    "metasploit-framework-6.1.1+20210816103115-1rapid7-1.pkg (Pkg)",
+    "metasploit-framework-6.1.12+20211024102851-1rapid7-1.pkg (Pkg)",
     [
       "/opt/metasploit-framework/bin/msfconsole"
     ],

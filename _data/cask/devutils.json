@@ -7,12 +7,14 @@
   ],
   "desc": "Offline toolbox for developers",
   "homepage": "https://devutils.app/",
-  "url": "https://devutils.app/archives/DevUtils-1.10.0.dmg",
+  "url": "https://devutils.app/archives/DevUtils-1.12.0.dmg",
   "appcast": null,
-  "version": "1.10.0,75",
+  "version": "1.12.0,99",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "544df77e9a109e4c06391da7e145bfe7c5ac2c135868b765eb44ad6b8cd87bb1",
+  "sha256": "00fd3320528d32324dbb03b08ee795ed5f1e254a5d54ef09859c9e45cea7c1e7",
   "artifacts": [
     [
       "DevUtils.app"

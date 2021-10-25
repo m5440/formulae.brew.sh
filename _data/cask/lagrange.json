@@ -7,12 +7,14 @@
   ],
   "desc": "Desktop GUI client for browsing Geminispace",
   "homepage": "https://gmi.skyjake.fi/lagrange/",
-  "url": "https://github.com/skyjake/lagrange/releases/download/v1.6.3/lagrange_v1.6.3_macos10.13-x86_64.tbz",
+  "url": "https://github.com/skyjake/lagrange/releases/download/v1.7.3/lagrange_v1.7.3_macos10.13-x86_64.tbz",
   "appcast": null,
-  "version": "1.6.3",
+  "version": "1.7.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "a0248324df5f6aa5e63d9a6969a2448a074b1e19f70bb16603229b7840f17db2",
+  "sha256": "a86ee463c539dd99858d2e49e70a585bbe1b76610c6d841707e818aafc14da2b",
   "artifacts": [
     [
       "Lagrange.app"

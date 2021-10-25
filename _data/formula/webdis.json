@@ -13,13 +13,13 @@
   "license": "BSD-2-Clause",
   "homepage": "https://webd.is/",
   "versions": {
-    "stable": "0.1.16",
+    "stable": "0.1.18",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nicolasff/webdis/archive/0.1.16.tar.gz",
+      "url": "https://github.com/nicolasff/webdis/archive/0.1.18.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -28,33 +28,28 @@
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:55b4ee33b5296bcd27b91585b3356b9d7737fb24f7cda5adfcc30a4e586ac246",
-          "sha256": "55b4ee33b5296bcd27b91585b3356b9d7737fb24f7cda5adfcc30a4e586ac246"
+          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:7b6fb29239bd1ecc823c627b2aed17b17a3a747369900883c298dda7658266c9",
+          "sha256": "7b6fb29239bd1ecc823c627b2aed17b17a3a747369900883c298dda7658266c9"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:e862565d496026523a3de7eee972498fb69de7af174f916e4782db1353f9aaba",
-          "sha256": "e862565d496026523a3de7eee972498fb69de7af174f916e4782db1353f9aaba"
+          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:3b514fbabc1805463147d6e57e8714a61beea7c562a4543489f62a9f0eb29b34",
+          "sha256": "3b514fbabc1805463147d6e57e8714a61beea7c562a4543489f62a9f0eb29b34"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:b3b426e26ae5aeb0be4655e8d606ec7296212c2571ea2c6addac82244f15d242",
-          "sha256": "b3b426e26ae5aeb0be4655e8d606ec7296212c2571ea2c6addac82244f15d242"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:5ccbedfbb540501c278e8924c49ed974b34491499785d1fca48f6ad33ae4bfa1",
-          "sha256": "5ccbedfbb540501c278e8924c49ed974b34491499785d1fca48f6ad33ae4bfa1"
+          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:42647e2db028c4e74ab5a8ec031e267c724bc1d876ff5549ac1ac764fdd746ac",
+          "sha256": "42647e2db028c4e74ab5a8ec031e267c724bc1d876ff5549ac1ac764fdd746ac"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:a0d186746de1c08d6501c30f699fb7d9ba31cd1bbf449ecb4e2ea4eba20d187b",
-          "sha256": "a0d186746de1c08d6501c30f699fb7d9ba31cd1bbf449ecb4e2ea4eba20d187b"
+          "url": "https://ghcr.io/v2/homebrew/core/webdis/blobs/sha256:7e1c131f0f7b34e1108fc2bcdacb752e152dda92f5bf6022d71083e4665d53b5",
+          "sha256": "7e1c131f0f7b34e1108fc2bcdacb752e152dda92f5bf6022d71083e4665d53b5"
         }
       }
     }

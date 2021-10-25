@@ -7,12 +7,14 @@
   ],
   "desc": "QuickLook generator for Markdown files",
   "homepage": "https://github.com/sbarex/QLMarkdown",
-  "url": "https://github.com/sbarex/QLMarkdown/releases/download/1.0.1/QLMarkdown.zip",
+  "url": "https://github.com/sbarex/QLMarkdown/releases/download/1.0.3/QLMarkdown.zip",
   "appcast": null,
-  "version": "1.0.1",
+  "version": "1.0.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "c0cef52213c6abcc0e90b3f3bdc1f288fb088bdaac88c5b639dba9a19b8f3690",
+  "sha256": "2ca694f59a36f27511a57316ca6c2ed5ebe163eaeb6c87b630dd7307838b83b1",
   "artifacts": [
     [
       "QLMarkdown.app"

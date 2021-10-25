@@ -1,6 +1,6 @@
 cask "transmit" do
-  version "5.7.6"
-  sha256 "e7f330fa01a8aa2d6ebd7d4a6ee2b14ed3a05ee555f73544f6d61da6ee683a13"
+  version "5.8.1"
+  sha256 "27f7fb5139f9183ca237607d815432c92243efb92dc257796f0b29c4ce0fabd0"
 
   url "https://www.panic.com/transmit/d/Transmit%20#{version}.zip"
   name "Transmit"
@@ -13,7 +13,7 @@ cask "transmit" do
   end
 
   auto_updates true
-  depends_on macos: ">= :mojave"
+  depends_on macos: ">= :catalina"
 
   app "Transmit.app"
 

@@ -1,66 +1,82 @@
 {
   "name": "mongo-cxx-driver",
-  "pkg_version": "3.6.5",
+  "pkg_version": "3.6.6",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:420a8d7b1a441550ba00b2b29c336932527a38c6190747e7eb8e3144ab2eda2e"
+      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:39739b35a1ea90cbbd5d43e9623adfe38088ef5a19e82d2525e92f6128018923"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:87df7b24f526a69518b53e40c08e01d2b97c049f6ed6e8dda4896584681cc923"
+      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:4a4b43266285d03ebc8a084a5c210c97ba845b8fd333eac87f4c395267a6967f"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:6ea86cfbed1987bf3220c501206777b1393ddc939146ada8171365200518d6f4"
+      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:3376ae78c833751b52cce134f6bd1cfa48e13bc267abf9cb09402b8ccef5dda7"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:e9ef0c9f9b7db18b26d6bcbe033748d072b614c4994dd1894eb06854861df6b9"
+      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:9936b280f4bdeffa5f2a50c07e860ca2025ac559b2e33e535e3077f97568576b"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:3064f7f342547011ebc777a76b4efbafa30af18b1a62f1899376c7cad3e4d7db"
+      "url": "https://ghcr.io/v2/homebrew/core/mongo-cxx-driver/blobs/sha256:1bfa9bffbeeea55731cd27d71a64aa9da8e9c9f85e2b54946ff62257f5c55435"
     }
   },
   "dependencies": [
     {
+      "name": "ca-certificates",
+      "pkg_version": "2021-09-30",
+      "rebuild": 1,
+      "bottles": {
+        "all": {
+          "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:47c9cd6ec69dbbf8a3f697e6b07df409a573c779aa86ceadc7d9575e8c2a5b10"
+        }
+      }
+    },
+    {
       "name": "openssl@1.1",
-      "pkg_version": "1.1.1k",
+      "pkg_version": "1.1.1l_1",
       "rebuild": 0,
       "bottles": {
+        "arm64_monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:8f5b0bee61c1570b9f0fc0a21d6c322e904ae7975bdaada5787451d18e9677a6"
+        },
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:0a75e0f116c0653bc7a2b422e5dc500e7e51557303aa4fca9c1a28786189c1da"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:e3d8556cec907ad1e0ea00aebd0b0b516dde06ea3bf24308290ad785cb360a04"
+        },
+        "monterey": {
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:9a14367813591b51e30828c7d86499479bc6201954f6b10ed591b40cd3b71cc1"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:17d94c51ddfa8364baed5f3a754063e1ca75f807194f68d0b976619cf4e69c1a"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:64d4d83f7d3216f2d3107f966b223d11401a2e9391707d959fbdb5c1bd5fbe0c"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:cb610ecdda346011031b890d7b7c6e1942d7fc08cf083b74f148ec7ffed8c7e1"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:eb4e1d96f1a9eac8d096220550e3ca97a46d59747ec2324e2ff74351f8319c2b"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:7928c80c309c6ece50b1c0d968a1e54011088cc896d26aa511249978a246bd50"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:add58d2bb5059599029e687d5baf6fd737dff1e5cef7b6c5f4e0fe11b9c8e588"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:63b4e785e2baf4ebf0e9b8e33e0dd3aa38399d9f10fd0121088f83ad2de42c5f"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:84bc9412c1620f5607161c5fe2b6e11ff49de96d704595523f7f7c15f1883cf2"
         }
       }
     },
     {
       "name": "mongo-c-driver",
-      "pkg_version": "1.19.0",
+      "pkg_version": "1.19.1",
       "rebuild": 0,
       "bottles": {
         "arm64_big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:fb4cbfa74810524b991c1271e82c1ecf7bea06236ef4b8780ca2b4a0e0354546"
+          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:de4bbc7532fd196b9fba738e8b17edfc0aadb6bedbdbd71833a7ef1b255eec16"
         },
         "big_sur": {
-          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:443fb61faf8b00fb7c9bb1980c020aecdb78b773ad9a20d94c50a2227d881840"
+          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:204323f9b79875608290cd49fe8a8bb81eeda5ea1b1fde92c76a063e9f19d1d5"
         },
         "catalina": {
-          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:55361a759155c4920aeaab5029fca739f4b041745f3a4606dbd06a46c0ef2af8"
+          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:45beeed3b08061903197d2bcdf40febf951e8782b95e0a7df321fea0475f9e54"
         },
         "mojave": {
-          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:5b0fea8d91eaaa6dbd1fcd007197d55b8824228501ee4b69d42f7a6bc6c1508c"
+          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:07ecdab24599574fb8ab343665902cf01fcff1535a584cf26c89107e2797b948"
         },
         "x86_64_linux": {
-          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:26271cdc780a6a39ab73c08c9f8c44232700ac1f0d55f7e4341c2506a7e28789"
+          "url": "https://ghcr.io/v2/homebrew/core/mongo-c-driver/blobs/sha256:661526256b04bb4eb936a4699b18bfa77ab8c241f82bc35bd79ba49bf44570df"
         }
       }
     }

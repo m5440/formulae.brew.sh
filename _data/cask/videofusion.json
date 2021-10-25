@@ -8,12 +8,14 @@
   ],
   "desc": "Video editor",
   "homepage": "https://lv.ulikecam.com/",
-  "url": "https://lf3-faceucdn-tos.pstatp.com/obj/faceu-packages/Jianying_1_6_0_1791_0.dmg",
+  "url": "https://lf3-faceucdn-tos.pstatp.com/obj/faceu-packages/Jianying_2_2_0_2988_0.dmg",
   "appcast": null,
-  "version": "1.6.0.1791.0",
+  "version": "2.2.0.2988.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "13014b117c13eae7bad979f4c878d12cc6b4a364159d76bcf7805e32700b9d0e",
+  "sha256": "b732c465ba06a661a22be13947aaf1a4669c105ad97d2971ac9dc6ae1e104318",
   "artifacts": [
     [
       "VideoFusion-macOS.app"

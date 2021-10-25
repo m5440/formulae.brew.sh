@@ -7,12 +7,14 @@
   ],
   "desc": "Store Anka's virtual machines in a central location",
   "homepage": "https://veertu.com/",
-  "url": "https://downloads.veertu.com/anka/AnkaRegistry-1.17.1-0966fcd.pkg",
+  "url": "https://downloads.veertu.com/anka/AnkaRegistry-1.19.0-76bca3a.pkg",
   "appcast": null,
-  "version": "1.17.1-0966fcd",
+  "version": "1.19.0-76bca3a",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "5e78150027c054edbfc79c6cccd49a4fd3ecd121aa3085816da69e12b78e3930",
+  "sha256": "472226998f45dd2e9f3044cd0ff6a32c743c745f466216fe5444281fff07204b",
   "artifacts": [
     {
       "launchctl": [
@@ -30,7 +32,7 @@
       "signal": {
       }
     },
-    "AnkaRegistry-1.17.1-0966fcd.pkg (Pkg)",
+    "AnkaRegistry-1.19.0-76bca3a.pkg (Pkg)",
     {
       "trash": "/Library/Logs/Veertu/AnkaController",
       "rmdir": "/Library/Application Support/Veertu/Anka/registry",

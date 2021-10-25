@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://www.benthos.dev",
   "versions": {
-    "stable": "3.52.0",
+    "stable": "3.57.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/Jeffail/benthos/archive/v3.52.0.tar.gz",
+      "url": "https://github.com/Jeffail/benthos/archive/v3.57.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/benthos/blobs/sha256:c5190927fc4c6de7353d1d7521c2f40bb67ba34f56bb609088dd3b83669c85af",
-          "sha256": "c5190927fc4c6de7353d1d7521c2f40bb67ba34f56bb609088dd3b83669c85af"
+          "url": "https://ghcr.io/v2/homebrew/core/benthos/blobs/sha256:258fa1f0fe1dd1ccfb868076ebdd8e54388dd0769cd8aff738362c4cd629cbaa",
+          "sha256": "258fa1f0fe1dd1ccfb868076ebdd8e54388dd0769cd8aff738362c4cd629cbaa"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/benthos/blobs/sha256:0615cf7a6a61d75331dedcbc59321408d9d7a861f744d5b9bf70b76f38511571",
-          "sha256": "0615cf7a6a61d75331dedcbc59321408d9d7a861f744d5b9bf70b76f38511571"
+          "url": "https://ghcr.io/v2/homebrew/core/benthos/blobs/sha256:3825412846e2aa3846588e8008e9bab2ad375b4338ff19e9752a9789cae34307",
+          "sha256": "3825412846e2aa3846588e8008e9bab2ad375b4338ff19e9752a9789cae34307"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/benthos/blobs/sha256:7eaa697c2edf1921defcbd6a629bfc5bbf21626134225361c7a6f1861a9817c6",
-          "sha256": "7eaa697c2edf1921defcbd6a629bfc5bbf21626134225361c7a6f1861a9817c6"
+          "url": "https://ghcr.io/v2/homebrew/core/benthos/blobs/sha256:91365a38238a6a87c8a8048ea49f0bbe72fcebbd82db915525928d1460abc6d9",
+          "sha256": "91365a38238a6a87c8a8048ea49f0bbe72fcebbd82db915525928d1460abc6d9"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/benthos/blobs/sha256:deaac1c160b4da0a430d60d5bed4fe61396e394091800eda30cdce7b551c3818",
-          "sha256": "deaac1c160b4da0a430d60d5bed4fe61396e394091800eda30cdce7b551c3818"
+          "url": "https://ghcr.io/v2/homebrew/core/benthos/blobs/sha256:2392b1b5a94e215b568919ad54345fb7f0362ee3f791d20775d7b679a35b96d8",
+          "sha256": "2392b1b5a94e215b568919ad54345fb7f0362ee3f791d20775d7b679a35b96d8"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/benthos/blobs/sha256:e34440b665279c03c8ddaff1b85d694f43bfa4e86d928e3db245d704f6dd3638",
-          "sha256": "e34440b665279c03c8ddaff1b85d694f43bfa4e86d928e3db245d704f6dd3638"
+          "url": "https://ghcr.io/v2/homebrew/core/benthos/blobs/sha256:368a20a3e847c18ddb9581533dd3989c89950fbdf01931265f80f82feebba646",
+          "sha256": "368a20a3e847c18ddb9581533dd3989c89950fbdf01931265f80f82feebba646"
         }
       }
     }

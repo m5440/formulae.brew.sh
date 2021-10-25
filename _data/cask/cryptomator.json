@@ -7,12 +7,14 @@
   ],
   "desc": "Multi-platform client-side cloud file encryption tool",
   "homepage": "https://cryptomator.org/",
-  "url": "https://github.com/cryptomator/cryptomator/releases/download/1.5.15/Cryptomator-1.5.15.dmg",
+  "url": "https://github.com/cryptomator/cryptomator/releases/download/1.6.1/Cryptomator-1.6.1.dmg",
   "appcast": null,
-  "version": "1.5.15",
+  "version": "1.6.1",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "f7a1d37424ad125e2bda525cb0c2771df9133e0c941eb190ef7fa3f7d1450ce6",
+  "sha256": "0a322acb03c4067ceefa96d824ee771ab21789128f2e0d8707a22a61e854db49",
   "artifacts": [
     [
       "Cryptomator.app"

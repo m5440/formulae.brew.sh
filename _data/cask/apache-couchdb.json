@@ -7,12 +7,14 @@
   ],
   "desc": "Multi-master syncing database",
   "homepage": "https://couchdb.apache.org/",
-  "url": "https://couchdbneighbourhoodie.fra1.digitaloceanspaces.com/downloads/3.1.1/mac/Apache-CouchDB.zip",
+  "url": "https://couchdbneighbourhoodie.fra1.digitaloceanspaces.com/downloads/3.2.0/mac/Apache-CouchDB.zip",
   "appcast": null,
-  "version": "3.1.1",
+  "version": "3.2.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "33bec530601dabc7d02dd1ff3a082b098bfaca90e12368fb848fb75e79f77634",
+  "sha256": "43602aae22f4133f7ef2b5b16fd59c676f1a13e8fc596e3f7504c386a8525fea",
   "artifacts": [
     [
       "Apache CouchDB.app"

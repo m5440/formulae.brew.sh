@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://platformio.org/",
   "versions": {
-    "stable": "5.1.1",
+    "stable": "5.2.2",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/b8/f0/4e9941349c3450838667d323545b256d91b723a4685a1e056f01642b851e/platformio-5.1.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/8a/e4/efc60be7aa04e97e642a6b17e10ebacc3bfab4849f58e98b29bdcfa1c207/platformio-5.2.2.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -33,28 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:c0df677646bdd1ef465ee4b4c19a208d4f177ee55335cf69291a89511f93c976",
-          "sha256": "c0df677646bdd1ef465ee4b4c19a208d4f177ee55335cf69291a89511f93c976"
+          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:1c32d19bbf984bb37a44d846699c91203eac7153179717d19f768c1bf48e636f",
+          "sha256": "1c32d19bbf984bb37a44d846699c91203eac7153179717d19f768c1bf48e636f"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:35e55074a397b5aebbe070b544e92d94ad740657666ef211b6280bdb8485678d",
-          "sha256": "35e55074a397b5aebbe070b544e92d94ad740657666ef211b6280bdb8485678d"
+          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:6f753eeb30d8765ff129c7d4e102522299ea196d990832c0612a210fb049a622",
+          "sha256": "6f753eeb30d8765ff129c7d4e102522299ea196d990832c0612a210fb049a622"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:790c0ae34e8542297af1f6852c27bda0261a606246af32058aa06751c3d3953a",
-          "sha256": "790c0ae34e8542297af1f6852c27bda0261a606246af32058aa06751c3d3953a"
+          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:8d6818adb4c42c45589f3c6b39b9c97a11d367d80ab1c15aea3a895d0519a5c1",
+          "sha256": "8d6818adb4c42c45589f3c6b39b9c97a11d367d80ab1c15aea3a895d0519a5c1"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:1b113213a5bf0c2e76813d37ab22326c7367548eeb6dd56c2af74d9a9c3acaf0",
-          "sha256": "1b113213a5bf0c2e76813d37ab22326c7367548eeb6dd56c2af74d9a9c3acaf0"
+          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:28c6811d0c84abe2628966418761160f2eb291688ff940c4da163f063fd9453e",
+          "sha256": "28c6811d0c84abe2628966418761160f2eb291688ff940c4da163f063fd9453e"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:d94f68b33de73c778ac753f378bd0811248b6fd8a382bb8cce094d86fdb819ae",
-          "sha256": "d94f68b33de73c778ac753f378bd0811248b6fd8a382bb8cce094d86fdb819ae"
+          "url": "https://ghcr.io/v2/homebrew/core/platformio/blobs/sha256:3890837094d8c4c10f2aabe621308e9e37079ea92328de76fa77501f5763928c",
+          "sha256": "3890837094d8c4c10f2aabe621308e9e37079ea92328de76fa77501f5763928c"
         }
       }
     }

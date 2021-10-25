@@ -1,22 +1,22 @@
 {
   "name": "minio",
-  "pkg_version": "20210817205308",
+  "pkg_version": "20211013002317",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/minio/blobs/sha256:70265104be2ff608e51e950acd1d3d64c55d8889e29cedc8ee056069d22ba83c"
+      "url": "https://ghcr.io/v2/homebrew/core/minio/blobs/sha256:259145cd4bc8bd786dc8039dd5ea8eea2a03c82a08c04a49798aa0e5c50d17a1"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/minio/blobs/sha256:13d7da64d9d83d67600f3edd4e49212b79b8db6ff65282222f21574da1d00c8a"
+      "url": "https://ghcr.io/v2/homebrew/core/minio/blobs/sha256:6d3675b1cdaf0f86f1c228cf452f006d890e679a5c4f7efc0c8dbd528f88ea0b"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/minio/blobs/sha256:f305a18a4fccffae885ac8848ef6367bb9072e6cc5ca7fd6a0d2421cfe9bbd57"
+      "url": "https://ghcr.io/v2/homebrew/core/minio/blobs/sha256:65281097a8dac7a9408d4084b4b76a7dc8a537793ed1cb4e87035c1970e18362"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/minio/blobs/sha256:dc7bd51656b5c471cd569bce0b65d2d68cd0249dac5d16bd4c2891fdeffb4f5b"
+      "url": "https://ghcr.io/v2/homebrew/core/minio/blobs/sha256:554de231c396a39cf36ffbe7f25af384b93f8d660b80435206b7582b748dc4db"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/minio/blobs/sha256:6744e8011d68979acdae2f56781dbd35e03d9ccde00ae1c8012a25b8b8eb05a2"
+      "url": "https://ghcr.io/v2/homebrew/core/minio/blobs/sha256:4e80c7590f82c2fd5eee9c396c65f8256fee1c3b37638e5ada40b112b9afb4d4"
     }
   },
   "dependencies": [

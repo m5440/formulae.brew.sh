@@ -13,13 +13,13 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://notmuchmail.org/",
   "versions": {
-    "stable": "0.32.2",
+    "stable": "0.33.2",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://notmuchmail.org/releases/notmuch-0.32.2.tar.xz",
+      "url": "https://notmuchmail.org/releases/notmuch-0.33.2.tar.xz",
       "tag": null,
       "revision": null
     }
@@ -29,27 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/notmuch-mutt/blobs/sha256:244e14a00d9771201dd024dbbef450851a97c128a791f2693f9d7cd278da68d2",
-          "sha256": "244e14a00d9771201dd024dbbef450851a97c128a791f2693f9d7cd278da68d2"
+          "url": "https://ghcr.io/v2/homebrew/core/notmuch-mutt/blobs/sha256:699b8ab9c048e4fb19f5e22a0866382ed7ebc2866dbcfeb99fc68d84aa319b09",
+          "sha256": "699b8ab9c048e4fb19f5e22a0866382ed7ebc2866dbcfeb99fc68d84aa319b09"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/notmuch-mutt/blobs/sha256:7f4007b0e895f0726176e659d7ae16c46a5c1a9f9d338957a2cd443537a87429",
-          "sha256": "7f4007b0e895f0726176e659d7ae16c46a5c1a9f9d338957a2cd443537a87429"
+          "url": "https://ghcr.io/v2/homebrew/core/notmuch-mutt/blobs/sha256:3e5f77e7c82ae1fa713cdce9ec747da7a2a484dc7aec913e1abe48ea0f7ee736",
+          "sha256": "3e5f77e7c82ae1fa713cdce9ec747da7a2a484dc7aec913e1abe48ea0f7ee736"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/notmuch-mutt/blobs/sha256:4606a8de4f790a4cb395fb4730a75877a38e06a68c394c50386d78d2a4aced76",
-          "sha256": "4606a8de4f790a4cb395fb4730a75877a38e06a68c394c50386d78d2a4aced76"
+          "url": "https://ghcr.io/v2/homebrew/core/notmuch-mutt/blobs/sha256:86d5b44b2b3ae5f09ee34ac8083eb70eee6ad9fedf9a52692988e98afaacd73c",
+          "sha256": "86d5b44b2b3ae5f09ee34ac8083eb70eee6ad9fedf9a52692988e98afaacd73c"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/notmuch-mutt/blobs/sha256:9767e63cf02da43304191762eed9fd0cae875f31b08937e6fa9a96b4535f49b8",
-          "sha256": "9767e63cf02da43304191762eed9fd0cae875f31b08937e6fa9a96b4535f49b8"
+          "url": "https://ghcr.io/v2/homebrew/core/notmuch-mutt/blobs/sha256:bf075e6136fbd4c99ce2bd5f72588f8611913f2d958e29ef0df1cfb378096d94",
+          "sha256": "bf075e6136fbd4c99ce2bd5f72588f8611913f2d958e29ef0df1cfb378096d94"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/notmuch-mutt/blobs/sha256:3cb5658f9e8c563154a6054482ff8f360193ec20907e4d86af4bb5cd894c746f",
+          "sha256": "3cb5658f9e8c563154a6054482ff8f360193ec20907e4d86af4bb5cd894c746f"
         }
       }
     }
@@ -74,7 +79,7 @@
 
   ],
   "uses_from_macos": [
-
+    "perl"
   ],
   "requirements": [
 

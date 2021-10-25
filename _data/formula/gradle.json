@@ -88,7 +88,7 @@
   "caveats": null,
   "installed": [
     {
-      "version": "7.1.1",
+      "version": "7.2",
       "used_options": [
 
       ],
@@ -97,7 +97,7 @@
       "runtime_dependencies": [
         {
           "full_name": "openjdk",
-          "version": "16.0.2",
+          "version": "17",
           "declared_directly": true
         }
       ],
@@ -105,9 +105,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "7.1.1",
+  "linked_keg": "7.2",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,

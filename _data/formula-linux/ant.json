@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://ant.apache.org/",
   "versions": {
-    "stable": "1.10.11",
+    "stable": "1.10.12",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.apache.org/dyn/closer.lua?path=ant/binaries/apache-ant-1.10.11-bin.tar.xz",
+      "url": "https://www.apache.org/dyn/closer.lua?path=ant/binaries/apache-ant-1.10.12-bin.tar.xz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ant/blobs/sha256:6046142aede02c4f3940ddd94cea686a4e3136c7f8509d4000e05736a7afc63d",
-          "sha256": "6046142aede02c4f3940ddd94cea686a4e3136c7f8509d4000e05736a7afc63d"
+          "url": "https://ghcr.io/v2/homebrew/core/ant/blobs/sha256:65361546d11f6cd675bc64aae75cd14dc3e77e7ed466b45e871bd09780df23f1",
+          "sha256": "65361546d11f6cd675bc64aae75cd14dc3e77e7ed466b45e871bd09780df23f1"
         }
       }
     }

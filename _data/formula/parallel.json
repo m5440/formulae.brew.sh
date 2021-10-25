@@ -13,13 +13,13 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://savannah.gnu.org/projects/parallel/",
   "versions": {
-    "stable": "20210622",
+    "stable": "20211022",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://ftp.gnu.org/gnu/parallel/parallel-20210622.tar.bz2",
+      "url": "https://ftp.gnu.org/gnu/parallel/parallel-20211022.tar.bz2",
       "tag": null,
       "revision": null
     }
@@ -28,13 +28,13 @@
   "version_scheme": 1,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/parallel/blobs/sha256:32a13cdbba0c37c6d19fcd2b8c4389adbe4096dbdd39a5d334a3244fa62df1fd",
-          "sha256": "32a13cdbba0c37c6d19fcd2b8c4389adbe4096dbdd39a5d334a3244fa62df1fd"
+          "url": "https://ghcr.io/v2/homebrew/core/parallel/blobs/sha256:2457af1ca60d486a1834bbf1131c6104f8607e0a53224ceb0707b1575509f754",
+          "sha256": "2457af1ca60d486a1834bbf1131c6104f8607e0a53224ceb0707b1575509f754"
         }
       }
     }
@@ -68,7 +68,7 @@
   "caveats": null,
   "installed": [
     {
-      "version": "20210622",
+      "version": "20210922",
       "used_options": [
 
       ],
@@ -81,9 +81,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "20210622",
+  "linked_keg": "20210922",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,

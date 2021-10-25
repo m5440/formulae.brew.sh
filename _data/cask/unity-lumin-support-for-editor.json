@@ -7,19 +7,21 @@
   ],
   "desc": "Lumin target support for Unity",
   "homepage": "https://unity.com/products",
-  "url": "https://download.unity3d.com/download_unity/9957aee8edc2/MacEditorTargetInstaller/UnitySetup-Lumin-Support-for-Editor-2020.1.17f1.pkg",
-  "appcast": "https://public-cdn.cloud.unity3d.com/hub/prod/releases-darwin.json",
-  "version": "2020.1.17f1,9957aee8edc2",
+  "url": "https://download.unity3d.com/download_unity/6667702a1e7c/MacEditorTargetInstaller/UnitySetup-Lumin-Support-for-Editor-2021.1.24f1.pkg",
+  "appcast": null,
+  "version": "2021.1.24f1,6667702a1e7c",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "e326abccca5d42540b3c322acd1f0a5152d4c42fca9c0ad8abcc5b2b8e84953e",
+  "sha256": "1088e8acfd67555487aa0e23a1753f9d43edf03b5367535675f906b00fe6969d",
   "artifacts": [
     {
       "pkgutil": "com.unity3d.LuminSupport",
       "signal": {
       }
     },
-    "UnitySetup-Lumin-Support-for-Editor-2020.1.17f1.pkg (Pkg)"
+    "UnitySetup-Lumin-Support-for-Editor-2021.1.24f1.pkg (Pkg)"
   ],
   "caveats": null,
   "depends_on": {

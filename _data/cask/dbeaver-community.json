@@ -7,16 +7,27 @@
   ],
   "desc": "Universal database tool and SQL client",
   "homepage": "https://dbeaver.io/",
-  "url": "https://dbeaver.io/files/21.1.5/dbeaver-ce-21.1.5-macos.dmg",
+  "url": "https://dbeaver.io/files/21.2.3/dbeaver-ce-21.2.3-macos-x86_64.dmg",
   "appcast": null,
-  "version": "21.1.5",
+  "version": "21.2.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "efc5242165b37fa47dcefd4ece408eac460826eba19530dc17dd81b2edb96407",
+  "sha256": "269711ee5f8902fc3f2bff314d6b7377c38316b8474db3851857d63fbe5663c4",
   "artifacts": [
     [
       "DBeaver.app"
-    ]
+    ],
+    {
+      "trash": [
+        "~/Library/DBeaverData",
+        "~/Library/Preferences/org.jkiss.dbeaver.core.product.plist",
+        "~/Library/Saved Application State/org.jkiss.dbeaver.core.product.savedState"
+      ],
+      "signal": {
+      }
+    }
   ],
   "caveats": null,
   "depends_on": {

@@ -7,12 +7,18 @@
   ],
   "desc": "App for note taking, organizing, task lists, and archiving",
   "homepage": "https://evernote.com/",
-  "url": "https://cdn1.evernote.com/boron/mac/builds/Evernote-10.19.2-mac-ddl-ga-2852.dmg",
+  "url": "https://cdn1.evernote.com/boron/mac/builds/Evernote-10.23.7-mac-ddl-ga-3003.dmg",
   "appcast": null,
-  "version": "10.19.2,2852",
+  "version": "10.23.7,3003",
+  "versions": {
+    "high_sierra": "7.14_458244",
+    "sierra": "7.14_458244",
+    "el_capitan": "7.2.3_456885",
+    "yosemite": "6.12.3_455520"
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "34e4bd4728126224ebca2057881b78654c353da522ab78bd14462c0ac7cfccc8",
+  "sha256": "2c0d66eed9766fd50c927bf555ebae9da0947e09aa96883c2a886122a13cfa3f",
   "artifacts": [
     {
       "quit": [
@@ -32,10 +38,10 @@
         "~/Library/Application Support/com.evernote.EvernoteHelper",
         "~/Library/Application Support/Caches/evernote-client-updater",
         "~/Library/Caches/com.evernote.Evernote",
+        "~/Library/Cookies/com.evernote.Evernote.binarycookies",
+        "~/Library/Logs/Evernote",
         "~/Library/Preferences/com.evernote.Evernote.plist",
         "~/Library/Preferences/com.evernote.EvernoteHelper.plist",
-        "~/Library/Logs/Evernote",
-        "~/Library/Cookies/com.evernote.Evernote.binarycookies",
         "~/Library/Saved Application State/com.evernote.Evernote.savedState"
       ],
       "signal": {

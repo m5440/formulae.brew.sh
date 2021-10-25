@@ -13,18 +13,18 @@
   "license": "ISC",
   "homepage": "http://www.clifford.at/yosys/",
   "versions": {
-    "stable": "0.9",
+    "stable": "0.10",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/YosysHQ/yosys/archive/yosys-0.9.tar.gz",
+      "url": "https://github.com/YosysHQ/yosys/archive/yosys-0.10.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 3,
+  "revision": 2,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,33 +33,28 @@
       "files": {
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:e2df722fe6fd54e15f7683bc49ec6f77895fd97687d38743507deb88c091c982",
-          "sha256": "e2df722fe6fd54e15f7683bc49ec6f77895fd97687d38743507deb88c091c982"
+          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:6d57439e80cb30068203005e6e40502aef0f404b81b3dea7c4e3601706580e61",
+          "sha256": "6d57439e80cb30068203005e6e40502aef0f404b81b3dea7c4e3601706580e61"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:6ecd94923b663972312bf1c6e50ddfef817ffb7257118e6d1f0bd6836d3057a5",
-          "sha256": "6ecd94923b663972312bf1c6e50ddfef817ffb7257118e6d1f0bd6836d3057a5"
+          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:a53171d3915947fdcd3070e7c889ad1a338302e4572c712e7dba03fa0ba4ed7e",
+          "sha256": "a53171d3915947fdcd3070e7c889ad1a338302e4572c712e7dba03fa0ba4ed7e"
         },
         "catalina": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:30136c3fe55e45d36aa1587a48bc69030930563b2fb0f386ce122d79a4dbba87",
-          "sha256": "30136c3fe55e45d36aa1587a48bc69030930563b2fb0f386ce122d79a4dbba87"
+          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:a9963ff851b5caa4cd66e3108cfac5d7b06733b2f4f399500f261c090197450a",
+          "sha256": "a9963ff851b5caa4cd66e3108cfac5d7b06733b2f4f399500f261c090197450a"
         },
         "mojave": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:6298e8bfeff2fa1f4de993642b43afeacb6c98a3f262c256d495339ee141dff4",
-          "sha256": "6298e8bfeff2fa1f4de993642b43afeacb6c98a3f262c256d495339ee141dff4"
-        },
-        "high_sierra": {
-          "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:a8807693a57f363e1a2d95034feffa3ab14c3645910f154d128990ae0484439e",
-          "sha256": "a8807693a57f363e1a2d95034feffa3ab14c3645910f154d128990ae0484439e"
+          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:e5b72f1172bb2ef8ff6c9e91c2f88448c7501a2798ff925884f3faadd223f122",
+          "sha256": "e5b72f1172bb2ef8ff6c9e91c2f88448c7501a2798ff925884f3faadd223f122"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:2e439a8632b343ede0a5cbd4adb2b545f1bd0ca96090129304fb2958e5ebe384",
-          "sha256": "2e439a8632b343ede0a5cbd4adb2b545f1bd0ca96090129304fb2958e5ebe384"
+          "url": "https://ghcr.io/v2/homebrew/core/yosys/blobs/sha256:4d5ee0732dfe02830ee26ea4e8cd2a3613c62e928b6c0c2b39d2d176823dd513",
+          "sha256": "4d5ee0732dfe02830ee26ea4e8cd2a3613c62e928b6c0c2b39d2d176823dd513"
         }
       }
     }
@@ -75,7 +70,7 @@
   ],
   "dependencies": [
     "libffi",
-    "python@3.9",
+    "python@3.10",
     "readline"
   ],
   "recommended_dependencies": [

@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://github.com/ansible/ansible-lint/",
   "versions": {
-    "stable": "5.1.2",
+    "stable": "5.2.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/6b/92/a3710319bec4b37e91b555231c2ec890cc5d6a59f3f08de7f75a423d8d3b/ansible-lint-5.1.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/b0/44/9d47dd76a75de9e7b4acb13e1b8f75294d888852aadab51a9cef53b0e093/ansible-lint-5.2.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ansible-lint/blobs/sha256:705722944f3b774583ec20586772b2d3164bf9a4e65f16b7518390bb71ef0a43",
-          "sha256": "705722944f3b774583ec20586772b2d3164bf9a4e65f16b7518390bb71ef0a43"
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:c2df9110ebefbdcbdbea5d00e86800b47e8da85fa20c2767ffb107591ffe6f49",
+          "sha256": "c2df9110ebefbdcbdbea5d00e86800b47e8da85fa20c2767ffb107591ffe6f49"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ansible-lint/blobs/sha256:8d6d9bc5f2a3cb6dc28f259ae9f4d13e8f3a33ab6d544c7fed72ebd40c0cb7a7",
-          "sha256": "8d6d9bc5f2a3cb6dc28f259ae9f4d13e8f3a33ab6d544c7fed72ebd40c0cb7a7"
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:89d846650450d4ad498316cca05bd7b145c5650f06a9be371da7273c906899db",
+          "sha256": "89d846650450d4ad498316cca05bd7b145c5650f06a9be371da7273c906899db"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ansible-lint/blobs/sha256:f25b7da24a9c65701333619086488950edfe5b7f4f17be5a662e98942088cb5e",
-          "sha256": "f25b7da24a9c65701333619086488950edfe5b7f4f17be5a662e98942088cb5e"
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:fd49fcf1ff688b39a7498e4de206c23857c4b542eb28d328ffdcd0e5b26d4920",
+          "sha256": "fd49fcf1ff688b39a7498e4de206c23857c4b542eb28d328ffdcd0e5b26d4920"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ansible-lint/blobs/sha256:3bbd5408483c04d03590b6432d1ccaa3d411c83b53126db98dbece6be44794dd",
-          "sha256": "3bbd5408483c04d03590b6432d1ccaa3d411c83b53126db98dbece6be44794dd"
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:c723e3b2d29e40f2c31c676878fc0e8571662f80f5831807a4934c5e9399b2fe",
+          "sha256": "c723e3b2d29e40f2c31c676878fc0e8571662f80f5831807a4934c5e9399b2fe"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/ansible-lint/blobs/sha256:a25113d1f9f25835fc46ded5d28a9b7a0ce780c48e90e13e83b21809cc6c2e30",
-          "sha256": "a25113d1f9f25835fc46ded5d28a9b7a0ce780c48e90e13e83b21809cc6c2e30"
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:7dc62f724831cfe899ed51e972158fdda3a5a761cef1b9b55267c9c7c2a5310f",
+          "sha256": "7dc62f724831cfe899ed51e972158fdda3a5a761cef1b9b55267c9c7c2a5310f"
         }
       }
     }

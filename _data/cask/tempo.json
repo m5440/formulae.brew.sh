@@ -7,12 +7,14 @@
   ],
   "desc": "Email client that delivers all email in batches",
   "homepage": "https://www.yourtempo.co/",
-  "url": "https://download.yourtempo.co/release/Tempo-5.22.0.dmg",
+  "url": "https://download.yourtempo.co/release/Tempo-5.27.0.dmg",
   "appcast": null,
-  "version": "5.22.0",
+  "version": "5.27.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "0fad111c919a9bb8dd67adfea47a2c1165465e61890baebd0ac2bf5b0ad11430",
+  "sha256": "c300943009a406554914e3f56abea4525b46e231aeff39441fcbc251928ccfc7",
   "artifacts": [
     [
       "Tempo.app"

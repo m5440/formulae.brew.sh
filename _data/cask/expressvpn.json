@@ -7,12 +7,14 @@
   ],
   "desc": "VPN client for secure internet access and private browsing",
   "homepage": "https://www.expressvpn.works/",
-  "url": "https://www.expressvpn.works/clients/mac/expressvpn_mac_10.3.1.25_release.pkg",
+  "url": "https://www.expressvpn.works/clients/mac/expressvpn_mac_10.7.0.13_release.pkg",
   "appcast": null,
-  "version": "10.3.1.25",
+  "version": "10.7.0.13",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "fe332dd5425a8c149f15be40657a96f4f4db5ae222e1988ee4113b2af3db7396",
+  "sha256": "9c1a9fbb9ed72d956f873b7e5c9912e541abcd6f98ceed18ae5a1a25fcd28840",
   "artifacts": [
     {
       "launchctl": "com.expressvpn.ExpressVPN.agent",
@@ -27,7 +29,7 @@
       "signal": {
       }
     },
-    "expressvpn_mac_10.3.1.25_release.pkg (Pkg)"
+    "expressvpn_mac_10.7.0.13_release.pkg (Pkg)"
   ],
   "caveats": null,
   "depends_on": {

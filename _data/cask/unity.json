@@ -7,12 +7,14 @@
   ],
   "desc": "Platform for 3D content",
   "homepage": "https://unity.com/products",
-  "url": "https://download.unity3d.com/download_unity/e767a7370072/MacEditorInstaller/Unity-2021.1.15f1.pkg",
+  "url": "https://download.unity3d.com/download_unity/6667702a1e7c/MacEditorInstaller/Unity-2021.1.24f1.pkg",
   "appcast": null,
-  "version": "2021.1.15f1,e767a7370072",
+  "version": "2021.1.24f1,6667702a1e7c",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "b873e6802b58e55ce8c6b66be08c2751ed52ecbc880a78c4888bc513ffc1a180",
+  "sha256": "6d4c896f0c9a12fe05cc2317905b209d3ae261e9552f0f287d6f504469951c71",
   "artifacts": [
     {
       "quit": "com.unity3d.UnityEditor5.x",
@@ -21,7 +23,7 @@
       "signal": {
       }
     },
-    "Unity-2021.1.15f1.pkg (Pkg)"
+    "Unity-2021.1.24f1.pkg (Pkg)"
   ],
   "caveats": null,
   "depends_on": {

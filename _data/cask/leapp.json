@@ -7,12 +7,14 @@
   ],
   "desc": "Cloud credentials manager",
   "homepage": "https://www.leapp.cloud/",
-  "url": "https://asset.noovolari.com/latest/Leapp-0.6.2-mac.zip",
+  "url": "https://asset.noovolari.com/0.7.3/Leapp-0.7.3.dmg",
   "appcast": null,
-  "version": "0.6.2",
+  "version": "0.7.3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "00c72c4c5e8138e65bbdc08fe75676688275b453335d9ba001a1fe38372ae281",
+  "sha256": "aa17132a6efcdadbc45e7e3faf990c3ac91700926c79d164a80ff65225c2bb69",
   "artifacts": [
     [
       "Leapp.app"
@@ -33,6 +35,6 @@
   "depends_on": {
   },
   "conflicts_with": null,
-  "container": "{:nested=>\"temp/Leapp-0.6.2.dmg\"}",
+  "container": null,
   "auto_updates": null
 }

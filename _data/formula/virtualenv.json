@@ -13,13 +13,13 @@
   "license": "MIT",
   "homepage": "https://virtualenv.pypa.io/",
   "versions": {
-    "stable": "20.7.2",
+    "stable": "20.9.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/6d/89/9691b0d0521c069bd238585ccb7f4035b8393d843a50491270e7dae0209e/virtualenv-20.7.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/8b/67/67e5dd2d1676c3fa8a67c707114325d713feadb7824d9aaf2396be5401d3/virtualenv-20.9.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,35 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:abba1a14d00ad48e7d1e186ae8b3e3d8eb4bd9eb8b9c2b83ea4236dcf0322ee6",
+          "sha256": "abba1a14d00ad48e7d1e186ae8b3e3d8eb4bd9eb8b9c2b83ea4236dcf0322ee6"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:886185f8fcdba5d8f55c79bbde9861863ae17f61a24e444bab3ae855dcb30234",
-          "sha256": "886185f8fcdba5d8f55c79bbde9861863ae17f61a24e444bab3ae855dcb30234"
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:b9e58f0b830add292d7d7717ba20c733f7eb756cc8c53d0cc26f81b2756984d8",
+          "sha256": "b9e58f0b830add292d7d7717ba20c733f7eb756cc8c53d0cc26f81b2756984d8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:541f49880767f1c2b7d5047335e651b6c80470f423fe27d25f45bf444b65a051",
+          "sha256": "541f49880767f1c2b7d5047335e651b6c80470f423fe27d25f45bf444b65a051"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:7c7885b790e510753a8d123bb48a8d90347c0938851deef12389cdaa70f61aa6",
-          "sha256": "7c7885b790e510753a8d123bb48a8d90347c0938851deef12389cdaa70f61aa6"
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:8afe6ca5f0c8edcc5167c14b109eb73775a5b51fc823c3b974eb5fa12d795ddb",
+          "sha256": "8afe6ca5f0c8edcc5167c14b109eb73775a5b51fc823c3b974eb5fa12d795ddb"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:f1bd275b5bdb917709210462dbec7ccf8cc2562342921fbea7db6cc4fc4ef8b4",
-          "sha256": "f1bd275b5bdb917709210462dbec7ccf8cc2562342921fbea7db6cc4fc4ef8b4"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:c0218899e4b99a010d423675f3ea6ed8f1aac788bd7d74fd2a8534a156d0730e",
-          "sha256": "c0218899e4b99a010d423675f3ea6ed8f1aac788bd7d74fd2a8534a156d0730e"
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:cb0f19e67d3b25a3f2abaf58b4be2ef937fb79697f34e1c6d052617e180100ce",
+          "sha256": "cb0f19e67d3b25a3f2abaf58b4be2ef937fb79697f34e1c6d052617e180100ce"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:2a0e251f2c3c6c14b69370dd156e73f0ab927a518a4d2886f4faf48a0f3b4805",
-          "sha256": "2a0e251f2c3c6c14b69370dd156e73f0ab927a518a4d2886f4faf48a0f3b4805"
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:78ed5e39e8a37376706f84e07bb887e3968c619033d3e40a7b7c4a1ff611fdef",
+          "sha256": "78ed5e39e8a37376706f84e07bb887e3968c619033d3e40a7b7c4a1ff611fdef"
         }
       }
     }
@@ -68,7 +73,8 @@
 
   ],
   "dependencies": [
-    "python@3.9"
+    "python@3.10",
+    "six"
   ],
   "recommended_dependencies": [
 

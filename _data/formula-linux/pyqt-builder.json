@@ -13,13 +13,13 @@
   "license": "GPL-2.0-only or GPL-3.0-only",
   "homepage": "https://www.riverbankcomputing.com/software/pyqt-builder/intro",
   "versions": {
-    "stable": "1.10.3",
+    "stable": "1.12.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/27/c2/9fcaf0f4eb96dc06dc38ca66e4f1bb890b9852f62b93069b81646f7bff65/PyQt-builder-1.10.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/63/9b/e7cd8c57cd38df3bf8e95750257f10703dcab15ef9050c0dc03259746e87/PyQt-builder-1.12.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/pyqt-builder/blobs/sha256:a69ac546cf18592b6d0ac03cf09d9f88accffed55a2a68858a149558bee69f04",
-          "sha256": "a69ac546cf18592b6d0ac03cf09d9f88accffed55a2a68858a149558bee69f04"
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt-builder/blobs/sha256:69be0f6a07ae789013bf4c9656583b98716028971e9c27b38306d8f701e4c504",
+          "sha256": "69be0f6a07ae789013bf4c9656583b98716028971e9c27b38306d8f701e4c504"
         }
       }
     }

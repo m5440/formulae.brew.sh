@@ -1,22 +1,22 @@
 {
   "name": "rqlite",
-  "pkg_version": "6.2.0",
+  "pkg_version": "6.6.3",
   "rebuild": 0,
   "bottles": {
     "arm64_big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/rqlite/blobs/sha256:ba0773f8a83a953c95b1be69911dd1355fd18d2078e83dfa2ff1b898fa6fb17f"
+      "url": "https://ghcr.io/v2/homebrew/core/rqlite/blobs/sha256:e624556d58fd7991718c9aca90dba52e17bae4978bdb9af8272b37bb52b4bcf4"
     },
     "big_sur": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/rqlite/blobs/sha256:77ddd0edad5a5b08a8481b353665d5617dc1a6fa2bd0dec01dc35e81e86167d2"
+      "url": "https://ghcr.io/v2/homebrew/core/rqlite/blobs/sha256:a991926fd7119a081f1a347b3cb27bad09e5629f22d2e397b5d652993e93da89"
     },
     "catalina": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/rqlite/blobs/sha256:d1e54dfc53058080d8c02403a93bce0eccc5b419debc62406ee5620f8bf6cedf"
+      "url": "https://ghcr.io/v2/homebrew/core/rqlite/blobs/sha256:26450c83ab55b027014aa4c5503018377dc551fed12d16a26beb7abb0bfa3283"
     },
     "mojave": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/rqlite/blobs/sha256:b6ba98eb64ffce0e3634a1f266c24e0f32ce3261f7a1bf6ec27d20d3680b602b"
+      "url": "https://ghcr.io/v2/homebrew/core/rqlite/blobs/sha256:40c1e7479ab9dda4b505d9909883a9f69e2126e45df19a3ba6cd834eb947beb5"
     },
     "x86_64_linux": {
-      "url": "https://ghcr.io/v2/linuxbrew/core/rqlite/blobs/sha256:dd7aee757a6903e0783b834fa7045f9d591e7ff3001a292f2cebd2b46fceb4ee"
+      "url": "https://ghcr.io/v2/homebrew/core/rqlite/blobs/sha256:a38b989fbd2915a6fa6779ab4702f98d975a8a664bed4237d438b0863545476d"
     }
   },
   "dependencies": [

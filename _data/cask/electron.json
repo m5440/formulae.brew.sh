@@ -7,12 +7,14 @@
   ],
   "desc": "Build desktop apps with JavaScript, HTML, and CSS",
   "homepage": "https://electronjs.org/",
-  "url": "https://github.com/electron/electron/releases/download/v13.1.9/electron-v13.1.9-darwin-x64.zip",
+  "url": "https://github.com/electron/electron/releases/download/v15.2.0/electron-v15.2.0-darwin-x64.zip",
   "appcast": null,
-  "version": "13.1.9",
+  "version": "15.2.0",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "b897bdc42d9d1d0a49fc513c769603bff6e111389e2a626eb628257bc705f634",
+  "sha256": "32d3d4e5f7dbb8fe035a7b91dc64c042eb930461424784d4c450e06768e7162d",
   "artifacts": [
     [
       "Electron.app"

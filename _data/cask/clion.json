@@ -7,12 +7,14 @@
   ],
   "desc": "C and C++ IDE",
   "homepage": "https://www.jetbrains.com/clion/",
-  "url": "https://download.jetbrains.com/cpp/CLion-2021.2.dmg",
+  "url": "https://download.jetbrains.com/cpp/CLion-2021.2.3.dmg",
   "appcast": null,
-  "version": "2021.2,212.4746.93",
+  "version": "2021.2.3,212.5457.51",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ba65ffa8d5c9a42f70d306f677fec153e1f6510d74edec6e26483f69460a457d",
+  "sha256": "00db4ad6b9946a28596f533fe4927734732d0a88d6439f7ea4fbc60bae29b588",
   "artifacts": [
     [
       "CLion.app"
@@ -20,12 +22,12 @@
     "uninstall_postflight (Postflight Block)",
     {
       "trash": [
-        "~/Library/Preferences/com.jetbrains.CLion.plist",
-        "~/Library/Preferences/jetbrains.clion.*.plist",
-        "~/Library/Preferences/CLion2021.2",
         "~/Library/Application Support/JetBrains/CLion2021.2",
         "~/Library/Caches/JetBrains/CLion2021.2",
         "~/Library/Logs/JetBrains/CLion2021.2",
+        "~/Library/Preferences/CLion2021.2",
+        "~/Library/Preferences/com.jetbrains.CLion.plist",
+        "~/Library/Preferences/jetbrains.clion.*.plist",
         "~/Library/Saved Application State/com.jetbrains.CLion.savedState"
       ],
       "signal": {

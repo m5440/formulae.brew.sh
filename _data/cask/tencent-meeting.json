@@ -8,12 +8,14 @@
   ],
   "desc": "Cloud video conferencing",
   "homepage": "https://meeting.tencent.com/",
-  "url": "https://updatecdn.meeting.qq.com/b4acf9b3b84361f9c0e51937f23bbde5/TencentMeeting_0300000000_2.16.2.420.publish.x86_64.dmg",
+  "url": "https://updatecdn.meeting.qq.com/cos/183b7606483d26619c88faab648e09e3/TencentMeeting_0300000000_2.20.2.413.publish.x86_64.dmg",
   "appcast": null,
-  "version": "2.16.2.420,b4acf9b3b84361f9c0e51937f23bbde5",
+  "version": "2.20.2.413,183b7606483d26619c88faab648e09e3",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "c97533d1cff73ec29977c682ad2708b34319f21c5595f27e9b0db12d967bebcf",
+  "sha256": "e3cbf89201e7397ee786a69dec4f3b028e6e796e949c1e43193dea98d694c5fa",
   "artifacts": [
     [
       "TencentMeeting.app"

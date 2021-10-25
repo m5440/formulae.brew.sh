@@ -7,12 +7,14 @@
   ],
   "desc": "Local-first personal knowledge management system",
   "homepage": "https://github.com/siyuan-note/siyuan",
-  "url": "https://github.com/siyuan-note/siyuan/releases/download/v1.2.31/siyuan-1.2.31-mac.dmg",
+  "url": "https://github.com/siyuan-note/siyuan/releases/download/v1.4.5/siyuan-1.4.5-mac.dmg",
   "appcast": null,
-  "version": "1.2.31",
+  "version": "1.4.5",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "bf8b91118d12b01291ba5cefb812475af34a779e273fec12e1ead7649790c67c",
+  "sha256": "1d6130325808e20f1d8dd87bdec80e48f1f2aa7b3aa4e82a91d6a25bf6d9043d",
   "artifacts": [
     [
       "SiYuan.app"

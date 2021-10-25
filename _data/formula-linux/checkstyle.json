@@ -13,13 +13,13 @@
   "license": "LGPL-2.1-or-later",
   "homepage": "https://checkstyle.sourceforge.io/",
   "versions": {
-    "stable": "8.45.1",
+    "stable": "9.0.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-8.45.1/checkstyle-8.45.1-all.jar",
+      "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-9.0.1/checkstyle-9.0.1-all.jar",
       "tag": null,
       "revision": null
     }
@@ -29,12 +29,12 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "x86_64_linux": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/checkstyle/blobs/sha256:396638d1566b3247e508b05be87dfe2aa8f9cb6e7320d9058c93e56e93485350",
-          "sha256": "396638d1566b3247e508b05be87dfe2aa8f9cb6e7320d9058c93e56e93485350"
+          "url": "https://ghcr.io/v2/homebrew/core/checkstyle/blobs/sha256:c20d1b36eae7f48e3c1b059500734968e0ff2ff0131487afc42234e3e7262001",
+          "sha256": "c20d1b36eae7f48e3c1b059500734968e0ff2ff0131487afc42234e3e7262001"
         }
       }
     }

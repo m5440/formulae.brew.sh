@@ -7,12 +7,14 @@
   ],
   "desc": "PDF editor",
   "homepage": "https://www.sejda.com/desktop",
-  "url": "https://sejda-cdn.com/downloads/sejda-desktop_7.3.2.dmg",
+  "url": "https://sejda-cdn.com/downloads/sejda-desktop_7.3.7.dmg",
   "appcast": null,
-  "version": "7.3.2",
+  "version": "7.3.7",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "4be45929bce04274a44c2cfdbc439f51eb1787599db61520d2a034f52ed9693f",
+  "sha256": "a1a014e884e5d8927a29e04900c2dfb875c792976c24b90ec6cb98ca3e75a6ec",
   "artifacts": [
     [
       "Sejda PDF Desktop.app"

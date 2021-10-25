@@ -13,18 +13,18 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://gnuradio.org/",
   "versions": {
-    "stable": "3.9.2.0",
+    "stable": "3.9.3.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.9.2.0.tar.gz",
+      "url": "https://github.com/gnuradio/gnuradio/archive/refs/tags/v3.9.3.0.tar.gz",
       "tag": null,
       "revision": null
     }
   },
-  "revision": 2,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -33,18 +33,18 @@
       "files": {
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:169b966d6e031d0270bfc2649ee48220bc54b9d3e5d2b01c29e874bcc06f2c86",
-          "sha256": "169b966d6e031d0270bfc2649ee48220bc54b9d3e5d2b01c29e874bcc06f2c86"
+          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:beb3e5d07af93967affe34ca80b61ec7a252644d3e364cfe8bc6452167af2bf5",
+          "sha256": "beb3e5d07af93967affe34ca80b61ec7a252644d3e364cfe8bc6452167af2bf5"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:d33ce40c50bd7b50545671e68b9b16c95f425196b6696fce1e77b2d6f12ab727",
-          "sha256": "d33ce40c50bd7b50545671e68b9b16c95f425196b6696fce1e77b2d6f12ab727"
+          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:d4fb4229c6862233fd9c67c109e7e73efdba41bdf4f3080c4550c5ed453c7d6f",
+          "sha256": "d4fb4229c6862233fd9c67c109e7e73efdba41bdf4f3080c4550c5ed453c7d6f"
         },
         "mojave": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:6849a16834c277e9e72021fb2d70a1a7ebab2f0c6ce55eb7ce073f5c33d4421d",
-          "sha256": "6849a16834c277e9e72021fb2d70a1a7ebab2f0c6ce55eb7ce073f5c33d4421d"
+          "url": "https://ghcr.io/v2/homebrew/core/gnuradio/blobs/sha256:a71eb5fee4303983f6b6c3bbd4b128325cd623cb221f9014656efce0dce69e58",
+          "sha256": "a71eb5fee4303983f6b6c3bbd4b128325cd623cb221f9014656efce0dce69e58"
         }
       }
     }
@@ -75,7 +75,7 @@
     "pyqt@5",
     "python@3.9",
     "qt@5",
-    "qwt",
+    "qwt-qt5",
     "six",
     "soapyrtlsdr",
     "uhd",

@@ -7,12 +7,14 @@
   ],
   "desc": "Web browser",
   "homepage": "https://wavebox.io/",
-  "url": "https://download.wavebox.app/stable/mac/Install%20Wavebox%2010.92.21.2.dmg",
+  "url": "https://download.wavebox.app/stable/mac/Install%20Wavebox%2010.94.24.2.dmg",
   "appcast": null,
-  "version": "10.92.21.2",
+  "version": "10.94.24.2",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "6f4045a4781f9c1e31f33e8b5f2085c8e1f3a92c689b44e44aef47d3b588d0b9",
+  "sha256": "ed0e751ce2474019ec045b8b7f5537be34c3289a32e591f0e3a9dbf7b95ae3d0",
   "artifacts": [
     {
       "quit": "io.wavebox.wavebox",

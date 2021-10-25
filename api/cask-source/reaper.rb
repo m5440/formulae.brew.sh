@@ -1,18 +1,18 @@
 cask "reaper" do
-  version "6.34"
+  version "6.38"
 
   if MacOS.version <= :mojave
-    sha256 "315a849e0d53b91104e9544497eeed40a3f96458b1ee4560fff0e05056dde545"
+    sha256 "bad6067d534949b75f156ff18e9d5b3042ab78b838ab8409022153508fe7b905"
 
     url "https://www.reaper.fm/files/#{version.major}.x/reaper#{version.major_minor.no_dots}_x86_64.dmg"
   elsif Hardware::CPU.intel?
-    sha256 "8206b8824ec985de32bb84edb8de5cab5873d24731244c9a0aa854c26ee2b766"
+    sha256 "34946a1663b8c80b2a9d5a5d79eac516378a7242fae95b67df3cf6ae272509ed"
 
     url "https://www.reaper.fm/files/#{version.major}.x/reaper#{version.major_minor.no_dots}_x86_64_catalina.dmg"
   else
-    sha256 "cc4daaac88eda57b75dc94c31c0cd843f517f00b970a7aae5ea6c026cf494aa0"
+    sha256 "4755122020b843c059c01ad97b20620871b06d34c191b4b20d39eee47b0df228"
 
-    url "https://www.reaper.fm/files/#{version.major}.x/reaper#{version.major_minor.no_dots}-beta_arm64.dmg"
+    url "https://www.reaper.fm/files/#{version.major}.x/reaper#{version.major_minor.no_dots}_arm64.dmg"
   end
 
   name "REAPER"
@@ -34,6 +34,7 @@ cask "reaper" do
 
   zap trash: [
     "~/Library/Application Support/REAPER",
+    "~/Library/Preferences/com.cockos.reaper.plist",
     "~/Library/Saved Application State/com.cockos.reaper.savedState",
     "~/Library/Saved Application State/com.cockos.reaperhosti386.savedState",
     "~/Library/Saved Application State/com.cockos.reaperhostx8664.savedState",

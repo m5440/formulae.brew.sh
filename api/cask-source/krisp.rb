@@ -1,6 +1,6 @@
 cask "krisp" do
-  version "1.24.7"
-  sha256 "03da782c0bf2b1e4787ffbeb326a5921bf5294981418bd2d995f541d26f8723b"
+  version "1.27.12"
+  sha256 "916873da6da9aa35fe327d3233ff1826b3ab318208b95e45848128c5ed1a822e"
 
   url "https://cdn.krisp.ai/mac/release/v#{version.major}.#{version.minor}/krisp_#{version}.pkg"
   name "Krisp"
@@ -13,7 +13,7 @@ cask "krisp" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sierra"
+  depends_on macos: ">= :mojave"
 
   pkg "krisp_#{version}.pkg"
 

@@ -7,12 +7,14 @@
   ],
   "desc": "Developer platform",
   "homepage": "https://www.microsoft.com/net/core#macos",
-  "url": "https://download.visualstudio.microsoft.com/download/pr/a847df19-d530-41c8-b766-cb60ee8af9a4/7edd7c2eae38d25d0d7c90350eefea64/dotnet-runtime-5.0.9-osx-x64.pkg",
+  "url": "https://download.visualstudio.microsoft.com/download/pr/f241f934-a4cc-400a-8d03-a5ab50c25fea/1c8600ad088a42b157c073454e80039a/dotnet-runtime-5.0.11-osx-x64.pkg",
   "appcast": null,
-  "version": "5.0.9,a847df19-d530-41c8-b766-cb60ee8af9a4:7edd7c2eae38d25d0d7c90350eefea64",
+  "version": "5.0.11,f241f934-a4cc-400a-8d03-a5ab50c25fea:1c8600ad088a42b157c073454e80039a",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "9bf2eba78ec85e035d07bef696cee8240c85cfd95639d876368e0066d6679f29",
+  "sha256": "4f8ea31f5d15d72b375356325970fca205ade9f7f18193fcea1749e7895994ce",
   "artifacts": [
     {
       "pkgutil": "com.microsoft.dotnet.*",
@@ -20,7 +22,7 @@
       "signal": {
       }
     },
-    "dotnet-runtime-5.0.9-osx-x64.pkg (Pkg)",
+    "dotnet-runtime-5.0.11-osx-x64.pkg (Pkg)",
     [
       "$(brew --prefix)/share/dotnet/dotnet"
     ],

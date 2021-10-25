@@ -13,13 +13,13 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://www.linphone.org/technical-corner/ortp",
   "versions": {
-    "stable": "5.0.5",
+    "stable": "5.0.37",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://gitlab.linphone.org/BC/public/ortp/-/archive/5.0.5/ortp-5.0.5.tar.bz2",
+      "url": "https://gitlab.linphone.org/BC/public/ortp/-/archive/5.0.37/ortp-5.0.37.tar.bz2",
       "tag": null,
       "revision": null
     }
@@ -33,23 +33,18 @@
       "files": {
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:179c2c0c1cbf0c05864e2f339a6e97a6980a9e7ae2115b77024595cd85839fd8",
-          "sha256": "179c2c0c1cbf0c05864e2f339a6e97a6980a9e7ae2115b77024595cd85839fd8"
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:9971a950182266058eb40794fba93c7c13767fd0cea340fd2500a9d932232f25",
+          "sha256": "9971a950182266058eb40794fba93c7c13767fd0cea340fd2500a9d932232f25"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:644ddfb85a16960799ac7801d108d599b69e2dbfbf1c281772855554cbd933ae",
-          "sha256": "644ddfb85a16960799ac7801d108d599b69e2dbfbf1c281772855554cbd933ae"
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:f71dff59d332d3d9284663485017c37c0e55b2e999654383177d92bd9f323a5c",
+          "sha256": "f71dff59d332d3d9284663485017c37c0e55b2e999654383177d92bd9f323a5c"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:f6d23f3450a49212c130a7e60b4fb994a492734beb75649e6569b6d466cfb851",
-          "sha256": "f6d23f3450a49212c130a7e60b4fb994a492734beb75649e6569b6d466cfb851"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:9715d0836ca90ca99fe99b221e80d811cffe381213222864e1fbe04ac09fe4ba",
-          "sha256": "9715d0836ca90ca99fe99b221e80d811cffe381213222864e1fbe04ac09fe4ba"
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:58d42a81d57ce4a9e0658b7f955e7d872724e4b4c3323d43b6847f84b96170c5",
+          "sha256": "58d42a81d57ce4a9e0658b7f955e7d872724e4b4c3323d43b6847f84b96170c5"
         }
       }
     }

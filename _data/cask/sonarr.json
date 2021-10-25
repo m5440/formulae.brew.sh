@@ -7,12 +7,14 @@
   ],
   "desc": "PVR for Usenet and BitTorrent users",
   "homepage": "https://sonarr.tv/",
-  "url": "https://download.sonarr.tv/v3/main/3.0.6.1266/Sonarr.main.3.0.6.1266.macos.zip",
+  "url": "https://download.sonarr.tv/v3/main/3.0.6.1342/Sonarr.main.3.0.6.1342.macos.zip",
   "appcast": null,
-  "version": "3.0.6.1266",
+  "version": "3.0.6.1342",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "536b8149bd8b874476d92e08cd49e9b2e41746b7f47d5752c5a3a123cecc0163",
+  "sha256": "27054a0c0da44f182195af5ae475bfe1cc518b2b8b56c01420b8c1ead1a1b7c6",
   "artifacts": [
     "preflight (Preflight Block)",
     [

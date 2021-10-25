@@ -7,12 +7,14 @@
   ],
   "desc": "Tool to write, preview and publish blogs",
   "homepage": "https://redsweater.com/marsedit/",
-  "url": "https://redsweater.com/marsedit/MarsEdit4.4.13.zip",
+  "url": "https://redsweater.com/marsedit/MarsEdit4.5.5.zip",
   "appcast": null,
-  "version": "4.4.13,9552",
+  "version": "4.5.5,9750",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "1ae432d53c4dd3abcec4e0a10a9aa6cd818a11230b97fbceebbe8e7ee353bec0",
+  "sha256": "03bd0354ccd8616cccd0bd35b1cd4c571430910f78f0c0c8a6d31e288fb18709",
   "artifacts": [
     [
       "MarsEdit.app"

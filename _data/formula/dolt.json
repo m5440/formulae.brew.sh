@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/dolthub/dolt",
   "versions": {
-    "stable": "0.27.4",
+    "stable": "0.32.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/dolthub/dolt/archive/v0.27.4.tar.gz",
+      "url": "https://github.com/dolthub/dolt/archive/v0.32.0.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -31,30 +31,35 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:448b4d4e9c50dfb4de8a445a0896c76fbf857e37bdd7d83b86d42b06b7c555ae",
+          "sha256": "448b4d4e9c50dfb4de8a445a0896c76fbf857e37bdd7d83b86d42b06b7c555ae"
+        },
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:388f9128e446a203241c64c760ab18481bdd7dd38111aefa75d01baa0f6f2a20",
-          "sha256": "388f9128e446a203241c64c760ab18481bdd7dd38111aefa75d01baa0f6f2a20"
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:d323da1ecdfad79e429726736da487c574e997a0ab6602cecbf2fdcd9f4d6bb2",
+          "sha256": "d323da1ecdfad79e429726736da487c574e997a0ab6602cecbf2fdcd9f4d6bb2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:9ea299c758208d6fcee68aa614aee524882bcff83263a2aa4070f5c9a5bfb170",
+          "sha256": "9ea299c758208d6fcee68aa614aee524882bcff83263a2aa4070f5c9a5bfb170"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:2c62f2f173319afc8130205c6b93b6384ea815066f4d87118b7298f78af9e0f0",
-          "sha256": "2c62f2f173319afc8130205c6b93b6384ea815066f4d87118b7298f78af9e0f0"
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:3e0201f4fd6f713c6c7aefdfe951b2942c2752ec7229b3902920b2e2bb2744df",
+          "sha256": "3e0201f4fd6f713c6c7aefdfe951b2942c2752ec7229b3902920b2e2bb2744df"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:e089392843a7e3f9f4428e7a4edf1989254da4ae5e7716424d2f539458ee2df7",
-          "sha256": "e089392843a7e3f9f4428e7a4edf1989254da4ae5e7716424d2f539458ee2df7"
-        },
-        "mojave": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:ab6d414232c112ae8df6ecf1f0c57bf22f9c619dd196a9e816e241443cfcd9d4",
-          "sha256": "ab6d414232c112ae8df6ecf1f0c57bf22f9c619dd196a9e816e241443cfcd9d4"
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:71e3f8a422076b817a07bd3f5fb90f17d640d3c6d1c57fccaa8585c65ed27a40",
+          "sha256": "71e3f8a422076b817a07bd3f5fb90f17d640d3c6d1c57fccaa8585c65ed27a40"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:2b23c096d966fc55d422397a4c6d3e54d15788037d875788eef0d2926e661a98",
-          "sha256": "2b23c096d966fc55d422397a4c6d3e54d15788037d875788eef0d2926e661a98"
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:3d9b7c0b442a86fd62f2853bd5cba55c8aeba74f04c6bb9c64bf8d411c8de528",
+          "sha256": "3d9b7c0b442a86fd62f2853bd5cba55c8aeba74f04c6bb9c64bf8d411c8de528"
         }
       }
     }

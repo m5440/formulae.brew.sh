@@ -1,0 +1,43 @@
+{
+  "token": "informant",
+  "full_token": "informant",
+  "tap": "homebrew/cask",
+  "name": [
+    "Informant"
+  ],
+  "desc": "Inspect files with a single click",
+  "homepage": "https://informant-app.com/",
+  "url": "https://github.com/tyirvine/Informant/releases/download/0.09.2/Informant.zip",
+  "appcast": null,
+  "version": "0.09.2",
+  "versions": {
+  },
+  "installed": null,
+  "outdated": false,
+  "sha256": "52b97597e3c5798b886137028644dc7de3bbe85b745c6582ff05b580898cb620",
+  "artifacts": [
+    [
+      "Informant.app"
+    ],
+    {
+      "trash": [
+        "~/Library/Application Scripts/com.tyirvine.Informant",
+        "~/Library/Containers/com.tyirvine.Informant",
+        "~/Library/Preferences/com.tyirvine.Informant.plist"
+      ],
+      "signal": {
+      }
+    }
+  ],
+  "caveats": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "11"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "auto_updates": null
+}

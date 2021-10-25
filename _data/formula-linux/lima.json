@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/lima-vm/lima",
   "versions": {
-    "stable": "0.6.0",
+    "stable": "0.7.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/lima-vm/lima/archive/v0.6.0.tar.gz",
+      "url": "https://github.com/lima-vm/lima/archive/v0.7.1.tar.gz",
       "tag": null,
       "revision": null
     }
@@ -29,32 +29,32 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "root_url": "https://ghcr.io/v2/linuxbrew/core",
+      "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/lima/blobs/sha256:bbfef48a28e84e5df50f73036283ecd88784149915c1803b6c03b68ef20d4bc0",
-          "sha256": "bbfef48a28e84e5df50f73036283ecd88784149915c1803b6c03b68ef20d4bc0"
+          "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:f6a9ac0b4a82fd921bff51d6f0bf3390cfd3457a7e1857c7e861be03d605dc45",
+          "sha256": "f6a9ac0b4a82fd921bff51d6f0bf3390cfd3457a7e1857c7e861be03d605dc45"
         },
         "big_sur": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/lima/blobs/sha256:162dcf341599f5db224b3c70ac46d93edfd44434b97caac3790284b356cc4f38",
-          "sha256": "162dcf341599f5db224b3c70ac46d93edfd44434b97caac3790284b356cc4f38"
+          "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:3de7bb2f85dbbafbb5f6a5536eae0a6133b053b1d1a659288e0ea6b1a82d47e7",
+          "sha256": "3de7bb2f85dbbafbb5f6a5536eae0a6133b053b1d1a659288e0ea6b1a82d47e7"
         },
         "catalina": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/lima/blobs/sha256:7ddc0fa28464926a089228d31d88cf0ec6b6e2f3aa82ac229ac242bde670d626",
-          "sha256": "7ddc0fa28464926a089228d31d88cf0ec6b6e2f3aa82ac229ac242bde670d626"
+          "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:0effdc9c0bec1208470cbae19e18e8919ac4d06863e598bb115322f89f4fc45f",
+          "sha256": "0effdc9c0bec1208470cbae19e18e8919ac4d06863e598bb115322f89f4fc45f"
         },
         "mojave": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/lima/blobs/sha256:876373ce97e24e2d19b79797bd8185131e31cefc59eefe55f81e86077ddc0b17",
-          "sha256": "876373ce97e24e2d19b79797bd8185131e31cefc59eefe55f81e86077ddc0b17"
+          "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:975078dce859460107fb12c110ad8100cf9b29578f41189ceff07bc252f795c5",
+          "sha256": "975078dce859460107fb12c110ad8100cf9b29578f41189ceff07bc252f795c5"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/linuxbrew/core/lima/blobs/sha256:3ba481d6f00d60e07b4ecd26373fe6fb3aceec9627114869a724b7569b80dcbe",
-          "sha256": "3ba481d6f00d60e07b4ecd26373fe6fb3aceec9627114869a724b7569b80dcbe"
+          "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:e7f6361a062b510df3099bdaee473772112475ba2edcf29c6670afa31bb24dfa",
+          "sha256": "e7f6361a062b510df3099bdaee473772112475ba2edcf29c6670afa31bb24dfa"
         }
       }
     }

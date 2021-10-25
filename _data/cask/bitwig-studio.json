@@ -7,12 +7,14 @@
   ],
   "desc": "Digital audio workstation",
   "homepage": "https://www.bitwig.com/",
-  "url": "https://downloads.bitwig.com/stable/4.0.1/Bitwig%20Studio%204.0.1.dmg",
+  "url": "https://downloads.bitwig.com/stable/4.0.5/Bitwig%20Studio%204.0.5.dmg",
   "appcast": null,
-  "version": "4.0.1",
+  "version": "4.0.5",
+  "versions": {
+  },
   "installed": null,
   "outdated": false,
-  "sha256": "ab7df28b59534c75b4706881eb2b8910673ba140a11951f82be51080fbd47254",
+  "sha256": "c493c59365748637b6cd62eaa73e0dee49aabe2b28cc4409826adf0150d9ac3c",
   "artifacts": [
     [
       "Bitwig Studio.app"
